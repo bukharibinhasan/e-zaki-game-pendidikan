@@ -1,0 +1,867 @@
+﻿ID Perkataan,Kategori,Bahasa Arab,Bahasa Melayu,Nama Fail Gambar
+ANM001,Haiwan,أَسَدٌ,Singa,ANM001.png
+ANM002,Haiwan,فِيلٌ,Gajah,ANM002.png
+ANM003,Haiwan,نَمِرٌ,Harimau,ANM003.png
+ANM004,Haiwan,دُبٌّ,Beruang,ANM004.png
+ANM005,Haiwan,ذِئْبٌ,Serigala,ANM005.png
+ANM006,Haiwan,ثَعْلَبٌ,Musang,ANM006.png
+ANM007,Haiwan,قِرْدٌ,Monyet,ANM007.png
+ANM008,Haiwan,غَزَالٌ,Rusa,ANM008.png
+ANM009,Haiwan,زَرَافَةٌ,Zirafah,ANM009.png
+ANM010,Haiwan,حِصَانٌ,Kuda,ANM010.png
+ANM011,Haiwan,حِمَارٌ,Keldai,ANM011.png
+ANM012,Haiwan,بَقَرَةٌ,Lembu,ANM012.png
+ANM013,Haiwan,خَرُوفٌ,Biri-biri,ANM013.png
+ANM014,Haiwan,مَاعِزٌ,Kambing,ANM014.png
+ANM015,Haiwan,جَمَلٌ,Unta,ANM015.png
+ANM016,Haiwan,كَبْشٌ,Biri-biri jantan,ANM016.png
+ANM017,Haiwan,أَرْنَبٌ,Arnab,ANM017.png
+ANM018,Haiwan,سِنْجَابٌ,Tupai,ANM018.png
+ANM019,Haiwan,فَأْرٌ,Tikus,ANM019.png
+ANM020,Haiwan,قِطٌّ,Kucing,ANM020.png
+ANM021,Haiwan,كَلْبٌ,Anjing,ANM021.png
+ANM022,Haiwan,طَائِرٌ,Burung,ANM022.png
+ANM023,Haiwan,دَجَاجَةٌ,Ayam,ANM023.png
+ANM024,Haiwan,دِيكٌ,Ayam jantan,ANM024.png
+ANM025,Haiwan,بَطَّةٌ,Itik,ANM025.png
+ANM026,Haiwan,إِوَزَّةٌ,Angsa,ANM026.png
+ANM027,Haiwan,بَجَعٌ,Angsa putih,ANM027.png
+ANM028,Haiwan,حَمَامَةٌ,Merpati,ANM028.png
+ANM029,Haiwan,نَسْرٌ,Helang,ANM029.png
+ANM030,Haiwan,بَبَّغَاءٌ,Burung kakak tua,ANM030.png
+ANM031,Haiwan,بُومَةٌ,Burung hantu,ANM031.png
+ANM032,Haiwan,طَاوُوسٌ,Burung merak,ANM032.png
+ANM033,Haiwan,بِطْرِيقٌ,Penguin,ANM033.png
+ANM034,Haiwan,دُلْفِينٌ,Lumba-lumba,ANM034.png
+ANM035,Haiwan,حُوتٌ,Paus,ANM035.png
+ANM036,Haiwan,قِرْشٌ,Jerung,ANM036.png
+ANM037,Haiwan,أُخْطُبُوطٌ,Sotong kurita,ANM037.png
+ANM038,Haiwan,سُلَحْفَاةٌ,Kura-kura,ANM038.png
+ANM039,Haiwan,تِمْسَاحٌ,Buaya,ANM039.png
+ANM040,Haiwan,ضِفْدَعٌ,Katak,ANM040.png
+ANM041,Haiwan,ثُعْبَانٌ,Ular,ANM041.png
+ANM042,Haiwan,سَحْلِيَّةٌ,Biawak/cicak,ANM042.png
+ANM043,Haiwan,فَرَاشَةٌ,Rama-rama,ANM043.png
+ANM044,Haiwan,نَحْلَةٌ,Lebah,ANM044.png
+ANM045,Haiwan,نَمْلَةٌ,Semut,ANM045.png
+ANM046,Haiwan,جَرَادَةٌ,Belalang,ANM046.png
+ANM047,Haiwan,عَنْكَبُوتٌ,Labah-labah,ANM047.png
+ANM048,Haiwan,سَرَطَانٌ,Ketam,ANM048.png
+ANM049,Haiwan,قِنْدِيلُ الْبَحْرِ,Obor-obor,ANM049.png
+ANM050,Haiwan,دُودَةٌ,Cacing,ANM050.png
+BDY001,Anggota Badan,رَأْسٌ,Kepala,BDY001.png
+BDY002,Anggota Badan,شَعْرٌ,Rambut,BDY002.png
+BDY003,Anggota Badan,وَجْهٌ,Muka,BDY003.png
+BDY004,Anggota Badan,جَبْهَةٌ,Dahi,BDY004.png
+BDY005,Anggota Badan,عَيْنٌ,Mata,BDY005.png
+BDY006,Anggota Badan,أُذُنٌ,Telinga,BDY006.png
+BDY007,Anggota Badan,أَنْفٌ,Hidung,BDY007.png
+BDY008,Anggota Badan,فَمٌ,Mulut,BDY008.png
+BDY009,Anggota Badan,شَفَةٌ,Bibir,BDY009.png
+BDY010,Anggota Badan,سِنٌّ,Gigi,BDY010.png
+BDY011,Anggota Badan,لِسَانٌ,Lidah,BDY011.png
+BDY012,Anggota Badan,ذَقَنٌ,Dagu,BDY012.png
+BDY013,Anggota Badan,رَقَبَةٌ,Leher,BDY013.png
+BDY014,Anggota Badan,كَتِفٌ,Bahu,BDY014.png
+BDY015,Anggota Badan,ذِرَاعٌ,Lengan,BDY015.png
+BDY016,Anggota Badan,مِرْفَقٌ,Siku,BDY016.png
+BDY017,Anggota Badan,يَدٌ,Tangan,BDY017.png
+BDY018,Anggota Badan,إِصْبَعٌ,Jari,BDY018.png
+BDY019,Anggota Badan,ظُفْرٌ,Kuku,BDY019.png
+BDY020,Anggota Badan,صَدْرٌ,Dada,BDY020.png
+BDY021,Anggota Badan,ظَهْرٌ,Belakang badan,BDY021.png
+BDY022,Anggota Badan,بَطْنٌ,Perut,BDY022.png
+BDY023,Anggota Badan,سُرَّةٌ,Pusat,BDY023.png
+BDY024,Anggota Badan,خَصْرٌ,Pinggang,BDY024.png
+BDY025,Anggota Badan,سَاقٌ,Betis/kaki,BDY025.png
+BDY026,Anggota Badan,رُكْبَةٌ,Lutut,BDY026.png
+BDY027,Anggota Badan,رِجْلٌ,Kaki,BDY027.png
+BDY028,Anggota Badan,قَدَمٌ,Tapak kaki,BDY028.png
+BDY029,Anggota Badan,كَعْبٌ,Tumit,BDY029.png
+BDY030,Anggota Badan,قَلْبٌ,Jantung,BDY030.png
+BDY031,Anggota Badan,رِئَةٌ,Paru-paru,BDY031.png
+BDY032,Anggota Badan,دِمَاغٌ,Otak,BDY032.png
+BDY033,Anggota Badan,دَمٌ,Darah,BDY033.png
+BDY034,Anggota Badan,عَظْمٌ,Tulang,BDY034.png
+BDY035,Anggota Badan,عَضَلَةٌ,Otot,BDY035.png
+BDY036,Anggota Badan,جِلْدٌ,Kulit,BDY036.png
+BDY037,Anggota Badan,حَلْقٌ,Tekak,BDY037.png
+BDY038,Anggota Badan,خَدٌّ,Pipi,BDY038.png
+BDY039,Anggota Badan,رَمْشٌ,Bulu mata,BDY039.png
+BDY040,Anggota Badan,حَاجِبٌ,Kening,BDY040.png
+BDY041,Anggota Badan,لُعَابٌ,Air liur,BDY041.png
+BDY042,Anggota Badan,جُرْحٌ,Luka,BDY042.png
+BDY043,Anggota Badan,فَخِذٌ,Paha,BDY043.png
+BDY044,Anggota Badan,كِبْدٌ,Hati/liver,BDY044.png
+BDY045,Anggota Badan,كُلْيَةٌ,Buah pinggang,BDY045.png
+BDY046,Anggota Badan,مَعِدَةٌ,Perut/stomach,BDY046.png
+BDY047,Anggota Badan,مِعْصَمٌ,Pergelangan tangan,BDY047.png
+BDY048,Anggota Badan,مَفْصِلٌ,Sendi,BDY048.png
+BDY049,Anggota Badan,عَقِبٌ,Tumit kaki,BDY049.png
+BDY050,Anggota Badan,جَانِبٌ,Sisi/bahagian tepi,BDY050.png
+JOB001,Pekerjaan / Cita-Cita,طَبِيبٌ,Doktor,JOB001.png
+JOB002,Pekerjaan / Cita-Cita,طَبِيبَةٌ,Doktor wanita,JOB002.png
+JOB003,Pekerjaan / Cita-Cita,مُمَرِّضٌ,Jururawat lelaki,JOB003.png
+JOB004,Pekerjaan / Cita-Cita,مُمَرِّضَةٌ,Jururawat wanita,JOB004.png
+JOB005,Pekerjaan / Cita-Cita,مُهَنْدِسٌ,Jurutera,JOB005.png
+JOB006,Pekerjaan / Cita-Cita,مُعَلِّمٌ,Guru lelaki,JOB006.png
+JOB007,Pekerjaan / Cita-Cita,مُعَلِّمَةٌ,Guru wanita,JOB007.png
+JOB008,Pekerjaan / Cita-Cita,طَبِيبُ أَسْنَانٍ,Doktor gigi,JOB008.png
+JOB009,Pekerjaan / Cita-Cita,صَيْدَلَانِيٌّ,Ahli farmasi,JOB009.png
+JOB010,Pekerjaan / Cita-Cita,مُحَامٍ,Peguam,JOB010.png
+JOB011,Pekerjaan / Cita-Cita,قَاضٍ,Hakim,JOB011.png
+JOB012,Pekerjaan / Cita-Cita,شُرْطِيٌّ,Polis,JOB012.png
+JOB013,Pekerjaan / Cita-Cita,جُنْدِيٌّ,Askar,JOB013.png
+JOB014,Pekerjaan / Cita-Cita,طَيَّارٌ,Juruterbang,JOB014.png
+JOB015,Pekerjaan / Cita-Cita,مُضِيفٌ,Pramugara,JOB015.png
+JOB016,Pekerjaan / Cita-Cita,مُضِيفَةٌ,Pramugari,JOB016.png
+JOB017,Pekerjaan / Cita-Cita,مُبَرْمِجٌ,Pengatur cara,JOB017.png
+JOB018,Pekerjaan / Cita-Cita,مُصَمِّمٌ,Pereka,JOB018.png
+JOB019,Pekerjaan / Cita-Cita,كَاتِبٌ,Penulis,JOB019.png
+JOB020,Pekerjaan / Cita-Cita,صَحَفِيٌّ,Wartawan,JOB020.png
+JOB021,Pekerjaan / Cita-Cita,مُصَوِّرٌ,Jurugambar,JOB021.png
+JOB022,Pekerjaan / Cita-Cita,رَسَّامٌ,Pelukis,JOB022.png
+JOB023,Pekerjaan / Cita-Cita,مُوسِيقَارٌ,Ahli muzik,JOB023.png
+JOB024,Pekerjaan / Cita-Cita,مُمَثِّلٌ,Pelakon lelaki,JOB024.png
+JOB025,Pekerjaan / Cita-Cita,مُمَثِّلَةٌ,Pelakon wanita,JOB025.png
+JOB026,Pekerjaan / Cita-Cita,مُغَنٍّ,Penyanyi,JOB026.png
+JOB027,Pekerjaan / Cita-Cita,طَبَّاخٌ,Tukang masak,JOB027.png
+JOB028,Pekerjaan / Cita-Cita,خَبَّازٌ,Pembuat roti,JOB028.png
+JOB029,Pekerjaan / Cita-Cita,فَلَّاحٌ,Petani,JOB029.png
+JOB030,Pekerjaan / Cita-Cita,بُسْتَانِيٌّ,Tukang kebun,JOB030.png
+JOB031,Pekerjaan / Cita-Cita,نَجَّارٌ,Tukang kayu,JOB031.png
+JOB032,Pekerjaan / Cita-Cita,حَدَّادٌ,Tukang besi,JOB032.png
+JOB033,Pekerjaan / Cita-Cita,كَهْرَبَائِيٌّ,Juruteknik elektrik,JOB033.png
+JOB034,Pekerjaan / Cita-Cita,سَبَّاكٌ,Tukang paip,JOB034.png
+JOB035,Pekerjaan / Cita-Cita,مِيكَانِيكِيٌّ,Mekanik,JOB035.png
+JOB036,Pekerjaan / Cita-Cita,سَائِقٌ,Pemandu,JOB036.png
+JOB037,Pekerjaan / Cita-Cita,بَائِعٌ,Penjual,JOB037.png
+JOB038,Pekerjaan / Cita-Cita,صَيَّادٌ,Nelayan/pemburu,JOB038.png
+JOB039,Pekerjaan / Cita-Cita,رَجُلُ إِطْفَاءٍ,Anggota bomba,JOB039.png
+JOB040,Pekerjaan / Cita-Cita,بَرِيدِيٌّ,Posmen,JOB040.png
+JOB041,Pekerjaan / Cita-Cita,أَمِينُ مَكْتَبٍ,Kerani,JOB041.png
+JOB042,Pekerjaan / Cita-Cita,مُدِيرٌ,Pengurus,JOB042.png
+JOB043,Pekerjaan / Cita-Cita,مُوَظَّفٌ,Pekerja/pegawai,JOB043.png
+JOB044,Pekerjaan / Cita-Cita,عَالِمٌ,Saintis/sarjana,JOB044.png
+JOB045,Pekerjaan / Cita-Cita,طَالِبٌ,Pelajar lelaki,JOB045.png
+JOB046,Pekerjaan / Cita-Cita,طَالِبَةٌ,Pelajar perempuan,JOB046.png
+JOB047,Pekerjaan / Cita-Cita,مُخْتَرِعٌ,Pencipta,JOB047.png
+JOB048,Pekerjaan / Cita-Cita,مُرْشِدٌ,Pembimbing/kaunselor,JOB048.png
+JOB049,Pekerjaan / Cita-Cita,رَائِدُ أَعْمَالٍ,Usahawan,JOB049.png
+JOB050,Pekerjaan / Cita-Cita,فَنَّانٌ,Seniman,JOB050.png
+VEG001,Sayur-Sayuran,جَزَرٌ,Lobak merah,VEG001.png
+VEG002,Sayur-Sayuran,خِيَارٌ,Timun,VEG002.png
+VEG003,Sayur-Sayuran,طَمَاطِمُ,Tomato,VEG003.png
+VEG004,Sayur-Sayuran,بَطَاطِسُ,Kentang,VEG004.png
+VEG005,Sayur-Sayuran,بَصَلٌ,Bawang,VEG005.png
+VEG006,Sayur-Sayuran,ثَوْمٌ,Bawang putih,VEG006.png
+VEG007,Sayur-Sayuran,مَلْفُوفٌ أَحْمَرُ,Kubis merah,VEG007.png
+VEG008,Sayur-Sayuran,خَسٌّ,Salad,VEG008.png
+VEG009,Sayur-Sayuran,مَلْفُوفٌ,Kubis,VEG009.png
+VEG010,Sayur-Sayuran,قَرْنَبِيطٌ,Kubis bunga,VEG010.png
+VEG011,Sayur-Sayuran,بْرُوكُلِي,Brokoli,VEG011.png
+VEG012,Sayur-Sayuran,بَاذِنْجَانٌ,Terung,VEG012.png
+VEG013,Sayur-Sayuran,فُلْفُلٌ,Lada benggala,VEG013.png
+VEG014,Sayur-Sayuran,فِلْفِلٌ حَارٌّ,Cili,VEG014.png
+VEG015,Sayur-Sayuran,بَامِيَةٌ,Bendi,VEG015.png
+VEG016,Sayur-Sayuran,فَاصُولْيَا خَضْرَاءُ,Kacang buncis,VEG016.png
+VEG017,Sayur-Sayuran,بَازِلَّاءُ,Kacang pea,VEG017.png
+VEG018,Sayur-Sayuran,ذُرَةٌ,Jagung,VEG018.png
+VEG019,Sayur-Sayuran,يَقْطِينٌ,Labu,VEG019.png
+VEG020,Sayur-Sayuran,كُوسَا,Zucchini,VEG020.png
+VEG021,Sayur-Sayuran,سَبَانِخُ,Bayam,VEG021.png
+VEG022,Sayur-Sayuran,سِلْقٌ,Swiss chard,VEG022.png
+VEG023,Sayur-Sayuran,جَرْجِيرٌ,Rukola,VEG023.png
+VEG024,Sayur-Sayuran,كَرَفْسٌ,Saderi,VEG024.png
+VEG025,Sayur-Sayuran,بَقْدُونِسٌ,Parsli,VEG025.png
+VEG026,Sayur-Sayuran,كُرَّاثٌ,Daun bawang,VEG026.png
+VEG027,Sayur-Sayuran,نَعْنَاعٌ,Pudina,VEG027.png
+VEG028,Sayur-Sayuran,رَيْحَانٌ,Selasih,VEG028.png
+VEG029,Sayur-Sayuran,زَنْجَبِيلٌ,Halia,VEG029.png
+VEG030,Sayur-Sayuran,كُرْكُمٌ,Kunyit,VEG030.png
+VEG031,Sayur-Sayuran,فِجْلٌ,Lobak putih,VEG031.png
+VEG032,Sayur-Sayuran,لِفْتٌ,Turnip,VEG032.png
+VEG033,Sayur-Sayuran,بَطَاطَا حُلْوَةٌ,Ubi keledek,VEG033.png
+VEG034,Sayur-Sayuran,قَلْقَاسٌ,Keladi,VEG034.png
+VEG035,Sayur-Sayuran,يَامٌ,Ubi keladi,VEG035.png
+VEG036,Sayur-Sayuran,فِطْرٌ,Cendawan,VEG036.png
+VEG037,Sayur-Sayuran,بَامْبَازُو,Rebung,VEG037.png
+VEG038,Sayur-Sayuran,قَرْعٌ,Labu,VEG038.png
+VEG039,Sayur-Sayuran,كُرُنْبٌ,Kohlrabi,VEG039.png
+VEG040,Sayur-Sayuran,أَفُوكَادُو,Avokado,VEG040.png
+VEG041,Sayur-Sayuran,بِطِّيخٌ أَخْضَرُ,Tembikai,VEG041.png
+VEG042,Sayur-Sayuran,زَيْتُونٌ,Zaitun,VEG042.png
+VEG043,Sayur-Sayuran,ذُرْوَةُ الذُّرَةِ,Putik jagung,VEG043.png
+VEG044,Sayur-Sayuran,بَازَلَاءٌ حَلْوَةٌ,Kacang manis,VEG044.png
+VEG045,Sayur-Sayuran,شَمَنْدَرٌ,Ubi bit,VEG045.png
+VEG046,Sayur-Sayuran,يَقطِينُ مُرٌّ,Peria,VEG046.png
+VEG047,Sayur-Sayuran,مُولُوخِيَّةٌ,Mulukhiya,VEG047.png
+VEG048,Sayur-Sayuran,قَرْعَةٌ,Labu botol,VEG048.png
+VEG049,Sayur-Sayuran,قُرْعَةٌ صَيْفِيَّةٌ,Labu musim panas,VEG049.png
+VEG050,Sayur-Sayuran,بَرَاقِمُ بَامْبُو,Pucuk buluh,VEG050.png
+FRT001,Buah-Buahan,تُفَّاحٌ,Epal,FRT001.png
+FRT002,Buah-Buahan,مَوْزٌ,Pisang,FRT002.png
+FRT003,Buah-Buahan,بُرْتُقَالٌ,Oren,FRT003.png
+FRT004,Buah-Buahan,مَنْدَرِينٌ,Limau mandarin,FRT004.png
+FRT005,Buah-Buahan,عِنَبٌ,Anggur,FRT005.png
+FRT006,Buah-Buahan,فَرَاوِلَةٌ,Strawberi,FRT006.png
+FRT007,Buah-Buahan,بِطِّيخٌ,Tembikai,FRT007.png
+FRT008,Buah-Buahan,بَابَايَا,Betik,FRT008.png
+FRT009,Buah-Buahan,أَنَانَاسٌ,Nanas,FRT009.png
+FRT010,Buah-Buahan,مَانْجَا,Mangga,FRT010.png
+FRT011,Buah-Buahan,بَطِّيخٌ أَصْفَرُ,Melon,FRT011.png
+FRT012,Buah-Buahan,كِيوِي,Kiwi,FRT012.png
+FRT013,Buah-Buahan,فَرْسَكٌ,Pic,FRT013.png
+FRT014,Buah-Buahan,مِشْمِشٌ,Aprikot,FRT014.png
+FRT015,Buah-Buahan,كُمَّثْرَى,Pir,FRT015.png
+FRT016,Buah-Buahan,كَرَزٌ,Ceri,FRT016.png
+FRT017,Buah-Buahan,رُمَّانٌ,Delima,FRT017.png
+FRT018,Buah-Buahan,تِينٌ,Buah tin,FRT018.png
+FRT019,Buah-Buahan,تَمْرٌ,Kurma,FRT019.png
+FRT020,Buah-Buahan,جَوْزُ الْهِنْدِ,Kelapa,FRT020.png
+FRT021,Buah-Buahan,جَوْزٌ,Walnut,FRT021.png
+FRT022,Buah-Buahan,لَوْزٌ,Badam,FRT022.png
+FRT023,Buah-Buahan,فُسْتُقٌ,Pistachio,FRT023.png
+FRT024,Buah-Buahan,مَانِدِينُ,Limau kecil,FRT024.png
+FRT025,Buah-Buahan,جَرِيبْ فْرُوتٌ,Limau gedang,FRT025.png
+FRT026,Buah-Buahan,لَيْمُونٌ,Lemon,FRT026.png
+FRT027,Buah-Buahan,لَيْمٌ,Limau nipis,FRT027.png
+FRT028,Buah-Buahan,تُوتٌ,Beri,FRT028.png
+FRT029,Buah-Buahan,تُوتٌ أَسْوَدُ,Blackberi,FRT029.png
+FRT030,Buah-Buahan,تُوتٌ أَزْرَقُ,Blueberi,FRT030.png
+FRT031,Buah-Buahan,تُوتٌ أَحْمَرُ,Raspberi,FRT031.png
+FRT032,Buah-Buahan,مَنْغُوسْتِينٌ,Manggis,FRT032.png
+FRT033,Buah-Buahan,رَمْبُوتَانٌ,Rambutan,FRT033.png
+FRT034,Buah-Buahan,دُورِيَانٌ,Durian,FRT034.png
+FRT035,Buah-Buahan,فَاكِهَةُ النَّجْمِ,Belimbing,FRT035.png
+FRT036,Buah-Buahan,جَوَافَةٌ,Jambu batu,FRT036.png
+FRT037,Buah-Buahan,سُفَرْجَلٌ,Quince,FRT037.png
+FRT038,Buah-Buahan,كَرَمْبُولَةٌ,Belimbing,FRT038.png
+FRT039,Buah-Buahan,نَارَنْجِيلَا,Naranjilla,FRT039.png
+FRT040,Buah-Buahan,لُوبِيَا,Longan,FRT040.png
+FRT041,Buah-Buahan,لِيتْشِي,Laici,FRT041.png
+FRT042,Buah-Buahan,سَابُوتَا,Sapota,FRT042.png
+FRT043,Buah-Buahan,فَاكِهَةُ التَّنِّينِ,Buah naga,FRT043.png
+FRT044,Buah-Buahan,جِرِيمٌ,Cranberry,FRT044.png
+FRT045,Buah-Buahan,كُمَكْوَاتٌ,Kumkuat,FRT045.png
+FRT046,Buah-Buahan,دُرَّاقٌ,Nectarine,FRT046.png
+FRT047,Buah-Buahan,قَرْصٌ,Persimmon,FRT047.png
+FRT048,Buah-Buahan,مَانْدَارِينُ صِينِيٌّ,Mandarin Cina,FRT048.png
+FRT049,Buah-Buahan,بَاشِنْ فُرُوت,Markisa,FRT049.png
+FRT050,Buah-Buahan,سَافُو,Buah sawo,FRT050.png
+CLT001,Pakaian,قَمِيصٌ,Baju/kemeja,CLT001.png
+CLT002,Pakaian,بِنْطَالٌ,Seluar panjang,CLT002.png
+CLT003,Pakaian,سِرْوَالٌ قَصِيرٌ,Seluar pendek,CLT003.png
+CLT004,Pakaian,ثَوْبٌ,Pakaian/baju,CLT004.png
+CLT005,Pakaian,فُسْتَانٌ,Gaun,CLT005.png
+CLT006,Pakaian,تَنُّورَةٌ,Skirt,CLT006.png
+CLT007,Pakaian,عَبَاءَةٌ,Jubah/abaya,CLT007.png
+CLT008,Pakaian,جِلْبَابٌ,Jubah luar,CLT008.png
+CLT009,Pakaian,حِجَابٌ,Tudung,CLT009.png
+CLT010,Pakaian,خِمَارٌ,Tudung,CLT010.png
+CLT011,Pakaian,سِرْبَالٌ,Pakaian,CLT011.png
+CLT012,Pakaian,سُرْوَالٌ,Seluar,CLT012.png
+CLT013,Pakaian,مِعْطَفٌ,Kot,CLT013.png
+CLT014,Pakaian,سُتْرَةٌ,Jaket,CLT014.png
+CLT015,Pakaian,مِئْزَرٌ,Apron,CLT015.png
+CLT016,Pakaian,قُبَّعَةٌ,Topi,CLT016.png
+CLT017,Pakaian,عِمَامَةٌ,Serban,CLT017.png
+CLT018,Pakaian,كَفَّازٌ,Sarung tangan,CLT018.png
+CLT019,Pakaian,جَوْرَبٌ,Stoking,CLT019.png
+CLT020,Pakaian,حِذَاءٌ,Kasut,CLT020.png
+CLT021,Pakaian,صَنْدَلٌ,Sandal,CLT021.png
+CLT022,Pakaian,حِذَاءٌ رِيَاضِيٌّ,Kasut sukan,CLT022.png
+CLT023,Pakaian,حِذَاءٌ مَدْرَسِيٌّ,Kasut sekolah,CLT023.png
+CLT024,Pakaian,رَبْطَةُ عُنُقٍ,Tali leher,CLT024.png
+CLT025,Pakaian,حِزَامٌ,Tali pinggang,CLT025.png
+CLT026,Pakaian,مِظَلَّةٌ,Payung,CLT026.png
+CLT027,Pakaian,مَلابِسُ نَوْمٍ,Pakaian tidur,CLT027.png
+CLT028,Pakaian,مَلابِسُ دَاخِلِيَّةٌ,Pakaian dalam,CLT028.png
+CLT029,Pakaian,مِئْزَرَةٌ,Skirt/apron,CLT029.png
+CLT030,Pakaian,بِزَامَةٌ,Pijama,CLT030.png
+CLT031,Pakaian,سَاعَةٌ يَدَوِيَّةٌ,Jam tangan,CLT031.png
+CLT032,Pakaian,نَظَّارَةٌ,Cermin mata,CLT032.png
+CLT033,Pakaian,نَظَّارَةٌ شَمْسِيَّةٌ,Cermin mata hitam,CLT033.png
+CLT034,Pakaian,حَقِيبَةٌ,Beg,CLT034.png
+CLT035,Pakaian,حَقِيبَةُ يَدٍ,Beg tangan,CLT035.png
+CLT036,Pakaian,حَقِيبَةُ ظَهْرٍ,Beg galas,CLT036.png
+CLT037,Pakaian,مِنْدِيلٌ,Sapu tangan,CLT037.png
+CLT038,Pakaian,شَالٌ,Selendang,CLT038.png
+CLT039,Pakaian,مِنْدِيلُ الرَّأْسِ,Skaf kepala,CLT039.png
+CLT040,Pakaian,قُفَّازَاتٌ شَتْوِيَّةٌ,Sarung tangan musim sejuk,CLT040.png
+CLT041,Pakaian,مَلابِسُ الرِّيَاضَةِ,Pakaian sukan,CLT041.png
+CLT042,Pakaian,زِيٌّ مَدْرَسِيٌّ,Seragam sekolah,CLT042.png
+CLT043,Pakaian,زِيٌّ رَسْمِيٌّ,Pakaian rasmi,CLT043.png
+CLT044,Pakaian,مَلابِسُ السِّبَاحَةِ,Pakaian renang,CLT044.png
+CLT045,Pakaian,قِرْطٌ,Anting-anting,CLT045.png
+CLT046,Pakaian,خَاتَمٌ,Cincin,CLT046.png
+CLT047,Pakaian,سِوَارٌ,Gelang,CLT047.png
+CLT048,Pakaian,قِلَادَةٌ,Rantai,CLT048.png
+CLT049,Pakaian,دَبُّوسُ زِينَةٍ,Kerongsang,CLT049.png
+CLT050,Pakaian,حِذَاءٌ عَالِي الْكَعْبِ,Kasut tumit tinggi,CLT050.png
+FOD001,Makanan & Minuman,أُرْزٌ,Nasi,FOD001.png
+FOD002,Makanan & Minuman,خُبْزٌ,Roti,FOD002.png
+FOD003,Makanan & Minuman,مَاءٌ,Air,FOD003.png
+FOD004,Makanan & Minuman,حَلِيبٌ,Susu,FOD004.png
+FOD005,Makanan & Minuman,شَايٌ,Teh,FOD005.png
+FOD006,Makanan & Minuman,قَهْوَةٌ,Kopi,FOD006.png
+FOD007,Makanan & Minuman,عَصِيرٌ,Jus,FOD007.png
+FOD008,Makanan & Minuman,حَسَاءٌ,Sup,FOD008.png
+FOD009,Makanan & Minuman,دَجَاجٌ,Ayam,FOD009.png
+FOD010,Makanan & Minuman,لَحْمٌ,Daging,FOD010.png
+FOD011,Makanan & Minuman,سَمَكٌ,Ikan,FOD011.png
+FOD012,Makanan & Minuman,بَيْضٌ,Telur,FOD012.png
+FOD013,Makanan & Minuman,جُبْنٌ,Keju,FOD013.png
+FOD014,Makanan & Minuman,زُبْدَةٌ,Mentega,FOD014.png
+FOD015,Makanan & Minuman,يُوغُرْتٌ,Yogurt,FOD015.png
+FOD016,Makanan & Minuman,عَسَلٌ,Madu,FOD016.png
+FOD017,Makanan & Minuman,سُكَّرٌ,Gula,FOD017.png
+FOD018,Makanan & Minuman,مِلْحٌ,Garam,FOD018.png
+FOD019,Makanan & Minuman,فُلْفُلٌ,Lada,FOD019.png
+FOD020,Makanan & Minuman,زَيْتٌ,Minyak,FOD020.png
+FOD021,Makanan & Minuman,خَلٌّ,Cuka,FOD021.png
+FOD022,Makanan & Minuman,صَلْصَةٌ,Sos,FOD022.png
+FOD023,Makanan & Minuman,مَعْكَرُونَةٌ,Pasta,FOD023.png
+FOD024,Makanan & Minuman,مَعْكَرُونَةٌ مُحَشَّاةٌ,Pasta berinti,FOD024.png
+FOD025,Makanan & Minuman,شَعِيرِيَّةٌ,Bihun,FOD025.png
+FOD026,Makanan & Minuman,نُودِلْزٌ,Mi,FOD026.png
+FOD027,Makanan & Minuman,شَاوَارْمَا,Syawarma,FOD027.png
+FOD028,Makanan & Minuman,سَنْدُوِيتْشٌ,Sandwic,FOD028.png
+FOD029,Makanan & Minuman,بِيتْزَا,Piza,FOD029.png
+FOD030,Makanan & Minuman,كَعْكَةٌ,Kek,FOD030.png
+FOD031,Makanan & Minuman,بِسْكُوِيتٌ,Biskut,FOD031.png
+FOD032,Makanan & Minuman,بُسْكُوِيتٌ,Biskut,FOD032.png
+FOD033,Makanan & Minuman,مُثَلَّجٌ,Aiskrim,FOD033.png
+FOD034,Makanan & Minuman,حَلْوَى,Gula-gula,FOD034.png
+FOD035,Makanan & Minuman,شُوكُولَاتَةٌ,Coklat,FOD035.png
+FOD036,Makanan & Minuman,مُرَبَّى,Jem,FOD036.png
+FOD037,Makanan & Minuman,فُطُورٌ,Sarapan,FOD037.png
+FOD038,Makanan & Minuman,غَدَاءٌ,Makan tengah hari,FOD038.png
+FOD039,Makanan & Minuman,عَشَاءٌ,Makan malam,FOD039.png
+FOD040,Makanan & Minuman,حَلِيبٌ مُرَكَّزٌ,Susu pekat,FOD040.png
+FOD041,Makanan & Minuman,حَلِيبٌ جَافٌّ,Susu tepung,FOD041.png
+FOD042,Makanan & Minuman,مَشْرُوبٌ غَازِيٌّ,Minuman berkarbonat,FOD042.png
+FOD043,Makanan & Minuman,مَشْرُوبٌ بَارِدٌ,Minuman sejuk,FOD043.png
+FOD044,Makanan & Minuman,شُرْبَةٌ,Kuah/sup,FOD044.png
+FOD045,Makanan & Minuman,تَمْرٌ,Kurma,FOD045.png
+FOD046,Makanan & Minuman,سَلَطَةٌ,Salad,FOD046.png
+FOD047,Makanan & Minuman,سَرْدِينٌ,Sardin,FOD047.png
+FOD048,Makanan & Minuman,رُزٌّ بِالدَّجَاجِ,Nasi ayam,FOD048.png
+FOD049,Makanan & Minuman,سَاتَيْ,Sate,FOD049.png
+FOD050,Makanan & Minuman,نَاسِي لِمَكْ,Nasi lemak,FOD050.png
+ACT001,Perbuatan,يَقْرَأُ,Membaca,ACT001.png
+ACT002,Perbuatan,يَكْتُبُ,Menulis,ACT002.png
+ACT003,Perbuatan,يَذْهَبُ,Pergi,ACT003.png
+ACT004,Perbuatan,يَجْلِسُ,Duduk,ACT004.png
+ACT005,Perbuatan,يَقِفُ,Berdiri,ACT005.png
+ACT006,Perbuatan,يَمْشِي,Berjalan,ACT006.png
+ACT007,Perbuatan,يَرْكُضُ,Berlari,ACT007.png
+ACT008,Perbuatan,يَلْعَبُ,Bermain,ACT008.png
+ACT009,Perbuatan,يَأْكُلُ,Makan,ACT009.png
+ACT010,Perbuatan,يَشْرَبُ,Minum,ACT010.png
+ACT011,Perbuatan,يَنَامُ,Tidur,ACT011.png
+ACT012,Perbuatan,يَسْتَيْقِظُ,Bangun,ACT012.png
+ACT013,Perbuatan,يَغْسِلُ,Membasuh,ACT013.png
+ACT014,Perbuatan,يَسْتَحِمُّ,Mandi,ACT014.png
+ACT015,Perbuatan,يَلْبَسُ,Memakai,ACT015.png
+ACT016,Perbuatan,يَخْلَعُ,Menanggalkan,ACT016.png
+ACT017,Perbuatan,يَفْتَحُ,Membuka,ACT017.png
+ACT018,Perbuatan,يُغْلِقُ,Menutup,ACT018.png
+ACT019,Perbuatan,يَأْخُذُ,Mengambil,ACT019.png
+ACT020,Perbuatan,يُعْطِي,Memberi,ACT020.png
+ACT021,Perbuatan,يَرَى,Melihat,ACT021.png
+ACT022,Perbuatan,يَسْمَعُ,Mendengar,ACT022.png
+ACT023,Perbuatan,يَتَكَلَّمُ,Bercakap,ACT023.png
+ACT024,Perbuatan,يَسْأَلُ,Bertanya,ACT024.png
+ACT025,Perbuatan,يُجِيبُ,Menjawab,ACT025.png
+ACT026,Perbuatan,يُشَاهِدُ,Menonton,ACT026.png
+ACT027,Perbuatan,يَفْهَمُ,Memahami,ACT027.png
+ACT028,Perbuatan,يَتَعَلَّمُ,Belajar,ACT028.png
+ACT029,Perbuatan,يُعَلِّمُ,Mengajar,ACT029.png
+ACT030,Perbuatan,يَحْفَظُ,Menghafal,ACT030.png
+ACT031,Perbuatan,يَحْفِظُ,Menjaga/menghafal,ACT031.png
+ACT032,Perbuatan,يَغْسِلُ الْيَدَيْنِ,Mencuci tangan,ACT032.png
+ACT033,Perbuatan,يُنَظِّفُ,Membersihkan,ACT033.png
+ACT034,Perbuatan,يَرْتِّبُ,Menyusun,ACT034.png
+ACT035,Perbuatan,يَطْبُخُ,Memasak,ACT035.png
+ACT036,Perbuatan,يَقْلِي,Menggoreng,ACT036.png
+ACT037,Perbuatan,يَشْوِي,Membakar,ACT037.png
+ACT038,Perbuatan,يَسْقِي,Menyiram,ACT038.png
+ACT039,Perbuatan,يَزْرَعُ,Menanam,ACT039.png
+ACT040,Perbuatan,يَحْصُدُ,Menuai,ACT040.png
+ACT041,Perbuatan,يَرْسُمُ,Melukis,ACT041.png
+ACT042,Perbuatan,يُلَوِّنُ,Mewarna,ACT042.png
+ACT043,Perbuatan,يَقْطَعُ,Memotong,ACT043.png
+ACT044,Perbuatan,يَحْمِلُ,Membawa,ACT044.png
+ACT045,Perbuatan,يَدْفَعُ,Menolak,ACT045.png
+ACT046,Perbuatan,يَسْحَبُ,Menarik,ACT046.png
+ACT047,Perbuatan,يَسْرُدُ,Bercerita,ACT047.png
+ACT048,Perbuatan,يَزُورُ,Melawat,ACT048.png
+ACT049,Perbuatan,يَسَافِرُ,Mengembara,ACT049.png
+ACT050,Perbuatan,يُسَاعِدُ,Membantu,ACT050.png
+HIW001,Dialog / Hiwar,السَّلَامُ عَلَيْكُمْ,Assalamualaikum,HIW001.png
+HIW002,Dialog / Hiwar,وَعَلَيْكُمُ السَّلَامُ,Waalaikumussalam,HIW002.png
+HIW003,Dialog / Hiwar,كَيْفَ حَالُكَ؟,Apa khabar kamu?,HIW003.png
+HIW004,Dialog / Hiwar,أَنَا بِخَيْرٍ,Saya baik,HIW004.png
+HIW005,Dialog / Hiwar,مَا اسْمُكَ؟,Siapa nama kamu?,HIW005.png
+HIW006,Dialog / Hiwar,اسْمِي أَحْمَدُ,Nama saya Ahmad,HIW006.png
+HIW007,Dialog / Hiwar,مِنْ أَيْنَ أَنْتَ؟,Kamu dari mana?,HIW007.png
+HIW008,Dialog / Hiwar,أَنَا مِنْ مَالَيْزِيَا,Saya dari Malaysia,HIW008.png
+HIW009,Dialog / Hiwar,كَمْ عُمْرُكَ؟,Berapa umur kamu?,HIW009.png
+HIW010,Dialog / Hiwar,عُمْرِي عَشْرُ سَنَوَاتٍ,Umur saya sepuluh tahun,HIW010.png
+HIW011,Dialog / Hiwar,أَيْنَ تَسْكُنُ؟,Di mana kamu tinggal?,HIW011.png
+HIW012,Dialog / Hiwar,أَسْكُنُ فِي كُوالَالَمْبُور,Saya tinggal di Kuala Lumpur,HIW012.png
+HIW013,Dialog / Hiwar,مَا هَذَا؟,Apakah ini?,HIW013.png
+HIW014,Dialog / Hiwar,هَذَا قَلَمٌ,Ini pen,HIW014.png
+HIW015,Dialog / Hiwar,مَا هَذِهِ؟,Apakah ini?,HIW015.png
+HIW016,Dialog / Hiwar,هَذِهِ حَقِيبَةٌ,Ini beg,HIW016.png
+HIW017,Dialog / Hiwar,مَنْ هَذَا؟,Siapakah ini?,HIW017.png
+HIW018,Dialog / Hiwar,هَذَا أَبِي,Ini ayah saya,HIW018.png
+HIW019,Dialog / Hiwar,مَنْ هَذِهِ؟,Siapakah ini?,HIW019.png
+HIW020,Dialog / Hiwar,هَذِهِ أُمِّي,Ini ibu saya,HIW020.png
+HIW021,Dialog / Hiwar,أَيْنَ الْمَدْرَسَةُ؟,Di mana sekolah?,HIW021.png
+HIW022,Dialog / Hiwar,هُنَا,Di sini,HIW022.png
+HIW023,Dialog / Hiwar,أَيْنَ الْحَمَّامُ؟,Di mana tandas?,HIW023.png
+HIW024,Dialog / Hiwar,الْحَمَّامُ هُنَا,Tandas di sini,HIW024.png
+HIW025,Dialog / Hiwar,مَاذَا تُرِيدُ؟,Apa yang kamu mahu?,HIW025.png
+HIW026,Dialog / Hiwar,أُرِيدُ الْمَاءَ,Saya mahu air,HIW026.png
+HIW027,Dialog / Hiwar,هَلْ تُرِيدُ الطَّعَامَ؟,Adakah kamu mahu makanan?,HIW027.png
+HIW028,Dialog / Hiwar,نَعَمْ,Ya,HIW028.png
+HIW029,Dialog / Hiwar,لَا,Tidak,HIW029.png
+HIW030,Dialog / Hiwar,شُكْرًا,Terima kasih,HIW030.png
+HIW031,Dialog / Hiwar,عَفْوًا,Sama-sama,HIW031.png
+HIW032,Dialog / Hiwar,مِنْ فَضْلِكَ,Tolong/sila,HIW032.png
+HIW033,Dialog / Hiwar,آسِفٌ,Maaf,HIW033.png
+HIW034,Dialog / Hiwar,لَا بَأْسَ,Tidak mengapa,HIW034.png
+HIW035,Dialog / Hiwar,إِلَى اللِّقَاءِ,Jumpa lagi,HIW035.png
+HIW036,Dialog / Hiwar,مَعَ السَّلَامَةِ,Selamat tinggal,HIW036.png
+HIW037,Dialog / Hiwar,صَبَاحُ الْخَيْرِ,Selamat pagi,HIW037.png
+HIW038,Dialog / Hiwar,صَبَاحُ النُّورِ,Selamat pagi juga,HIW038.png
+HIW039,Dialog / Hiwar,مَسَاءُ الْخَيْرِ,Selamat petang/malam,HIW039.png
+HIW040,Dialog / Hiwar,لَيْلَةٌ سَعِيدَةٌ,Selamat malam,HIW040.png
+HIW041,Dialog / Hiwar,هَلْ فَهِمْتَ؟,Adakah kamu faham?,HIW041.png
+HIW042,Dialog / Hiwar,نَعَمْ، فَهِمْتُ,"Ya, saya faham",HIW042.png
+HIW043,Dialog / Hiwar,لَمْ أَفْهَمْ,Saya tidak faham,HIW043.png
+HIW044,Dialog / Hiwar,أَعِدْ مِنْ فَضْلِكَ,"Ulangi, sila",HIW044.png
+HIW045,Dialog / Hiwar,تَفَضَّلْ,Silakan,HIW045.png
+PEN001,Alat Tulis,قَلَمٌ,Pen,PEN001.png
+PEN002,Alat Tulis,قَلَمُ رَصَاصٍ,Pensel,PEN002.png
+PEN003,Alat Tulis,مِمْحَاةٌ,Pemadam,PEN003.png
+PEN004,Alat Tulis,مِبْرَاةٌ,Pengasah,PEN004.png
+PEN005,Alat Tulis,مِسْطَرَةٌ,Pembaris,PEN005.png
+PEN006,Alat Tulis,دَفْتَرٌ,Buku nota,PEN006.png
+PEN007,Alat Tulis,كِتَابٌ,Buku,PEN007.png
+PEN008,Alat Tulis,مَجَلَّةٌ,Majalah,PEN008.png
+PEN009,Alat Tulis,وَرَقَةٌ,Kertas,PEN009.png
+PEN010,Alat Tulis,مَقْصٌّ,Gunting,PEN010.png
+PEN011,Alat Tulis,غِرَاءٌ,Gam,PEN011.png
+PEN012,Alat Tulis,مِقْلَمَةٌ,Bekas pensel,PEN012.png
+PEN013,Alat Tulis,حَقِيبَةٌ مَدْرَسِيَّةٌ,Beg sekolah,PEN013.png
+PEN014,Alat Tulis,مَلَفٌّ,Fail,PEN014.png
+PEN015,Alat Tulis,مُجَلَّدٌ,Fail/Folder,PEN015.png
+PEN016,Alat Tulis,لَاصِقٌ,Pelekat,PEN016.png
+PEN017,Alat Tulis,شَرِيطٌ لَاصِقٌ,Pita pelekat,PEN017.png
+PEN018,Alat Tulis,قَلَمُ حِبْرٍ,Pen dakwat,PEN018.png
+PEN019,Alat Tulis,قَلَمٌ أَسْوَدُ,Pen hitam,PEN019.png
+PEN020,Alat Tulis,قَلَمٌ أَزْرَقُ,Pen biru,PEN020.png
+PEN021,Alat Tulis,قَلَمٌ أَحْمَرُ,Pen merah,PEN021.png
+PEN022,Alat Tulis,قَلَمُ تَمْيِيزٍ,Pen penanda,PEN022.png
+PEN023,Alat Tulis,مَارْكَرٌ,Pen marker,PEN023.png
+PEN024,Alat Tulis,كُرَّاسَةٌ,Buku latihan,PEN024.png
+PEN025,Alat Tulis,بَوْرَةٌ,Papan putih,PEN025.png
+PEN026,Alat Tulis,مِسْحَاةٌ,Pemadam papan putih,PEN026.png
+PEN027,Alat Tulis,طَبَاشِيرُ,Kapur,PEN027.png
+PEN028,Alat Tulis,مُبَرِّاةٌ,Pengasah,PEN028.png
+PEN029,Alat Tulis,مُثَلَّثٌ,Pembaris segi tiga,PEN029.png
+PEN030,Alat Tulis,مِنْقَلَةٌ,Jangka sudut,PEN030.png
+PEN031,Alat Tulis,فِرْجَارٌ,Jangka,PEN031.png
+PEN032,Alat Tulis,آلَةٌ حَاسِبَةٌ,Kalkulator,PEN032.png
+PEN033,Alat Tulis,مَقْلَمَةٌ كَبِيرَةٌ,Kotak alat tulis,PEN033.png
+PEN034,Alat Tulis,رَابِطَةٌ,Pengikat,PEN034.png
+PEN035,Alat Tulis,مِشْبَكٌ وَرَقِيٌّ,Klip kertas,PEN035.png
+PEN036,Alat Tulis,دَبَّاسَةٌ,Stapler,PEN036.png
+PEN037,Alat Tulis,دَبَابِيسُ,Klip stapler,PEN037.png
+PEN038,Alat Tulis,ثَاقِبُ وَرَقٍ,Penebuk kertas,PEN038.png
+PEN039,Alat Tulis,طَابِعَةٌ,Pencetak,PEN039.png
+PEN040,Alat Tulis,حَاسُوبٌ,Komputer,PEN040.png
+PEN041,Alat Tulis,شَاشَةٌ,Skrin,PEN041.png
+PEN042,Alat Tulis,لَوْحٌ إِلِكْتُرُونِيٌّ,Tablet,PEN042.png
+PEN043,Alat Tulis,لَوْحُ الْكِتَابَةِ,Papan tulis,PEN043.png
+PEN044,Alat Tulis,كُرَّاسَةُ الرَّسْمِ,Buku lukisan,PEN044.png
+PEN045,Alat Tulis,أَلْوَانٌ,Warna,PEN045.png
+PEN046,Alat Tulis,أَلْوَانٌ مَائِيَّةٌ,Cat air,PEN046.png
+PEN047,Alat Tulis,فُرْشَاةُ رَسْمٍ,Berus lukisan,PEN047.png
+PEN048,Alat Tulis,حِبْرٌ,Dakwat,PEN048.png
+PEN049,Alat Tulis,دَفْتَرُ الرَّسْمِ,Buku lukisan,PEN049.png
+PEN050,Alat Tulis,قَلَمُ خَطٍّ,Pen kaligrafi,PEN050.png
+SCH001,Di Sekolah,مَدْرَسَةٌ,Sekolah,SCH001.png
+SCH002,Di Sekolah,فَصْلٌ,Kelas,SCH002.png
+SCH003,Di Sekolah,مُعَلِّمٌ,Guru lelaki,SCH003.png
+SCH004,Di Sekolah,مُعَلِّمَةٌ,Guru wanita,SCH004.png
+SCH005,Di Sekolah,طَالِبٌ,Murid lelaki,SCH005.png
+SCH006,Di Sekolah,طَالِبَةٌ,Murid perempuan,SCH006.png
+SCH007,Di Sekolah,مَدِيرٌ,Guru besar/pengetua lelaki,SCH007.png
+SCH008,Di Sekolah,مُدِيرَةٌ,Guru besar/pengetua wanita,SCH008.png
+SCH009,Di Sekolah,مَكْتَبُ الْمَدِيرِ,Pejabat pengetua,SCH009.png
+SCH010,Di Sekolah,مَكْتَبُ الْمُعَلِّمِ,Bilik guru,SCH010.png
+SCH011,Di Sekolah,مَكْتَبَةٌ,Perpustakaan,SCH011.png
+SCH012,Di Sekolah,مَخْتَبَرٌ,Makmal,SCH012.png
+SCH013,Di Sekolah,مُصَلًّى,Surau,SCH013.png
+SCH014,Di Sekolah,مَقْصَفٌ,Kantin,SCH014.png
+SCH015,Di Sekolah,مَلْعَبٌ,Padang,SCH015.png
+SCH016,Di Sekolah,صَالَةٌ,Dewan,SCH016.png
+SCH017,Di Sekolah,غُرْفَةٌ,Bilik,SCH017.png
+SCH018,Di Sekolah,سَاحَةٌ,Laman,SCH018.png
+SCH019,Di Sekolah,بَابٌ,Pintu,SCH019.png
+SCH020,Di Sekolah,نَافِذَةٌ,Tingkap,SCH020.png
+SCH021,Di Sekolah,كُرْسِيٌّ,Kerusi,SCH021.png
+SCH022,Di Sekolah,طَاوِلَةٌ,Meja,SCH022.png
+SCH023,Di Sekolah,سَبُّورَةٌ,Papan hitam/putih,SCH023.png
+SCH024,Di Sekolah,خَزَانَةٌ,Kabinet,SCH024.png
+SCH025,Di Sekolah,رَفٌّ,Rak,SCH025.png
+SCH026,Di Sekolah,مِرْوَحَةٌ,Kipas,SCH026.png
+SCH027,Di Sekolah,مُكَيِّفٌ,Penghawa dingin,SCH027.png
+SCH028,Di Sekolah,حَقِيبَةٌ,Beg,SCH028.png
+SCH029,Di Sekolah,زِيٌّ مَدْرَسِيٌّ,Uniform sekolah,SCH029.png
+SCH030,Di Sekolah,وَاجِبٌ مَنْزِلِيٌّ,Kerja rumah,SCH030.png
+SCH031,Di Sekolah,امْتِحَانٌ,Peperiksaan,SCH031.png
+SCH032,Di Sekolah,سُؤَالٌ,Soalan,SCH032.png
+SCH033,Di Sekolah,إِجَابَةٌ,Jawapan,SCH033.png
+SCH034,Di Sekolah,دَرْسٌ,Pelajaran,SCH034.png
+SCH035,Di Sekolah,مَادَّةٌ,Mata pelajaran,SCH035.png
+SCH036,Di Sekolah,رِيَاضِيَّاتٌ,Matematik,SCH036.png
+SCH037,Di Sekolah,لُغَةٌ عَرَبِيَّةٌ,Bahasa Arab,SCH037.png
+SCH038,Di Sekolah,لُغَةٌ مَلَايُويَّةٌ,Bahasa Melayu,SCH038.png
+SCH039,Di Sekolah,تَارِيخٌ,Sejarah,SCH039.png
+SCH040,Di Sekolah,عُلُومٌ,Sains,SCH040.png
+SCH041,Di Sekolah,رِيَاضَةٌ,Pendidikan jasmani/sukan,SCH041.png
+SCH042,Di Sekolah,فَنٌّ,Seni,SCH042.png
+SCH043,Di Sekolah,مُوسِيقَى,Muzik,SCH043.png
+SCH044,Di Sekolah,جَرَسٌ,Loceng,SCH044.png
+SCH045,Di Sekolah,عُطْلَةٌ,Cuti,SCH045.png
+SCH046,Di Sekolah,رِحْلَةٌ مَدْرَسِيَّةٌ,Lawatan sekolah,SCH046.png
+SCH047,Di Sekolah,نَشَاطٌ,Aktiviti,SCH047.png
+SCH048,Di Sekolah,جَدْوَلٌ دِرَاسِيٌّ,Jadual waktu,SCH048.png
+SCH049,Di Sekolah,حِصَّةٌ,Waktu/pelajaran,SCH049.png
+SCH050,Di Sekolah,طَابُورٌ,Perhimpunan,SCH050.png
+HOM001,Di Rumah,بَيْتٌ,Rumah,HOM001.png
+HOM002,Di Rumah,غُرْفَةٌ,Bilik,HOM002.png
+HOM003,Di Rumah,غُرْفَةُ النَّوْمِ,Bilik tidur,HOM003.png
+HOM004,Di Rumah,غُرْفَةُ الْجُلُوسِ,Ruang tamu,HOM004.png
+HOM005,Di Rumah,مَطْبَخٌ,Dapur,HOM005.png
+HOM006,Di Rumah,حَمَّامٌ,Bilik air,HOM006.png
+HOM007,Di Rumah,غُرْفَةُ الطَّعَامِ,Ruang makan,HOM007.png
+HOM008,Di Rumah,سَاحَةٌ,Halaman,HOM008.png
+HOM009,Di Rumah,حَدِيقَةٌ,Taman,HOM009.png
+HOM010,Di Rumah,شُرْفَةٌ,Balkoni,HOM010.png
+HOM011,Di Rumah,سَطْحٌ,Bumbung/tingkat atas,HOM011.png
+HOM012,Di Rumah,بَابٌ,Pintu,HOM012.png
+HOM013,Di Rumah,نَافِذَةٌ,Tingkap,HOM013.png
+HOM014,Di Rumah,سُلَّمٌ,Tangga,HOM014.png
+HOM015,Di Rumah,مِصْعَدٌ,Lif,HOM015.png
+HOM016,Di Rumah,سَرِيرٌ,Katil,HOM016.png
+HOM017,Di Rumah,وِسَادَةٌ,Bantal,HOM017.png
+HOM018,Di Rumah,بَطَّانِيَّةٌ,Selimut,HOM018.png
+HOM019,Di Rumah,مَلْحَفَةٌ,Cadar,HOM019.png
+HOM020,Di Rumah,خِزَانَةٌ,Almari,HOM020.png
+HOM021,Di Rumah,مَرْآةٌ,Cermin,HOM021.png
+HOM022,Di Rumah,أَرِيكَةٌ,Sofa,HOM022.png
+HOM023,Di Rumah,كُرْسِيٌّ,Kerusi,HOM023.png
+HOM024,Di Rumah,طَاوِلَةٌ,Meja,HOM024.png
+HOM025,Di Rumah,سَجَّادَةٌ,Permaidani,HOM025.png
+HOM026,Di Rumah,سَاعَةٌ,Jam,HOM026.png
+HOM027,Di Rumah,مِصْبَاحٌ,Lampu,HOM027.png
+HOM028,Di Rumah,تِلْفَازٌ,Televisyen,HOM028.png
+HOM029,Di Rumah,ثَلَّاجَةٌ,Peti sejuk,HOM029.png
+HOM030,Di Rumah,فُرْنٌ,Ketuhar,HOM030.png
+HOM031,Di Rumah,مَوْقِدٌ,Dapur memasak,HOM031.png
+HOM032,Di Rumah,غَسَّالَةٌ,Mesin basuh,HOM032.png
+HOM033,Di Rumah,مِكْنَسَةٌ كَهْرَبَائِيَّةٌ,Penyedut hampagas,HOM033.png
+HOM034,Di Rumah,مِكْنَسَةٌ,Penyapu,HOM034.png
+HOM035,Di Rumah,مِمْسَحَةٌ,Mop,HOM035.png
+HOM036,Di Rumah,دَلْوٌ,Baldi,HOM036.png
+HOM037,Di Rumah,سَلَّةُ الْمُهْمَلَاتِ,Tong sampah,HOM037.png
+HOM038,Di Rumah,صَابُونٌ,Sabun,HOM038.png
+HOM039,Di Rumah,مِنْشَفَةٌ,Tuala,HOM039.png
+HOM040,Di Rumah,فُرْشَاةُ أَسْنَانٍ,Berus gigi,HOM040.png
+HOM041,Di Rumah,مَعْجُونُ أَسْنَانٍ,Ubat gigi,HOM041.png
+HOM042,Di Rumah,مِغْسَلَةٌ,Singki,HOM042.png
+HOM043,Di Rumah,مِرْحَاضٌ,Tandas,HOM043.png
+HOM044,Di Rumah,مِنْشَفَةُ الْيَدِ,Tuala tangan,HOM044.png
+HOM045,Di Rumah,مِكْوَاةٌ,Seterika,HOM045.png
+HOM046,Di Rumah,مُنَظِّفٌ,Pencuci,HOM046.png
+HOM047,Di Rumah,مِجْفَفُ الشَّعْرِ,Pengering rambut,HOM047.png
+HOM048,Di Rumah,مُكَيِّفٌ,Penghawa dingin,HOM048.png
+HOM049,Di Rumah,مِدْفَأَةٌ,Pemanas,HOM049.png
+HOM050,Di Rumah,مَرْوَحَةٌ,Kipas,HOM050.png
+OFF001,Di Pejabat,مَكْتَبٌ,Pejabat,OFF001.png
+OFF002,Di Pejabat,مَكْتَبَةٌ,Perpustakaan/ruang buku,OFF002.png
+OFF003,Di Pejabat,مُوَظَّفٌ,Pekerja,OFF003.png
+OFF004,Di Pejabat,مُدِيرٌ,Pengurus,OFF004.png
+OFF005,Di Pejabat,سَكْرِتِيرٌ,Setiausaha,OFF005.png
+OFF006,Di Pejabat,مُحَاسِبٌ,Akauntan,OFF006.png
+OFF007,Di Pejabat,اجْتِمَاعٌ,Mesyuarat,OFF007.png
+OFF008,Di Pejabat,مَشْرُوعٌ,Projek,OFF008.png
+OFF009,Di Pejabat,تَقْرِيرٌ,Laporan,OFF009.png
+OFF010,Di Pejabat,مِلَفٌّ,Fail,OFF010.png
+OFF011,Di Pejabat,وَثِيقَةٌ,Dokumen,OFF011.png
+OFF012,Di Pejabat,طَابِعَةٌ,Pencetak,OFF012.png
+OFF013,Di Pejabat,حَاسُوبٌ,Komputer,OFF013.png
+OFF014,Di Pejabat,شَاشَةٌ,Monitor/skrin,OFF014.png
+OFF015,Di Pejabat,لَوْحَةُ مَفَاتِيحَ,Papan kekunci,OFF015.png
+OFF016,Di Pejabat,فَأْرَةٌ,Tetikus komputer,OFF016.png
+OFF017,Di Pejabat,هَاتِفٌ,Telefon,OFF017.png
+OFF018,Di Pejabat,هَاتِفٌ مَحْمُولٌ,Telefon bimbit,OFF018.png
+OFF019,Di Pejabat,بَرِيدٌ إِلِكْتُرُونِيٌّ,E-mel,OFF019.png
+OFF020,Di Pejabat,رِسَالَةٌ,Mesej/surat,OFF020.png
+OFF021,Di Pejabat,طَابِعَةٌ لَيْزَرٌ,Pencetak laser,OFF021.png
+OFF022,Di Pejabat,مَاسِحٌ ضَوْئِيٌّ,Pengimbas,OFF022.png
+OFF023,Di Pejabat,مَكْتَبٌ مُشْتَرَكٌ,Pejabat bersama,OFF023.png
+OFF024,Di Pejabat,غُرْفَةُ الِاجْتِمَاعِ,Bilik mesyuarat,OFF024.png
+OFF025,Di Pejabat,قَاعَةُ الاِجْتِمَاعِ,Dewan mesyuarat,OFF025.png
+OFF026,Di Pejabat,كُرْسِيٌّ,Kerusi,OFF026.png
+OFF027,Di Pejabat,طَاوِلَةٌ,Meja,OFF027.png
+OFF028,Di Pejabat,دُرْجٌ,Laci,OFF028.png
+OFF029,Di Pejabat,خَزَانَةٌ,Kabinet,OFF029.png
+OFF030,Di Pejabat,رَفٌّ,Rak,OFF030.png
+OFF031,Di Pejabat,بَطَاقَةُ هَوِيَّةٍ,Kad pengenalan,OFF031.png
+OFF032,Di Pejabat,بَطَاقَةُ عَمَلٍ,Kad nama,OFF032.png
+OFF033,Di Pejabat,مَوْعِدٌ,Temujanji,OFF033.png
+OFF034,Di Pejabat,جَدْوَلٌ,Jadual,OFF034.png
+OFF035,Di Pejabat,مُلَاحَظَةٌ,Nota,OFF035.png
+OFF036,Di Pejabat,مُهَمَّةٌ,Tugasan,OFF036.png
+OFF037,Di Pejabat,مُسَاعِدٌ,Pembantu,OFF037.png
+OFF038,Di Pejabat,مَدِيرُ الْمَوَارِدِ الْبَشَرِيَّةِ,Pengurus sumber manusia,OFF038.png
+OFF039,Di Pejabat,مُدِيرُ الْمَالِيَّةِ,Pengurus kewangan,OFF039.png
+OFF040,Di Pejabat,مُوَرِّدٌ,Pembekal,OFF040.png
+OFF041,Di Pejabat,عَمِيلٌ,Pelanggan/klien,OFF041.png
+OFF042,Di Pejabat,زَبُونٌ,Pelanggan,OFF042.png
+OFF043,Di Pejabat,عَقْدٌ,Kontrak,OFF043.png
+OFF044,Di Pejabat,فَاتُورَةٌ,Invois,OFF044.png
+OFF045,Di Pejabat,مِيزَانِيَّةٌ,Bajet,OFF045.png
+OFF046,Di Pejabat,رَاتِبٌ,Gaji,OFF046.png
+OFF047,Di Pejabat,تَوْقِيعٌ,Tandatangan,OFF047.png
+OFF048,Di Pejabat,خَتْمٌ,Cop/stamp,OFF048.png
+OFF049,Di Pejabat,خِدْمَةُ الْعُمَلَاءِ,Khidmat pelanggan,OFF049.png
+OFF050,Di Pejabat,مَوْقِعُ الْعَمَلِ,Tempat kerja,OFF050.png
+SPT001,Sukan & Permainan,كُرَةُ الْقَدَمِ,Bola sepak,SPT001.png
+SPT002,Sukan & Permainan,كُرَةُ السَّلَّةِ,Bola keranjang,SPT002.png
+SPT003,Sukan & Permainan,كُرَةُ الطَّائِرَةِ,Bola tampar,SPT003.png
+SPT004,Sukan & Permainan,كُرَةُ الشَّبَكَةِ,Netball,SPT004.png
+SPT005,Sukan & Permainan,كُرَةُ الْمِضْرَبِ,Tenis,SPT005.png
+SPT006,Sukan & Permainan,كُرَةُ الرِّيشَةِ,Badminton,SPT006.png
+SPT007,Sukan & Permainan,تَنِسُ الطَّاوِلَةِ,Tenis meja,SPT007.png
+SPT008,Sukan & Permainan,الطَّوْقُ,Bola jaring/gelung,SPT008.png
+SPT009,Sukan & Permainan,رِيَاضَةُ السِّبَاحَةِ,Renang,SPT009.png
+SPT010,Sukan & Permainan,رِيَاضَةُ الْجَرْيِ,Larian,SPT010.png
+SPT011,Sukan & Permainan,رِيَاضَةُ الْقَفْزِ,Lompat,SPT011.png
+SPT012,Sukan & Permainan,رِيَاضَةُ الرِّيحِ,Layar,SPT012.png
+SPT013,Sukan & Permainan,رُكُوبُ الدَّرَّاجَةِ,Berbasikal,SPT013.png
+SPT014,Sukan & Permainan,رُكُوبُ الْخَيْلِ,Menunggang kuda,SPT014.png
+SPT015,Sukan & Permainan,كُرَةُ الرَّيْشَةِ,Badminton,SPT015.png
+SPT016,Sukan & Permainan,الْمُلَاكَمَةُ,Tinju,SPT016.png
+SPT017,Sukan & Permainan,الْكَرَاتِيهِ,Karate,SPT017.png
+SPT018,Sukan & Permainan,التَّايْكْوَانْدُو,Taekwondo,SPT018.png
+SPT019,Sukan & Permainan,الْجُودُو,Judo,SPT019.png
+SPT020,Sukan & Permainan,الْمُصَارَعَةُ,Gusti,SPT020.png
+SPT021,Sukan & Permainan,الرِّيَاضَةُ,Sukan,SPT021.png
+SPT022,Sukan & Permainan,مُبَارَاةٌ,Perlawanan,SPT022.png
+SPT023,Sukan & Permainan,فَرِيقٌ,Pasukan,SPT023.png
+SPT024,Sukan & Permainan,لَاعِبٌ,Pemain,SPT024.png
+SPT025,Sukan & Permainan,مُدَرِّبٌ,Jurulatih,SPT025.png
+SPT026,Sukan & Permainan,حَكَمٌ,Pengadil,SPT026.png
+SPT027,Sukan & Permainan,مَلْعَبٌ,Padang,SPT027.png
+SPT028,Sukan & Permainan,مَلْعَبٌ دَاخِلِيٌّ,Gelanggang tertutup,SPT028.png
+SPT029,Sukan & Permainan,مَضْمَارٌ,Trek,SPT029.png
+SPT030,Sukan & Permainan,كُرَةٌ,Bola,SPT030.png
+SPT031,Sukan & Permainan,مِضْرَبٌ,Raket,SPT031.png
+SPT032,Sukan & Permainan,شَبَكَةٌ,Jaring,SPT032.png
+SPT033,Sukan & Permainan,مَرْمًى,Gol,SPT033.png
+SPT034,Sukan & Permainan,مِرْمَاةٌ,Gawang,SPT034.png
+SPT035,Sukan & Permainan,مِرْمى السِّهَامِ,Papan sasaran,SPT035.png
+SPT036,Sukan & Permainan,شَطْرَنْجٌ,Catur,SPT036.png
+SPT037,Sukan & Permainan,دَامَةٌ,Dam,SPT037.png
+SPT038,Sukan & Permainan,لُعْبَةُ الْمَخْفِيِّ,Sorok-sorok,SPT038.png
+SPT039,Sukan & Permainan,لُعْبَةُ الْكُرَةِ,Permainan bola,SPT039.png
+SPT040,Sukan & Permainan,لُعْبَةٌ إِلِكْتُرُونِيَّةٌ,Permainan video,SPT040.png
+SPT041,Sukan & Permainan,بَطُولَةٌ,Kejohanan,SPT041.png
+SPT042,Sukan & Permainan,جَائِزَةٌ,Hadiah,SPT042.png
+SPT043,Sukan & Permainan,مِيدَالِيَّةٌ,Pingat,SPT043.png
+SPT044,Sukan & Permainan,فَوْزٌ,Kemenangan,SPT044.png
+SPT045,Sukan & Permainan,خَسَارَةٌ,Kekalahan,SPT045.png
+SPT046,Sukan & Permainan,تَعَادُلٌ,Seri,SPT046.png
+SPT047,Sukan & Permainan,نُقْطَةٌ,Mata,SPT047.png
+SPT048,Sukan & Permainan,هَدَفٌ,Jaringan,SPT048.png
+SPT049,Sukan & Permainan,تَدْرِيبٌ,Latihan,SPT049.png
+ASN001,99 Asmaul Husna,الرَّحْمَٰنُ,Yang Maha Pemurah,ASN001.png
+ASN002,99 Asmaul Husna,الرَّحِيمُ,Yang Maha Penyayang,ASN002.png
+ASN003,99 Asmaul Husna,الْمَلِكُ,Yang Maha Menguasai,ASN003.png
+ASN004,99 Asmaul Husna,الْقُدُّوسُ,Yang Maha Suci,ASN004.png
+ASN005,99 Asmaul Husna,السَّلَامُ,Yang Maha Sejahtera,ASN005.png
+ASN006,99 Asmaul Husna,الْمُؤْمِنُ,Yang Maha Memberi Keamanan,ASN006.png
+ASN007,99 Asmaul Husna,الْمُهَيْمِنُ,Yang Maha Memelihara,ASN007.png
+ASN008,99 Asmaul Husna,الْعَزِيزُ,Yang Maha Perkasa,ASN008.png
+ASN009,99 Asmaul Husna,الْجَبَّارُ,Yang Maha Gagah,ASN009.png
+ASN010,99 Asmaul Husna,الْمُتَكَبِّرُ,Yang Maha Megah,ASN010.png
+ASN011,99 Asmaul Husna,الْخَالِقُ,Yang Maha Mencipta,ASN011.png
+ASN012,99 Asmaul Husna,الْبَارِئُ,Yang Maha Mengadakan,ASN012.png
+ASN013,99 Asmaul Husna,الْمُصَوِّرُ,Yang Maha Membentuk Rupa,ASN013.png
+ASN014,99 Asmaul Husna,الْغَفَّارُ,Yang Maha Pengampun,ASN014.png
+ASN015,99 Asmaul Husna,الْقَهَّارُ,Yang Maha Menundukkan,ASN015.png
+ASN016,99 Asmaul Husna,الْوَهَّابُ,Yang Maha Mengurniakan,ASN016.png
+ASN017,99 Asmaul Husna,الرَّزَّاقُ,Yang Maha Memberi Rezeki,ASN017.png
+ASN018,99 Asmaul Husna,الْفَتَّاحُ,Yang Maha Membuka,ASN018.png
+ASN019,99 Asmaul Husna,الْعَلِيمُ,Yang Maha Mengetahui,ASN019.png
+ASN020,99 Asmaul Husna,الْقَابِضُ,Yang Maha Menyempitkan,ASN020.png
+ASN021,99 Asmaul Husna,الْبَاسِطُ,Yang Maha Melapangkan,ASN021.png
+ASN022,99 Asmaul Husna,الْخَافِضُ,Yang Maha Merendahkan,ASN022.png
+ASN023,99 Asmaul Husna,الرَّافِعُ,Yang Maha Meninggikan,ASN023.png
+ASN024,99 Asmaul Husna,الْمُعِزُّ,Yang Maha Memuliakan,ASN024.png
+ASN025,99 Asmaul Husna,الْمُذِلُّ,Yang Maha Menghinakan,ASN025.png
+ASN026,99 Asmaul Husna,السَّمِيعُ,Yang Maha Mendengar,ASN026.png
+ASN027,99 Asmaul Husna,الْبَصِيرُ,Yang Maha Melihat,ASN027.png
+ASN028,99 Asmaul Husna,الْحَكَمُ,Yang Maha Menetapkan,ASN028.png
+ASN029,99 Asmaul Husna,الْعَدْلُ,Yang Maha Adil,ASN029.png
+ASN030,99 Asmaul Husna,اللَّطِيفُ,Yang Maha Lembut,ASN030.png
+ASN031,99 Asmaul Husna,الْخَبِيرُ,Yang Maha Mengetahui,ASN031.png
+ASN032,99 Asmaul Husna,الْحَلِيمُ,Yang Maha Penyantun,ASN032.png
+ASN033,99 Asmaul Husna,الْعَظِيمُ,Yang Maha Agung,ASN033.png
+ASN034,99 Asmaul Husna,الْغَفُورُ,Yang Maha Pengampun,ASN034.png
+ASN035,99 Asmaul Husna,الشَّكُورُ,Yang Maha Menghargai,ASN035.png
+ASN036,99 Asmaul Husna,الْعَلِيُّ,Yang Maha Tinggi,ASN036.png
+ASN037,99 Asmaul Husna,الْكَبِيرُ,Yang Maha Besar,ASN037.png
+ASN038,99 Asmaul Husna,الْحَفِيظُ,Yang Maha Memelihara,ASN038.png
+ASN039,99 Asmaul Husna,الْمُقِيتُ,Yang Maha Memberi Kecukupan,ASN039.png
+ASN040,99 Asmaul Husna,الْحسِيبُ,Yang Maha Menghitung,ASN040.png
+ASN041,99 Asmaul Husna,الْجَلِيلُ,Yang Maha Mulia,ASN041.png
+ASN042,99 Asmaul Husna,الْكَرِيمُ,Yang Maha Pemurah,ASN042.png
+ASN043,99 Asmaul Husna,الرَّقِيبُ,Yang Maha Mengawasi,ASN043.png
+ASN044,99 Asmaul Husna,الْمُجِيبُ,Yang Maha Memperkenankan,ASN044.png
+ASN045,99 Asmaul Husna,الْوَاسِعُ,Yang Maha Luas,ASN045.png
+ASN046,99 Asmaul Husna,الْحَكِيمُ,Yang Maha Bijaksana,ASN046.png
+ASN047,99 Asmaul Husna,الْوَدُودُ,Yang Maha Mengasihi,ASN047.png
+ASN048,99 Asmaul Husna,الْمَجِيدُ,Yang Maha Mulia,ASN048.png
+ASN049,99 Asmaul Husna,الْبَاعِثُ,Yang Maha Membangkitkan,ASN049.png
+ASN050,99 Asmaul Husna,الشَّهِيدُ,Yang Maha Menyaksikan,ASN050.png
+ASN051,99 Asmaul Husna,الْحَقُّ,Yang Maha Benar,ASN051.png
+ASN052,99 Asmaul Husna,الْوَكِيلُ,Yang Maha Pentadbir,ASN052.png
+ASN053,99 Asmaul Husna,الْقَوِيُّ,Yang Maha Kuat,ASN053.png
+ASN054,99 Asmaul Husna,الْمَتِينُ,Yang Maha Teguh,ASN054.png
+ASN055,99 Asmaul Husna,الْوَلِيُّ,Yang Maha Melindungi,ASN055.png
+ASN056,99 Asmaul Husna,الْحَمِيدُ,Yang Maha Terpuji,ASN056.png
+ASN057,99 Asmaul Husna,الْمُحْصِي,Yang Maha Menghitung,ASN057.png
+ASN058,99 Asmaul Husna,الْمُبْدِئُ,Yang Maha Memulakan,ASN058.png
+ASN059,99 Asmaul Husna,الْمُعِيدُ,Yang Maha Mengembalikan,ASN059.png
+ASN060,99 Asmaul Husna,الْمُحْيِي,Yang Maha Menghidupkan,ASN060.png
+ASN061,99 Asmaul Husna,الْمُمِيتُ,Yang Maha Mematikan,ASN061.png
+ASN062,99 Asmaul Husna,الْحَيُّ,Yang Maha Hidup,ASN062.png
+ASN063,99 Asmaul Husna,الْقَيُّومُ,Yang Maha Berdiri Sendiri,ASN063.png
+ASN064,99 Asmaul Husna,الْوَاجِدُ,Yang Maha Menemukan,ASN064.png
+ASN065,99 Asmaul Husna,الْمَاجِدُ,Yang Maha Mulia,ASN065.png
+ASN066,99 Asmaul Husna,الْوَاحِدُ,Yang Maha Esa,ASN066.png
+ASN067,99 Asmaul Husna,الْأَحَدُ,Yang Maha Tunggal,ASN067.png
+ASN068,99 Asmaul Husna,الصَّمَدُ,Yang Maha Diperlukan,ASN068.png
+ASN069,99 Asmaul Husna,الْقَادِرُ,Yang Maha Berkuasa,ASN069.png
+ASN070,99 Asmaul Husna,الْمُقْتَدِرُ,Yang Maha Menentukan,ASN070.png
+ASN071,99 Asmaul Husna,الْمُقَدِّمُ,Yang Maha Mendahulukan,ASN071.png
+ASN072,99 Asmaul Husna,الْمُؤَخِّرُ,Yang Maha Mengakhirkan,ASN072.png
+ASN073,99 Asmaul Husna,الْأَوَّلُ,Yang Maha Awal,ASN073.png
+ASN074,99 Asmaul Husna,الْآخِرُ,Yang Maha Akhir,ASN074.png
+ASN075,99 Asmaul Husna,الظَّاهِرُ,Yang Maha Nyata,ASN075.png
+ASN076,99 Asmaul Husna,الْبَاطِنُ,Yang Maha Tersembunyi,ASN076.png
+ASN077,99 Asmaul Husna,الْوَالِي,Yang Maha Memerintah,ASN077.png
+ASN078,99 Asmaul Husna,الْمُتَعَالِي,Yang Maha Tinggi,ASN078.png
+ASN079,99 Asmaul Husna,الْبَرُّ,Yang Maha Baik,ASN079.png
+ASN080,99 Asmaul Husna,التَّوَّابُ,Yang Maha Penerima Taubat,ASN080.png
+ASN081,99 Asmaul Husna,الْمُنْتَقِمُ,Yang Maha Membalas,ASN081.png
+ASN082,99 Asmaul Husna,الْعَفُوُّ,Yang Maha Pemaaf,ASN082.png
+ASN083,99 Asmaul Husna,الرَّؤُوفُ,Yang Maha Pengasih,ASN083.png
+ASN084,99 Asmaul Husna,مَالِكُ الْمُلْكِ,Yang Maha Menguasai Kerajaan,ASN084.png
+ASN085,99 Asmaul Husna,ذُو الْجَلَالِ وَالْإِكْرَامِ,Yang Mempunyai Kebesaran dan Kemuliaan,ASN085.png
+ASN086,99 Asmaul Husna,الْمُقْسِطُ,Yang Maha Adil,ASN086.png
+ASN087,99 Asmaul Husna,الْجَامِعُ,Yang Maha Mengumpulkan,ASN087.png
+ASN088,99 Asmaul Husna,الْغَنِيُّ,Yang Maha Kaya,ASN088.png
+ASN089,99 Asmaul Husna,الْمُغْنِي,Yang Maha Memberi Kekayaan,ASN089.png
+ASN090,99 Asmaul Husna,الْمَانِعُ,Yang Maha Mencegah,ASN090.png
+ASN091,99 Asmaul Husna,الضَّارُّ,Yang Maha Memberi Kemudaratan,ASN091.png
+ASN092,99 Asmaul Husna,النَّافِعُ,Yang Maha Memberi Manfaat,ASN092.png
+ASN093,99 Asmaul Husna,النُّورُ,Yang Maha Bercahaya,ASN093.png
+ASN094,99 Asmaul Husna,الْهَادِي,Yang Maha Memberi Petunjuk,ASN094.png
+ASN095,99 Asmaul Husna,الْبَدِيعُ,Yang Maha Mencipta Tanpa Bandingan,ASN095.png
+ASN096,99 Asmaul Husna,الْبَاقِي,Yang Maha Kekal,ASN096.png
+ASN097,99 Asmaul Husna,الْوَارِثُ,Yang Maha Mewarisi,ASN097.png
+ASN098,99 Asmaul Husna,الرَّشِيدُ,Yang Maha Membimbing,ASN098.png
+ASN099,99 Asmaul Husna,الصَّبُورُ,Yang Maha Sabar,ASN099.png
+HIJ001,Bulan Hijrah,مُحَرَّمٌ,Muharam,HIJ001.png
+HIJ002,Bulan Hijrah,صَفَرٌ,Safar,HIJ002.png
+HIJ003,Bulan Hijrah,رَبِيعُ الْأَوَّلِ,Rabiulawal,HIJ003.png
+HIJ004,Bulan Hijrah,رَبِيعُ الْآخِرِ,Rabiulakhir,HIJ004.png
+HIJ005,Bulan Hijrah,جُمَادَى الْأُولَى,Jamadilawal,HIJ005.png
+HIJ006,Bulan Hijrah,جُمَادَى الْآخِرَةِ,Jamadilakhir,HIJ006.png
+HIJ007,Bulan Hijrah,رَجَبٌ,Rejab,HIJ007.png
+HIJ008,Bulan Hijrah,شَعْبَانُ,Syaaban,HIJ008.png
+HIJ009,Bulan Hijrah,رَمَضَانُ,Ramadan,HIJ009.png
+HIJ010,Bulan Hijrah,شَوَّالٌ,Syawal,HIJ010.png
+HIJ011,Bulan Hijrah,ذُو الْقِعْدَةِ,Zulkaedah,HIJ011.png
+HIJ012,Bulan Hijrah,ذُو الْحِجَّةِ,Zulhijah,HIJ012.png
+MAS001,Bulan Masihi,يَنَايِرُ,Januari,MAS001.png
+MAS002,Bulan Masihi,فِبْرَايِرُ,Februari,MAS002.png
+MAS003,Bulan Masihi,مَارِسُ,Mac,MAS003.png
+MAS004,Bulan Masihi,أَبْرِيلُ,April,MAS004.png
+MAS005,Bulan Masihi,مَايُو,Mei,MAS005.png
+MAS006,Bulan Masihi,يُونْيُو,Jun,MAS006.png
+MAS007,Bulan Masihi,يُولْيُو,Julai,MAS007.png
+MAS008,Bulan Masihi,أَغُسْطُسُ,Ogos,MAS008.png
+MAS009,Bulan Masihi,سِبْتَمْبَرُ,September,MAS009.png
+MAS010,Bulan Masihi,أُكْتُوبَرُ,Oktober,MAS010.png
+MAS011,Bulan Masihi,نُوفَمْبَرُ,November,MAS011.png
+MAS012,Bulan Masihi,دِيسَمْبَرُ,Disember,MAS012.png
+PLN001,Planet,عُطَارِدُ,Utarid,PLN001.png
+PLN002,Planet,الزُّهَرَةُ,Zuhrah,PLN002.png
+PLN003,Planet,الْأَرْضُ,Bumi,PLN003.png
+PLN004,Planet,الْمَرِّيخُ,Marikh,PLN004.png
+PLN005,Planet,الْمُشْتَرِي,Musytari,PLN005.png
+PLN006,Planet,زُحَلُ,Zuhal,PLN006.png
+PLN007,Planet,أُورَانُوسُ,Uranus,PLN007.png
+PLN008,Planet,نِبْتُونُ,Neptune,PLN008.png
+ANG001,Malaikat,جِبْرِيلُ,Jibril — menyampaikan wahyu,ANG001.png
+ANG002,Malaikat,مِيكَائِيلُ,Mikail — mengurus hujan,ANG002.png
+ANG003,Malaikat,إِسْرَافِيلُ,Israfil — meniup sangkakala,ANG003.png
+ANG004,Malaikat,مَلَكُ الْمَوْتِ,Malaikat maut — mencabut nyawa,ANG004.png
+ANG005,Malaikat,مُنْكَرٌ,Munkar — menyoal di alam kubur,ANG005.png
+ANG006,Malaikat,نَكِيرٌ,Nakir — menyoal di alam kubur,ANG006.png
+ANG007,Malaikat,رَقِيبٌ,Raqib — mencatat amalan baik,ANG007.png
+ANG008,Malaikat,عَتِيدٌ,Atid — mencatat amalan buruk,ANG008.png
+ANG009,Malaikat,مَالِكٌ,Malik — penjaga neraka,ANG009.png
+ANG010,Malaikat,رِضْوَانُ,Ridwan — penjaga syurga,ANG010.png
+NBR001,Nabi & Rasul,آدَمُ,Nabi Adam,NBR001.png
+NBR002,Nabi & Rasul,إِدْرِيسُ,Nabi Idris,NBR002.png
+NBR003,Nabi & Rasul,نُوحٌ,Nabi Nuh,NBR003.png
+NBR004,Nabi & Rasul,هُودٌ,Nabi Hud,NBR004.png
+NBR005,Nabi & Rasul,صَالِحٌ,Nabi Soleh,NBR005.png
+NBR006,Nabi & Rasul,إِبْرَاهِيمُ,Nabi Ibrahim,NBR006.png
+NBR007,Nabi & Rasul,لُوطٌ,Nabi Lut,NBR007.png
+NBR008,Nabi & Rasul,إِسْمَاعِيلُ,Nabi Ismail,NBR008.png
+NBR009,Nabi & Rasul,إِسْحَاقُ,Nabi Ishak,NBR009.png
+NBR010,Nabi & Rasul,يَعْقُوبُ,Nabi Yaakub,NBR010.png
+NBR011,Nabi & Rasul,يُوسُفُ,Nabi Yusuf,NBR011.png
+NBR012,Nabi & Rasul,أَيُّوبُ,Nabi Ayub,NBR012.png
+NBR013,Nabi & Rasul,شُعَيْبٌ,Nabi Syuaib,NBR013.png
+NBR014,Nabi & Rasul,مُوسَى,Nabi Musa,NBR014.png
+NBR015,Nabi & Rasul,هَارُونُ,Nabi Harun,NBR015.png
+NBR016,Nabi & Rasul,ذُو الْكِفْلِ,Nabi Zulkifli,NBR016.png
+NBR017,Nabi & Rasul,دَاوُودُ,Nabi Daud,NBR017.png
+NBR018,Nabi & Rasul,سُلَيْمَانُ,Nabi Sulaiman,NBR018.png
+NBR019,Nabi & Rasul,إِلْيَاسُ,Nabi Ilyas,NBR019.png
+NBR020,Nabi & Rasul,الْيَسَعُ,Nabi Ilyasa',NBR020.png
+NBR021,Nabi & Rasul,يُونُسُ,Nabi Yunus,NBR021.png
+NBR022,Nabi & Rasul,زَكَرِيَّا,Nabi Zakaria,NBR022.png
+NBR023,Nabi & Rasul,يَحْيَى,Nabi Yahya,NBR023.png
+NBR024,Nabi & Rasul,عِيسَى,Nabi Isa,NBR024.png
+NBR025,Nabi & Rasul,مُحَمَّدٌ,Nabi Muhammad,NBR025.png
+SPT050,Sukan & Permainan,رَفْعُ الْأَثْقَالِ,Angkat berat,SPT050.png
+HIW046,Dialog / Hiwar,هَلْ عِنْدَكَ قَلَمٌ؟,Adakah kamu ada pen?,HIW046.png
+HIW047,Dialog / Hiwar,نَعَمْ، عِنْدِي قَلَمٌ,"Ya, saya ada pen.",HIW047.png
+HIW048,Dialog / Hiwar,أَيْنَ كِتَابِي؟,Di mana buku saya?,HIW048.png
+HIW049,Dialog / Hiwar,كِتَابُكَ عَلَى الطَّاوِلَةِ,Buku kamu di atas meja.,HIW049.png
+HIW050,Dialog / Hiwar,مَتَى تَبْدَأُ الدِّرَاسَةُ؟,Bilakah pembelajaran bermula?,HIW050.png

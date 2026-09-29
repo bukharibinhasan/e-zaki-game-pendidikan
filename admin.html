@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Admin - Az-Zaki Educational Game</title>
+  <script src="vocab.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@400;600;700;800&family=Amiri:wght@700&display=swap');
+
+    :root {
+      --bg-dark: #090e1a;
+      --panel-bg: rgba(18, 28, 56, 0.95);
+      --gold: #ffcc00;
+      --gold-dark: #b37b00;
+      --gold-glow: rgba(255, 204, 0, 0.5);
+      --cyan: #00f2fe;
+      --green: #00e676;
+      --red: #ff3366;
+      --purple: #9d4edd;
+      --text-main: #f0f4f8;
+      --font-admin: 'Outfit', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: var(--font-admin); }
+
+    body {
+      background: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* HEADER ADMIN */
+    header {
+      background: linear-gradient(90deg, #0c1630 0%, #1a2b56 100%);
+      border-bottom: 3px solid var(--gold);
+      padding: 16px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .brand h1 { font-family: 'Fredoka One', cursive; color: var(--gold); font-size: 1.8rem; letter-spacing: 1px; }
+
+    .nav-tabs { display: flex; gap: 10px; }
+    .tab-btn {
+      background: rgba(255,255,255,0.08);
+      border: 2px solid var(--cyan);
+      color: var(--cyan);
+      padding: 10px 20px;
+      border-radius: 14px;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover, .tab-btn.active {
+      background: var(--cyan);
+      color: #002b4d;
+      box-shadow: 0 0 15px rgba(0, 242, 254, 0.5);
+    }
+
+    main { padding: 24px 32px; flex: 1; max-width: 1400px; margin: 0 auto; width: 100%; }
+
+    .tab-content { display: none; flex-direction: column; gap: 20px; }
+    .tab-content.active { display: flex; }
+
+    .panel {
+      background: var(--panel-bg);
+      border: 2px solid rgba(255, 204, 0, 0.3);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 2px solid rgba(255,255,255,0.1);
+      padding-bottom: 12px;
+    }
+    .panel-title { font-size: 1.5rem; font-weight: 800; color: var(--gold); }
+
+    .filter-bar { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
+    input[type="text"], select {
+      background: rgba(7, 13, 30, 0.9);
+      border: 2px solid var(--cyan);
+      color: #fff;
+      padding: 12px 18px;
+      border-radius: 12px;
+      font-size: 1rem;
+      outline: none;
+    }
+    input[type="text"]:focus, select:focus { border-color: var(--gold); box-shadow: 0 0 10px var(--gold-glow); }
+    .search-input { flex: 1; min-width: 260px; }
+
+    .table-responsive { max-height: 580px; overflow-y: auto; border-radius: 14px; border: 1px solid rgba(255,255,255,0.1); }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th { background: #122044; color: var(--gold); font-weight: 800; padding: 14px; position: sticky; top: 0; z-index: 10; border-bottom: 2px solid var(--gold); }
+    td { padding: 12px 14px; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 1rem; vertical-align: middle; }
+    tr:hover { background: rgba(255,255,255,0.03); }
+
+    .arabic-cell { font-family: 'Amiri', serif; font-size: 1.8rem; color: var(--gold); direction: rtl; }
+
+    .img-preview-thumb {
+      width: 55px; height: 55px; border-radius: 10px; border: 2px solid var(--cyan);
+      background: #fff; object-fit: contain; mix-blend-mode: multiply;
+    }
+
+    .btn-action {
+      background: linear-gradient(180deg, #ffe600 0%, #ff9900 100%);
+      color: #3d1e00; border: none; padding: 10px 18px; font-weight: 800;
+      border-radius: 10px; cursor: pointer; transition: 0.2s;
+    }
+    .btn-action:hover { transform: translateY(-2px); box-shadow: 0 4px 12px var(--gold-glow); }
+    .btn-save-all {
+      background: linear-gradient(180deg, #00e676 0%, #00b359 100%); color: #003311;
+      font-size: 1.1rem; padding: 14px 28px; border-radius: 14px; border: none; cursor: pointer; font-weight: 800;
+    }
+    .btn-secondary { background: linear-gradient(180deg, #00f2fe 0%, #0099ff 100%); color: #002b4d; }
+
+    .settings-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+    .mode-card {
+      background: rgba(255,255,255,0.04); border: 2px solid var(--cyan); border-radius: 18px; padding: 20px;
+      display: flex; flex-direction: column; gap: 14px;
+    }
+    .mode-card h3 { color: var(--gold); font-size: 1.25rem; display: flex; align-items: center; gap: 8px; }
+
+    .form-row { display: flex; flex-direction: column; gap: 6px; }
+    .form-row label { font-size: 0.95rem; font-weight: 600; color: #a0aec0; }
+
+    .modal-overlay {
+      position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+      background: rgba(4, 8, 20, 0.85); backdrop-filter: blur(10px);
+      display: none; justify-content: center; align-items: center; z-index: 999;
+    }
+    .modal-box {
+      background: var(--panel-bg); border: 3px solid var(--gold); border-radius: 24px;
+      padding: 28px; width: 90%; max-width: 520px; box-shadow: 0 0 40px var(--gold-glow);
+      display: flex; flex-direction: column; gap: 16px;
+    }
+
+    .status-toast {
+      position: fixed; bottom: 20px; right: 20px; background: var(--green); color: #003311;
+      padding: 14px 24px; border-radius: 14px; font-weight: 800; display: none; z-index: 1000;
+      box-shadow: 0 5px 20px rgba(0,230,118,0.5);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <span style="font-size: 2rem;">🛠️</span>
+    <h1>Az-Zaki Admin Dashboard</h1>
+  </div>
+  <div class="nav-tabs">
+    <button class="tab-btn active" onclick="switchTab('tab-vocab', this)">📚 Urus Mufradat</button>
+    <button class="tab-btn" onclick="switchTab('tab-modes', this)">⚙️ Kustomasi Mod Permainan</button>
+    <button class="tab-btn" style="background: var(--gold); color: #000; border-color: var(--gold);" onclick="window.location.href='index.html'">🎮 Kembali ke Permainan</button>
+  </div>
+</header>
+
+<main>
+  <!-- TAB 1: PENGURUSAN MUFRADAT -->
+  <div id="tab-vocab" class="tab-content active">
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-title">Senarai Mufradat & Gambar (<span id="total-vocab-count">0</span>)</div>
+        <div style="display: flex; gap: 10px;">
+          <button class="btn-save-all" onclick="saveAllToStorage()">💾 Simpan Ke Game</button>
+          <button class="btn-action btn-secondary" onclick="exportVocabJS()">📥 Export vocab.js</button>
+        </div>
+      </div>
+
+      <div class="filter-bar">
+        <input type="text" id="search-input" class="search-input" placeholder="🔍 Cari Bahasa Melayu, Bahasa Arab, atau ID..." oninput="filterTable()">
+        <select id="filter-category" onchange="filterTable()">
+          <option value="ALL">🌐 Semua Kategori</option>
+        </select>
+      </div>
+
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Gambar</th>
+              <th>Kategori</th>
+              <th>Bahasa Melayu</th>
+              <th>Bahasa Arab</th>
+              <th>Tindakan</th>
+            </tr>
+          </thead>
+          <tbody id="vocab-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 2: KUSTOMISASI MOD PERMAINAN -->
+  <div id="tab-modes" class="tab-content">
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-title">Tetapan Rules & Kustomisasi Permainan</div>
+        <button class="btn-save-all" onclick="saveGameSettings()">💾 Simpan Tetapan Mod</button>
+      </div>
+
+      <div class="settings-grid">
+        <!-- MOD MCQ -->
+        <div class="mode-card">
+          <h3>📝 Mod Pilihan Ganda (MCQ)</h3>
+          <div class="form-row">
+            <label>Bilangan Pilihan Jawapan:</label>
+            <select id="cfg-mcq-options">
+              <option value="3">3 Pilihan Jawapan</option>
+              <option value="4" selected>4 Pilihan Jawapan (Standard)</option>
+              <option value="6">6 Pilihan Jawapan (Cabar)</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label>Pilihan Paparan Soalan:</label>
+            <select id="cfg-mcq-display">
+              <option value="img_text" selected>Gambar + Teks Melayu</option>
+              <option value="img_only">Gambar Sahaja</option>
+              <option value="text_only">Teks Sahaja</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- MOD PADANAN GARISAN -->
+        <div class="mode-card">
+          <h3>🧩 Mod Padanan Garisan</h3>
+          <div class="form-row">
+            <label>Bilangan Kad Serentak:</label>
+            <select id="cfg-match-cards">
+              <option value="3" selected>3 Kad Serentak</option>
+              <option value="4">4 Kad Serentak</option>
+              <option value="5">5 Kad Serentak</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label>Warna Garisan Padanan:</label>
+            <select id="cfg-match-color">
+              <option value="#00e676" selected>💚 Hijau Neon</option>
+              <option value="#00f2fe">🩵 Cyber Cyan</option>
+              <option value="#ffcc00">💛 Emas Az-Zaki</option>
+              <option value="#ff3366">🩷 Magenta Vibrant</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- MOD ISI TEMPAT KOSONG -->
+        <div class="mode-card">
+          <h3>✏️ Mod Isi Tempat Kosong</h3>
+          <div class="form-row">
+            <label>Struktur Soalan Konteks:</label>
+            <select id="cfg-blank-format">
+              <option value="sentence_img" selected>Gambar + Ayat Konteks</option>
+              <option value="sentence_only">Ayat Konteks Sahaja</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label>Petunjuk Soalan (Hint):</label>
+            <select id="cfg-blank-hint">
+              <option value="true" selected>Tunjukkan Maksud Melayu</option>
+              <option value="false">Sembunyi Maksud Melayu</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- MOD TRUE DRAG & DROP -->
+        <div class="mode-card">
+          <h3>🖐️ Mod True Drag & Drop</h3>
+          <div class="form-row">
+            <label>Bilangan Blok Pilihan Ditarik:</label>
+            <select id="cfg-drag-count">
+              <option value="2">2 Pilihan</option>
+              <option value="3" selected>3 Pilihan</option>
+              <option value="4">4 Pilihan</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label>Sensitiviti Drop Zone:</label>
+            <select id="cfg-drag-sens">
+              <option value="normal" selected>Biasa (Normal Fit)</option>
+              <option value="strict">Ketik (Strict Fit)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- TETAPAN GENERAL XP -->
+        <div class="mode-card">
+          <h3>🏆 Sistem Markah & XP</h3>
+          <div class="form-row">
+            <label>Markah XP Setiap Jawapan Betul:</label>
+            <input type="text" id="cfg-score-correct" value="10">
+          </div>
+          <div class="form-row">
+            <label>Masa Pemasa Asas (Saat):</label>
+            <input type="text" id="cfg-default-timer" value="60">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- MODAL EDIT MUFRADAT -->
+<div id="edit-modal" class="modal-overlay">
+  <div class="modal-box">
+    <h2 style="color: var(--gold);">Sunting Mufradat (<span id="edit-id-display">ID</span>)</h2>
+    
+    <div class="form-row">
+      <label>Kategori:</label>
+      <input type="text" id="edit-category">
+    </div>
+
+    <div class="form-row">
+      <label>Bahasa Melayu:</label>
+      <input type="text" id="edit-malay">
+    </div>
+
+    <div class="form-row">
+      <label>Bahasa Arab (Termasuk Baris/Harakat):</label>
+      <input type="text" id="edit-arabic" style="font-family:'Amiri', serif; font-size:1.4rem; direction:rtl;">
+    </div>
+
+    <div class="form-row">
+      <label>Tukar Gambar (PNG/JPEG):</label>
+      <input type="file" id="edit-img-file" accept="image/png, image/jpeg" onchange="previewNewImage(this)">
+      <input type="text" id="edit-img-path" placeholder="Atau pautan fail images/ID.png">
+    </div>
+
+    <div style="text-align: center; margin-top: 10px;">
+      <img id="modal-img-preview" src="" class="img-preview-thumb" style="width: 90px; height: 90px;">
+    </div>
+
+    <div style="display: flex; gap: 12px; margin-top: 10px;">
+      <button class="btn-action" style="flex: 1;" onclick="saveSingleVocab()">Simpan Kemaskini</button>
+      <button class="btn-action btn-secondary" onclick="closeEditModal()">Batal</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="status-toast">✅ Berjaya Disimpan!</div>
+
+<script>
+  // PELINDUNG PIN UNTUK ADMIN DASHBOARD
+  const ADMIN_PIN = "2026";
+
+  function checkAdminAuth() {
+    const isAuth = sessionStorage.getItem('az_zaki_admin_auth');
+    if (isAuth !== 'true') {
+      const input = prompt("🔐 Halaman Terkunci! Masukkan PIN Pentadbir:");
+      if (input === ADMIN_PIN) {
+        sessionStorage.setItem('az_zaki_admin_auth', 'true');
+      } else {
+        alert("❌ Akses Ditolak!");
+        window.location.href = 'index.html';
+      }
+    }
+  }
+
+  checkAdminAuth();
+
+  let vocabData = [];
+  let editingItem = null;
+
+  window.onload = () => {
+    loadInitialData();
+    populateCategoryDropdown();
+    renderTable();
+    loadGameSettings();
+  };
+
+  function loadInitialData() {
+    const local = localStorage.getItem('az_zaki_vocab_custom');
+    if (local) {
+      vocabData = JSON.parse(local);
+    } else if (typeof AZ_ZAKI_DATA !== 'undefined') {
+      vocabData = JSON.parse(JSON.stringify(AZ_ZAKI_DATA));
+    } else {
+      vocabData = [];
+    }
+    document.getElementById('total-vocab-count').innerText = vocabData.length;
+  }
+
+  function switchTab(tabId, el) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    
+    el.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  }
+
+  function populateCategoryDropdown() {
+    const cats = [...new Set(vocabData.map(i => i.category))];
+    const select = document.getElementById('filter-category');
+    select.innerHTML = `<option value="ALL">🌐 Semua Kategori</option>` + 
+      cats.map(c => `<option value="${c}">${c}</option>`).join('');
+  }
+
+  function renderTable(dataToRender = vocabData) {
+    const tbody = document.getElementById('vocab-table-body');
+    tbody.innerHTML = '';
+
+    dataToRender.slice(0, 100).forEach(item => {
+      const tr = document.createElement('tr');
+      const imgPath = item.image || `images/${item.id}.png`;
+      
+      tr.innerHTML = `
+        <td style="font-weight:bold; color:var(--cyan);">${item.id}</td>
+        <td><img src="${imgPath}" class="img-preview-thumb" onerror="this.onerror=null; this.src='images/${item.id}.jpg';"></td>
+        <td><span style="background:rgba(255,204,0,0.15); color:var(--gold); padding:4px 10px; border-radius:8px; font-weight:bold;">${item.category}</span></td>
+        <td style="font-weight:bold;">${item.malay}</td>
+        <td class="arabic-cell">${item.arabic}</td>
+        <td>
+          <button class="btn-action" onclick="openEditModal('${item.id}')">✏️ Edit</button>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  function filterTable() {
+    const search = document.getElementById('search-input').value.toLowerCase();
+    const cat = document.getElementById('filter-category').value;
+
+    const filtered = vocabData.filter(item => {
+      const matchCat = (cat === 'ALL' || item.category === cat);
+      const matchSearch = item.malay.toLowerCase().includes(search) || 
+                          item.arabic.includes(search) || 
+                          item.id.toLowerCase().includes(search);
+      return matchCat && matchSearch;
+    });
+
+    renderTable(filtered);
+  }
+
+  function openEditModal(id) {
+    editingItem = vocabData.find(i => i.id === id);
+    if (!editingItem) return;
+
+    document.getElementById('edit-id-display').innerText = editingItem.id;
+    document.getElementById('edit-category').value = editingItem.category;
+    document.getElementById('edit-malay').value = editingItem.malay;
+    document.getElementById('edit-arabic').value = editingItem.arabic;
+    
+    const imgPath = editingItem.image || `images/${editingItem.id}.png`;
+    document.getElementById('edit-img-path').value = imgPath;
+    document.getElementById('modal-img-preview').src = imgPath;
+
+    document.getElementById('edit-modal').style.display = 'flex';
+  }
+
+  function closeEditModal() { document.getElementById('edit-modal').style.display = 'none'; }
+
+  function previewNewImage(input) {
+    if (input.files && input.files[0]) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        document.getElementById('modal-img-preview').src = e.target.result;
+        editingItem.newImageDataURL = e.target.result;
+      };
+      reader.readAsDataURL(input.files[0]);
+    }
+  }
+
+  function saveSingleVocab() {
+    if (!editingItem) return;
+
+    editingItem.category = document.getElementById('edit-category').value.trim();
+    editingItem.malay = document.getElementById('edit-malay').value.trim();
+    editingItem.arabic = document.getElementById('edit-arabic').value.trim();
+    
+    if (editingItem.newImageDataURL) {
+      editingItem.image = editingItem.newImageDataURL;
+    } else {
+      editingItem.image = document.getElementById('edit-img-path').value.trim();
+    }
+
+    closeEditModal();
+    renderTable();
+    showToast('Mufradat Berjaya Dikemaskini!');
+  }
+
+  function saveAllToStorage() {
+    localStorage.setItem('az_zaki_vocab_custom', JSON.stringify(vocabData));
+    showToast('Kesemua Data Berjaya Disimpan ke Game!');
+  }
+
+  function exportVocabJS() {
+    const fileContent = `const AZ_ZAKI_DATA = ${JSON.stringify(vocabData, null, 2)};`;
+    const blob = new Blob([fileContent], { type: 'text/javascript' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'vocab.js';
+    a.click();
+    showToast('Fail vocab.js Berjaya Dieksport!');
+  }
+
+  function saveGameSettings() {
+    const settings = {
+      mcqOptions: document.getElementById('cfg-mcq-options').value,
+      mcqDisplay: document.getElementById('cfg-mcq-display').value,
+      matchCards: document.getElementById('cfg-match-cards').value,
+      matchColor: document.getElementById('cfg-match-color').value,
+      blankFormat: document.getElementById('cfg-blank-format').value,
+      blankHint: document.getElementById('cfg-blank-hint').value,
+      dragCount: document.getElementById('cfg-drag-count').value,
+      dragSens: document.getElementById('cfg-drag-sens').value,
+      scoreCorrect: parseInt(document.getElementById('cfg-score-correct').value) || 10,
+      defaultTimer: parseInt(document.getElementById('cfg-default-timer').value) || 60
+    };
+
+    localStorage.setItem('az_zaki_settings', JSON.stringify(settings));
+    showToast('Tetapan Permainan Berjaya Disimpan!');
+  }
+
+  function loadGameSettings() {
+    const saved = localStorage.getItem('az_zaki_settings');
+    if (!saved) return;
+    const s = JSON.parse(saved);
+
+    if (s.mcqOptions) document.getElementById('cfg-mcq-options').value = s.mcqOptions;
+    if (s.mcqDisplay) document.getElementById('cfg-mcq-display').value = s.mcqDisplay;
+    if (s.matchCards) document.getElementById('cfg-match-cards').value = s.matchCards;
+    if (s.matchColor) document.getElementById('cfg-match-color').value = s.matchColor;
+    if (s.blankFormat) document.getElementById('cfg-blank-format').value = s.blankFormat;
+    if (s.blankHint) document.getElementById('cfg-blank-hint').value = s.blankHint;
+    if (s.dragCount) document.getElementById('cfg-drag-count').value = s.dragCount;
+    if (s.dragSens) document.getElementById('cfg-drag-sens').value = s.dragSens;
+    if (s.scoreCorrect) document.getElementById('cfg-score-correct').value = s.scoreCorrect;
+    if (s.defaultTimer) document.getElementById('cfg-default-timer').value = s.defaultTimer;
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById('toast');
+    toast.innerText = `✅ ${msg}`;
+    toast.style.display = 'block';
+    setTimeout(() => { toast.style.display = 'none'; }, 2500);
+  }
+</script>
+</body>
+</html>

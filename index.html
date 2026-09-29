@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Az-Zaki! Belajar Arab, Sambil Bermain!</title>
+  <!-- Panggil pangkalan data mufradat & Enjin 3D Three.js + GLTFLoader -->
+  <script src="vocab.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@500;700;800&family=Amiri:wght@700&display=swap');
+
+    :root {
+      --bg-card: rgba(12, 22, 48, 0.95);
+      --gold: #ffcc00;
+      --gold-dark: #b37b00;
+      --gold-glow: rgba(255, 204, 0, 0.7);
+      --cyan: #00f2fe;
+      --green: #00e676;
+      --red: #ff3366;
+      --white: #ffffff;
+      --font-game: 'Fredoka One', 'Outfit', cursive, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: var(--font-game); user-select: none; }
+
+    body { 
+      color: var(--white); 
+      min-height: 100vh; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      padding: 15px; 
+      overflow: hidden;
+      position: relative;
+      background-color: #070d1e;
+    }
+
+    /* LATAR BELAKANG VIDEO & KARTUN 2D */
+    #bg-video {
+      position: fixed; top: 50%; left: 50%;
+      min-width: 100%; min-height: 100%; z-index: 1;
+      transform: translate(-50%, -50%); object-fit: cover;
+      filter: brightness(0.85) contrast(1.05); pointer-events: none;
+    }
+
+    .cartoon-world {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      z-index: 0; pointer-events: none; overflow: hidden;
+    }
+
+    .sun {
+      position: absolute; top: 40px; right: 80px; width: 90px; height: 90px;
+      background: radial-gradient(circle, #fff700 0%, #ff9900 100%);
+      border-radius: 50%; box-shadow: 0 0 40px #ffcc00, 0 0 80px #ffaa00;
+      animation: pulseSun 3s ease-in-out infinite alternate;
+    }
+    @keyframes pulseSun { 0% { transform: scale(0.95); } 100% { transform: scale(1.08); } }
+
+    .cloud {
+      position: absolute; background: rgba(255, 255, 255, 0.85); border-radius: 50px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.1); animation: moveCloud linear infinite;
+    }
+    .cloud::before, .cloud::after { content: ''; position: absolute; background: rgba(255, 255, 255, 0.85); border-radius: 50%; }
+    .cloud1 { width: 140px; height: 45px; top: 10%; left: -160px; animation-duration: 28s; }
+    .cloud1::before { width: 60px; height: 60px; top: -25px; left: 20px; }
+    .cloud1::after { width: 50px; height: 50px; top: -18px; right: 20px; }
+
+    .hills {
+      position: absolute; bottom: 0; left: 0; width: 100%; height: 200px;
+      background: linear-gradient(180deg, #70e144 0%, #2e7d32 100%);
+      border-radius: 100% 100% 0 0 / 40% 40% 0 0; transform: scaleX(1.4);
+    }
+
+    .bg-particles {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      overflow: hidden; pointer-events: none; z-index: 2;
+    }
+    .particle {
+      position: absolute; color: rgba(255, 255, 255, 0.75);
+      font-size: 2.8rem; font-family: 'Amiri', serif;
+      text-shadow: 0 0 15px rgba(255, 204, 0, 0.9);
+      animation: floatUp 12s linear infinite;
+    }
+    @keyframes floatUp {
+      0% { transform: translateY(110vh) rotate(0deg) scale(0.8); opacity: 0; }
+      15% { opacity: 0.9; } 85% { opacity: 0.9; }
+      100% { transform: translateY(-15vh) rotate(360deg) scale(1.2); opacity: 0; }
+    }
+
+    /* FRAME PERMAINAN UTAMA */
+    #game-container { 
+      width: 100%; max-width: 940px; height: 92vh; max-height: 780px;
+      background: var(--bg-card); backdrop-filter: blur(18px);
+      border: 5px solid var(--gold); border-radius: 36px; 
+      box-shadow: 0 0 60px rgba(255, 204, 0, 0.5), inset 0 0 25px rgba(255, 204, 0, 0.25); 
+      padding: 20px 24px; position: relative; z-index: 10;
+      display: flex; flex-direction: column; justify-content: space-between; 
+      overflow: hidden;
+    }
+
+    .top-controls { position: absolute; top: 16px; right: 22px; z-index: 20; }
+    .btn-audio {
+      background: rgba(0, 242, 254, 0.25); border: 2px solid var(--cyan);
+      color: var(--cyan); padding: 8px 16px; border-radius: 14px;
+      font-size: 0.95rem; font-weight: bold; cursor: pointer; transition: 0.2s;
+    }
+    .btn-audio:hover { background: rgba(0, 242, 254, 0.45); transform: scale(1.05); }
+
+    .header { text-align: center; margin-bottom: 2px; position: relative; }
+    .game-logo {
+      max-width: 190px; width: 100%; height: auto; display: block; margin: 0 auto;
+      filter: drop-shadow(0 0 25px var(--gold-glow)) drop-shadow(0 8px 20px rgba(0,0,0,0.7));
+      animation: logoFloat 3.5s ease-in-out infinite; cursor: pointer;
+    }
+    @keyframes logoFloat { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
+
+    .screen { display: none; flex-direction: column; gap: 12px; width: 100%; height: 100%; overflow-y: auto; padding-right: 4px; }
+    .screen.active { display: flex; animation: fadeIn 0.35s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
+
+    /* SCROLLBAR OPTIMIZED */
+    .screen::-webkit-scrollbar, .matching-wrapper::-webkit-scrollbar, .quiz-card::-webkit-scrollbar, .avatar-grid::-webkit-scrollbar {
+      width: 6px; height: 6px;
+    }
+    .screen::-webkit-scrollbar-thumb, .matching-wrapper::-webkit-scrollbar-thumb, .quiz-card::-webkit-scrollbar-thumb, .avatar-grid::-webkit-scrollbar-thumb {
+      background: var(--gold); border-radius: 10px;
+    }
+    .screen::-webkit-scrollbar-track, .matching-wrapper::-webkit-scrollbar-track, .quiz-card::-webkit-scrollbar-track, .avatar-grid::-webkit-scrollbar-track {
+      background: rgba(0,0,0,0.2);
+    }
+
+    /* BUTANG 3D ARCADE */
+    .btn { 
+      background: linear-gradient(180deg, #ffe600 0%, #ff9900 100%); 
+      color: #3d1e00; border: 2px solid #fff; padding: 12px 24px; 
+      font-size: 1.2rem; font-weight: 800; border-radius: 20px; cursor: pointer; 
+      transition: all 0.15s ease; box-shadow: 0 6px 0 var(--gold-dark), 0 8px 18px rgba(0,0,0,0.4); 
+      text-align: center; text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    .btn:hover { transform: translateY(-3px); box-shadow: 0 9px 0 var(--gold-dark), 0 12px 22px rgba(0,0,0,0.5); }
+    .btn:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--gold-dark); }
+    .btn-secondary { background: linear-gradient(180deg, #00f2fe 0%, #0099ff 100%); color: #002b4d; box-shadow: 0 6px 0 #0066cc; }
+    .btn-danger { background: linear-gradient(180deg, #ff416c 0%, #ff4b2b 100%); color: #fff; box-shadow: 0 6px 0 #b30024; }
+
+    /* AVATAR 3D SELECTOR STUDIO UI */
+    .avatar-studio-container {
+      display: grid; grid-template-columns: 240px 1fr; gap: 16px;
+      background: rgba(0, 0, 0, 0.45); border: 2.5px solid var(--cyan);
+      border-radius: 24px; padding: 14px; align-items: start;
+    }
+    .avatar-3d-viewport {
+      width: 240px; height: 260px; background: radial-gradient(circle, #1a2b56 0%, #070d1e 100%);
+      border: 3px solid var(--gold); border-radius: 20px; overflow: hidden;
+      box-shadow: 0 0 25px var(--gold-glow); position: relative; cursor: grab;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .avatar-3d-viewport:active { cursor: grabbing; }
+    .avatar-3d-viewport canvas { width: 100% !important; height: 100% !important; position: absolute; top:0; left:0; z-index: 5; }
+
+    .loading-text {
+      color: var(--cyan); font-weight: bold; font-size: 1rem; z-index: 2; position: absolute;
+      text-align: center; display: none; animation: pulse 1s infinite alternate;
+    }
+    @keyframes pulse { from { opacity: 0.5; } to { opacity: 1; } }
+
+    .avatar-grid-header {
+      color: var(--gold); font-size: 1.1rem; font-weight: bold; margin-bottom: 8px; text-align: left;
+    }
+    .avatar-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); gap: 10px;
+      max-height: 220px; overflow-y: auto; padding-right: 4px;
+    }
+    .avatar-card-item {
+      background: rgba(255,255,255,0.08); border: 2px solid rgba(0,242,254,0.4); border-radius: 16px;
+      padding: 10px 6px; text-align: center; cursor: pointer; transition: 0.2s; display: flex;
+      flex-direction: column; align-items: center; justify-content: center; gap: 4px; position: relative;
+    }
+    .avatar-card-item:hover, .avatar-card-item.selected {
+      border-color: var(--gold); background: rgba(255, 204, 0, 0.25); transform: translateY(-3px);
+      box-shadow: 0 0 15px var(--gold-glow);
+    }
+    .avatar-gender-tag {
+      font-size: 0.7rem; font-weight: bold; padding: 2px 6px; border-radius: 8px;
+      position: absolute; top: 4px; right: 4px;
+    }
+    .tag-male { background: rgba(0, 242, 254, 0.3); color: var(--cyan); }
+    .tag-female { background: rgba(255, 51, 102, 0.3); color: var(--red); }
+
+    .profiles-grid { display: flex; gap: 10px; overflow-x: auto; padding: 6px 2px; }
+    .profile-card {
+      background: rgba(255,255,255,0.08); border: 2px solid var(--cyan); border-radius: 16px;
+      padding: 8px 14px; min-width: 120px; text-align: center; cursor: pointer; transition: 0.2s;
+    }
+    .profile-card:hover, .profile-card.active-profile {
+      border-color: var(--gold); background: rgba(255, 204, 0, 0.25); transform: translateY(-3px);
+    }
+
+    .form-group { display: flex; flex-direction: column; gap: 4px; }
+    label { color: var(--gold); font-weight: bold; font-size: 1.05rem; }
+    input, select { 
+      padding: 10px 16px; border-radius: 14px; border: 2.5px solid var(--cyan); 
+      background: rgba(7, 13, 30, 0.95); color: #fff; font-size: 1.05rem; outline: none; 
+    }
+
+    /* DASHBOARD STATUS */
+    .dashboard-bar { 
+      display: flex; justify-content: space-between; align-items: center; 
+      background: linear-gradient(90deg, rgba(255,204,0,0.2) 0%, rgba(0,242,254,0.2) 100%); 
+      padding: 8px 16px; border-radius: 18px; border: 2px solid var(--gold); 
+    }
+    .stat-box { font-weight: 800; color: var(--gold); font-size: 1.1rem; display: flex; align-items: center; gap: 8px; }
+
+    .btn-game-nav {
+      background: rgba(255, 255, 255, 0.15); border: 2px solid var(--gold);
+      color: var(--gold); padding: 5px 10px; border-radius: 10px;
+      font-size: 0.85rem; font-weight: bold; cursor: pointer; transition: 0.2s;
+    }
+    .btn-game-nav:hover { background: var(--gold); color: #000; }
+    .btn-game-nav-danger { border-color: var(--red); color: var(--red); }
+    .btn-game-nav-danger:hover { background: var(--red); color: #fff; }
+
+    /* KAD SOALAN & GAMBAR TEMPATAN */
+    .quiz-card { 
+      background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%); 
+      padding: 16px; border-radius: 22px; text-align: center; border: 3px solid var(--cyan); 
+      display: flex; flex-direction: column; align-items: center; gap: 8px; position: relative;
+      max-height: 72vh; overflow-y: auto;
+    }
+
+    .quiz-image-container {
+      width: 100%; max-width: 200px; height: 135px; border-radius: 16px;
+      overflow: hidden; border: 3px solid var(--gold); box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      background: #ffffff; display: flex; justify-content: center; align-items: center; margin: 0 auto;
+    }
+    .quiz-image { 
+      width: 100%; height: 100%; object-fit: contain; padding: 4px; 
+      mix-blend-mode: multiply;
+    }
+
+    .hint-badge {
+      background: rgba(0, 242, 254, 0.2); border: 2px solid var(--cyan);
+      color: var(--cyan); padding: 10px 18px; border-radius: 14px;
+      font-size: 1.15rem; font-weight: bold; text-align: center; margin: 4px auto;
+    }
+
+    .question-prompt-text {
+      font-size: 2rem; color: var(--gold); font-weight: bold; text-shadow: 0 0 15px var(--gold-glow); margin: 2px 0;
+    }
+
+    /* ANIMASI SHAKE ERROR UNTUK JAWAPAN SALAH */
+    @keyframes shakeError {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-10px); }
+      40%, 80% { transform: translateX(10px); }
+    }
+    .shake-error {
+      animation: shakeError 0.4s ease-in-out !important;
+      border-color: var(--red) !important;
+      background: rgba(255, 51, 102, 0.4) !important;
+      color: #ffffff !important;
+    }
+
+    /* GRID PILIHAN JAWAPAN ARAB */
+    .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; margin: 0 auto; }
+    .option-btn { 
+      background: rgba(255,255,255,0.08); border: 3px solid var(--gold); color: var(--gold); 
+      padding: 12px; border-radius: 16px; font-size: 1.8rem; font-weight: 700; cursor: pointer; 
+      transition: all 0.2s ease; box-shadow: 0 4px 0 var(--gold-dark);
+      font-family: 'Amiri', serif; direction: rtl; text-align: center;
+    }
+    .option-btn:hover { background: rgba(255, 204, 0, 0.3); transform: translateY(-2px); }
+    .option-btn.correct { background: var(--green) !important; color: #003311 !important; border-color: #fff !important; box-shadow: 0 0 25px var(--green) !important; }
+
+    /* DRAG & DROP LAYOUT */
+    .drop-zone-container { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; margin: 8px auto; }
+    .drop-zone { 
+      width: 100%; max-width: 360px; min-height: 70px; border: 3px dashed var(--gold); 
+      border-radius: 18px; display: flex; align-items: center; justify-content: center; 
+      background: rgba(0,0,0,0.4); font-size: 2rem; color: var(--cyan); 
+      font-weight: bold; transition: all 0.2s ease; margin: 0 auto;
+      font-family: 'Amiri', serif; direction: rtl;
+    }
+    .drop-zone.drag-over { border-color: var(--green); background: rgba(0, 230, 118, 0.25); transform: scale(1.04); }
+    .drop-zone.correct { background: var(--green) !important; color: #003311 !important; border-color: #fff !important; }
+
+    .drag-items { display: flex; justify-content: center; align-items: center; gap: 12px; flex-wrap: wrap; width: 100%; margin: 10px auto 0 auto; }
+    .drag-item { 
+      background: var(--gold); color: #3d1e00; font-weight: 800; padding: 10px 24px; 
+      border-radius: 16px; cursor: grab; font-size: 1.6rem; box-shadow: 0 5px 0 var(--gold-dark);
+      transition: transform 0.15s ease; font-family: 'Amiri', serif; direction: rtl;
+    }
+    .drag-item:active { cursor: grabbing; transform: scale(1.1); }
+
+    /* PADANAN GARISAN OPTIMIZED & SCROLLABLE */
+    .matching-wrapper { position: relative; width: 100%; min-height: 340px; max-height: 480px; overflow-y: auto; margin-top: 5px; padding: 5px; }
+    #matching-canvas { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 10; }
+    
+    .matching-container { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; width: 100%; position: relative; z-index: 2; }
+    .matching-col { display: flex; flex-direction: column; gap: 12px; justify-content: center; }
+
+    .matching-card {
+      min-height: 75px; border: 3px solid var(--gold); border-radius: 16px;
+      background: rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: center;
+      cursor: pointer; transition: 0.2s; position: relative; padding: 6px; touch-action: none;
+    }
+    .matching-card.arabic-card { font-size: 2rem; color: var(--gold); font-family: 'Amiri', serif; direction: rtl; }
+    .matching-card.img-card { background: #ffffff; }
+    .matching-card.img-card img { max-height: 65px; object-fit: contain; mix-blend-mode: multiply; pointer-events: none; }
+    
+    .matching-card.selected { border-color: var(--cyan); box-shadow: 0 0 20px var(--cyan); transform: scale(1.02); }
+    .matching-card.matched { border-color: var(--green) !important; background: rgba(0, 230, 118, 0.25) !important; opacity: 0.85; pointer-events: none; }
+
+    /* MODAL OVERLAYS */
+    .modal-overlay {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(4, 8, 20, 0.92); backdrop-filter: blur(14px);
+      display: none; justify-content: center; align-items: center; z-index: 200; border-radius: 32px;
+    }
+    .modal-card {
+      background: var(--bg-card); border: 4px solid var(--gold); border-radius: 28px;
+      padding: 24px 28px; text-align: center; width: 90%; max-width: 420px;
+      box-shadow: 0 0 50px var(--gold-glow); animation: popModal 0.25s ease-out;
+    }
+    @keyframes popModal { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+    .table-container { max-height: 280px; overflow-y: auto; border: 2px solid var(--gold); border-radius: 16px; }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th, td { padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 1rem; }
+    th { background: var(--gold); color: #3d1e00; font-weight: 800; }
+
+    canvas#fireworks { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 150; }
+  </style>
+</head>
+<body>
+
+<div class="cartoon-world">
+  <div class="sun"></div>
+  <div class="cloud cloud1"></div>
+  <div class="hills"></div>
+</div>
+
+<video autoplay muted loop playsinline id="bg-video">
+  <source src="bg.mp4" type="video/mp4">
+  <source src="26796-359604154.mp4" type="video/mp4">
+  <source src="18522098-hd_1920_1080_30fps.mp4" type="video/mp4">
+</video>
+
+<div class="bg-particles">
+  <div class="particle" style="left: 10%; animation-delay: 0s;">أ</div>
+  <div class="particle" style="left: 30%; animation-delay: 3s;">ب</div>
+  <div class="particle" style="left: 60%; animation-delay: 1.5s;">ت</div>
+  <div class="particle" style="left: 85%; animation-delay: 4.5s;">ث</div>
+</div>
+
+<div id="game-container">
+  <div class="top-controls">
+    <button class="btn-audio" id="bgm-toggle-btn" onclick="toggleBGM()">🔊 BGM: ON</button>
+  </div>
+
+  <canvas id="fireworks"></canvas>  
+
+  <!-- MODAL DIALOG CONFIRMATION -->
+  <div id="confirm-modal" class="modal-overlay">
+    <div class="modal-card">
+      <h2 id="confirm-title" style="color: var(--gold); font-size: 1.8rem; margin-bottom: 12px;">Mula Semula?</h2>
+      <p id="confirm-desc" style="font-size: 1.15rem; color: #fff; margin-bottom: 20px;">Adakah anda pasti mahu mula semula sesi permainan ini?</p>
+      <div style="display: flex; justify-content: center; gap: 14px;">
+        <button class="btn" id="confirm-yes-btn">Ya, Teruskan</button>
+        <button class="btn btn-danger" onclick="closeConfirmModal()">Batal</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL NOTIFICATION -->
+  <div id="game-modal" class="modal-overlay">
+    <div class="modal-card">
+      <div id="modal-stars" style="font-size: 2.8rem; margin-bottom: 8px;">⭐ ⭐ ⭐</div>
+      <h2 id="modal-title" style="color: var(--gold); font-size: 1.8rem; margin-bottom: 8px;">Masa Tamat!</h2>
+      <p id="modal-desc" style="font-size: 1.15rem; color: var(--cyan); margin-bottom: 18px;">Markah XP Sesi Ini: 0</p>
+      <button class="btn" onclick="closeModalAndReturn()">🎮 Teruskan ke Menu</button>
+    </div>
+  </div>
+
+  <!-- SECRET ADMIN PIN MODAL -->
+  <div id="admin-pin-modal" class="modal-overlay">
+    <div class="modal-card">
+      <h2 style="color: var(--gold); font-size: 1.8rem; margin-bottom: 8px;">🔐 Akses Pentadbir</h2>
+      <p style="color: #fff; font-size: 1rem; margin-bottom: 12px;">Masukkan PIN Keselamatan Admin:</p>
+      <input type="password" id="admin-pin-input" placeholder="****" maxlength="8" style="text-align: center; font-size: 1.6rem; letter-spacing: 5px; width: 170px; margin: 0 auto 12px auto;">
+      <div id="pin-error-msg" style="color: var(--red); font-weight: bold; font-size: 0.95rem; height: 20px;"></div>
+      <div style="display: flex; justify-content: center; gap: 10px; margin-top: 8px;">
+        <button class="btn" onclick="verifyAdminPin()">Masuk Admin</button>
+        <button class="btn btn-danger" onclick="closeAdminPinModal()">Batal</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="header">
+    <img src="logo.png" alt="Az-Zaki Logo" class="game-logo" onclick="handleSecretAdminClick()">
+  </div>
+
+  <!-- SCREEN 1: LOGIN & 3D AVATAR SELECTION STUDIO -->
+  <div id="screen-login" class="screen active">
+    <h2 style="color: var(--gold); text-align: center; font-size: 1.35rem;">Pilih Avatar 3D Karakter Anda</h2>
+    
+    <div class="avatar-studio-container">
+      <div class="avatar-3d-viewport" id="avatar-3d-box">
+        <div class="loading-text" id="avatar-loading">Memuat turun Model 3D...</div>
+        <!-- THREE.JS 3D CANVAS RENDERING LIVE -->
+      </div>
+      <div>
+        <div class="avatar-grid-header">Pilihan 10 Avatar 3D (Lelaki & Perempuan):</div>
+        <div class="avatar-grid" id="avatar-selection-grid">
+          <!-- 10 CARDS GENERATED LIVE -->
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group" id="saved-profiles-section" style="display:none;">
+      <label>Profil Sedia Ada:</label>
+      <div class="profiles-grid" id="profiles-container"></div>
+    </div>
+
+    <div class="form-group">
+      <label for="username-input">Nama Pemain Baru:</label>
+      <input type="text" id="username-input" placeholder="Masukkan nama anda...">
+    </div>
+    
+    <button class="btn" onclick="loginUser()">🎮 Masuk Permainan</button>
+  </div>
+
+  <!-- SCREEN 2: MAIN MENU -->
+  <div id="screen-menu" class="screen">
+    <div class="dashboard-bar">
+      <div class="stat-box"><span id="display-avatar-3d-mini" style="width: 45px; height: 45px; display:inline-block; border-radius:12px; overflow:hidden; border:2px solid var(--gold);"></span> <span id="display-username">-</span></div>
+      <div class="stat-box">⭐ XP: <span id="display-total-score">0</span></div>
+    </div>
+    <button class="btn" onclick="showScreen('screen-setup')">🎮 Mula Cabaran Baharu</button>
+    <button class="btn btn-secondary" onclick="showLeaderboard()">🏆 Papan Pendahulu (Leaderboard)</button>
+    <button class="btn btn-danger" onclick="logout()">🚪 Tukar Profil / Log Keluar</button>
+  </div>
+
+  <!-- SCREEN 3: GAME SETUP -->
+  <div id="screen-setup" class="screen">
+    <h2 style="color: var(--gold); text-align: center;">Pilih Mod & Kategori</h2>
+    
+    <div class="form-group">
+      <label>1. Kategori Mufradat:</label>
+      <select id="select-category"></select>
+    </div>
+
+    <div class="form-group">
+      <label>2. Mod Permainan:</label>
+      <select id="select-mode">
+        <option value="mcq">Pilihan Ganda (MCQ Jawapan Arab)</option>
+        <option value="matching">Padanan Garisan (Perkataan Arab & Gambar)</option>
+        <option value="blank">Isi Tempat Kosong (Ayat Konteks & Arab)</option>
+        <option value="dragdrop">True Drag & Drop (Tarik Jawapan Arab)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>3. Pemasa Minda:</label>
+      <select id="select-timer">
+        <option value="30">30 Saat (Pantas)</option>
+        <option value="60">1 Minit (Biasa)</option>
+        <option value="0">Tiada Had Masa (Santai)</option>
+      </select>
+    </div>
+
+    <button class="btn" onclick="startQuiz()">🚀 Mula Permainan Sekarang!</button>
+    <button class="btn btn-secondary" onclick="showScreen('screen-menu')">Kembali</button>
+  </div>
+
+  <!-- SCREEN 4: GAMEPLAY -->
+  <div id="screen-gameplay" class="screen">
+    <div class="dashboard-bar">
+      <div class="stat-box">🎯 Markah: <span id="game-score">0</span></div>
+      <div class="stat-box">⏱️ Masa: <span id="game-timer">--</span></div>
+      <div style="display: flex; gap: 8px;">
+        <button class="btn-game-nav" onclick="triggerReplayConfirm()" title="Mula Semula">🔁 Replay</button>
+        <button class="btn-game-nav btn-game-nav-danger" onclick="triggerQuitConfirm()" title="Kembali ke Menu">⬅️ Keluar</button>
+      </div>
+    </div>
+
+    <div class="quiz-card">
+      <div id="quiz-instruction" style="font-weight: bold; color: var(--cyan); font-size: 1.15rem;">Pilih mufradat Bahasa Arab yang betul:</div>
+      
+      <div class="quiz-image-container" id="quiz-img-box">
+        <img id="quiz-image" src="" alt="Soalan" class="quiz-image">
+      </div>
+
+      <div id="quiz-hint-box" class="hint-badge" style="display:none;"></div>
+      <div class="question-prompt-text" id="quiz-prompt-text">Singa</div>
+      <div id="feedback-msg" style="height: 22px; font-weight: bold; font-size: 1.1rem;"></div>
+      
+      <div id="gameplay-area" style="width: 100%;"></div>
+    </div>
+  </div>
+
+  <!-- SCREEN 5: LEADERBOARD -->
+  <div id="screen-leaderboard" class="screen">
+    <h2 style="color: var(--gold); text-align: center;">🏆 Papan Pendahulu Az-Zaki</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr><th>Kedudukan</th><th>Pemain</th><th>Markah XP</th></tr>
+        </thead>
+        <tbody id="leaderboard-body"></tbody>
+      </table>
+    </div>
+    <button class="btn btn-secondary" onclick="showScreen('screen-menu')">Kembali ke Menu</button>
+  </div>
+</div>
+
+<script>
+  // A. DATA & SETTINGS INITIALIZATION
+  function getGameData() {
+    try {
+      const customData = localStorage.getItem('az_zaki_vocab_custom');
+      if (customData) {
+        const parsed = JSON.parse(customData);
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      }
+    } catch (e) { console.warn("Fallback vocab.js:", e); }
+    return (typeof AZ_ZAKI_DATA !== 'undefined') ? AZ_ZAKI_DATA : [
+      { id: "ANM001", category: "Haiwan", arabic: "أَسَدٌ", malay: "Singa", image: "images/ANM001.png" },
+      { id: "ANM002", category: "Haiwan", arabic: "فِيلٌ", malay: "Gajah", image: "images/ANM002.png" }
+    ];
+  }
+
+  function getGameSettings() {
+    const defaults = {
+      mcqOptions: "4", mcqDisplay: "img_text", matchCards: "3", matchColor: "#00e676",
+      blankFormat: "sentence_img", blankHint: "true", dragCount: "3", dragSens: "normal",
+      scoreCorrect: 10, defaultTimer: 60
+    };
+    try {
+      const saved = localStorage.getItem('az_zaki_settings');
+      return saved ? { ...defaults, ...JSON.parse(saved) } : defaults;
+    } catch (e) { return defaults; }
+  }
+
+  let DATA = getGameData();
+  let GAME_SETTINGS = getGameSettings();
+
+  // B. SENARAI 10 MODEL 3D READY PLAYER ME (PERCUMA DARI INTERNET)
+  const AVATAR_MODELS = [
+    { id: "male_1", name: "Zaki", gender: "Lelaki", icon: "👦", url: "https://models.readyplayer.me/64b7bd3571ddb02c98d66df2.glb" },
+    { id: "female_1", name: "Maryam", gender: "Perempuan", icon: "🧕", url: "https://models.readyplayer.me/64b7be5971ddb02c98d66ebb.glb" },
+    { id: "male_2", name: "Ahmad", gender: "Lelaki", icon: "🧑‍🎓", url: "https://models.readyplayer.me/64b7bd71f760824cf4dcb013.glb" },
+    { id: "female_2", name: "Aishah", gender: "Perempuan", icon: "👧", url: "https://models.readyplayer.me/64b7be8ef760824cf4dcb0ed.glb" },
+    { id: "male_3", name: "Bilal", gender: "Lelaki", icon: "👳‍♂️", url: "https://models.readyplayer.me/64b7bdbef760824cf4dcb04d.glb" },
+    { id: "female_3", name: "Fatimah", gender: "Perempuan", icon: "👩‍🎓", url: "https://models.readyplayer.me/64b7bec671ddb02c98d66f0d.glb" },
+    { id: "male_4", name: "Omar", gender: "Lelaki", icon: "🦸‍♂️", url: "https://models.readyplayer.me/64b7bdf071ddb02c98d66e74.glb" },
+    { id: "female_4", name: "Yasmin", gender: "Perempuan", icon: "🦸‍♀️", url: "https://models.readyplayer.me/64b7befdf760824cf4dcb13d.glb" },
+    { id: "male_5", name: "Yusuf", gender: "Lelaki", icon: "👨‍🏫", url: "https://models.readyplayer.me/64b7be22f760824cf4dcb097.glb" },
+    { id: "female_5", name: "Zahra", gender: "Perempuan", icon: "👩‍🏫", url: "https://models.readyplayer.me/64b7bf3371ddb02c98d66f54.glb" }
+  ];
+
+  let selectedAvatarId = "male_1";
+
+  // C. THREE.JS 3D AVATAR ENGINE (GLTF LOADER + AUTO-SCALE + AUTO-CENTER)
+  let scene, camera, renderer, gltfLoader, currentAvatarMesh, animationMixer;
+  let isOrbitDragging = false, previousMousePosition = { x: 0, y: 0 };
+  let clock = new THREE.Clock();
+
+  function init3DAvatarStudio() {
+    const container = document.getElementById('avatar-3d-box');
+    
+    // Simpan elemen loading text
+    const loadingText = document.getElementById('avatar-loading');
+
+    scene = new THREE.Scene();
+    camera = new THREE.PerspectiveCamera(40, 240 / 260, 0.1, 1000);
+    camera.position.set(0, 1.2, 3.5); // Kedudukan kamera lalai
+
+    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+    renderer.setSize(240, 260);
+    renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.outputEncoding = THREE.sRGBEncoding;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    
+    // Pastikan kanvas tidak memadam teks loading
+    renderer.domElement.style.position = 'absolute';
+    renderer.domElement.style.zIndex = '5';
+    container.appendChild(renderer.domElement);
+
+    gltfLoader = new THREE.GLTFLoader();
+
+    // Pencahayaan Premium
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
+    scene.add(ambientLight);
+    const keyLight = new THREE.DirectionalLight(0xffffff, 1.2);
+    keyLight.position.set(2, 5, 4);
+    scene.add(keyLight);
+    const rimLight = new THREE.DirectionalLight(0x00f2fe, 0.6);
+    rimLight.position.set(-3, 3, -4);
+    scene.add(rimLight);
+
+    setupOrbitInteraction(container);
+    renderAvatarSelectionGrid();
+    load3DAvatarModel(selectedAvatarId);
+
+    // Main Render Loop dengan Sokongan Animasi GLB
+    function animate() {
+      requestAnimationFrame(animate);
+      const delta = clock.getDelta();
+
+      if (animationMixer) {
+        animationMixer.update(delta);
+      } else if (currentAvatarMesh && !isOrbitDragging) {
+        // Fallback Idle Animation jika model tiada tulang (bones)
+        currentAvatarMesh.rotation.y += 0.005; 
+        currentAvatarMesh.position.y = Math.sin(Date.now() * 0.002) * 0.02;
+      }
+
+      renderer.render(scene, camera);
+    }
+    animate();
+  }
+
+  function load3DAvatarModel(avatarId) {
+    const avatarObj = AVATAR_MODELS.find(a => a.id === avatarId) || AVATAR_MODELS[0];
+    selectedAvatarId = avatarObj.id;
+
+    const loadingText = document.getElementById('avatar-loading');
+    loadingText.style.display = 'block';
+    loadingText.innerText = "Memuat turun Model 3D...";
+
+    if (currentAvatarMesh) {
+      scene.remove(currentAvatarMesh);
+      currentAvatarMesh = null;
+    }
+    if (animationMixer) {
+      animationMixer.stopAllAction();
+      animationMixer = null;
+    }
+
+    gltfLoader.load(
+      avatarObj.url,
+      (gltf) => {
+        const model = gltf.scene;
+        
+        // AUTO-CENTER & AUTO-SCALE ENGINE
+        const box = new THREE.Box3().setFromObject(model);
+        const center = box.getCenter(new THREE.Vector3());
+        const size = box.getSize(new THREE.Vector3());
+        const maxDim = Math.max(size.x, size.y, size.z);
+        
+        // Menyelaraskan skala supaya sentiasa muat (Fit) dalam kanvas
+        const scale = 2.4 / maxDim; 
+        model.scale.set(scale, scale, scale);
+        
+        // Letakkan model tepat di tengah
+        model.position.set(-center.x * scale, -center.y * scale, -center.z * scale);
+        
+        currentAvatarMesh = model;
+        scene.add(currentAvatarMesh);
+
+        // Mainkan Animasi jika ada (Idle)
+        if (gltf.animations && gltf.animations.length > 0) {
+          animationMixer = new THREE.AnimationMixer(currentAvatarMesh);
+          const action = animationMixer.clipAction(gltf.animations[0]);
+          action.play();
+        }
+
+        loadingText.style.display = 'none';
+        setTimeout(updateMiniDashboardAvatar, 500);
+      },
+      undefined,
+      (error) => {
+        console.error("Gagal muat turun model 3D:", error);
+        loadingText.innerText = "⚠️ Model Tiada/Gagal Dimuat";
+        
+        // Fallback Procedural Silhouette jika internet tiada
+        const geo = new THREE.CylinderGeometry(0.4, 0.6, 1.8, 32);
+        const mat = new THREE.MeshToonMaterial({ color: 0x555555, transparent: true, opacity: 0.8 });
+        currentAvatarMesh = new THREE.Mesh(geo, mat);
+        scene.add(currentAvatarMesh);
+      }
+    );
+  }
+
+  function renderAvatarSelectionGrid() {
+    const grid = document.getElementById('avatar-selection-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+
+    AVATAR_MODELS.forEach(item => {
+      const card = document.createElement('div');
+      card.className = `avatar-card-item ${selectedAvatarId === item.id ? 'selected' : ''}`;
+      const tagClass = item.gender === 'Lelaki' ? 'tag-male' : 'tag-female';
+
+      card.innerHTML = `
+        <span class="avatar-gender-tag ${tagClass}">${item.gender}</span>
+        <div style="font-size:2.2rem; margin-top:6px;">${item.icon}</div>
+        <div style="font-size:0.85rem; font-weight:bold; color:var(--gold);">${item.name}</div>
+      `;
+
+      card.onclick = () => {
+        playSound('click');
+        selectedAvatarId = item.id;
+        document.querySelectorAll('.avatar-card-item').forEach(c => c.classList.remove('selected'));
+        card.classList.add('selected');
+        load3DAvatarModel(selectedAvatarId);
+      };
+
+      grid.appendChild(card);
+    });
+  }
+
+  function setupOrbitInteraction(element) {
+    element.addEventListener('pointerdown', (e) => {
+      isOrbitDragging = true;
+      previousMousePosition = { x: e.clientX, y: e.clientY };
+    });
+    window.addEventListener('pointermove', (e) => {
+      if (!isOrbitDragging || !currentAvatarMesh) return;
+      const deltaX = e.clientX - previousMousePosition.x;
+      currentAvatarMesh.rotation.y += deltaX * 0.01;
+      previousMousePosition = { x: e.clientX, y: e.clientY };
+    });
+    window.addEventListener('pointerup', () => { isOrbitDragging = false; });
+  }
+
+  function updateMiniDashboardAvatar() {
+    const mini = document.getElementById('display-avatar-3d-mini');
+    if (!mini || !renderer) return;
+    const dataUrl = renderer.domElement.toDataURL();
+    mini.innerHTML = `<img src="${dataUrl}" style="width:100%; height:100%; object-fit:cover;">`;
+  }
+
+  // D. SISTEM AKSES RAHSIA ADMIN (5 KALI TEKAN LOGO)
+  let logoClickCount = 0;
+  let logoClickTimer = null;
+  const ADMIN_PIN = "2026";
+
+  function handleSecretAdminClick() {
+    logoClickCount++;
+    clearTimeout(logoClickTimer);
+    logoClickTimer = setTimeout(() => { logoClickCount = 0; }, 2000);
+
+    if (logoClickCount >= 5) {
+      logoClickCount = 0; playSound('click');
+      document.getElementById('admin-pin-input').value = '';
+      document.getElementById('pin-error-msg').innerText = '';
+      document.getElementById('admin-pin-modal').style.display = 'flex';
+    }
+  }
+
+  function verifyAdminPin() {
+    const inputPin = document.getElementById('admin-pin-input').value.trim();
+    if (inputPin === ADMIN_PIN) {
+      playSound('correct');
+      sessionStorage.setItem('az_zaki_admin_auth', 'true');
+      window.location.href = 'admin.html';
+    } else {
+      playSound('wrong');
+      document.getElementById('pin-error-msg').innerText = '❌ PIN Keselamatan Salah!';
+    }
+  }
+
+  function closeAdminPinModal() { document.getElementById('admin-pin-modal').style.display = 'none'; }
+
+  function isAsmaulHusna(item) {
+    if (!item || !item.category) return false;
+    const cat = item.category.toLowerCase();
+    return cat.includes('allah') || cat.includes('asma') || cat.includes('husna');
+  }
+
+  function getHintForSpecialCategory(item) {
+    if (!item) return null;
+    const cat = (item.category || '').toLowerCase();
+    const name = (item.malay || '').toLowerCase();
+
+    if (cat.includes('malaikat')) {
+      if (name.includes('jibril')) return '📖 Menyampaikan Wahyu';
+      if (name.includes('israfil')) return '🎺 Meniup Sangkakala';
+      if (name.includes('izrail')) return '⏳ Mencabut Nyawa';
+      return '✨ Tugasan Malaikat';
+    }
+    if (cat.includes('nabi') || cat.includes('rasul')) {
+      if (name.includes('muhammad')) return '📖 Mukjizat Al-Quran';
+      if (name.includes('musa')) return '🌊 Membelah Lautan & Tongkat';
+      if (name.includes('nuh')) return '🚢 Bahtera Besar';
+      return '📜 Mukjizat & Kisah Nabi';
+    }
+    return null;
+  }
+
+  function getImageUrl(item) {
+    if (!item) return 'images/default.png';
+    return item.image || `images/${item.id}.png`;
+  }
+
+  // E. AUDIO SYNTHESIZER (CERIA CHORD & ERROR BUZZ)
+  let audioCtx = null;
+  let bgmEnabled = true;
+  let bgmInterval = null;
+  let bgmMode = 'menu';
+
+  function getAudioContext() {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    return audioCtx;
+  }
+
+  const NOTES = { C4: 261.63, E4: 329.63, G4: 392.00, A4: 440.00, C5: 523.25, E5: 659.25, G5: 783.99 };
+  const menuSeq = [NOTES.C4, NOTES.E4, NOTES.G4, NOTES.A4, NOTES.C5, NOTES.A4, NOTES.G4, NOTES.E4];
+  const gameSeq = [NOTES.C5, NOTES.C5, NOTES.E5, NOTES.C5, NOTES.G5, NOTES.E5, NOTES.C5, NOTES.G4];
+  let seqIdx = 0;
+
+  function startBGM(mode = 'menu') {
+    bgmMode = mode;
+    if (!bgmEnabled) return;
+    if (bgmInterval) clearInterval(bgmInterval);
+
+    const ctx = getAudioContext();
+    const seq = (bgmMode === 'game') ? gameSeq : menuSeq;
+    const tempo = (bgmMode === 'game') ? 220 : 340;
+
+    bgmInterval = setInterval(() => {
+      if (!bgmEnabled) return;
+      if (ctx.state === 'suspended') ctx.resume();
+      
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = (bgmMode === 'game') ? 'triangle' : 'sine';
+      osc.frequency.setValueAtTime(seq[seqIdx], ctx.currentTime);
+      gain.gain.setValueAtTime(0.04, ctx.currentTime); 
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + (tempo / 1000) - 0.04);
+      
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.start(); osc.stop(ctx.currentTime + (tempo / 1000) - 0.04);
+
+      seqIdx = (seqIdx + 1) % seq.length;
+    }, tempo);
+  }
+
+  function toggleBGM() {
+    bgmEnabled = !bgmEnabled;
+    const btn = document.getElementById('bgm-toggle-btn');
+    if (bgmEnabled) { btn.innerText = '🔊 BGM: ON'; startBGM(bgmMode); } 
+    else { btn.innerText = '🔇 BGM: OFF'; if (bgmInterval) clearInterval(bgmInterval); }
+  }
+
+  function playSound(type) {
+    const ctx = getAudioContext();
+
+    if (type === 'click') {
+      const osc = ctx.createOscillator(); const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sine'; osc.frequency.setValueAtTime(800, ctx.currentTime);
+      gain.gain.setValueAtTime(0.15, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.08);
+      osc.start(); osc.stop(ctx.currentTime + 0.08);
+    } else if (type === 'correct') {
+      const chord = [523.25, 659.25, 783.99, 1046.50];
+      chord.forEach((freq, idx) => {
+        const osc = ctx.createOscillator(); const gain = ctx.createGain();
+        osc.connect(gain); gain.connect(ctx.destination);
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(freq, ctx.currentTime + (idx * 0.08));
+        gain.gain.setValueAtTime(0.2, ctx.currentTime + (idx * 0.08));
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + (idx * 0.08) + 0.3);
+        osc.start(ctx.currentTime + (idx * 0.08));
+        osc.stop(ctx.currentTime + (idx * 0.08) + 0.3);
+      });
+    } else if (type === 'wrong') {
+      const osc = ctx.createOscillator(); const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(180, ctx.currentTime);
+      osc.frequency.setValueAtTime(110, ctx.currentTime + 0.12);
+      gain.gain.setValueAtTime(0.3, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.4);
+      osc.start(); osc.stop(ctx.currentTime + 0.4);
+    }
+  }
+
+  document.addEventListener('click', () => { getAudioContext(); if (bgmEnabled && !bgmInterval) startBGM(bgmMode); });
+
+  // F. STATE MANAGEMENT & PROFILES
+  let currentUser = null;
+  let currentQuestions = [];
+  let currentQIndex = 0;
+  let score = 0;
+  let timerInterval = null;
+  let timeLeft = 0;
+  let currentMode = 'mcq';
+
+  window.onload = () => { 
+    DATA = getGameData();
+    GAME_SETTINGS = getGameSettings();
+    init3DAvatarStudio();
+    populateCategories(); renderSavedProfiles(); checkSession(); initCanvas(); 
+  };
+
+  function showScreen(id) {
+    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    if (id !== 'screen-gameplay') startBGM('menu');
+  }
+
+  function populateCategories() {
+    const categories = [...new Set(DATA.map(item => item.category))];
+    const select = document.getElementById('select-category');
+    select.innerHTML = `<option value="RAWAK">🎲 RAWAK (Semua Tajuk)</option>` + 
+      categories.map(c => `<option value="${c}">${c}</option>`).join('');
+  }
+
+  function renderSavedProfiles() {
+    let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
+    const container = document.getElementById('profiles-container');
+    const section = document.getElementById('saved-profiles-section');
+    const userNames = Object.keys(users);
+
+    if (userNames.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = 'block';
+    container.innerHTML = userNames.map(name => `
+      <div class="profile-card ${currentUser === name ? 'active-profile' : ''}" onclick="selectSavedProfile('${name}')">
+        <div style="font-weight: bold; color: var(--gold);">${name}</div>
+        <div style="font-size: 0.85rem; color: var(--cyan);">${users[name].score || 0} XP</div>
+      </div>
+    `).join('');
+  }
+
+  function selectSavedProfile(name) {
+    playSound('click');
+    let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
+    currentUser = name;
+    if (users[name].avatar3DId) {
+      selectedAvatarId = users[name].avatar3DId;
+      load3DAvatarModel(selectedAvatarId);
+      renderAvatarSelectionGrid();
+    }
+    localStorage.setItem('az_zaki_user', currentUser);
+    updateDashboard(); showScreen('screen-menu');
+  }
+
+  function loginUser() {
+    playSound('click');
+    const input = document.getElementById('username-input').value.trim();
+    if (!input) return alert('Sila masukkan nama anda!');
+    currentUser = input;
+    localStorage.setItem('az_zaki_user', currentUser);
+    
+    let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
+    users[currentUser] = { score: users[currentUser]?.score || 0, avatar3DId: selectedAvatarId };
+    localStorage.setItem('az_zaki_users', JSON.stringify(users));
+    updateDashboard(); renderSavedProfiles(); showScreen('screen-menu');
+  }
+
+  function checkSession() {
+    const saved = localStorage.getItem('az_zaki_user');
+    if (saved) {
+      currentUser = saved;
+      let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
+      if (users[currentUser]?.avatar3DId) {
+        selectedAvatarId = users[currentUser].avatar3DId;
+        load3DAvatarModel(selectedAvatarId);
+        renderAvatarSelectionGrid();
+      }
+      updateDashboard(); showScreen('screen-menu');
+    }
+  }
+
+  function logout() {
+    playSound('click'); localStorage.removeItem('az_zaki_user');
+    currentUser = null; renderSavedProfiles(); showScreen('screen-login');
+  }
+
+  function updateDashboard() {
+    document.getElementById('display-username').innerText = currentUser;
+    let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
+    document.getElementById('display-total-score').innerText = users[currentUser]?.score || 0;
+  }
+
+  function showConfirmModal(title, desc, onYes) {
+    playSound('click');
+    document.getElementById('confirm-title').innerText = title;
+    document.getElementById('confirm-desc').innerText = desc;
+    const yesBtn = document.getElementById('confirm-yes-btn');
+    
+    yesBtn.onclick = () => { playSound('click'); closeConfirmModal(); onYes(); };
+    document.getElementById('confirm-modal').style.display = 'flex';
+  }
+
+  function closeConfirmModal() { document.getElementById('confirm-modal').style.display = 'none'; }
+
+  function triggerReplayConfirm() {
+    showConfirmModal("Mula Semula?", "Adakah anda mahu mula semula sesi permainan ini?", () => { startQuiz(); });
+  }
+
+  function triggerQuitConfirm() {
+    showConfirmModal("Keluar Permainan?", "Adakah anda mahu keluar ke Menu Utama?", () => {
+      clearInterval(timerInterval); showScreen('screen-menu');
+    });
+  }
+
+  // G. GAMEPLAY ENGINE
+  function startQuiz() {
+    playSound('click'); startBGM('game');
+    DATA = getGameData();
+    GAME_SETTINGS = getGameSettings();
+
+    const cat = document.getElementById('select-category').value;
+    currentMode = document.getElementById('select-mode').value;
+    timeLeft = parseInt(document.getElementById('select-timer').value);
+
+    currentQuestions = (cat === 'RAWAK') ? [...DATA] : DATA.filter(item => item.category === cat);
+    if (currentQuestions.length === 0) currentQuestions = [...DATA];
+    currentQuestions.sort(() => Math.random() - 0.5);
+
+    currentQIndex = 0; score = 0;
+    document.getElementById('game-score').innerText = score;
+
+    if (timeLeft > 0) {
+      document.getElementById('game-timer').innerText = timeLeft + 's';
+      clearInterval(timerInterval);
+      timerInterval = setInterval(() => {
+        timeLeft--;
+        document.getElementById('game-timer').innerText = timeLeft + 's';
+        if (timeLeft <= 0) { clearInterval(timerInterval); finishQuiz(); }
+      }, 1000);
+    } else {
+      document.getElementById('game-timer').innerText = '∞';
+    }
+
+    showScreen('screen-gameplay');
+    loadQuestion();
+  }
+
+  function setupQuestionImageAndHint(current) {
+    const imgBox = document.getElementById('quiz-img-box');
+    const quizImg = document.getElementById('quiz-image');
+    const hintBox = document.getElementById('quiz-hint-box');
+
+    if (isAsmaulHusna(current)) {
+      imgBox.style.display = 'none'; hintBox.style.display = 'none'; return;
+    }
+
+    const hint = getHintForSpecialCategory(current);
+    if (hint) {
+      imgBox.style.display = 'none'; hintBox.style.display = 'block'; hintBox.innerText = hint; return;
+    }
+
+    hintBox.style.display = 'none'; imgBox.style.display = 'flex';
+    quizImg.src = getImageUrl(current);
+    quizImg.onerror = function() { this.onerror = null; this.src = `images/${current.id}.jpg`; };
+  }
+
+  function loadQuestion() {
+    if (currentQIndex >= currentQuestions.length) { finishQuiz(); return; }
+
+    const current = currentQuestions[currentQIndex];
+    const cat = document.getElementById('select-category').value;
+    let poolSource = (cat === 'RAWAK') ? DATA : DATA.filter(v => v.category === current.category);
+
+    document.getElementById('feedback-msg').innerText = '';
+    const area = document.getElementById('gameplay-area');
+    area.innerHTML = '';
+
+    setupQuestionImageAndHint(current);
+    document.getElementById('quiz-prompt-text').innerText = `${current.malay}`;
+
+    // 1. MOD MCQ
+    if (currentMode === 'mcq') {
+      document.getElementById('quiz-instruction').innerText = 'Pilih mufradat Bahasa Arab yang betul:';
+
+      const optCount = parseInt(GAME_SETTINGS.mcqOptions) || 4;
+      let options = [current.arabic];
+      let pool = poolSource.map(v => v.arabic).filter(a => a !== current.arabic);
+      while (options.length < optCount && pool.length > 0) options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+      options.sort(() => Math.random() - 0.5);
+
+      const grid = document.createElement('div');
+      grid.className = 'options-grid';
+      options.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn'; btn.innerText = opt;
+        btn.onclick = () => checkMcqAnswer(btn, opt, current.arabic);
+        grid.appendChild(btn);
+      });
+      area.appendChild(grid);
+
+    // 2. MOD ISI TEMPAT KOSONG
+    } else if (currentMode === 'blank') {
+      document.getElementById('quiz-instruction').innerText = 'Isi perkataan Arab yang betul:';
+      document.getElementById('quiz-prompt-text').innerText = `هَذَا ____ فِي الْمَكَانِ.`;
+
+      let options = [current.arabic];
+      let pool = poolSource.map(v => v.arabic).filter(a => a !== current.arabic);
+      while (options.length < 4 && pool.length > 0) options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+      options.sort(() => Math.random() - 0.5);
+
+      const grid = document.createElement('div');
+      grid.className = 'options-grid';
+      options.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn'; btn.innerText = opt;
+        btn.onclick = () => checkMcqAnswer(btn, opt, current.arabic);
+        grid.appendChild(btn);
+      });
+      area.appendChild(grid);
+
+    // 3. MOD TRUE DRAG & DROP
+    } else if (currentMode === 'dragdrop') {
+      document.getElementById('quiz-instruction').innerText = 'Tarik perkataan Arab & lepaskan ke petak jawapan:';
+
+      const dropZoneContainer = document.createElement('div');
+      dropZoneContainer.className = 'drop-zone-container';
+
+      const zone = document.createElement('div');
+      zone.className = 'drop-zone'; zone.innerText = ' [ Tarik Jawapan Arab ] ';
+
+      const dragCount = parseInt(GAME_SETTINGS.dragCount) || 3;
+      let options = [current.arabic];
+      let pool = poolSource.map(v => v.arabic).filter(a => a !== current.arabic);
+      while (options.length < dragCount && pool.length > 0) options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+      options.sort(() => Math.random() - 0.5);
+
+      const dragContainer = document.createElement('div');
+      dragContainer.className = 'drag-items';
+
+      options.forEach(opt => {
+        const item = document.createElement('div');
+        item.className = 'drag-item'; item.innerText = opt; item.draggable = true;
+        item.ondragstart = (e) => { e.dataTransfer.setData('text/plain', opt); playSound('click'); };
+        dragContainer.appendChild(item);
+      });
+
+      zone.ondragover = (e) => { e.preventDefault(); zone.classList.add('drag-over'); };
+      zone.ondragleave = () => zone.classList.remove('drag-over');
+      zone.ondrop = (e) => {
+        e.preventDefault(); zone.classList.remove('drag-over');
+        const droppedText = e.dataTransfer.getData('text/plain');
+        zone.innerText = droppedText;
+
+        if (droppedText === current.arabic) {
+          zone.classList.add('correct');
+          playSound('correct'); triggerFireworks();
+          score += parseInt(GAME_SETTINGS.scoreCorrect) || 10; 
+          document.getElementById('game-score').innerText = score;
+          setTimeout(() => { currentQIndex++; loadQuestion(); }, 1200);
+        } else {
+          zone.classList.add('shake-error');
+          playSound('wrong');
+          setTimeout(() => {
+            zone.classList.remove('shake-error');
+            zone.innerText = ' [ Tarik Jawapan Arab ] ';
+          }, 700);
+        }
+      };
+
+      dropZoneContainer.appendChild(zone);
+      area.appendChild(dropZoneContainer);
+      area.appendChild(dragContainer);
+
+    // 4. MOD PADANAN GARISAN TARIK INTERAKTIF (TRUE DRAG-TO-CONNECT)
+    } else if (currentMode === 'matching') {
+      document.getElementById('quiz-img-box').style.display = 'none';
+      document.getElementById('quiz-hint-box').style.display = 'none';
+      document.getElementById('quiz-instruction').innerText = 'Tarik garisan dari Perkataan Arab ke Gambar yang betul:';
+      document.getElementById('quiz-prompt-text').innerText = '🧩 Padanan Garisan';
+
+      const cardLimit = parseInt(GAME_SETTINGS.matchCards) || 3;
+      let items = currentQuestions.slice(currentQIndex, currentQIndex + cardLimit);
+      if (items.length < cardLimit) items = currentQuestions.slice(0, cardLimit);
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'matching-wrapper';
+
+      const canvas = document.createElement('canvas');
+      canvas.id = 'matching-canvas';
+      wrapper.appendChild(canvas);
+
+      const container = document.createElement('div');
+      container.className = 'matching-container';
+
+      const colArab = document.createElement('div'); colArab.className = 'matching-col';
+      const colImg = document.createElement('div'); colImg.className = 'matching-col';
+
+      let arabList = [...items].sort(() => Math.random() - 0.5);
+      let imgList = [...items].sort(() => Math.random() - 0.5);
+
+      let matchedCount = 0;
+      let isDragging = false;
+      let startCard = null;
+      let startPos = { x: 0, y: 0 };
+      let permanentLines = [];
+
+      arabList.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'matching-card arabic-card';
+        card.innerText = item.arabic;
+        card.dataset.id = item.id;
+
+        card.onpointerdown = (e) => {
+          if (card.classList.contains('matched')) return;
+          playSound('click');
+          isDragging = true;
+          startCard = { card, item };
+
+          const rect = card.getBoundingClientRect();
+          const pRect = wrapper.getBoundingClientRect();
+          startPos = {
+            x: rect.right - pRect.left,
+            y: rect.top + rect.height / 2 - pRect.top
+          };
+          card.classList.add('selected');
+        };
+
+        colArab.appendChild(card);
+      });
+
+      imgList.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'matching-card img-card';
+        card.dataset.id = item.id;
+        card.innerHTML = `<img src="${getImageUrl(item)}" alt="Vocab" onerror="this.onerror=null; this.src='images/${item.id}.jpg';">`;
+        colImg.appendChild(card);
+      });
+
+      wrapper.onpointermove = (e) => {
+        if (!isDragging || !startCard) return;
+        const pRect = wrapper.getBoundingClientRect();
+        const currentX = e.clientX - pRect.left;
+        const currentY = e.clientY - pRect.top;
+
+        redrawCanvas(canvas, permanentLines, startPos, { x: currentX, y: currentY });
+      };
+
+      wrapper.onpointerup = (e) => {
+        if (!isDragging || !startCard) return;
+        isDragging = false;
+
+        const dropTarget = document.elementFromPoint(e.clientX, e.clientY);
+        const targetImgCard = dropTarget ? dropTarget.closest('.matching-card.img-card') : null;
+
+        if (targetImgCard && !targetImgCard.classList.contains('matched')) {
+          if (startCard.item.id === targetImgCard.dataset.id) {
+            playSound('correct'); triggerFireworks();
+            score += parseInt(GAME_SETTINGS.scoreCorrect) || 10;
+            document.getElementById('game-score').innerText = score;
+
+            startCard.card.classList.add('matched');
+            targetImgCard.classList.add('matched');
+
+            const endRect = targetImgCard.getBoundingClientRect();
+            const pRect = wrapper.getBoundingClientRect();
+            const endPos = {
+              x: endRect.left - pRect.left,
+              y: endRect.top + endRect.height / 2 - pRect.top
+            };
+
+            permanentLines.push({ start: startPos, end: endPos });
+            matchedCount++;
+
+            if (matchedCount >= items.length) {
+              currentQIndex += cardLimit;
+              setTimeout(loadQuestion, 1200);
+            }
+          } else {
+            playSound('wrong');
+            startCard.card.classList.add('shake-error');
+            targetImgCard.classList.add('shake-error');
+
+            setTimeout(() => {
+              startCard.card.classList.remove('shake-error');
+              targetImgCard.classList.remove('shake-error');
+            }, 700);
+          }
+        }
+
+        colArab.querySelectorAll('.matching-card').forEach(c => c.classList.remove('selected'));
+        startCard = null;
+        redrawCanvas(canvas, permanentLines, null, null);
+      };
+
+      container.appendChild(colArab); container.appendChild(colImg);
+      wrapper.appendChild(container);
+      area.appendChild(wrapper);
+
+      setTimeout(() => {
+        canvas.width = wrapper.offsetWidth || 800;
+        canvas.height = wrapper.offsetHeight || 380;
+      }, 100);
+    }
+  }
+
+  function redrawCanvas(canvas, permanentLines, currentStart, currentEnd) {
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const lineColor = GAME_SETTINGS.matchColor || '#00e676';
+
+    permanentLines.forEach(line => {
+      ctx.beginPath();
+      ctx.moveTo(line.start.x, line.start.y);
+      ctx.lineTo(line.end.x, line.end.y);
+      ctx.strokeStyle = lineColor;
+      ctx.lineWidth = 5;
+      ctx.shadowColor = lineColor;
+      ctx.shadowBlur = 12;
+      ctx.stroke();
+    });
+
+    if (currentStart && currentEnd) {
+      ctx.beginPath();
+      ctx.moveTo(currentStart.x, currentStart.y);
+      ctx.lineTo(currentEnd.x, currentEnd.y);
+      ctx.strokeStyle = '#00f2fe';
+      ctx.lineWidth = 4;
+      ctx.setLineDash([8, 8]);
+      ctx.stroke();
+      ctx.setLineDash([]);
+    }
+  }
+
+  function checkMcqAnswer(btn, selected, correct) {
+    const buttons = document.querySelectorAll('.option-btn');
+    buttons.forEach(b => b.disabled = true);
+
+    if (selected === correct) {
+      btn.classList.add('correct');
+      playSound('correct'); triggerFireworks();
+      score += parseInt(GAME_SETTINGS.scoreCorrect) || 10;
+      document.getElementById('game-score').innerText = score;
+      document.getElementById('feedback-msg').style.color = 'var(--green)';
+      document.getElementById('feedback-msg').innerText = 'Tahniah! Jawapan Betul 🎉';
+      setTimeout(() => { currentQIndex++; loadQuestion(); }, 1600);
+    } else {
+      btn.classList.add('shake-error');
+      playSound('wrong');
+      document.getElementById('feedback-msg').style.color = 'var(--red)';
+      document.getElementById('feedback-msg').innerText = `Jawapan Tepat: ${correct}`;
+
+      setTimeout(() => {
+        btn.classList.remove('shake-error');
+        buttons.forEach(b => b.disabled = false);
+      }, 700);
+    }
+  }
+
+  function finishQuiz() {
+    clearInterval(timerInterval); startBGM('menu');
+    let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
+    if (!users[currentUser]) users[currentUser] = { score: 0, avatar3DId: selectedAvatarId };
+    users[currentUser].score += score;
+    localStorage.setItem('az_zaki_users', JSON.stringify(users));
+
+    updateDashboard();
+    document.getElementById('modal-desc').innerText = `Markah XP Sesi Ini: +${score}`;
+    document.getElementById('modal-stars').innerText = score >= 30 ? '⭐ ⭐ ⭐' : score >= 10 ? '⭐ ⭐' : '⭐';
+    document.getElementById('game-modal').style.display = 'flex';
+  }
+
+  function closeModalAndReturn() {
+    playSound('click'); document.getElementById('game-modal').style.display = 'none';
+    showScreen('screen-menu');
+  }
+
+  function showLeaderboard() {
+    playSound('click');
+    let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
+    let sorted = Object.keys(users)
+      .map(u => ({ name: u, score: users[u].score }))
+      .sort((a, b) => b.score - a.score);
+
+    const tbody = document.getElementById('leaderboard-body');
+    tbody.innerHTML = sorted.map((u, i) => `
+      <tr>
+        <td>${i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : i + 1}</td>
+        <td>${u.name}</td>
+        <td>${u.score} XP</td>
+      </tr>
+    `).join('');
+    showScreen('screen-leaderboard');
+  }
+
+  // FIREWORKS CANVAS
+  let canvas, ctx, particles = [];
+  function initCanvas() {
+    canvas = document.getElementById('fireworks'); ctx = canvas.getContext('2d');
+    canvas.width = canvas.offsetWidth; canvas.height = canvas.offsetHeight;
+  }
+
+  function triggerFireworks() {
+    particles = [];
+    for (let i = 0; i < 40; i++) {
+      particles.push({
+        x: canvas.width / 2, y: canvas.height / 2,
+        dx: (Math.random() - 0.5) * 10, dy: (Math.random() - 0.5) * 10,
+        color: `hsl(${Math.random() * 360}, 100%, 50%)`, life: 30
+      });
+    }
+    animateFireworks();
+  }
+
+  function animateFireworks() {
+    if (particles.length === 0) { ctx.clearRect(0, 0, canvas.width, canvas.height); return; }
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    particles.forEach((p, index) => {
+      ctx.beginPath(); ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+      ctx.fillStyle = p.color; ctx.fill();
+      p.x += p.dx; p.y += p.dy; p.life--;
+      if (p.life <= 0) particles.splice(index, 1);
+    });
+    requestAnimationFrame(animateFireworks);
+  }
+</script>
+</body>
+</html>
