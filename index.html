@@ -4,10 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Az-Zaki! Belajar Arab, Sambil Bermain!</title>
-  <!-- Panggil pangkalan data mufradat & Enjin 3D Three.js + GLTFLoader -->
+  <!-- Panggil pangkalan data mufradat daripada vocab.js -->
   <script src="vocab.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@500;700;800&family=Amiri:wght@700&display=swap');
 
@@ -121,13 +119,13 @@
     @keyframes fadeIn { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
 
     /* SCROLLBAR OPTIMIZED */
-    .screen::-webkit-scrollbar, .matching-wrapper::-webkit-scrollbar, .quiz-card::-webkit-scrollbar, .avatar-grid::-webkit-scrollbar {
+    .screen::-webkit-scrollbar, .matching-wrapper::-webkit-scrollbar, .quiz-card::-webkit-scrollbar, .avatar-2d-grid::-webkit-scrollbar, .profiles-grid::-webkit-scrollbar {
       width: 6px; height: 6px;
     }
-    .screen::-webkit-scrollbar-thumb, .matching-wrapper::-webkit-scrollbar-thumb, .quiz-card::-webkit-scrollbar-thumb, .avatar-grid::-webkit-scrollbar-thumb {
+    .screen::-webkit-scrollbar-thumb, .matching-wrapper::-webkit-scrollbar-thumb, .quiz-card::-webkit-scrollbar-thumb, .avatar-2d-grid::-webkit-scrollbar-thumb, .profiles-grid::-webkit-scrollbar-thumb {
       background: var(--gold); border-radius: 10px;
     }
-    .screen::-webkit-scrollbar-track, .matching-wrapper::-webkit-scrollbar-track, .quiz-card::-webkit-scrollbar-track, .avatar-grid::-webkit-scrollbar-track {
+    .screen::-webkit-scrollbar-track, .matching-wrapper::-webkit-scrollbar-track, .quiz-card::-webkit-scrollbar-track, .avatar-2d-grid::-webkit-scrollbar-track, .profiles-grid::-webkit-scrollbar-track {
       background: rgba(0,0,0,0.2);
     }
 
@@ -144,58 +142,57 @@
     .btn-secondary { background: linear-gradient(180deg, #00f2fe 0%, #0099ff 100%); color: #002b4d; box-shadow: 0 6px 0 #0066cc; }
     .btn-danger { background: linear-gradient(180deg, #ff416c 0%, #ff4b2b 100%); color: #fff; box-shadow: 0 6px 0 #b30024; }
 
-    /* AVATAR 3D SELECTOR STUDIO UI */
+    /* AVATAR STUDIO SELECTION UI */
     .avatar-studio-container {
-      display: grid; grid-template-columns: 240px 1fr; gap: 16px;
+      display: grid; grid-template-columns: 200px 1fr; gap: 16px;
       background: rgba(0, 0, 0, 0.45); border: 2.5px solid var(--cyan);
-      border-radius: 24px; padding: 14px; align-items: start;
+      border-radius: 24px; padding: 14px; align-items: center;
     }
-    .avatar-3d-viewport {
-      width: 240px; height: 260px; background: radial-gradient(circle, #1a2b56 0%, #070d1e 100%);
-      border: 3px solid var(--gold); border-radius: 20px; overflow: hidden;
-      box-shadow: 0 0 25px var(--gold-glow); position: relative; cursor: grab;
-      display: flex; align-items: center; justify-content: center;
+    .avatar-2d-preview-box {
+      width: 200px; height: 200px; background: radial-gradient(circle, #1a2b56 0%, #070d1e 100%);
+      border: 3px solid var(--gold); border-radius: 24px; overflow: hidden;
+      box-shadow: 0 0 25px var(--gold-glow); display: flex; align-items: center; justify-content: center;
     }
-    .avatar-3d-viewport:active { cursor: grabbing; }
-    .avatar-3d-viewport canvas { width: 100% !important; height: 100% !important; position: absolute; top:0; left:0; z-index: 5; }
+    .avatar-2d-preview-box img {
+      width: 100%; height: 100%; object-fit: cover; object-position: top center; transition: transform 0.3s ease; background: #fff;
+    }
+    .avatar-2d-preview-box img:hover { transform: scale(1.05); }
 
-    .loading-text {
-      color: var(--cyan); font-weight: bold; font-size: 1rem; z-index: 2; position: absolute;
-      text-align: center; display: none; animation: pulse 1s infinite alternate;
-    }
-    @keyframes pulse { from { opacity: 0.5; } to { opacity: 1; } }
-
-    .avatar-grid-header {
-      color: var(--gold); font-size: 1.1rem; font-weight: bold; margin-bottom: 8px; text-align: left;
-    }
-    .avatar-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); gap: 10px;
-      max-height: 220px; overflow-y: auto; padding-right: 4px;
+    .avatar-2d-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(85px, 1fr)); gap: 10px;
+      max-height: 210px; overflow-y: auto; padding-right: 4px;
     }
     .avatar-card-item {
       background: rgba(255,255,255,0.08); border: 2px solid rgba(0,242,254,0.4); border-radius: 16px;
-      padding: 10px 6px; text-align: center; cursor: pointer; transition: 0.2s; display: flex;
-      flex-direction: column; align-items: center; justify-content: center; gap: 4px; position: relative;
+      padding: 6px; text-align: center; cursor: pointer; transition: 0.2s; display: flex;
+      flex-direction: column; align-items: center; justify-content: center; position: relative;
+    }
+    .avatar-card-item img {
+      width: 70px; height: 70px; border-radius: 12px; object-fit: cover; object-position: top center; border: 1.5px solid var(--cyan); background: #fff;
     }
     .avatar-card-item:hover, .avatar-card-item.selected {
       border-color: var(--gold); background: rgba(255, 204, 0, 0.25); transform: translateY(-3px);
       box-shadow: 0 0 15px var(--gold-glow);
     }
-    .avatar-gender-tag {
-      font-size: 0.7rem; font-weight: bold; padding: 2px 6px; border-radius: 8px;
-      position: absolute; top: 4px; right: 4px;
-    }
-    .tag-male { background: rgba(0, 242, 254, 0.3); color: var(--cyan); }
-    .tag-female { background: rgba(255, 51, 102, 0.3); color: var(--red); }
 
+    /* PROFIL & DELETE BUTTON */
     .profiles-grid { display: flex; gap: 10px; overflow-x: auto; padding: 6px 2px; }
     .profile-card {
       background: rgba(255,255,255,0.08); border: 2px solid var(--cyan); border-radius: 16px;
       padding: 8px 14px; min-width: 120px; text-align: center; cursor: pointer; transition: 0.2s;
+      display: flex; align-items: center; gap: 8px; position: relative;
     }
+    .profile-card img { width: 35px; height: 35px; border-radius: 10px; object-fit: cover; object-position: top center; border: 1px solid var(--gold); background: #fff; }
     .profile-card:hover, .profile-card.active-profile {
       border-color: var(--gold); background: rgba(255, 204, 0, 0.25); transform: translateY(-3px);
     }
+    .delete-profile-btn {
+      position: absolute; top: -6px; right: -6px; background: var(--red); color: white;
+      border: none; border-radius: 50%; width: 22px; height: 22px; font-size: 0.75rem;
+      font-weight: bold; cursor: pointer; display: flex; justify-content: center; align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5); z-index: 5;
+    }
+    .delete-profile-btn:hover { background: #cc0033; transform: scale(1.1); }
 
     .form-group { display: flex; flex-direction: column; gap: 4px; }
     label { color: var(--gold); font-weight: bold; font-size: 1.05rem; }
@@ -221,7 +218,7 @@
     .btn-game-nav-danger { border-color: var(--red); color: var(--red); }
     .btn-game-nav-danger:hover { background: var(--red); color: #fff; }
 
-    /* KAD SOALAN & GAMBAR TEMPATAN */
+    /* KAD SOALAN & GAMBAR TEMPATAN - DIBETULKAN ISU GELAP */
     .quiz-card { 
       background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%); 
       padding: 16px; border-radius: 22px; text-align: center; border: 3px solid var(--cyan); 
@@ -236,7 +233,7 @@
     }
     .quiz-image { 
       width: 100%; height: 100%; object-fit: contain; padding: 4px; 
-      mix-blend-mode: multiply;
+      /* mix-blend-mode dibuang supaya tak jadi gelap */
     }
 
     .hint-badge {
@@ -307,7 +304,7 @@
     }
     .matching-card.arabic-card { font-size: 2rem; color: var(--gold); font-family: 'Amiri', serif; direction: rtl; }
     .matching-card.img-card { background: #ffffff; }
-    .matching-card.img-card img { max-height: 65px; object-fit: contain; mix-blend-mode: multiply; pointer-events: none; }
+    .matching-card.img-card img { max-height: 65px; object-fit: contain; pointer-events: none; } /* mix-blend-mode dibuang */
     
     .matching-card.selected { border-color: var(--cyan); box-shadow: 0 0 20px var(--cyan); transform: scale(1.02); }
     .matching-card.matched { border-color: var(--green) !important; background: rgba(0, 230, 118, 0.25) !important; opacity: 0.85; pointer-events: none; }
@@ -361,7 +358,7 @@
 
   <canvas id="fireworks"></canvas>  
 
-  <!-- MODAL DIALOG CONFIRMATION -->
+  <!-- MODAL DIALOG CONFIRMATION IN-GAME -->
   <div id="confirm-modal" class="modal-overlay">
     <div class="modal-card">
       <h2 id="confirm-title" style="color: var(--gold); font-size: 1.8rem; margin-bottom: 12px;">Mula Semula?</h2>
@@ -401,19 +398,17 @@
     <img src="logo.png" alt="Az-Zaki Logo" class="game-logo" onclick="handleSecretAdminClick()">
   </div>
 
-  <!-- SCREEN 1: LOGIN & 3D AVATAR SELECTION STUDIO -->
+  <!-- SCREEN 1: LOGIN & AVATAR SELECTION -->
   <div id="screen-login" class="screen active">
-    <h2 style="color: var(--gold); text-align: center; font-size: 1.35rem;">Pilih Avatar 3D Karakter Anda</h2>
+    <h2 style="color: var(--gold); text-align: center; font-size: 1.35rem;">Pilih Karakter Anda</h2>
     
     <div class="avatar-studio-container">
-      <div class="avatar-3d-viewport" id="avatar-3d-box">
-        <div class="loading-text" id="avatar-loading">Memuat turun Model 3D...</div>
-        <!-- THREE.JS 3D CANVAS RENDERING LIVE -->
+      <div class="avatar-2d-preview-box">
+        <img id="avatar-2d-large-preview" src="images/default.png" alt="Avatar Preview" onerror="this.onerror=null; this.src='images/default.png';">
       </div>
       <div>
-        <div class="avatar-grid-header">Pilihan 10 Avatar 3D (Lelaki & Perempuan):</div>
-        <div class="avatar-grid" id="avatar-selection-grid">
-          <!-- 10 CARDS GENERATED LIVE -->
+        <div class="avatar-2d-grid" id="avatar-2d-selection-grid">
+          <!-- AVATAR CARDS GENERATED LIVE DARI DB ADMIN -->
         </div>
       </div>
     </div>
@@ -434,7 +429,10 @@
   <!-- SCREEN 2: MAIN MENU -->
   <div id="screen-menu" class="screen">
     <div class="dashboard-bar">
-      <div class="stat-box"><span id="display-avatar-3d-mini" style="width: 45px; height: 45px; display:inline-block; border-radius:12px; overflow:hidden; border:2px solid var(--gold);"></span> <span id="display-username">-</span></div>
+      <div class="stat-box">
+        <img id="display-avatar-2d-mini" src="images/default.png" style="width: 45px; height: 45px; border-radius: 12px; object-fit: cover; object-position: top center; border: 2px solid var(--gold);" onerror="this.onerror=null; this.src='images/default.png';">
+        <span id="display-username">-</span>
+      </div>
       <div class="stat-box">⭐ XP: <span id="display-total-score">0</span></div>
     </div>
     <button class="btn" onclick="showScreen('screen-setup')">🎮 Mula Cabaran Baharu</button>
@@ -546,194 +544,69 @@
   let DATA = getGameData();
   let GAME_SETTINGS = getGameSettings();
 
-  // B. SENARAI 10 MODEL 3D READY PLAYER ME (PERCUMA DARI INTERNET)
-  const AVATAR_MODELS = [
-    { id: "male_1", name: "Zaki", gender: "Lelaki", icon: "👦", url: "https://models.readyplayer.me/64b7bd3571ddb02c98d66df2.glb" },
-    { id: "female_1", name: "Maryam", gender: "Perempuan", icon: "🧕", url: "https://models.readyplayer.me/64b7be5971ddb02c98d66ebb.glb" },
-    { id: "male_2", name: "Ahmad", gender: "Lelaki", icon: "🧑‍🎓", url: "https://models.readyplayer.me/64b7bd71f760824cf4dcb013.glb" },
-    { id: "female_2", name: "Aishah", gender: "Perempuan", icon: "👧", url: "https://models.readyplayer.me/64b7be8ef760824cf4dcb0ed.glb" },
-    { id: "male_3", name: "Bilal", gender: "Lelaki", icon: "👳‍♂️", url: "https://models.readyplayer.me/64b7bdbef760824cf4dcb04d.glb" },
-    { id: "female_3", name: "Fatimah", gender: "Perempuan", icon: "👩‍🎓", url: "https://models.readyplayer.me/64b7bec671ddb02c98d66f0d.glb" },
-    { id: "male_4", name: "Omar", gender: "Lelaki", icon: "🦸‍♂️", url: "https://models.readyplayer.me/64b7bdf071ddb02c98d66e74.glb" },
-    { id: "female_4", name: "Yasmin", gender: "Perempuan", icon: "🦸‍♀️", url: "https://models.readyplayer.me/64b7befdf760824cf4dcb13d.glb" },
-    { id: "male_5", name: "Yusuf", gender: "Lelaki", icon: "👨‍🏫", url: "https://models.readyplayer.me/64b7be22f760824cf4dcb097.glb" },
-    { id: "female_5", name: "Zahra", gender: "Perempuan", icon: "👩‍🏫", url: "https://models.readyplayer.me/64b7bf3371ddb02c98d66f54.glb" }
+  // B. SISTEM AVATAR DINAMIK DARI ADMIN DASHBOARD
+  const DEFAULT_AVATARS = [
+    { file: "avatars/muslim boy.png" },
+    { file: "avatars/muslim girl.png" },
+    { file: "avatars/warrior boy.png" },
+    { file: "avatars/warrior girl.png" },
+    { file: "avatars/adventure girl.png" },
+    { file: "avatars/boy saintis.png" },
+    { file: "avatars/girl dr.png" },
+    { file: "avatars/space cadet.png" },
+    { file: "avatars/girl athlete.png" }
   ];
 
-  let selectedAvatarId = "male_1";
-
-  // C. THREE.JS 3D AVATAR ENGINE (GLTF LOADER + AUTO-SCALE + AUTO-CENTER)
-  let scene, camera, renderer, gltfLoader, currentAvatarMesh, animationMixer;
-  let isOrbitDragging = false, previousMousePosition = { x: 0, y: 0 };
-  let clock = new THREE.Clock();
-
-  function init3DAvatarStudio() {
-    const container = document.getElementById('avatar-3d-box');
-    
-    // Simpan elemen loading text
-    const loadingText = document.getElementById('avatar-loading');
-
-    scene = new THREE.Scene();
-    camera = new THREE.PerspectiveCamera(40, 240 / 260, 0.1, 1000);
-    camera.position.set(0, 1.2, 3.5); // Kedudukan kamera lalai
-
-    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
-    renderer.setSize(240, 260);
-    renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.outputEncoding = THREE.sRGBEncoding;
-    renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    
-    // Pastikan kanvas tidak memadam teks loading
-    renderer.domElement.style.position = 'absolute';
-    renderer.domElement.style.zIndex = '5';
-    container.appendChild(renderer.domElement);
-
-    gltfLoader = new THREE.GLTFLoader();
-
-    // Pencahayaan Premium
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
-    scene.add(ambientLight);
-    const keyLight = new THREE.DirectionalLight(0xffffff, 1.2);
-    keyLight.position.set(2, 5, 4);
-    scene.add(keyLight);
-    const rimLight = new THREE.DirectionalLight(0x00f2fe, 0.6);
-    rimLight.position.set(-3, 3, -4);
-    scene.add(rimLight);
-
-    setupOrbitInteraction(container);
-    renderAvatarSelectionGrid();
-    load3DAvatarModel(selectedAvatarId);
-
-    // Main Render Loop dengan Sokongan Animasi GLB
-    function animate() {
-      requestAnimationFrame(animate);
-      const delta = clock.getDelta();
-
-      if (animationMixer) {
-        animationMixer.update(delta);
-      } else if (currentAvatarMesh && !isOrbitDragging) {
-        // Fallback Idle Animation jika model tiada tulang (bones)
-        currentAvatarMesh.rotation.y += 0.005; 
-        currentAvatarMesh.position.y = Math.sin(Date.now() * 0.002) * 0.02;
-      }
-
-      renderer.render(scene, camera);
+  let AVATAR_2D_LIST = [];
+  try {
+    const savedAvatars = JSON.parse(localStorage.getItem('az_zaki_avatars'));
+    if (savedAvatars && savedAvatars.length > 0) {
+      AVATAR_2D_LIST = savedAvatars;
+    } else {
+      AVATAR_2D_LIST = [...DEFAULT_AVATARS];
     }
-    animate();
+  } catch(e) {
+    AVATAR_2D_LIST = [...DEFAULT_AVATARS];
   }
 
-  function load3DAvatarModel(avatarId) {
-    const avatarObj = AVATAR_MODELS.find(a => a.id === avatarId) || AVATAR_MODELS[0];
-    selectedAvatarId = avatarObj.id;
+  let selectedAvatarPath = AVATAR_2D_LIST.length > 0 ? AVATAR_2D_LIST[0].file : 'images/default.png';
 
-    const loadingText = document.getElementById('avatar-loading');
-    loadingText.style.display = 'block';
-    loadingText.innerText = "Memuat turun Model 3D...";
-
-    if (currentAvatarMesh) {
-      scene.remove(currentAvatarMesh);
-      currentAvatarMesh = null;
-    }
-    if (animationMixer) {
-      animationMixer.stopAllAction();
-      animationMixer = null;
-    }
-
-    gltfLoader.load(
-      avatarObj.url,
-      (gltf) => {
-        const model = gltf.scene;
-        
-        // AUTO-CENTER & AUTO-SCALE ENGINE
-        const box = new THREE.Box3().setFromObject(model);
-        const center = box.getCenter(new THREE.Vector3());
-        const size = box.getSize(new THREE.Vector3());
-        const maxDim = Math.max(size.x, size.y, size.z);
-        
-        // Menyelaraskan skala supaya sentiasa muat (Fit) dalam kanvas
-        const scale = 2.4 / maxDim; 
-        model.scale.set(scale, scale, scale);
-        
-        // Letakkan model tepat di tengah
-        model.position.set(-center.x * scale, -center.y * scale, -center.z * scale);
-        
-        currentAvatarMesh = model;
-        scene.add(currentAvatarMesh);
-
-        // Mainkan Animasi jika ada (Idle)
-        if (gltf.animations && gltf.animations.length > 0) {
-          animationMixer = new THREE.AnimationMixer(currentAvatarMesh);
-          const action = animationMixer.clipAction(gltf.animations[0]);
-          action.play();
-        }
-
-        loadingText.style.display = 'none';
-        setTimeout(updateMiniDashboardAvatar, 500);
-      },
-      undefined,
-      (error) => {
-        console.error("Gagal muat turun model 3D:", error);
-        loadingText.innerText = "⚠️ Model Tiada/Gagal Dimuat";
-        
-        // Fallback Procedural Silhouette jika internet tiada
-        const geo = new THREE.CylinderGeometry(0.4, 0.6, 1.8, 32);
-        const mat = new THREE.MeshToonMaterial({ color: 0x555555, transparent: true, opacity: 0.8 });
-        currentAvatarMesh = new THREE.Mesh(geo, mat);
-        scene.add(currentAvatarMesh);
-      }
-    );
+  function initAvatar2DStudio() {
+    renderAvatar2DSelectionGrid();
+    updateAvatar2DPreview(selectedAvatarPath);
   }
 
-  function renderAvatarSelectionGrid() {
-    const grid = document.getElementById('avatar-selection-grid');
+  function updateAvatar2DPreview(path) {
+    selectedAvatarPath = path;
+    const imgPreview = document.getElementById('avatar-2d-large-preview');
+    if (imgPreview) imgPreview.src = path;
+    
+    const miniPreview = document.getElementById('display-avatar-2d-mini');
+    if (miniPreview) miniPreview.src = path;
+  }
+
+  function renderAvatar2DSelectionGrid() {
+    const grid = document.getElementById('avatar-2d-selection-grid');
     if (!grid) return;
     grid.innerHTML = '';
 
-    AVATAR_MODELS.forEach(item => {
+    AVATAR_2D_LIST.forEach(item => {
       const card = document.createElement('div');
-      card.className = `avatar-card-item ${selectedAvatarId === item.id ? 'selected' : ''}`;
-      const tagClass = item.gender === 'Lelaki' ? 'tag-male' : 'tag-female';
-
-      card.innerHTML = `
-        <span class="avatar-gender-tag ${tagClass}">${item.gender}</span>
-        <div style="font-size:2.2rem; margin-top:6px;">${item.icon}</div>
-        <div style="font-size:0.85rem; font-weight:bold; color:var(--gold);">${item.name}</div>
-      `;
+      card.className = `avatar-card-item ${selectedAvatarPath === item.file ? 'selected' : ''}`;
+      card.innerHTML = `<img src="${item.file}" alt="Avatar" onerror="this.onerror=null; this.src='images/default.png';">`;
 
       card.onclick = () => {
         playSound('click');
-        selectedAvatarId = item.id;
         document.querySelectorAll('.avatar-card-item').forEach(c => c.classList.remove('selected'));
         card.classList.add('selected');
-        load3DAvatarModel(selectedAvatarId);
+        updateAvatar2DPreview(item.file);
       };
 
       grid.appendChild(card);
     });
   }
 
-  function setupOrbitInteraction(element) {
-    element.addEventListener('pointerdown', (e) => {
-      isOrbitDragging = true;
-      previousMousePosition = { x: e.clientX, y: e.clientY };
-    });
-    window.addEventListener('pointermove', (e) => {
-      if (!isOrbitDragging || !currentAvatarMesh) return;
-      const deltaX = e.clientX - previousMousePosition.x;
-      currentAvatarMesh.rotation.y += deltaX * 0.01;
-      previousMousePosition = { x: e.clientX, y: e.clientY };
-    });
-    window.addEventListener('pointerup', () => { isOrbitDragging = false; });
-  }
-
-  function updateMiniDashboardAvatar() {
-    const mini = document.getElementById('display-avatar-3d-mini');
-    if (!mini || !renderer) return;
-    const dataUrl = renderer.domElement.toDataURL();
-    mini.innerHTML = `<img src="${dataUrl}" style="width:100%; height:100%; object-fit:cover;">`;
-  }
-
-  // D. SISTEM AKSES RAHSIA ADMIN (5 KALI TEKAN LOGO)
+  // C. SISTEM AKSES RAHSIA ADMIN (5 KALI TEKAN LOGO)
   let logoClickCount = 0;
   let logoClickTimer = null;
   const ADMIN_PIN = "2026";
@@ -796,7 +669,7 @@
     return item.image || `images/${item.id}.png`;
   }
 
-  // E. AUDIO SYNTHESIZER (CERIA CHORD & ERROR BUZZ)
+  // D. AUDIO SYNTHESIZER (CERIA CHORD & ERROR BUZZ)
   let audioCtx = null;
   let bgmEnabled = true;
   let bgmInterval = null;
@@ -883,7 +756,7 @@
 
   document.addEventListener('click', () => { getAudioContext(); if (bgmEnabled && !bgmInterval) startBGM(bgmMode); });
 
-  // F. STATE MANAGEMENT & PROFILES
+  // E. STATE MANAGEMENT & PROFILES
   let currentUser = null;
   let currentQuestions = [];
   let currentQIndex = 0;
@@ -895,7 +768,7 @@
   window.onload = () => { 
     DATA = getGameData();
     GAME_SETTINGS = getGameSettings();
-    init3DAvatarStudio();
+    initAvatar2DStudio();
     populateCategories(); renderSavedProfiles(); checkSession(); initCanvas(); 
   };
 
@@ -920,22 +793,48 @@
 
     if (userNames.length === 0) { section.style.display = 'none'; return; }
     section.style.display = 'block';
+    
     container.innerHTML = userNames.map(name => `
-      <div class="profile-card ${currentUser === name ? 'active-profile' : ''}" onclick="selectSavedProfile('${name}')">
-        <div style="font-weight: bold; color: var(--gold);">${name}</div>
-        <div style="font-size: 0.85rem; color: var(--cyan);">${users[name].score || 0} XP</div>
+      <div class="profile-card ${currentUser === name ? 'active-profile' : ''}">
+        <button class="delete-profile-btn" onclick="deleteProfile('${name}', event)" title="Padam Profil">X</button>
+        <div style="display:flex; align-items:center; gap:8px;" onclick="selectSavedProfile('${name}')">
+          <img src="${users[name].avatarPath || 'images/default.png'}" onerror="this.onerror=null; this.src='images/default.png';">
+          <div>
+            <div style="font-weight: bold; color: var(--gold); text-align:left;">${name}</div>
+            <div style="font-size: 0.8rem; color: var(--cyan); text-align:left;">${users[name].score || 0} XP</div>
+          </div>
+        </div>
       </div>
     `).join('');
+  }
+
+  function deleteProfile(name, event) {
+    event.stopPropagation();
+    showConfirmModal(
+      "Padam Profil?",
+      `Adakah anda pasti mahu memadam profil "${name}"? Kesemua markah XP profil ini akan hilang.`,
+      () => {
+        playSound('click');
+        let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
+        delete users[name];
+        localStorage.setItem('az_zaki_users', JSON.stringify(users));
+        
+        if (currentUser === name) {
+          logout();
+        } else {
+          renderSavedProfiles();
+        }
+      }
+    );
   }
 
   function selectSavedProfile(name) {
     playSound('click');
     let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
     currentUser = name;
-    if (users[name].avatar3DId) {
-      selectedAvatarId = users[name].avatar3DId;
-      load3DAvatarModel(selectedAvatarId);
-      renderAvatarSelectionGrid();
+    if (users[name].avatarPath) {
+      updateAvatar2DPreview(users[name].avatarPath);
+      renderAvatar2DSelectionGrid();
     }
     localStorage.setItem('az_zaki_user', currentUser);
     updateDashboard(); showScreen('screen-menu');
@@ -949,7 +848,7 @@
     localStorage.setItem('az_zaki_user', currentUser);
     
     let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
-    users[currentUser] = { score: users[currentUser]?.score || 0, avatar3DId: selectedAvatarId };
+    users[currentUser] = { score: users[currentUser]?.score || 0, avatarPath: selectedAvatarPath };
     localStorage.setItem('az_zaki_users', JSON.stringify(users));
     updateDashboard(); renderSavedProfiles(); showScreen('screen-menu');
   }
@@ -957,20 +856,25 @@
   function checkSession() {
     const saved = localStorage.getItem('az_zaki_user');
     if (saved) {
-      currentUser = saved;
       let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
-      if (users[currentUser]?.avatar3DId) {
-        selectedAvatarId = users[currentUser].avatar3DId;
-        load3DAvatarModel(selectedAvatarId);
-        renderAvatarSelectionGrid();
+      if (users[saved]) {
+        currentUser = saved;
+        if (users[currentUser]?.avatarPath) {
+          updateAvatar2DPreview(users[currentUser].avatarPath);
+          renderAvatar2DSelectionGrid();
+        }
+        updateDashboard(); showScreen('screen-menu');
+      } else {
+        localStorage.removeItem('az_zaki_user');
       }
-      updateDashboard(); showScreen('screen-menu');
     }
   }
 
   function logout() {
     playSound('click'); localStorage.removeItem('az_zaki_user');
-    currentUser = null; renderSavedProfiles(); showScreen('screen-login');
+    currentUser = null; 
+    document.getElementById('username-input').value = '';
+    renderSavedProfiles(); showScreen('screen-login');
   }
 
   function updateDashboard() {
@@ -1001,7 +905,7 @@
     });
   }
 
-  // G. GAMEPLAY ENGINE
+  // F. GAMEPLAY ENGINE
   function startQuiz() {
     playSound('click'); startBGM('game');
     DATA = getGameData();
@@ -1349,7 +1253,7 @@
   function finishQuiz() {
     clearInterval(timerInterval); startBGM('menu');
     let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
-    if (!users[currentUser]) users[currentUser] = { score: 0, avatar3DId: selectedAvatarId };
+    if (!users[currentUser]) users[currentUser] = { score: 0, avatarPath: selectedAvatarPath };
     users[currentUser].score += score;
     localStorage.setItem('az_zaki_users', JSON.stringify(users));
 
