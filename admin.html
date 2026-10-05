@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard Admin - Az-Zaki Educational Game</title>
+  
+  <!-- FIREBASE SDK (COMPAT VERSION) -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+
   <script src="vocab.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@400;600;700;800&family=Amiri:wght@700&display=swap');
@@ -17,7 +22,6 @@
       --cyan: #00f2fe;
       --green: #00e676;
       --red: #ff3366;
-      --purple: #9d4edd;
       --text-main: #f0f4f8;
       --font-admin: 'Outfit', sans-serif;
     }
@@ -32,7 +36,6 @@
       flex-direction: column;
     }
 
-    /* HEADER ADMIN */
     header {
       background: linear-gradient(90deg, #0c1630 0%, #1a2b56 100%);
       border-bottom: 3px solid var(--gold);
@@ -108,21 +111,24 @@
 
     .arabic-cell { font-family: 'Amiri', serif; font-size: 1.8rem; color: var(--gold); direction: rtl; }
 
-    /* DIBETULKAN: mix-blend-mode dibuang & background dipastikan putih terang */
     .img-preview-thumb {
       width: 55px; height: 55px; border-radius: 10px; border: 2px solid var(--cyan);
-      background: #ffffff; object-fit: contain; 
+      background: #ffffff; object-fit: contain; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .img-preview-thumb:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 12px var(--cyan);
     }
 
     .btn-action {
       background: linear-gradient(180deg, #ffe600 0%, #ff9900 100%);
-      color: #3d1e00; border: none; padding: 10px 18px; font-weight: 800;
+      color: #3d1e00; border: none; padding: 8px 14px; font-weight: 800;
       border-radius: 10px; cursor: pointer; transition: 0.2s;
     }
     .btn-action:hover { transform: translateY(-2px); box-shadow: 0 4px 12px var(--gold-glow); }
     .btn-save-all {
       background: linear-gradient(180deg, #00e676 0%, #00b359 100%); color: #003311;
-      font-size: 1.1rem; padding: 14px 28px; border-radius: 14px; border: none; cursor: pointer; font-weight: 800;
+      font-size: 1.1rem; padding: 12px 24px; border-radius: 14px; border: none; cursor: pointer; font-weight: 800;
     }
     .btn-secondary { background: linear-gradient(180deg, #00f2fe 0%, #0099ff 100%); color: #002b4d; }
     .btn-danger { background: linear-gradient(180deg, #ff416c 0%, #ff4b2b 100%); color: #fff; }
@@ -154,7 +160,6 @@
       box-shadow: 0 5px 20px rgba(0,230,118,0.5);
     }
 
-    /* AVATAR ADMIN TAB STYLES */
     .avatar-admin-grid {
       display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 18px;
     }
@@ -178,25 +183,25 @@
 <header>
   <div class="brand">
     <span style="font-size: 2rem;">🛠️</span>
-    <h1>Az-Zaki Admin Dashboard</h1>
+    <h1>Az-Zaki Admin Dashboard (Cloud Synced)</h1>
   </div>
   <div class="nav-tabs">
-    <button class="tab-btn active" onclick="switchTab('tab-vocab', this)">📚 Urus Mufradat</button>
-    <button class="tab-btn" onclick="switchTab('tab-modes', this)">⚙️ Kustomasi Mod Permainan</button>
-    <!-- TAB URUS AVATAR BAHARU -->
+    <button class="tab-btn active" onclick="switchTab('tab-vocab', this)">📚 Urus Soalan / Mufradat</button>
+    <button class="tab-btn" onclick="switchTab('tab-modes', this)">⚙️ Modifikasi Permainan</button>
     <button class="tab-btn" onclick="switchTab('tab-avatar', this)">👤 Urus Avatar</button>
     <button class="tab-btn" style="background: var(--gold); color: #000; border-color: var(--gold);" onclick="window.location.href='index.html'">🎮 Kembali ke Permainan</button>
   </div>
 </header>
 
 <main>
-  <!-- TAB 1: PENGURUSAN MUFRADAT -->
+  <!-- TAB 1: PENGURUSAN SOALAN & MUFRADAT -->
   <div id="tab-vocab" class="tab-content active">
     <div class="panel">
       <div class="panel-header">
-        <div class="panel-title">Senarai Mufradat & Gambar (<span id="total-vocab-count">0</span>)</div>
+        <div class="panel-title">Senarai Soalan & Mufradat (<span id="total-vocab-count">0</span>)</div>
         <div style="display: flex; gap: 10px;">
-          <button class="btn-save-all" onclick="saveAllToStorage()">💾 Simpan Ke Game</button>
+          <button class="btn-save-all" style="background: linear-gradient(180deg, #00f2fe 0%, #0099ff 100%); color: #002b4d;" onclick="openAddModal()">➕ Tambah Soalan Baru</button>
+          <button class="btn-save-all" onclick="saveAllToStorage()">☁️ Sync Keseluruhan Ke Awan</button>
           <button class="btn-action btn-secondary" onclick="exportVocabJS()">📥 Export vocab.js</button>
         </div>
       </div>
@@ -213,7 +218,7 @@
           <thead>
             <tr>
               <th>ID</th>
-              <th>Gambar</th>
+              <th>Gambar (Pratonton)</th>
               <th>Kategori</th>
               <th>Bahasa Melayu</th>
               <th>Bahasa Arab</th>
@@ -226,12 +231,12 @@
     </div>
   </div>
 
-  <!-- TAB 2: KUSTOMISASI MOD PERMAINAN -->
+  <!-- TAB 2: MODIFIKASI STRUKTUR & BENTUK PERMAINAN -->
   <div id="tab-modes" class="tab-content">
     <div class="panel">
       <div class="panel-header">
-        <div class="panel-title">Tetapan Rules & Kustomisasi Permainan</div>
-        <button class="btn-save-all" onclick="saveGameSettings()">💾 Simpan Tetapan Mod</button>
+        <div class="panel-title">Kustomasi Struktur & Format Setiap Mod Permainan</div>
+        <button class="btn-save-all" onclick="saveGameSettings()">☁️ Simpan Tetapan Permainan ke Awan</button>
       </div>
 
       <div class="settings-grid">
@@ -282,17 +287,17 @@
         <div class="mode-card">
           <h3>✏️ Mod Isi Tempat Kosong</h3>
           <div class="form-row">
-            <label>Struktur Soalan Konteks:</label>
+            <label>Struktur Soalan Konteks Nahu:</label>
             <select id="cfg-blank-format">
-              <option value="sentence_img" selected>Gambar + Ayat Konteks</option>
-              <option value="sentence_only">Ayat Konteks Sahaja</option>
+              <option value="sentence_img" selected>Ayat Arab Dinamik (Auto-Nahu)</option>
+              <option value="sentence_only">Teks Arab Sahaja</option>
             </select>
           </div>
           <div class="form-row">
             <label>Petunjuk Soalan (Hint):</label>
             <select id="cfg-blank-hint">
-              <option value="true" selected>Tunjukkan Maksud Melayu</option>
-              <option value="false">Sembunyi Maksud Melayu</option>
+              <option value="true" selected>Tunjukkan Maksud Bahasa Melayu</option>
+              <option value="false">Sembunyi Maksud Bahasa Melayu</option>
             </select>
           </div>
         </div>
@@ -317,7 +322,7 @@
           </div>
         </div>
 
-        <!-- TETAPAN GENERAL XP -->
+        <!-- TETAPAN GENERAL XP & PEMASA -->
         <div class="mode-card">
           <h3>🏆 Sistem Markah & XP</h3>
           <div class="form-row">
@@ -333,66 +338,92 @@
     </div>
   </div>
 
-  <!-- TAB 3: PENGURUSAN AVATAR (BAHARU) -->
+  <!-- TAB 3: PENGURUSAN AVATAR -->
   <div id="tab-avatar" class="tab-content">
     <div class="panel">
       <div class="panel-header">
         <div class="panel-title">Senarai Pilihan Karakter (Avatar)</div>
         <div>
-          <button class="btn-save-all" onclick="document.getElementById('upload-avatar-input').click()">➕ Muat Naik Avatar Baru</button>
+          <button class="btn-save-all" onclick="document.getElementById('upload-avatar-input').click()">➕ Muat Naik Avatar Baru ke Awan</button>
           <input type="file" id="upload-avatar-input" accept="image/png, image/jpeg" style="display:none" onchange="handleNewAvatarUpload(this)">
         </div>
       </div>
-      <p style="color: var(--cyan); margin-bottom: 20px;">Gambar yang dimuat naik akan dikecilkan secara automatik oleh sistem ke saiz 256x256 piksel untuk kelancaran permainan.</p>
+      <p style="color: var(--cyan); margin-bottom: 20px;">Gambar avatar yang dimuat naik akan terus disegerakkan ke pangkalan data awan Firebase.</p>
       
-      <div class="avatar-admin-grid" id="admin-avatar-grid">
-        <!-- AVATAR RENDERED HERE -->
-      </div>
+      <div class="avatar-admin-grid" id="admin-avatar-grid"></div>
     </div>
   </div>
 </main>
 
-<!-- MODAL EDIT MUFRADAT -->
+<!-- MODAL TAMBAH / EDIT SOALAN -->
 <div id="edit-modal" class="modal-overlay">
   <div class="modal-box">
-    <h2 style="color: var(--gold);">Sunting Mufradat (<span id="edit-id-display">ID</span>)</h2>
+    <h2 style="color: var(--gold);" id="modal-form-title">Sunting Soalan (<span id="edit-id-display">ID</span>)</h2>
     
     <div class="form-row">
-      <label>Kategori:</label>
-      <input type="text" id="edit-category">
+      <label>ID Soalan (Unik):</label>
+      <input type="text" id="edit-id" placeholder="Contoh: ANM001, BDY012...">
     </div>
 
     <div class="form-row">
-      <label>Bahasa Melayu:</label>
-      <input type="text" id="edit-malay">
+      <label>Kategori Tajuk:</label>
+      <input type="text" id="edit-category" placeholder="Contoh: Haiwan, Anggota Badan, Hiwar...">
     </div>
 
     <div class="form-row">
-      <label>Bahasa Arab (Termasuk Baris/Harakat):</label>
-      <input type="text" id="edit-arabic" style="font-family:'Amiri', serif; font-size:1.4rem; direction:rtl;">
+      <label>Bahasa Melayu / Maksud Soalan:</label>
+      <input type="text" id="edit-malay" placeholder="Contoh: Singa / Siapakah ini?">
     </div>
 
     <div class="form-row">
-      <label>Tukar Gambar (PNG/JPEG):</label>
+      <label>Bahasa Arab / Jawapan Tepat (Termasuk Harakat):</label>
+      <input type="text" id="edit-arabic" style="font-family:'Amiri', serif; font-size:1.4rem; direction:rtl;" placeholder="أَسَدٌ">
+    </div>
+
+    <div class="form-row">
+      <label>Muat Naik Gambar Soalan (PNG/JPEG):</label>
       <input type="file" id="edit-img-file" accept="image/png, image/jpeg" onchange="previewNewImage(this)">
       <input type="text" id="edit-img-path" placeholder="Atau pautan fail images/ID.png">
     </div>
 
     <div style="text-align: center; margin-top: 10px;">
-      <img id="modal-img-preview" src="" class="img-preview-thumb" style="width: 90px; height: 90px;">
+      <img id="modal-img-preview" src="" class="img-preview-thumb" style="width: 90px; height: 90px; cursor: default;">
     </div>
 
     <div style="display: flex; gap: 12px; margin-top: 10px;">
-      <button class="btn-action" style="flex: 1;" onclick="saveSingleVocab()">Simpan Kemaskini</button>
+      <button class="btn-action" style="flex: 1;" onclick="saveSingleVocab()">💾 Simpan Soalan ke Cloud</button>
       <button class="btn-action btn-secondary" onclick="closeEditModal()">Batal</button>
     </div>
+  </div>
+</div>
+
+<!-- MODAL PRATONTON GAMBAR PENUH -->
+<div id="image-inspect-modal" class="modal-overlay">
+  <div class="modal-box" style="text-align: center; max-width: 480px;">
+    <h3 id="inspect-title" style="color: var(--gold); font-size: 1.3rem;">Pratonton Gambar</h3>
+    <div style="width: 100%; height: 280px; background: #ffffff; border-radius: 16px; border: 2px solid var(--cyan); display: flex; align-items: center; justify-content: center; padding: 10px; margin: 10px 0;">
+      <img id="inspect-img-full" src="" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    </div>
+    <button class="btn-action btn-secondary" style="width: 100%; font-size: 1.05rem;" onclick="closeInspectModal()">Tutup Pratonton</button>
   </div>
 </div>
 
 <div id="toast" class="status-toast">✅ Berjaya Disimpan!</div>
 
 <script>
-  // PELINDUNG PIN UNTUK ADMIN DASHBOARD
+  const firebaseConfig = {
+    apiKey: "AIzaSyAIdJbwY3zEy8GGwSaU2Gv30uskiH1koj4",
+    authDomain: "az-zaki-game.firebaseapp.com",
+    projectId: "az-zaki-game",
+    storageBucket: "az-zaki-game.firebasestorage.app",
+    messagingSenderId: "875660858907",
+    appId: "1:875660858907:web:ff7b63b7ff0d6930c80abe",
+    measurementId: "G-C0C40K9JHB"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+
   const ADMIN_PIN = "2026";
 
   function checkAdminAuth() {
@@ -412,25 +443,31 @@
 
   let vocabData = [];
   let editingItem = null;
+  let isAddMode = false;
 
   window.onload = () => {
     loadInitialData();
-    populateCategoryDropdown();
-    renderTable();
     loadGameSettings();
-    renderAdminAvatars(); // Load avatars on init
+    loadAdminAvatars();
   };
 
   function loadInitialData() {
-    const local = localStorage.getItem('az_zaki_vocab_custom');
-    if (local) {
-      vocabData = JSON.parse(local);
-    } else if (typeof AZ_ZAKI_DATA !== 'undefined') {
-      vocabData = JSON.parse(JSON.stringify(AZ_ZAKI_DATA));
-    } else {
-      vocabData = [];
-    }
-    document.getElementById('total-vocab-count').innerText = vocabData.length;
+    db.collection('vocab').get().then(snapshot => {
+      if (!snapshot.empty) {
+        vocabData = [];
+        snapshot.forEach(doc => vocabData.push(doc.data()));
+      } else {
+        vocabData = (typeof AZ_ZAKI_DATA !== 'undefined') ? JSON.parse(JSON.stringify(AZ_ZAKI_DATA)) : [];
+      }
+      document.getElementById('total-vocab-count').innerText = vocabData.length;
+      populateCategoryDropdown();
+      filterTable();
+    }).catch(e => {
+      vocabData = (typeof AZ_ZAKI_DATA !== 'undefined') ? JSON.parse(JSON.stringify(AZ_ZAKI_DATA)) : [];
+      document.getElementById('total-vocab-count').innerText = vocabData.length;
+      populateCategoryDropdown();
+      filterTable();
+    });
   }
 
   function switchTab(tabId, el) {
@@ -441,30 +478,41 @@
     document.getElementById(tabId).classList.add('active');
   }
 
-  // PENGURUSAN JADUAL MUFRADAT
   function populateCategoryDropdown() {
-    const cats = [...new Set(vocabData.map(i => i.category))];
     const select = document.getElementById('filter-category');
+    const currentVal = select.value || 'ALL';
+    
+    const cats = [...new Set(vocabData.map(i => i.category))];
     select.innerHTML = `<option value="ALL">🌐 Semua Kategori</option>` + 
       cats.map(c => `<option value="${c}">${c}</option>`).join('');
+      
+    if ([...select.options].some(o => o.value === currentVal)) {
+      select.value = currentVal;
+    } else {
+      select.value = 'ALL';
+    }
   }
 
   function renderTable(dataToRender = vocabData) {
     const tbody = document.getElementById('vocab-table-body');
     tbody.innerHTML = '';
 
-    dataToRender.slice(0, 150).forEach(item => {
+    dataToRender.forEach(item => {
       const tr = document.createElement('tr');
       const imgPath = item.image || `images/${item.id}.png`;
+      const titleText = `${item.id}: ${item.malay} (${item.arabic})`;
       
       tr.innerHTML = `
         <td style="font-weight:bold; color:var(--cyan);">${item.id}</td>
-        <td><img src="${imgPath}" class="img-preview-thumb" onerror="this.onerror=null; this.src='images/${item.id}.jpg';"></td>
+        <td>
+          <img src="${imgPath}" class="img-preview-thumb" title="Klik untuk lihat gambar penuh" onclick="openInspectModal('${imgPath}', '${titleText}')" onerror="this.onerror=null; this.src='images/default.png';">
+        </td>
         <td><span style="background:rgba(255,204,0,0.15); color:var(--gold); padding:4px 10px; border-radius:8px; font-weight:bold;">${item.category}</span></td>
         <td style="font-weight:bold;">${item.malay}</td>
         <td class="arabic-cell">${item.arabic}</td>
-        <td>
+        <td style="display:flex; gap:6px;">
           <button class="btn-action" onclick="openEditModal('${item.id}')">✏️ Edit</button>
+          <button class="btn-action btn-danger" onclick="deleteVocabItem('${item.id}')">🗑️</button>
         </td>
       `;
       tbody.appendChild(tr);
@@ -486,14 +534,52 @@
     renderTable(filtered);
   }
 
+  function openInspectModal(src, title) {
+    document.getElementById('inspect-title').innerText = title;
+    document.getElementById('inspect-img-full').src = src;
+    document.getElementById('image-inspect-modal').style.display = 'flex';
+  }
+
+  function closeInspectModal() {
+    document.getElementById('image-inspect-modal').style.display = 'none';
+  }
+
+  // FUNGSI TAMBAH SOALAN BAHARU
+  function openAddModal() {
+    isAddMode = true;
+    editingItem = { id: '', category: '', malay: '', arabic: '', image: 'images/default.png' };
+    
+    document.getElementById('modal-form-title').innerText = "➕ Tambah Soalan Baharu";
+    document.getElementById('edit-id-display').innerText = "BARU";
+    
+    const idInput = document.getElementById('edit-id');
+    idInput.disabled = false;
+    idInput.value = `Q${Date.now().toString().slice(-5)}`;
+    
+    document.getElementById('edit-category').value = '';
+    document.getElementById('edit-malay').value = '';
+    document.getElementById('edit-arabic').value = '';
+    document.getElementById('edit-img-path').value = 'images/default.png';
+    document.getElementById('modal-img-preview').src = 'images/default.png';
+
+    document.getElementById('edit-modal').style.display = 'flex';
+  }
+
   function openEditModal(id) {
+    isAddMode = false;
     editingItem = vocabData.find(i => i.id === id);
     if (!editingItem) return;
 
+    document.getElementById('modal-form-title').innerText = "Sunting Soalan";
     document.getElementById('edit-id-display').innerText = editingItem.id;
-    document.getElementById('edit-category').value = editingItem.category;
-    document.getElementById('edit-malay').value = editingItem.malay;
-    document.getElementById('edit-arabic').value = editingItem.arabic;
+    
+    const idInput = document.getElementById('edit-id');
+    idInput.value = editingItem.id;
+    idInput.disabled = true;
+
+    document.getElementById('edit-category').value = editingItem.category || '';
+    document.getElementById('edit-malay').value = editingItem.malay || '';
+    document.getElementById('edit-arabic').value = editingItem.arabic || '';
     
     const imgPath = editingItem.image || `images/${editingItem.id}.png`;
     document.getElementById('edit-img-path').value = imgPath;
@@ -506,36 +592,80 @@
 
   function previewNewImage(input) {
     if (input.files && input.files[0]) {
+      const file = input.files[0];
       const reader = new FileReader();
       reader.onload = function(e) {
-        document.getElementById('modal-img-preview').src = e.target.result;
-        editingItem.newImageDataURL = e.target.result;
+        const img = new Image();
+        img.onload = function() {
+          const canvas = document.createElement('canvas');
+          const MAX_SIZE = 256;
+          let width = img.width; let height = img.height;
+          if (width > height) { if (width > MAX_SIZE) { height *= MAX_SIZE / width; width = MAX_SIZE; } }
+          else { if (height > MAX_SIZE) { width *= MAX_SIZE / height; height = MAX_SIZE; } }
+          canvas.width = width; canvas.height = height;
+          const ctx = canvas.getContext('2d');
+          ctx.fillStyle = "#ffffff";
+          ctx.fillRect(0, 0, width, height);
+          ctx.drawImage(img, 0, 0, width, height);
+          const compressedDataUrl = canvas.toDataURL('image/jpeg', 0.8);
+          document.getElementById('modal-img-preview').src = compressedDataUrl;
+          editingItem.newImageDataURL = compressedDataUrl;
+        };
+        img.src = e.target.result;
       };
-      reader.readAsDataURL(input.files[0]);
+      reader.readAsDataURL(file);
     }
   }
 
   function saveSingleVocab() {
     if (!editingItem) return;
 
-    editingItem.category = document.getElementById('edit-category').value.trim();
+    const newId = document.getElementById('edit-id').value.trim();
+    if (!newId) return alert("Sila masukkan ID Soalan yang unik!");
+
+    editingItem.id = newId;
+    editingItem.category = document.getElementById('edit-category').value.trim() || 'Umum';
     editingItem.malay = document.getElementById('edit-malay').value.trim();
     editingItem.arabic = document.getElementById('edit-arabic').value.trim();
     
     if (editingItem.newImageDataURL) {
       editingItem.image = editingItem.newImageDataURL;
     } else {
-      editingItem.image = document.getElementById('edit-img-path').value.trim();
+      editingItem.image = document.getElementById('edit-img-path').value.trim() || 'images/default.png';
     }
 
-    closeEditModal();
-    renderTable();
-    showToast('Mufradat Berjaya Dikemaskini!');
+    db.collection('vocab').doc(editingItem.id).set(editingItem).then(() => {
+      if (isAddMode) {
+        vocabData.push(editingItem);
+      }
+      closeEditModal();
+      populateCategoryDropdown();
+      filterTable();
+      showToast('Soalan Berjaya Disimpan ke Cloud Firestore!');
+    }).catch(e => alert("⚠️ Ralat Firebase: " + e.message));
+  }
+
+  function deleteVocabItem(id) {
+    if (confirm(`Adakah anda pasti mahu memadam soalan ID "${id}" dari pangkalan data awan?`)) {
+      db.collection('vocab').doc(id).delete().then(() => {
+        vocabData = vocabData.filter(i => i.id !== id);
+        populateCategoryDropdown();
+        filterTable();
+        showToast(`Soalan ${id} berjaya dipadam dari Awan!`);
+      }).catch(e => alert("⚠️ Ralat memadam: " + e.message));
+    }
   }
 
   function saveAllToStorage() {
-    localStorage.setItem('az_zaki_vocab_custom', JSON.stringify(vocabData));
-    showToast('Kesemua Data Berjaya Disimpan ke Game!');
+    let batch = db.batch();
+    let sliceData = vocabData.slice(0, 450);
+    sliceData.forEach(item => {
+      let ref = db.collection('vocab').doc(item.id);
+      batch.set(ref, item);
+    });
+    batch.commit().then(() => {
+      showToast('Kesemua Data Berjaya Disimpan ke Firebase Cloud!');
+    }).catch(e => alert("⚠️ Ralat Firebase: " + e.message));
   }
 
   function exportVocabJS() {
@@ -562,28 +692,29 @@
       defaultTimer: parseInt(document.getElementById('cfg-default-timer').value) || 60
     };
 
-    localStorage.setItem('az_zaki_settings', JSON.stringify(settings));
-    showToast('Tetapan Permainan Berjaya Disimpan!');
+    db.collection('config').doc('settings').set(settings).then(() => {
+      showToast('Tetapan Permainan Berjaya Disimpan ke Awan!');
+    }).catch(e => alert("⚠️ Ralat: " + e.message));
   }
 
   function loadGameSettings() {
-    const saved = localStorage.getItem('az_zaki_settings');
-    if (!saved) return;
-    const s = JSON.parse(saved);
-
-    if (s.mcqOptions) document.getElementById('cfg-mcq-options').value = s.mcqOptions;
-    if (s.mcqDisplay) document.getElementById('cfg-mcq-display').value = s.mcqDisplay;
-    if (s.matchCards) document.getElementById('cfg-match-cards').value = s.matchCards;
-    if (s.matchColor) document.getElementById('cfg-match-color').value = s.matchColor;
-    if (s.blankFormat) document.getElementById('cfg-blank-format').value = s.blankFormat;
-    if (s.blankHint) document.getElementById('cfg-blank-hint').value = s.blankHint;
-    if (s.dragCount) document.getElementById('cfg-drag-count').value = s.dragCount;
-    if (s.dragSens) document.getElementById('cfg-drag-sens').value = s.dragSens;
-    if (s.scoreCorrect) document.getElementById('cfg-score-correct').value = s.scoreCorrect;
-    if (s.defaultTimer) document.getElementById('cfg-default-timer').value = s.defaultTimer;
+    db.collection('config').doc('settings').get().then(doc => {
+      if (doc.exists) {
+        const s = doc.data();
+        if (s.mcqOptions) document.getElementById('cfg-mcq-options').value = s.mcqOptions;
+        if (s.mcqDisplay) document.getElementById('cfg-mcq-display').value = s.mcqDisplay;
+        if (s.matchCards) document.getElementById('cfg-match-cards').value = s.matchCards;
+        if (s.matchColor) document.getElementById('cfg-match-color').value = s.matchColor;
+        if (s.blankFormat) document.getElementById('cfg-blank-format').value = s.blankFormat;
+        if (s.blankHint) document.getElementById('cfg-blank-hint').value = s.blankHint;
+        if (s.dragCount) document.getElementById('cfg-drag-count').value = s.dragCount;
+        if (s.dragSens) document.getElementById('cfg-drag-sens').value = s.dragSens;
+        if (s.scoreCorrect) document.getElementById('cfg-score-correct').value = s.scoreCorrect;
+        if (s.defaultTimer) document.getElementById('cfg-default-timer').value = s.defaultTimer;
+      }
+    });
   }
 
-  // PENGURUSAN AVATAR (BAHARU)
   const DEFAULT_AVATARS = [
     { file: "avatars/muslim boy.png", isDefault: true },
     { file: "avatars/muslim girl.png", isDefault: true },
@@ -598,14 +729,21 @@
 
   let adminAvatarsList = [];
 
-  function renderAdminAvatars() {
-    try {
-      const saved = JSON.parse(localStorage.getItem('az_zaki_avatars'));
-      adminAvatarsList = (saved && saved.length > 0) ? saved : [...DEFAULT_AVATARS];
-    } catch (e) {
+  function loadAdminAvatars() {
+    db.collection('config').doc('avatars').get().then(doc => {
+      if (doc.exists && doc.data().list) {
+        adminAvatarsList = doc.data().list;
+      } else {
+        adminAvatarsList = [...DEFAULT_AVATARS];
+      }
+      renderAdminAvatarsGrid();
+    }).catch(e => {
       adminAvatarsList = [...DEFAULT_AVATARS];
-    }
+      renderAdminAvatarsGrid();
+    });
+  }
 
+  function renderAdminAvatarsGrid() {
     const grid = document.getElementById('admin-avatar-grid');
     grid.innerHTML = adminAvatarsList.map((av, idx) => `
       <div class="avatar-admin-card">
@@ -615,7 +753,6 @@
     `).join('');
   }
 
-  // FUNGSI UPLOAD & AUTO-RESIZE MENGGUNAKAN CANVAS
   function handleNewAvatarUpload(input) {
     if (!input.files || !input.files[0]) return;
     const file = input.files[0];
@@ -624,45 +761,41 @@
     reader.onload = function(e) {
       const img = new Image();
       img.onload = function() {
-        // Cipta canvas untuk kecilkan saiz supaya tak membebankan localStorage
         const canvas = document.createElement('canvas');
-        const MAX_SIZE = 256; // Maksimum 256x256 untuk avatar web ringan
-        
-        let width = img.width; 
-        let height = img.height;
+        const MAX_SIZE = 256;
+        let width = img.width; let height = img.height;
         
         if (width > height) { if (width > MAX_SIZE) { height *= MAX_SIZE / width; width = MAX_SIZE; } }
         else { if (height > MAX_SIZE) { width *= MAX_SIZE / height; height = MAX_SIZE; } }
         
         canvas.width = width; canvas.height = height;
         const ctx = canvas.getContext('2d');
-        
-        // Letakkan latar putih jika gambar asal jenis transparent PNG
         ctx.fillStyle = "#ffffff";
         ctx.fillRect(0, 0, width, height);
         ctx.drawImage(img, 0, 0, width, height);
         
-        // Tukar jadi format JPEG base64 yg dimampatkan (85% kualiti)
         const compressedDataUrl = canvas.toDataURL('image/jpeg', 0.85);
         
         adminAvatarsList.push({ file: compressedDataUrl, isDefault: false });
-        localStorage.setItem('az_zaki_avatars', JSON.stringify(adminAvatarsList));
         
-        renderAdminAvatars();
-        showToast('Avatar baharu berjaya dimuat naik & dioptimumkan!');
+        db.collection('config').doc('avatars').set({ list: adminAvatarsList }).then(() => {
+          renderAdminAvatarsGrid();
+          showToast('Avatar baharu berjaya dimuat naik ke Awan!');
+        }).catch(e => alert("⚠️ Ralat upload avatar: " + e.message));
       }
       img.src = e.target.result;
     }
     reader.readAsDataURL(file);
-    input.value = ""; // Reset input
+    input.value = "";
   }
 
   function deleteAvatar(index) {
     if (confirm("Adakah anda pasti mahu memadam avatar ini?")) {
       adminAvatarsList.splice(index, 1);
-      localStorage.setItem('az_zaki_avatars', JSON.stringify(adminAvatarsList));
-      renderAdminAvatars();
-      showToast('Avatar berjaya dibuang!');
+      db.collection('config').doc('avatars').set({ list: adminAvatarsList }).then(() => {
+        renderAdminAvatarsGrid();
+        showToast('Avatar berjaya dibuang dari Awan!');
+      });
     }
   }
 
