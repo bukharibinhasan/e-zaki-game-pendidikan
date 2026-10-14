@@ -1,0 +1,867 @@
+﻿ID,Category,Arabic,Malay,English,Difficulty,WordType,ExampleSentence,Source
+ANM001,Haiwan,أَسَدٌ,Singa,Lion,Easy,Noun,عِنْدِي أَسَدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM002,Haiwan,فِيلٌ,Gajah,Elephant,Easy,Noun,عِنْدِي فِيلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM003,Haiwan,نَمِرٌ,Harimau,Tiger,Easy,Noun,عِنْدِي نَمِرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM004,Haiwan,دُبٌّ,Beruang,Bear,Easy,Noun,عِنْدِي دُبٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM005,Haiwan,ذِئْبٌ,Serigala,Wolf,Easy,Noun,عِنْدِي ذِئْبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM006,Haiwan,ثَعْلَبٌ,Musang,Fox,Easy,Noun,عِنْدِي ثَعْلَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM007,Haiwan,قِرْدٌ,Monyet,Monkey,Easy,Noun,عِنْدِي قِرْدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM008,Haiwan,غَزَالٌ,Rusa,Deer,Easy,Noun,عِنْدِي غَزَالٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM009,Haiwan,زَرَافَةٌ,Zirafah,Giraffe,Easy,Noun,عِنْدِي زَرَافَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM010,Haiwan,حِصَانٌ,Kuda,Horse,Easy,Noun,عِنْدِي حِصَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM011,Haiwan,حِمَارٌ,Keldai,Donkey,Easy,Noun,عِنْدِي حِمَارٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM012,Haiwan,بَقَرَةٌ,Lembu,Cow,Easy,Noun,عِنْدِي بَقَرَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM013,Haiwan,خَرُوفٌ,Biri-biri,Sheep,Easy,Noun,عِنْدِي خَرُوفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM014,Haiwan,مَاعِزٌ,Kambing,Goat,Easy,Noun,عِنْدِي مَاعِزٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM015,Haiwan,جَمَلٌ,Unta,Camel,Easy,Noun,عِنْدِي جَمَلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM016,Haiwan,كَبْشٌ,Biri-biri jantan,Ram,Easy,Noun,عِنْدِي كَبْشٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM017,Haiwan,أَرْنَبٌ,Arnab,Rabbit,Easy,Noun,عِنْدِي أَرْنَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM018,Haiwan,سِنْجَابٌ,Tupai,Squirrel,Easy,Noun,عِنْدِي سِنْجَابٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM019,Haiwan,فَأْرٌ,Tikus,Mouse,Easy,Noun,عِنْدِي فَأْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM020,Haiwan,قِطٌّ,Kucing,Cat,Easy,Noun,عِنْدِي قِطٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM021,Haiwan,كَلْبٌ,Anjing,Dog,Medium,Noun,عِنْدِي كَلْبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM022,Haiwan,طَائِرٌ,Burung,Bird,Medium,Noun,عِنْدِي طَائِرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM023,Haiwan,دَجَاجَةٌ,Ayam,Chicken,Medium,Noun,عِنْدِي دَجَاجَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM024,Haiwan,دِيكٌ,Ayam jantan,Rooster,Medium,Noun,عِنْدِي دِيكٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM025,Haiwan,بَطَّةٌ,Itik,Duck,Medium,Noun,عِنْدِي بَطَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM026,Haiwan,إِوَزَّةٌ,Angsa,Goose,Medium,Noun,عِنْدِي إِوَزَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM027,Haiwan,بَجَعٌ,Angsa putih,Swan,Medium,Noun,عِنْدِي بَجَعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM028,Haiwan,حَمَامَةٌ,Merpati,Pigeon,Medium,Noun,عِنْدِي حَمَامَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM029,Haiwan,نَسْرٌ,Helang,Eagle,Medium,Noun,عِنْدِي نَسْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM030,Haiwan,بَبَّغَاءٌ,Burung kakak tua,Parrot,Medium,Noun,عِنْدِي بَبَّغَاءٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM031,Haiwan,بُومَةٌ,Burung hantu,Owl,Medium,Noun,عِنْدِي بُومَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM032,Haiwan,طَاوُوسٌ,Burung merak,Peacock,Medium,Noun,عِنْدِي طَاوُوسٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM033,Haiwan,بِطْرِيقٌ,Penguin,Penguin,Medium,Noun,عِنْدِي بِطْرِيقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM034,Haiwan,دُلْفِينٌ,Lumba-lumba,Dolphin,Medium,Noun,عِنْدِي دُلْفِينٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM035,Haiwan,حُوتٌ,Paus,Whale,Medium,Noun,عِنْدِي حُوتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM036,Haiwan,قِرْشٌ,Jerung,Shark,Medium,Noun,عِنْدِي قِرْشٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM037,Haiwan,أُخْطُبُوطٌ,Sotong kurita,Octopus,Medium,Noun,عِنْدِي أُخْطُبُوطٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM038,Haiwan,سُلَحْفَاةٌ,Kura-kura,Turtle,Medium,Noun,عِنْدِي سُلَحْفَاةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM039,Haiwan,تِمْسَاحٌ,Buaya,Crocodile,Medium,Noun,عِنْدِي تِمْسَاحٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM040,Haiwan,ضِفْدَعٌ,Katak,Frog,Medium,Noun,عِنْدِي ضِفْدَعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM041,Haiwan,ثُعْبَانٌ,Ular,Snake,Hard,Noun,عِنْدِي ثُعْبَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM042,Haiwan,سَحْلِيَّةٌ,Biawak/cicak,Lizard,Hard,Noun,عِنْدِي سَحْلِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM043,Haiwan,فَرَاشَةٌ,Rama-rama,Butterfly,Hard,Noun,عِنْدِي فَرَاشَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM044,Haiwan,نَحْلَةٌ,Lebah,Bee,Hard,Noun,عِنْدِي نَحْلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM045,Haiwan,نَمْلَةٌ,Semut,Ant,Hard,Noun,عِنْدِي نَمْلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM046,Haiwan,جَرَادَةٌ,Belalang,Grasshopper,Hard,Noun,عِنْدِي جَرَادَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM047,Haiwan,عَنْكَبُوتٌ,Labah-labah,Spider,Hard,Noun,عِنْدِي عَنْكَبُوتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM048,Haiwan,سَرَطَانٌ,Ketam,Crab,Hard,Noun,عِنْدِي سَرَطَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM049,Haiwan,قِنْدِيلُ الْبَحْرِ,Obor-obor,Jellyfish,Hard,Noun,عِنْدِي قِنْدِيلُ الْبَحْرِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANM050,Haiwan,دُودَةٌ,Cacing,Worm,Hard,Noun,عِنْدِي دُودَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY001,Anggota Badan,رَأْسٌ,Kepala,Head,Easy,Noun,عِنْدِي رَأْسٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY002,Anggota Badan,شَعْرٌ,Rambut,Hair,Easy,Noun,عِنْدِي شَعْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY003,Anggota Badan,وَجْهٌ,Muka,Face,Easy,Noun,عِنْدِي وَجْهٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY004,Anggota Badan,جَبْهَةٌ,Dahi,Forehead,Easy,Noun,عِنْدِي جَبْهَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY005,Anggota Badan,عَيْنٌ,Mata,Eye,Easy,Noun,عِنْدِي عَيْنٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY006,Anggota Badan,أُذُنٌ,Telinga,Ear,Easy,Noun,عِنْدِي أُذُنٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY007,Anggota Badan,أَنْفٌ,Hidung,Nose,Easy,Noun,عِنْدِي أَنْفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY008,Anggota Badan,فَمٌ,Mulut,Mouth,Easy,Noun,عِنْدِي فَمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY009,Anggota Badan,شَفَةٌ,Bibir,Lip,Easy,Noun,عِنْدِي شَفَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY010,Anggota Badan,سِنٌّ,Gigi,Tooth,Easy,Noun,عِنْدِي سِنٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY011,Anggota Badan,لِسَانٌ,Lidah,Tongue,Easy,Noun,عِنْدِي لِسَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY012,Anggota Badan,ذَقَنٌ,Dagu,Chin,Easy,Noun,عِنْدِي ذَقَنٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY013,Anggota Badan,رَقَبَةٌ,Leher,Neck,Easy,Noun,عِنْدِي رَقَبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY014,Anggota Badan,كَتِفٌ,Bahu,Shoulder,Easy,Noun,عِنْدِي كَتِفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY015,Anggota Badan,ذِرَاعٌ,Lengan,Arm,Easy,Noun,عِنْدِي ذِرَاعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY016,Anggota Badan,مِرْفَقٌ,Siku,Elbow,Easy,Noun,عِنْدِي مِرْفَقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY017,Anggota Badan,يَدٌ,Tangan,Hand,Easy,Noun,عِنْدِي يَدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY018,Anggota Badan,إِصْبَعٌ,Jari,Finger,Easy,Noun,عِنْدِي إِصْبَعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY019,Anggota Badan,ظُفْرٌ,Kuku,Nail,Easy,Noun,عِنْدِي ظُفْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY020,Anggota Badan,صَدْرٌ,Dada,Chest,Easy,Noun,عِنْدِي صَدْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY021,Anggota Badan,ظَهْرٌ,Belakang badan,Back,Medium,Noun,عِنْدِي ظَهْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY022,Anggota Badan,بَطْنٌ,Perut,Abdomen,Medium,Noun,عِنْدِي بَطْنٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY023,Anggota Badan,سُرَّةٌ,Pusat,Navel,Medium,Noun,عِنْدِي سُرَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY024,Anggota Badan,خَصْرٌ,Pinggang,Waist,Medium,Noun,عِنْدِي خَصْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY025,Anggota Badan,سَاقٌ,Betis/kaki,Leg,Medium,Noun,عِنْدِي سَاقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY026,Anggota Badan,رُكْبَةٌ,Lutut,Knee,Medium,Noun,عِنْدِي رُكْبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY027,Anggota Badan,رِجْلٌ,Kaki,Foot,Medium,Noun,عِنْدِي رِجْلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY028,Anggota Badan,قَدَمٌ,Tapak kaki,Foot,Medium,Noun,عِنْدِي قَدَمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY029,Anggota Badan,كَعْبٌ,Tumit,Heel,Medium,Noun,عِنْدِي كَعْبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY030,Anggota Badan,قَلْبٌ,Jantung,Heart,Medium,Noun,عِنْدِي قَلْبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY031,Anggota Badan,رِئَةٌ,Paru-paru,Lung,Medium,Noun,عِنْدِي رِئَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY032,Anggota Badan,دِمَاغٌ,Otak,Brain,Medium,Noun,عِنْدِي دِمَاغٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY033,Anggota Badan,دَمٌ,Darah,Blood,Medium,Noun,عِنْدِي دَمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY034,Anggota Badan,عَظْمٌ,Tulang,Bone,Medium,Noun,عِنْدِي عَظْمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY035,Anggota Badan,عَضَلَةٌ,Otot,Muscle,Medium,Noun,عِنْدِي عَضَلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY036,Anggota Badan,جِلْدٌ,Kulit,Skin,Medium,Noun,عِنْدِي جِلْدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY037,Anggota Badan,حَلْقٌ,Tekak,Throat,Medium,Noun,عِنْدِي حَلْقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY038,Anggota Badan,خَدٌّ,Pipi,Cheek,Medium,Noun,عِنْدِي خَدٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY039,Anggota Badan,رَمْشٌ,Bulu mata,Eyelash,Medium,Noun,عِنْدِي رَمْشٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY040,Anggota Badan,حَاجِبٌ,Kening,Eyebrow,Medium,Noun,عِنْدِي حَاجِبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY041,Anggota Badan,لُعَابٌ,Air liur,Saliva,Hard,Noun,عِنْدِي لُعَابٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY042,Anggota Badan,جُرْحٌ,Luka,Wound,Hard,Noun,عِنْدِي جُرْحٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY043,Anggota Badan,فَخِذٌ,Paha,Thigh,Hard,Noun,عِنْدِي فَخِذٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY044,Anggota Badan,كِبْدٌ,Hati/liver,Liver,Hard,Noun,عِنْدِي كِبْدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY045,Anggota Badan,كُلْيَةٌ,Buah pinggang,Kidney,Hard,Noun,عِنْدِي كُلْيَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY046,Anggota Badan,مَعِدَةٌ,Perut/stomach,Stomach,Hard,Noun,عِنْدِي مَعِدَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY047,Anggota Badan,مِعْصَمٌ,Pergelangan tangan,Wrist,Hard,Noun,عِنْدِي مِعْصَمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY048,Anggota Badan,مَفْصِلٌ,Sendi,Joint,Hard,Noun,عِنْدِي مَفْصِلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY049,Anggota Badan,عَقِبٌ,Tumit kaki,Heel,Hard,Noun,عِنْدِي عَقِبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+BDY050,Anggota Badan,جَانِبٌ,Sisi/bahagian tepi,Side,Hard,Noun,عِنْدِي جَانِبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB001,Pekerjaan / Cita-Cita,طَبِيبٌ,Doktor,Doctor,Easy,Noun,عِنْدِي طَبِيبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB002,Pekerjaan / Cita-Cita,طَبِيبَةٌ,Doktor wanita,Female doctor,Easy,Noun,عِنْدِي طَبِيبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB003,Pekerjaan / Cita-Cita,مُمَرِّضٌ,Jururawat lelaki,Nurse,Easy,Noun,عِنْدِي مُمَرِّضٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB004,Pekerjaan / Cita-Cita,مُمَرِّضَةٌ,Jururawat wanita,Nurse,Easy,Noun,عِنْدِي مُمَرِّضَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB005,Pekerjaan / Cita-Cita,مُهَنْدِسٌ,Jurutera,Engineer,Easy,Noun,عِنْدِي مُهَنْدِسٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB006,Pekerjaan / Cita-Cita,مُعَلِّمٌ,Guru lelaki,Teacher,Easy,Noun,عِنْدِي مُعَلِّمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB007,Pekerjaan / Cita-Cita,مُعَلِّمَةٌ,Guru wanita,Teacher,Easy,Noun,عِنْدِي مُعَلِّمَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB008,Pekerjaan / Cita-Cita,طَبِيبُ أَسْنَانٍ,Doktor gigi,Dentist,Easy,Noun,عِنْدِي طَبِيبُ أَسْنَانٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB009,Pekerjaan / Cita-Cita,صَيْدَلَانِيٌّ,Ahli farmasi,Pharmacist,Easy,Noun,عِنْدِي صَيْدَلَانِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB010,Pekerjaan / Cita-Cita,مُحَامٍ,Peguam,Lawyer,Easy,Noun,عِنْدِي مُحَامٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB011,Pekerjaan / Cita-Cita,قَاضٍ,Hakim,Judge,Easy,Noun,عِنْدِي قَاضٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB012,Pekerjaan / Cita-Cita,شُرْطِيٌّ,Polis,Police officer,Easy,Noun,عِنْدِي شُرْطِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB013,Pekerjaan / Cita-Cita,جُنْدِيٌّ,Askar,Soldier,Easy,Noun,عِنْدِي جُنْدِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB014,Pekerjaan / Cita-Cita,طَيَّارٌ,Juruterbang,Pilot,Easy,Noun,عِنْدِي طَيَّارٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB015,Pekerjaan / Cita-Cita,مُضِيفٌ,Pramugara,Steward,Easy,Noun,عِنْدِي مُضِيفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB016,Pekerjaan / Cita-Cita,مُضِيفَةٌ,Pramugari,Stewardess,Easy,Noun,عِنْدِي مُضِيفَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB017,Pekerjaan / Cita-Cita,مُبَرْمِجٌ,Pengatur cara,Programmer,Easy,Noun,عِنْدِي مُبَرْمِجٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB018,Pekerjaan / Cita-Cita,مُصَمِّمٌ,Pereka,Designer,Easy,Noun,عِنْدِي مُصَمِّمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB019,Pekerjaan / Cita-Cita,كَاتِبٌ,Penulis,Writer,Easy,Noun,عِنْدِي كَاتِبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB020,Pekerjaan / Cita-Cita,صَحَفِيٌّ,Wartawan,Journalist,Easy,Noun,عِنْدِي صَحَفِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB021,Pekerjaan / Cita-Cita,مُصَوِّرٌ,Jurugambar,Photographer,Medium,Noun,عِنْدِي مُصَوِّرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB022,Pekerjaan / Cita-Cita,رَسَّامٌ,Pelukis,Painter,Medium,Noun,عِنْدِي رَسَّامٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB023,Pekerjaan / Cita-Cita,مُوسِيقَارٌ,Ahli muzik,Musician,Medium,Noun,عِنْدِي مُوسِيقَارٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB024,Pekerjaan / Cita-Cita,مُمَثِّلٌ,Pelakon lelaki,Actor,Medium,Noun,عِنْدِي مُمَثِّلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB025,Pekerjaan / Cita-Cita,مُمَثِّلَةٌ,Pelakon wanita,Actress,Medium,Noun,عِنْدِي مُمَثِّلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB026,Pekerjaan / Cita-Cita,مُغَنٍّ,Penyanyi,Singer,Medium,Noun,عِنْدِي مُغَنٍّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB027,Pekerjaan / Cita-Cita,طَبَّاخٌ,Tukang masak,Chef,Medium,Noun,عِنْدِي طَبَّاخٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB028,Pekerjaan / Cita-Cita,خَبَّازٌ,Pembuat roti,Baker,Medium,Noun,عِنْدِي خَبَّازٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB029,Pekerjaan / Cita-Cita,فَلَّاحٌ,Petani,Farmer,Medium,Noun,عِنْدِي فَلَّاحٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB030,Pekerjaan / Cita-Cita,بُسْتَانِيٌّ,Tukang kebun,Gardener,Medium,Noun,عِنْدِي بُسْتَانِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB031,Pekerjaan / Cita-Cita,نَجَّارٌ,Tukang kayu,Carpenter,Medium,Noun,عِنْدِي نَجَّارٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB032,Pekerjaan / Cita-Cita,حَدَّادٌ,Tukang besi,Blacksmith,Medium,Noun,عِنْدِي حَدَّادٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB033,Pekerjaan / Cita-Cita,كَهْرَبَائِيٌّ,Juruteknik elektrik,Electrician,Medium,Noun,عِنْدِي كَهْرَبَائِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB034,Pekerjaan / Cita-Cita,سَبَّاكٌ,Tukang paip,Plumber,Medium,Noun,عِنْدِي سَبَّاكٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB035,Pekerjaan / Cita-Cita,مِيكَانِيكِيٌّ,Mekanik,Mechanic,Medium,Noun,عِنْدِي مِيكَانِيكِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB036,Pekerjaan / Cita-Cita,سَائِقٌ,Pemandu,Driver,Medium,Noun,عِنْدِي سَائِقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB037,Pekerjaan / Cita-Cita,بَائِعٌ,Penjual,Seller,Medium,Noun,عِنْدِي بَائِعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB038,Pekerjaan / Cita-Cita,صَيَّادٌ,Nelayan/pemburu,Fisherman/Hunter,Medium,Noun,عِنْدِي صَيَّادٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB039,Pekerjaan / Cita-Cita,رَجُلُ إِطْفَاءٍ,Anggota bomba,Firefighter,Medium,Noun,عِنْدِي رَجُلُ إِطْفَاءٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB040,Pekerjaan / Cita-Cita,بَرِيدِيٌّ,Posmen,Postman,Medium,Noun,عِنْدِي بَرِيدِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB041,Pekerjaan / Cita-Cita,أَمِينُ مَكْتَبٍ,Kerani,Clerk,Hard,Noun,عِنْدِي أَمِينُ مَكْتَبٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB042,Pekerjaan / Cita-Cita,مُدِيرٌ,Pengurus,Manager,Hard,Noun,عِنْدِي مُدِيرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB043,Pekerjaan / Cita-Cita,مُوَظَّفٌ,Pekerja/pegawai,Employee,Hard,Noun,عِنْدِي مُوَظَّفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB044,Pekerjaan / Cita-Cita,عَالِمٌ,Saintis/sarjana,Scientist/Scholar,Hard,Noun,عِنْدِي عَالِمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB045,Pekerjaan / Cita-Cita,طَالِبٌ,Pelajar lelaki,Student,Hard,Noun,عِنْدِي طَالِبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB046,Pekerjaan / Cita-Cita,طَالِبَةٌ,Pelajar perempuan,Student,Hard,Noun,عِنْدِي طَالِبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB047,Pekerjaan / Cita-Cita,مُخْتَرِعٌ,Pencipta,Inventor,Hard,Noun,عِنْدِي مُخْتَرِعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB048,Pekerjaan / Cita-Cita,مُرْشِدٌ,Pembimbing/kaunselor,Counselor/Guide,Hard,Noun,عِنْدِي مُرْشِدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB049,Pekerjaan / Cita-Cita,رَائِدُ أَعْمَالٍ,Usahawan,Entrepreneur,Hard,Noun,عِنْدِي رَائِدُ أَعْمَالٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+JOB050,Pekerjaan / Cita-Cita,فَنَّانٌ,Seniman,Artist,Hard,Noun,عِنْدِي فَنَّانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG001,Sayur-Sayuran,جَزَرٌ,Lobak merah,Carrot,Easy,Noun,عِنْدِي جَزَرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG002,Sayur-Sayuran,خِيَارٌ,Timun,Cucumber,Easy,Noun,عِنْدِي خِيَارٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG003,Sayur-Sayuran,طَمَاطِمُ,Tomato,Tomato,Easy,Noun,عِنْدِي طَمَاطِمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG004,Sayur-Sayuran,بَطَاطِسُ,Kentang,Potato,Easy,Noun,عِنْدِي بَطَاطِسُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG005,Sayur-Sayuran,بَصَلٌ,Bawang,Onion,Easy,Noun,عِنْدِي بَصَلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG006,Sayur-Sayuran,ثَوْمٌ,Bawang putih,Garlic,Easy,Noun,عِنْدِي ثَوْمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG007,Sayur-Sayuran,مَلْفُوفٌ أَحْمَرُ,Kubis merah,Red cabbage,Easy,Noun,عِنْدِي مَلْفُوفٌ أَحْمَرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG008,Sayur-Sayuran,خَسٌّ,Salad,Lettuce,Easy,Noun,عِنْدِي خَسٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG009,Sayur-Sayuran,مَلْفُوفٌ,Kubis,Cabbage,Easy,Noun,عِنْدِي مَلْفُوفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG010,Sayur-Sayuran,قَرْنَبِيطٌ,Kubis bunga,Cauliflower,Easy,Noun,عِنْدِي قَرْنَبِيطٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG011,Sayur-Sayuran,بْرُوكُلِي,Brokoli,Broccoli,Easy,Noun,عِنْدِي بْرُوكُلِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG012,Sayur-Sayuran,بَاذِنْجَانٌ,Terung,Eggplant,Easy,Noun,عِنْدِي بَاذِنْجَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG013,Sayur-Sayuran,فُلْفُلٌ,Lada benggala,Bell pepper,Easy,Noun,عِنْدِي فُلْفُلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG014,Sayur-Sayuran,فِلْفِلٌ حَارٌّ,Cili,Chili,Easy,Noun,عِنْدِي فِلْفِلٌ حَارٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG015,Sayur-Sayuran,بَامِيَةٌ,Bendi,Okra,Easy,Noun,عِنْدِي بَامِيَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG016,Sayur-Sayuran,فَاصُولْيَا خَضْرَاءُ,Kacang buncis,Green beans,Easy,Noun,عِنْدِي فَاصُولْيَا خَضْرَاءُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG017,Sayur-Sayuran,بَازِلَّاءُ,Kacang pea,Peas,Easy,Noun,عِنْدِي بَازِلَّاءُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG018,Sayur-Sayuran,ذُرَةٌ,Jagung,Corn,Easy,Noun,عِنْدِي ذُرَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG019,Sayur-Sayuran,يَقْطِينٌ,Labu,Pumpkin,Easy,Noun,عِنْدِي يَقْطِينٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG020,Sayur-Sayuran,كُوسَا,Zucchini,Zucchini,Easy,Noun,عِنْدِي كُوسَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG021,Sayur-Sayuran,سَبَانِخُ,Bayam,Spinach,Medium,Noun,عِنْدِي سَبَانِخُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG022,Sayur-Sayuran,سِلْقٌ,Swiss chard,Chard,Medium,Noun,عِنْدِي سِلْقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG023,Sayur-Sayuran,جَرْجِيرٌ,Rukola,Arugula,Medium,Noun,عِنْدِي جَرْجِيرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG024,Sayur-Sayuran,كَرَفْسٌ,Saderi,Celery,Medium,Noun,عِنْدِي كَرَفْسٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG025,Sayur-Sayuran,بَقْدُونِسٌ,Parsli,Parsley,Medium,Noun,عِنْدِي بَقْدُونِسٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG026,Sayur-Sayuran,كُرَّاثٌ,Daun bawang,Leek,Medium,Noun,عِنْدِي كُرَّاثٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG027,Sayur-Sayuran,نَعْنَاعٌ,Pudina,Mint,Medium,Noun,عِنْدِي نَعْنَاعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG028,Sayur-Sayuran,رَيْحَانٌ,Selasih,Basil,Medium,Noun,عِنْدِي رَيْحَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG029,Sayur-Sayuran,زَنْجَبِيلٌ,Halia,Ginger,Medium,Noun,عِنْدِي زَنْجَبِيلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG030,Sayur-Sayuran,كُرْكُمٌ,Kunyit,Turmeric,Medium,Noun,عِنْدِي كُرْكُمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG031,Sayur-Sayuran,فِجْلٌ,Lobak putih,Radish,Medium,Noun,عِنْدِي فِجْلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG032,Sayur-Sayuran,لِفْتٌ,Turnip,Turnip,Medium,Noun,عِنْدِي لِفْتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG033,Sayur-Sayuran,بَطَاطَا حُلْوَةٌ,Ubi keledek,Sweet potato,Medium,Noun,عِنْدِي بَطَاطَا حُلْوَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG034,Sayur-Sayuran,قَلْقَاسٌ,Keladi,Taro,Medium,Noun,عِنْدِي قَلْقَاسٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG035,Sayur-Sayuran,يَامٌ,Ubi keladi,Yam,Medium,Noun,عِنْدِي يَامٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG036,Sayur-Sayuran,فِطْرٌ,Cendawan,Mushroom,Medium,Noun,عِنْدِي فِطْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG037,Sayur-Sayuran,بَامْبَازُو,Rebung,Bamboo shoot,Medium,Noun,عِنْدِي بَامْبَازُو.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG038,Sayur-Sayuran,قَرْعٌ,Labu,Gourd,Medium,Noun,عِنْدِي قَرْعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG039,Sayur-Sayuran,كُرُنْبٌ,Kohlrabi,Kohlrabi,Medium,Noun,عِنْدِي كُرُنْبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG040,Sayur-Sayuran,أَفُوكَادُو,Avokado,Avocado,Medium,Noun,عِنْدِي أَفُوكَادُو.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG041,Sayur-Sayuran,بِطِّيخٌ أَخْضَرُ,Tembikai,Watermelon,Hard,Noun,عِنْدِي بِطِّيخٌ أَخْضَرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG042,Sayur-Sayuran,زَيْتُونٌ,Zaitun,Olive,Hard,Noun,عِنْدِي زَيْتُونٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG043,Sayur-Sayuran,ذُرْوَةُ الذُّرَةِ,Putik jagung,Corn cob,Hard,Noun,عِنْدِي ذُرْوَةُ الذُّرَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG044,Sayur-Sayuran,بَازَلَاءٌ حَلْوَةٌ,Kacang manis,Sugar snap peas,Hard,Noun,عِنْدِي بَازَلَاءٌ حَلْوَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG045,Sayur-Sayuran,شَمَنْدَرٌ,Ubi bit,Beetroot,Hard,Noun,عِنْدِي شَمَنْدَرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG046,Sayur-Sayuran,يَقطِينُ مُرٌّ,Peria,Bitter gourd,Hard,Noun,عِنْدِي يَقطِينُ مُرٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG047,Sayur-Sayuran,مُولُوخِيَّةٌ,Mulukhiya,Jute mallow,Hard,Noun,عِنْدِي مُولُوخِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG048,Sayur-Sayuran,قَرْعَةٌ,Labu botol,Bottle gourd,Hard,Noun,عِنْدِي قَرْعَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG049,Sayur-Sayuran,قُرْعَةٌ صَيْفِيَّةٌ,Labu musim panas,Summer squash,Hard,Noun,عِنْدِي قُرْعَةٌ صَيْفِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+VEG050,Sayur-Sayuran,بَرَاقِمُ بَامْبُو,Pucuk buluh,Bamboo shoots,Hard,Noun,عِنْدِي بَرَاقِمُ بَامْبُو.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT001,Buah-Buahan,تُفَّاحٌ,Epal,Apple,Easy,Noun,عِنْدِي تُفَّاحٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT002,Buah-Buahan,مَوْزٌ,Pisang,Banana,Easy,Noun,عِنْدِي مَوْزٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT003,Buah-Buahan,بُرْتُقَالٌ,Oren,Orange,Easy,Noun,عِنْدِي بُرْتُقَالٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT004,Buah-Buahan,مَنْدَرِينٌ,Limau mandarin,Mandarin,Easy,Noun,عِنْدِي مَنْدَرِينٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT005,Buah-Buahan,عِنَبٌ,Anggur,Grapes,Easy,Noun,عِنْدِي عِنَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT006,Buah-Buahan,فَرَاوِلَةٌ,Strawberi,Strawberry,Easy,Noun,عِنْدِي فَرَاوِلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT007,Buah-Buahan,بِطِّيخٌ,Tembikai,Watermelon,Easy,Noun,عِنْدِي بِطِّيخٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT008,Buah-Buahan,بَابَايَا,Betik,Papaya,Easy,Noun,عِنْدِي بَابَايَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT009,Buah-Buahan,أَنَانَاسٌ,Nanas,Pineapple,Easy,Noun,عِنْدِي أَنَانَاسٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT010,Buah-Buahan,مَانْجَا,Mangga,Mango,Easy,Noun,عِنْدِي مَانْجَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT011,Buah-Buahan,بَطِّيخٌ أَصْفَرُ,Melon,Melon,Easy,Noun,عِنْدِي بَطِّيخٌ أَصْفَرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT012,Buah-Buahan,كِيوِي,Kiwi,Kiwi,Easy,Noun,عِنْدِي كِيوِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT013,Buah-Buahan,فَرْسَكٌ,Pic,Peach,Easy,Noun,عِنْدِي فَرْسَكٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT014,Buah-Buahan,مِشْمِشٌ,Aprikot,Apricot,Easy,Noun,عِنْدِي مِشْمِشٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT015,Buah-Buahan,كُمَّثْرَى,Pir,Pear,Easy,Noun,عِنْدِي كُمَّثْرَى.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT016,Buah-Buahan,كَرَزٌ,Ceri,Cherry,Easy,Noun,عِنْدِي كَرَزٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT017,Buah-Buahan,رُمَّانٌ,Delima,Pomegranate,Easy,Noun,عِنْدِي رُمَّانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT018,Buah-Buahan,تِينٌ,Buah tin,Fig,Easy,Noun,عِنْدِي تِينٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT019,Buah-Buahan,تَمْرٌ,Kurma,Date,Easy,Noun,عِنْدِي تَمْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT020,Buah-Buahan,جَوْزُ الْهِنْدِ,Kelapa,Coconut,Easy,Noun,عِنْدِي جَوْزُ الْهِنْدِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT021,Buah-Buahan,جَوْزٌ,Walnut,Walnut,Medium,Noun,عِنْدِي جَوْزٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT022,Buah-Buahan,لَوْزٌ,Badam,Almond,Medium,Noun,عِنْدِي لَوْزٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT023,Buah-Buahan,فُسْتُقٌ,Pistachio,Pistachio,Medium,Noun,عِنْدِي فُسْتُقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT024,Buah-Buahan,مَانِدِينُ,Limau kecil,Mandarin,Medium,Noun,عِنْدِي مَانِدِينُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT025,Buah-Buahan,جَرِيبْ فْرُوتٌ,Limau gedang,Grapefruit,Medium,Noun,عِنْدِي جَرِيبْ فْرُوتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT026,Buah-Buahan,لَيْمُونٌ,Lemon,Lemon,Medium,Noun,عِنْدِي لَيْمُونٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT027,Buah-Buahan,لَيْمٌ,Limau nipis,Lime,Medium,Noun,عِنْدِي لَيْمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT028,Buah-Buahan,تُوتٌ,Beri,Berry,Medium,Noun,عِنْدِي تُوتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT029,Buah-Buahan,تُوتٌ أَسْوَدُ,Blackberi,Blackberry,Medium,Noun,عِنْدِي تُوتٌ أَسْوَدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT030,Buah-Buahan,تُوتٌ أَزْرَقُ,Blueberi,Blueberry,Medium,Noun,عِنْدِي تُوتٌ أَزْرَقُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT031,Buah-Buahan,تُوتٌ أَحْمَرُ,Raspberi,Raspberry,Medium,Noun,عِنْدِي تُوتٌ أَحْمَرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT032,Buah-Buahan,مَنْغُوسْتِينٌ,Manggis,Mangosteen,Medium,Noun,عِنْدِي مَنْغُوسْتِينٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT033,Buah-Buahan,رَمْبُوتَانٌ,Rambutan,Rambutan,Medium,Noun,عِنْدِي رَمْبُوتَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT034,Buah-Buahan,دُورِيَانٌ,Durian,Durian,Medium,Noun,عِنْدِي دُورِيَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT035,Buah-Buahan,فَاكِهَةُ النَّجْمِ,Belimbing,Starfruit,Medium,Noun,عِنْدِي فَاكِهَةُ النَّجْمِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT036,Buah-Buahan,جَوَافَةٌ,Jambu batu,Guava,Medium,Noun,عِنْدِي جَوَافَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT037,Buah-Buahan,سُفَرْجَلٌ,Quince,Quince,Medium,Noun,عِنْدِي سُفَرْجَلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT038,Buah-Buahan,كَرَمْبُولَةٌ,Belimbing,Starfruit,Medium,Noun,عِنْدِي كَرَمْبُولَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT039,Buah-Buahan,نَارَنْجِيلَا,Naranjilla,Naranjilla,Medium,Noun,عِنْدِي نَارَنْجِيلَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT040,Buah-Buahan,لُوبِيَا,Longan,Longan,Medium,Noun,عِنْدِي لُوبِيَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT041,Buah-Buahan,لِيتْشِي,Laici,Lychee,Hard,Noun,عِنْدِي لِيتْشِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT042,Buah-Buahan,سَابُوتَا,Sapota,Sapodilla,Hard,Noun,عِنْدِي سَابُوتَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT043,Buah-Buahan,فَاكِهَةُ التَّنِّينِ,Buah naga,Dragon fruit,Hard,Noun,عِنْدِي فَاكِهَةُ التَّنِّينِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT044,Buah-Buahan,جِرِيمٌ,Cranberry,Cranberry,Hard,Noun,عِنْدِي جِرِيمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT045,Buah-Buahan,كُمَكْوَاتٌ,Kumkuat,Kumquat,Hard,Noun,عِنْدِي كُمَكْوَاتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT046,Buah-Buahan,دُرَّاقٌ,Nectarine,Nectarine,Hard,Noun,عِنْدِي دُرَّاقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT047,Buah-Buahan,قَرْصٌ,Persimmon,Persimmon,Hard,Noun,عِنْدِي قَرْصٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT048,Buah-Buahan,مَانْدَارِينُ صِينِيٌّ,Mandarin Cina,Chinese mandarin,Hard,Noun,عِنْدِي مَانْدَارِينُ صِينِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT049,Buah-Buahan,بَاشِنْ فُرُوت,Markisa,Passion fruit,Hard,Noun,عِنْدِي بَاشِنْ فُرُوت.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FRT050,Buah-Buahan,سَافُو,Buah sawo,Sapote,Hard,Noun,عِنْدِي سَافُو.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT001,Pakaian,قَمِيصٌ,Baju/kemeja,Shirt,Easy,Noun,عِنْدِي قَمِيصٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT002,Pakaian,بِنْطَالٌ,Seluar panjang,Trousers,Easy,Noun,عِنْدِي بِنْطَالٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT003,Pakaian,سِرْوَالٌ قَصِيرٌ,Seluar pendek,Shorts,Easy,Noun,عِنْدِي سِرْوَالٌ قَصِيرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT004,Pakaian,ثَوْبٌ,Pakaian/baju,Dress/Garment,Easy,Noun,عِنْدِي ثَوْبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT005,Pakaian,فُسْتَانٌ,Gaun,Dress,Easy,Noun,عِنْدِي فُسْتَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT006,Pakaian,تَنُّورَةٌ,Skirt,Skirt,Easy,Noun,عِنْدِي تَنُّورَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT007,Pakaian,عَبَاءَةٌ,Jubah/abaya,Abaya,Easy,Noun,عِنْدِي عَبَاءَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT008,Pakaian,جِلْبَابٌ,Jubah luar,Jilbab,Easy,Noun,عِنْدِي جِلْبَابٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT009,Pakaian,حِجَابٌ,Tudung,Hijab,Easy,Noun,عِنْدِي حِجَابٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT010,Pakaian,خِمَارٌ,Tudung,Khimar,Easy,Noun,عِنْدِي خِمَارٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT011,Pakaian,سِرْبَالٌ,Pakaian,Garment,Easy,Noun,عِنْدِي سِرْبَالٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT012,Pakaian,سُرْوَالٌ,Seluar,Pants,Easy,Noun,عِنْدِي سُرْوَالٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT013,Pakaian,مِعْطَفٌ,Kot,Coat,Easy,Noun,عِنْدِي مِعْطَفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT014,Pakaian,سُتْرَةٌ,Jaket,Jacket,Easy,Noun,عِنْدِي سُتْرَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT015,Pakaian,مِئْزَرٌ,Apron,Apron,Easy,Noun,عِنْدِي مِئْزَرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT016,Pakaian,قُبَّعَةٌ,Topi,Hat,Easy,Noun,عِنْدِي قُبَّعَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT017,Pakaian,عِمَامَةٌ,Serban,Turban,Easy,Noun,عِنْدِي عِمَامَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT018,Pakaian,كَفَّازٌ,Sarung tangan,Glove,Easy,Noun,عِنْدِي كَفَّازٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT019,Pakaian,جَوْرَبٌ,Stoking,Sock,Easy,Noun,عِنْدِي جَوْرَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT020,Pakaian,حِذَاءٌ,Kasut,Shoe,Easy,Noun,عِنْدِي حِذَاءٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT021,Pakaian,صَنْدَلٌ,Sandal,Sandal,Medium,Noun,عِنْدِي صَنْدَلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT022,Pakaian,حِذَاءٌ رِيَاضِيٌّ,Kasut sukan,Sports shoes,Medium,Noun,عِنْدِي حِذَاءٌ رِيَاضِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT023,Pakaian,حِذَاءٌ مَدْرَسِيٌّ,Kasut sekolah,School shoes,Medium,Noun,عِنْدِي حِذَاءٌ مَدْرَسِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT024,Pakaian,رَبْطَةُ عُنُقٍ,Tali leher,Tie,Medium,Noun,عِنْدِي رَبْطَةُ عُنُقٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT025,Pakaian,حِزَامٌ,Tali pinggang,Belt,Medium,Noun,عِنْدِي حِزَامٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT026,Pakaian,مِظَلَّةٌ,Payung,Umbrella,Medium,Noun,عِنْدِي مِظَلَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT027,Pakaian,مَلابِسُ نَوْمٍ,Pakaian tidur,Sleepwear,Medium,Noun,عِنْدِي مَلابِسُ نَوْمٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT028,Pakaian,مَلابِسُ دَاخِلِيَّةٌ,Pakaian dalam,Underwear,Medium,Noun,عِنْدِي مَلابِسُ دَاخِلِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT029,Pakaian,مِئْزَرَةٌ,Skirt/apron,Apron/Skirt,Medium,Noun,عِنْدِي مِئْزَرَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT030,Pakaian,بِزَامَةٌ,Pijama,Pyjamas,Medium,Noun,عِنْدِي بِزَامَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT031,Pakaian,سَاعَةٌ يَدَوِيَّةٌ,Jam tangan,Wristwatch,Medium,Noun,عِنْدِي سَاعَةٌ يَدَوِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT032,Pakaian,نَظَّارَةٌ,Cermin mata,Glasses,Medium,Noun,عِنْدِي نَظَّارَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT033,Pakaian,نَظَّارَةٌ شَمْسِيَّةٌ,Cermin mata hitam,Sunglasses,Medium,Noun,عِنْدِي نَظَّارَةٌ شَمْسِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT034,Pakaian,حَقِيبَةٌ,Beg,Bag,Medium,Noun,عِنْدِي حَقِيبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT035,Pakaian,حَقِيبَةُ يَدٍ,Beg tangan,Handbag,Medium,Noun,عِنْدِي حَقِيبَةُ يَدٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT036,Pakaian,حَقِيبَةُ ظَهْرٍ,Beg galas,Backpack,Medium,Noun,عِنْدِي حَقِيبَةُ ظَهْرٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT037,Pakaian,مِنْدِيلٌ,Sapu tangan,Handkerchief,Medium,Noun,عِنْدِي مِنْدِيلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT038,Pakaian,شَالٌ,Selendang,Scarf,Medium,Noun,عِنْدِي شَالٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT039,Pakaian,مِنْدِيلُ الرَّأْسِ,Skaf kepala,Headscarf,Medium,Noun,عِنْدِي مِنْدِيلُ الرَّأْسِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT040,Pakaian,قُفَّازَاتٌ شَتْوِيَّةٌ,Sarung tangan musim sejuk,Winter gloves,Medium,Noun,عِنْدِي قُفَّازَاتٌ شَتْوِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT041,Pakaian,مَلابِسُ الرِّيَاضَةِ,Pakaian sukan,Sportswear,Hard,Noun,عِنْدِي مَلابِسُ الرِّيَاضَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT042,Pakaian,زِيٌّ مَدْرَسِيٌّ,Seragam sekolah,School uniform,Hard,Noun,عِنْدِي زِيٌّ مَدْرَسِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT043,Pakaian,زِيٌّ رَسْمِيٌّ,Pakaian rasmi,Formal wear,Hard,Noun,عِنْدِي زِيٌّ رَسْمِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT044,Pakaian,مَلابِسُ السِّبَاحَةِ,Pakaian renang,Swimwear,Hard,Noun,عِنْدِي مَلابِسُ السِّبَاحَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT045,Pakaian,قِرْطٌ,Anting-anting,Earring,Hard,Noun,عِنْدِي قِرْطٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT046,Pakaian,خَاتَمٌ,Cincin,Ring,Hard,Noun,عِنْدِي خَاتَمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT047,Pakaian,سِوَارٌ,Gelang,Bracelet,Hard,Noun,عِنْدِي سِوَارٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT048,Pakaian,قِلَادَةٌ,Rantai,Necklace,Hard,Noun,عِنْدِي قِلَادَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT049,Pakaian,دَبُّوسُ زِينَةٍ,Kerongsang,Brooch,Hard,Noun,عِنْدِي دَبُّوسُ زِينَةٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+CLT050,Pakaian,حِذَاءٌ عَالِي الْكَعْبِ,Kasut tumit tinggi,High heels,Hard,Noun,عِنْدِي حِذَاءٌ عَالِي الْكَعْبِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD001,Makanan & Minuman,أُرْزٌ,Nasi,Rice,Easy,Noun,عِنْدِي أُرْزٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD002,Makanan & Minuman,خُبْزٌ,Roti,Bread,Easy,Noun,عِنْدِي خُبْزٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD003,Makanan & Minuman,مَاءٌ,Air,Water,Easy,Noun,عِنْدِي مَاءٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD004,Makanan & Minuman,حَلِيبٌ,Susu,Milk,Easy,Noun,عِنْدِي حَلِيبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD005,Makanan & Minuman,شَايٌ,Teh,Tea,Easy,Noun,عِنْدِي شَايٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD006,Makanan & Minuman,قَهْوَةٌ,Kopi,Coffee,Easy,Noun,عِنْدِي قَهْوَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD007,Makanan & Minuman,عَصِيرٌ,Jus,Juice,Easy,Noun,عِنْدِي عَصِيرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD008,Makanan & Minuman,حَسَاءٌ,Sup,Soup,Easy,Noun,عِنْدِي حَسَاءٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD009,Makanan & Minuman,دَجَاجٌ,Ayam,Chicken,Easy,Noun,عِنْدِي دَجَاجٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD010,Makanan & Minuman,لَحْمٌ,Daging,Meat,Easy,Noun,عِنْدِي لَحْمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD011,Makanan & Minuman,سَمَكٌ,Ikan,Fish,Easy,Noun,عِنْدِي سَمَكٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD012,Makanan & Minuman,بَيْضٌ,Telur,Egg,Easy,Noun,عِنْدِي بَيْضٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD013,Makanan & Minuman,جُبْنٌ,Keju,Cheese,Easy,Noun,عِنْدِي جُبْنٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD014,Makanan & Minuman,زُبْدَةٌ,Mentega,Butter,Easy,Noun,عِنْدِي زُبْدَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD015,Makanan & Minuman,يُوغُرْتٌ,Yogurt,Yogurt,Easy,Noun,عِنْدِي يُوغُرْتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD016,Makanan & Minuman,عَسَلٌ,Madu,Honey,Easy,Noun,عِنْدِي عَسَلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD017,Makanan & Minuman,سُكَّرٌ,Gula,Sugar,Easy,Noun,عِنْدِي سُكَّرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD018,Makanan & Minuman,مِلْحٌ,Garam,Salt,Easy,Noun,عِنْدِي مِلْحٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD019,Makanan & Minuman,فُلْفُلٌ,Lada,Pepper,Easy,Noun,عِنْدِي فُلْفُلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD020,Makanan & Minuman,زَيْتٌ,Minyak,Oil,Easy,Noun,عِنْدِي زَيْتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD021,Makanan & Minuman,خَلٌّ,Cuka,Vinegar,Medium,Noun,عِنْدِي خَلٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD022,Makanan & Minuman,صَلْصَةٌ,Sos,Sauce,Medium,Noun,عِنْدِي صَلْصَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD023,Makanan & Minuman,مَعْكَرُونَةٌ,Pasta,Pasta,Medium,Noun,عِنْدِي مَعْكَرُونَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD024,Makanan & Minuman,مَعْكَرُونَةٌ مُحَشَّاةٌ,Pasta berinti,Stuffed pasta,Medium,Noun,عِنْدِي مَعْكَرُونَةٌ مُحَشَّاةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD025,Makanan & Minuman,شَعِيرِيَّةٌ,Bihun,Vermicelli,Medium,Noun,عِنْدِي شَعِيرِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD026,Makanan & Minuman,نُودِلْزٌ,Mi,Noodles,Medium,Noun,عِنْدِي نُودِلْزٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD027,Makanan & Minuman,شَاوَارْمَا,Syawarma,Shawarma,Medium,Noun,عِنْدِي شَاوَارْمَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD028,Makanan & Minuman,سَنْدُوِيتْشٌ,Sandwic,Sandwich,Medium,Noun,عِنْدِي سَنْدُوِيتْشٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD029,Makanan & Minuman,بِيتْزَا,Piza,Pizza,Medium,Noun,عِنْدِي بِيتْزَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD030,Makanan & Minuman,كَعْكَةٌ,Kek,Cake,Medium,Noun,عِنْدِي كَعْكَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD031,Makanan & Minuman,بِسْكُوِيتٌ,Biskut,Biscuit,Medium,Noun,عِنْدِي بِسْكُوِيتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD032,Makanan & Minuman,بُسْكُوِيتٌ,Biskut,Cookie,Medium,Noun,عِنْدِي بُسْكُوِيتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD033,Makanan & Minuman,مُثَلَّجٌ,Aiskrim,Ice cream,Medium,Noun,عِنْدِي مُثَلَّجٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD034,Makanan & Minuman,حَلْوَى,Gula-gula,Candy,Medium,Noun,عِنْدِي حَلْوَى.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD035,Makanan & Minuman,شُوكُولَاتَةٌ,Coklat,Chocolate,Medium,Noun,عِنْدِي شُوكُولَاتَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD036,Makanan & Minuman,مُرَبَّى,Jem,Jam,Medium,Noun,عِنْدِي مُرَبَّى.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD037,Makanan & Minuman,فُطُورٌ,Sarapan,Breakfast,Medium,Noun,عِنْدِي فُطُورٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD038,Makanan & Minuman,غَدَاءٌ,Makan tengah hari,Lunch,Medium,Noun,عِنْدِي غَدَاءٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD039,Makanan & Minuman,عَشَاءٌ,Makan malam,Dinner,Medium,Noun,عِنْدِي عَشَاءٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD040,Makanan & Minuman,حَلِيبٌ مُرَكَّزٌ,Susu pekat,Condensed milk,Medium,Noun,عِنْدِي حَلِيبٌ مُرَكَّزٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD041,Makanan & Minuman,حَلِيبٌ جَافٌّ,Susu tepung,Milk powder,Hard,Noun,عِنْدِي حَلِيبٌ جَافٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD042,Makanan & Minuman,مَشْرُوبٌ غَازِيٌّ,Minuman berkarbonat,Soft drink,Hard,Noun,عِنْدِي مَشْرُوبٌ غَازِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD043,Makanan & Minuman,مَشْرُوبٌ بَارِدٌ,Minuman sejuk,Cold drink,Hard,Noun,عِنْدِي مَشْرُوبٌ بَارِدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD044,Makanan & Minuman,شُرْبَةٌ,Kuah/sup,Broth,Hard,Noun,عِنْدِي شُرْبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD045,Makanan & Minuman,تَمْرٌ,Kurma,Dates,Hard,Noun,عِنْدِي تَمْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD046,Makanan & Minuman,سَلَطَةٌ,Salad,Salad,Hard,Noun,عِنْدِي سَلَطَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD047,Makanan & Minuman,سَرْدِينٌ,Sardin,Sardines,Hard,Noun,عِنْدِي سَرْدِينٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD048,Makanan & Minuman,رُزٌّ بِالدَّجَاجِ,Nasi ayam,Chicken rice,Hard,Noun,عِنْدِي رُزٌّ بِالدَّجَاجِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD049,Makanan & Minuman,سَاتَيْ,Sate,Satay,Hard,Noun,عِنْدِي سَاتَيْ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+FOD050,Makanan & Minuman,نَاسِي لِمَكْ,Nasi lemak,Nasi lemak,Hard,Noun,عِنْدِي نَاسِي لِمَكْ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT001,Perbuatan,يَقْرَأُ,Membaca,Reads,Easy,Verb,الطَّالِبُ يَقْرَأُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT002,Perbuatan,يَكْتُبُ,Menulis,Writes,Easy,Verb,الطَّالِبُ يَكْتُبُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT003,Perbuatan,يَذْهَبُ,Pergi,Goes,Easy,Verb,الطَّالِبُ يَذْهَبُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT004,Perbuatan,يَجْلِسُ,Duduk,Sits,Easy,Verb,الطَّالِبُ يَجْلِسُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT005,Perbuatan,يَقِفُ,Berdiri,Stands,Easy,Verb,الطَّالِبُ يَقِفُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT006,Perbuatan,يَمْشِي,Berjalan,Walks,Easy,Verb,الطَّالِبُ يَمْشِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT007,Perbuatan,يَرْكُضُ,Berlari,Runs,Easy,Verb,الطَّالِبُ يَرْكُضُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT008,Perbuatan,يَلْعَبُ,Bermain,Plays,Easy,Verb,الطَّالِبُ يَلْعَبُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT009,Perbuatan,يَأْكُلُ,Makan,Eats,Easy,Verb,الطَّالِبُ يَأْكُلُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT010,Perbuatan,يَشْرَبُ,Minum,Drinks,Easy,Verb,الطَّالِبُ يَشْرَبُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT011,Perbuatan,يَنَامُ,Tidur,Sleeps,Easy,Verb,الطَّالِبُ يَنَامُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT012,Perbuatan,يَسْتَيْقِظُ,Bangun,Wakes up,Easy,Verb,الطَّالِبُ يَسْتَيْقِظُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT013,Perbuatan,يَغْسِلُ,Membasuh,Washes,Easy,Verb,الطَّالِبُ يَغْسِلُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT014,Perbuatan,يَسْتَحِمُّ,Mandi,Bathes,Easy,Verb,الطَّالِبُ يَسْتَحِمُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT015,Perbuatan,يَلْبَسُ,Memakai,Wears,Easy,Verb,الطَّالِبُ يَلْبَسُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT016,Perbuatan,يَخْلَعُ,Menanggalkan,Removes,Easy,Verb,الطَّالِبُ يَخْلَعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT017,Perbuatan,يَفْتَحُ,Membuka,Opens,Easy,Verb,الطَّالِبُ يَفْتَحُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT018,Perbuatan,يُغْلِقُ,Menutup,Closes,Easy,Verb,الطَّالِبُ يُغْلِقُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT019,Perbuatan,يَأْخُذُ,Mengambil,Takes,Easy,Verb,الطَّالِبُ يَأْخُذُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT020,Perbuatan,يُعْطِي,Memberi,Gives,Easy,Verb,الطَّالِبُ يُعْطِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT021,Perbuatan,يَرَى,Melihat,Sees,Medium,Verb,الطَّالِبُ يَرَى.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT022,Perbuatan,يَسْمَعُ,Mendengar,Hears,Medium,Verb,الطَّالِبُ يَسْمَعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT023,Perbuatan,يَتَكَلَّمُ,Bercakap,Speaks,Medium,Verb,الطَّالِبُ يَتَكَلَّمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT024,Perbuatan,يَسْأَلُ,Bertanya,Asks,Medium,Verb,الطَّالِبُ يَسْأَلُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT025,Perbuatan,يُجِيبُ,Menjawab,Answers,Medium,Verb,الطَّالِبُ يُجِيبُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT026,Perbuatan,يُشَاهِدُ,Menonton,Watches,Medium,Verb,الطَّالِبُ يُشَاهِدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT027,Perbuatan,يَفْهَمُ,Memahami,Understands,Medium,Verb,الطَّالِبُ يَفْهَمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT028,Perbuatan,يَتَعَلَّمُ,Belajar,Learns,Medium,Verb,الطَّالِبُ يَتَعَلَّمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT029,Perbuatan,يُعَلِّمُ,Mengajar,Teaches,Medium,Verb,الطَّالِبُ يُعَلِّمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT030,Perbuatan,يَحْفَظُ,Menghafal,Memorises,Medium,Verb,الطَّالِبُ يَحْفَظُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT031,Perbuatan,يَحْفِظُ,Menjaga/menghafal,Preserves/Memorises,Medium,Verb,الطَّالِبُ يَحْفِظُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT032,Perbuatan,يَغْسِلُ الْيَدَيْنِ,Mencuci tangan,Washes hands,Medium,Verb,الطَّالِبُ يَغْسِلُ الْيَدَيْنِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT033,Perbuatan,يُنَظِّفُ,Membersihkan,Cleans,Medium,Verb,الطَّالِبُ يُنَظِّفُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT034,Perbuatan,يَرْتِّبُ,Menyusun,Arranges,Medium,Verb,الطَّالِبُ يَرْتِّبُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT035,Perbuatan,يَطْبُخُ,Memasak,Cooks,Medium,Verb,الطَّالِبُ يَطْبُخُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT036,Perbuatan,يَقْلِي,Menggoreng,Fries,Medium,Verb,الطَّالِبُ يَقْلِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT037,Perbuatan,يَشْوِي,Membakar,Grills,Medium,Verb,الطَّالِبُ يَشْوِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT038,Perbuatan,يَسْقِي,Menyiram,Waters,Medium,Verb,الطَّالِبُ يَسْقِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT039,Perbuatan,يَزْرَعُ,Menanam,Plants,Medium,Verb,الطَّالِبُ يَزْرَعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT040,Perbuatan,يَحْصُدُ,Menuai,Harvests,Medium,Verb,الطَّالِبُ يَحْصُدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT041,Perbuatan,يَرْسُمُ,Melukis,Draws,Hard,Verb,الطَّالِبُ يَرْسُمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT042,Perbuatan,يُلَوِّنُ,Mewarna,Colours,Hard,Verb,الطَّالِبُ يُلَوِّنُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT043,Perbuatan,يَقْطَعُ,Memotong,Cuts,Hard,Verb,الطَّالِبُ يَقْطَعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT044,Perbuatan,يَحْمِلُ,Membawa,Carries,Hard,Verb,الطَّالِبُ يَحْمِلُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT045,Perbuatan,يَدْفَعُ,Menolak,Pushes,Hard,Verb,الطَّالِبُ يَدْفَعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT046,Perbuatan,يَسْحَبُ,Menarik,Pulls,Hard,Verb,الطَّالِبُ يَسْحَبُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT047,Perbuatan,يَسْرُدُ,Bercerita,Narrates,Hard,Verb,الطَّالِبُ يَسْرُدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT048,Perbuatan,يَزُورُ,Melawat,Visits,Hard,Verb,الطَّالِبُ يَزُورُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT049,Perbuatan,يَسَافِرُ,Mengembara,Travels,Hard,Verb,الطَّالِبُ يَسَافِرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ACT050,Perbuatan,يُسَاعِدُ,Membantu,Helps,Hard,Verb,الطَّالِبُ يُسَاعِدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW001,Dialog / Hiwar,السَّلَامُ عَلَيْكُمْ,Assalamualaikum,Peace be upon you,Medium,Phrase,السَّلَامُ عَلَيْكُمْ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW002,Dialog / Hiwar,وَعَلَيْكُمُ السَّلَامُ,Waalaikumussalam,And peace be upon you,Medium,Phrase,وَعَلَيْكُمُ السَّلَامُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW003,Dialog / Hiwar,كَيْفَ حَالُكَ؟,Apa khabar kamu?,How are you?,Medium,Phrase,كَيْفَ حَالُكَ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW004,Dialog / Hiwar,أَنَا بِخَيْرٍ,Saya baik,I am fine,Medium,Phrase,أَنَا بِخَيْرٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW005,Dialog / Hiwar,مَا اسْمُكَ؟,Siapa nama kamu?,What is your name?,Medium,Phrase,مَا اسْمُكَ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW006,Dialog / Hiwar,اسْمِي أَحْمَدُ,Nama saya Ahmad,My name is Ahmad,Medium,Phrase,اسْمِي أَحْمَدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW007,Dialog / Hiwar,مِنْ أَيْنَ أَنْتَ؟,Kamu dari mana?,Where are you from?,Medium,Phrase,مِنْ أَيْنَ أَنْتَ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW008,Dialog / Hiwar,أَنَا مِنْ مَالَيْزِيَا,Saya dari Malaysia,I am from Malaysia,Medium,Phrase,أَنَا مِنْ مَالَيْزِيَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW009,Dialog / Hiwar,كَمْ عُمْرُكَ؟,Berapa umur kamu?,How old are you?,Medium,Phrase,كَمْ عُمْرُكَ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW010,Dialog / Hiwar,عُمْرِي عَشْرُ سَنَوَاتٍ,Umur saya sepuluh tahun,I am ten years old,Medium,Phrase,عُمْرِي عَشْرُ سَنَوَاتٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW011,Dialog / Hiwar,أَيْنَ تَسْكُنُ؟,Di mana kamu tinggal?,Where do you live?,Medium,Phrase,أَيْنَ تَسْكُنُ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW012,Dialog / Hiwar,أَسْكُنُ فِي كُوالَالَمْبُور,Saya tinggal di Kuala Lumpur,I live in Kuala Lumpur,Medium,Phrase,أَسْكُنُ فِي كُوالَالَمْبُور.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW013,Dialog / Hiwar,مَا هَذَا؟,Apakah ini?,What is this?,Medium,Phrase,مَا هَذَا؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW014,Dialog / Hiwar,هَذَا قَلَمٌ,Ini pen,This is a pen,Medium,Phrase,هَذَا قَلَمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW015,Dialog / Hiwar,مَا هَذِهِ؟,Apakah ini?,What is this?,Medium,Phrase,مَا هَذِهِ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW016,Dialog / Hiwar,هَذِهِ حَقِيبَةٌ,Ini beg,This is a bag,Medium,Phrase,هَذِهِ حَقِيبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW017,Dialog / Hiwar,مَنْ هَذَا؟,Siapakah ini?,Who is this?,Medium,Phrase,مَنْ هَذَا؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW018,Dialog / Hiwar,هَذَا أَبِي,Ini ayah saya,This is my father,Medium,Phrase,هَذَا أَبِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW019,Dialog / Hiwar,مَنْ هَذِهِ؟,Siapakah ini?,Who is this?,Medium,Phrase,مَنْ هَذِهِ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW020,Dialog / Hiwar,هَذِهِ أُمِّي,Ini ibu saya,This is my mother,Medium,Phrase,هَذِهِ أُمِّي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW021,Dialog / Hiwar,أَيْنَ الْمَدْرَسَةُ؟,Di mana sekolah?,Where is the school?,Medium,Phrase,أَيْنَ الْمَدْرَسَةُ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW022,Dialog / Hiwar,هُنَا,Di sini,Here,Medium,Phrase,هُنَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW023,Dialog / Hiwar,أَيْنَ الْحَمَّامُ؟,Di mana tandas?,Where is the bathroom?,Medium,Phrase,أَيْنَ الْحَمَّامُ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW024,Dialog / Hiwar,الْحَمَّامُ هُنَا,Tandas di sini,The bathroom is here,Medium,Phrase,الْحَمَّامُ هُنَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW025,Dialog / Hiwar,مَاذَا تُرِيدُ؟,Apa yang kamu mahu?,What do you want?,Medium,Phrase,مَاذَا تُرِيدُ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW026,Dialog / Hiwar,أُرِيدُ الْمَاءَ,Saya mahu air,I want water,Medium,Phrase,أُرِيدُ الْمَاءَ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW027,Dialog / Hiwar,هَلْ تُرِيدُ الطَّعَامَ؟,Adakah kamu mahu makanan?,Do you want food?,Medium,Phrase,هَلْ تُرِيدُ الطَّعَامَ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW028,Dialog / Hiwar,نَعَمْ,Ya,Yes,Medium,Phrase,نَعَمْ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW029,Dialog / Hiwar,لَا,Tidak,No,Medium,Phrase,لَا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW030,Dialog / Hiwar,شُكْرًا,Terima kasih,Thank you,Medium,Phrase,شُكْرًا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW031,Dialog / Hiwar,عَفْوًا,Sama-sama,You are welcome,Medium,Phrase,عَفْوًا.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW032,Dialog / Hiwar,مِنْ فَضْلِكَ,Tolong/sila,Please,Medium,Phrase,مِنْ فَضْلِكَ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW033,Dialog / Hiwar,آسِفٌ,Maaf,Sorry,Medium,Phrase,آسِفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW034,Dialog / Hiwar,لَا بَأْسَ,Tidak mengapa,No problem,Medium,Phrase,لَا بَأْسَ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW035,Dialog / Hiwar,إِلَى اللِّقَاءِ,Jumpa lagi,See you,Medium,Phrase,إِلَى اللِّقَاءِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW036,Dialog / Hiwar,مَعَ السَّلَامَةِ,Selamat tinggal,Goodbye,Medium,Phrase,مَعَ السَّلَامَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW037,Dialog / Hiwar,صَبَاحُ الْخَيْرِ,Selamat pagi,Good morning,Medium,Phrase,صَبَاحُ الْخَيْرِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW038,Dialog / Hiwar,صَبَاحُ النُّورِ,Selamat pagi juga,Good morning to you,Medium,Phrase,صَبَاحُ النُّورِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW039,Dialog / Hiwar,مَسَاءُ الْخَيْرِ,Selamat petang/malam,Good evening,Medium,Phrase,مَسَاءُ الْخَيْرِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW040,Dialog / Hiwar,لَيْلَةٌ سَعِيدَةٌ,Selamat malam,Good night,Medium,Phrase,لَيْلَةٌ سَعِيدَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW041,Dialog / Hiwar,هَلْ فَهِمْتَ؟,Adakah kamu faham?,Do you understand?,Medium,Phrase,هَلْ فَهِمْتَ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW042,Dialog / Hiwar,نَعَمْ، فَهِمْتُ,"Ya, saya faham","Yes, I understand",Medium,Phrase,نَعَمْ، فَهِمْتُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW043,Dialog / Hiwar,لَمْ أَفْهَمْ,Saya tidak faham,I did not understand,Medium,Phrase,لَمْ أَفْهَمْ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW044,Dialog / Hiwar,أَعِدْ مِنْ فَضْلِكَ,"Ulangi, sila",Please repeat,Medium,Phrase,أَعِدْ مِنْ فَضْلِكَ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW045,Dialog / Hiwar,تَفَضَّلْ,Silakan,Here you are,Medium,Phrase,تَفَضَّلْ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN001,Alat Tulis,قَلَمٌ,Pen,Pen,Easy,Noun,عِنْدِي قَلَمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN002,Alat Tulis,قَلَمُ رَصَاصٍ,Pensel,Pencil,Easy,Noun,عِنْدِي قَلَمُ رَصَاصٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN003,Alat Tulis,مِمْحَاةٌ,Pemadam,Eraser,Easy,Noun,عِنْدِي مِمْحَاةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN004,Alat Tulis,مِبْرَاةٌ,Pengasah,Sharpener,Easy,Noun,عِنْدِي مِبْرَاةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN005,Alat Tulis,مِسْطَرَةٌ,Pembaris,Ruler,Easy,Noun,عِنْدِي مِسْطَرَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN006,Alat Tulis,دَفْتَرٌ,Buku nota,Notebook,Easy,Noun,عِنْدِي دَفْتَرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN007,Alat Tulis,كِتَابٌ,Buku,Book,Easy,Noun,عِنْدِي كِتَابٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN008,Alat Tulis,مَجَلَّةٌ,Majalah,Magazine,Easy,Noun,عِنْدِي مَجَلَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN009,Alat Tulis,وَرَقَةٌ,Kertas,Paper,Easy,Noun,عِنْدِي وَرَقَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN010,Alat Tulis,مَقْصٌّ,Gunting,Scissors,Easy,Noun,عِنْدِي مَقْصٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN011,Alat Tulis,غِرَاءٌ,Gam,Glue,Easy,Noun,عِنْدِي غِرَاءٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN012,Alat Tulis,مِقْلَمَةٌ,Bekas pensel,Pencil case,Easy,Noun,عِنْدِي مِقْلَمَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN013,Alat Tulis,حَقِيبَةٌ مَدْرَسِيَّةٌ,Beg sekolah,School bag,Easy,Noun,عِنْدِي حَقِيبَةٌ مَدْرَسِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN014,Alat Tulis,مَلَفٌّ,Fail,File,Easy,Noun,عِنْدِي مَلَفٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN015,Alat Tulis,مُجَلَّدٌ,Fail/Folder,Binder,Easy,Noun,عِنْدِي مُجَلَّدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN016,Alat Tulis,لَاصِقٌ,Pelekat,Sticker/Tape,Easy,Noun,عِنْدِي لَاصِقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN017,Alat Tulis,شَرِيطٌ لَاصِقٌ,Pita pelekat,Adhesive tape,Easy,Noun,عِنْدِي شَرِيطٌ لَاصِقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN018,Alat Tulis,قَلَمُ حِبْرٍ,Pen dakwat,Ink pen,Easy,Noun,عِنْدِي قَلَمُ حِبْرٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN019,Alat Tulis,قَلَمٌ أَسْوَدُ,Pen hitam,Black pen,Easy,Noun,عِنْدِي قَلَمٌ أَسْوَدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN020,Alat Tulis,قَلَمٌ أَزْرَقُ,Pen biru,Blue pen,Easy,Noun,عِنْدِي قَلَمٌ أَزْرَقُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN021,Alat Tulis,قَلَمٌ أَحْمَرُ,Pen merah,Red pen,Medium,Noun,عِنْدِي قَلَمٌ أَحْمَرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN022,Alat Tulis,قَلَمُ تَمْيِيزٍ,Pen penanda,Highlighter,Medium,Noun,عِنْدِي قَلَمُ تَمْيِيزٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN023,Alat Tulis,مَارْكَرٌ,Pen marker,Marker,Medium,Noun,عِنْدِي مَارْكَرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN024,Alat Tulis,كُرَّاسَةٌ,Buku latihan,Exercise book,Medium,Noun,عِنْدِي كُرَّاسَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN025,Alat Tulis,بَوْرَةٌ,Papan putih,Whiteboard,Medium,Noun,عِنْدِي بَوْرَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN026,Alat Tulis,مِسْحَاةٌ,Pemadam papan putih,Board eraser,Medium,Noun,عِنْدِي مِسْحَاةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN027,Alat Tulis,طَبَاشِيرُ,Kapur,Chalk,Medium,Noun,عِنْدِي طَبَاشِيرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN028,Alat Tulis,مُبَرِّاةٌ,Pengasah,Sharpener,Medium,Noun,عِنْدِي مُبَرِّاةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN029,Alat Tulis,مُثَلَّثٌ,Pembaris segi tiga,Set square,Medium,Noun,عِنْدِي مُثَلَّثٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN030,Alat Tulis,مِنْقَلَةٌ,Jangka sudut,Protractor,Medium,Noun,عِنْدِي مِنْقَلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN031,Alat Tulis,فِرْجَارٌ,Jangka,Compass,Medium,Noun,عِنْدِي فِرْجَارٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN032,Alat Tulis,آلَةٌ حَاسِبَةٌ,Kalkulator,Calculator,Medium,Noun,عِنْدِي آلَةٌ حَاسِبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN033,Alat Tulis,مَقْلَمَةٌ كَبِيرَةٌ,Kotak alat tulis,Large pencil case,Medium,Noun,عِنْدِي مَقْلَمَةٌ كَبِيرَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN034,Alat Tulis,رَابِطَةٌ,Pengikat,Binder clip,Medium,Noun,عِنْدِي رَابِطَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN035,Alat Tulis,مِشْبَكٌ وَرَقِيٌّ,Klip kertas,Paper clip,Medium,Noun,عِنْدِي مِشْبَكٌ وَرَقِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN036,Alat Tulis,دَبَّاسَةٌ,Stapler,Stapler,Medium,Noun,عِنْدِي دَبَّاسَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN037,Alat Tulis,دَبَابِيسُ,Klip stapler,Staples,Medium,Noun,عِنْدِي دَبَابِيسُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN038,Alat Tulis,ثَاقِبُ وَرَقٍ,Penebuk kertas,Hole punch,Medium,Noun,عِنْدِي ثَاقِبُ وَرَقٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN039,Alat Tulis,طَابِعَةٌ,Pencetak,Printer,Medium,Noun,عِنْدِي طَابِعَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN040,Alat Tulis,حَاسُوبٌ,Komputer,Computer,Medium,Noun,عِنْدِي حَاسُوبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN041,Alat Tulis,شَاشَةٌ,Skrin,Screen,Hard,Noun,عِنْدِي شَاشَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN042,Alat Tulis,لَوْحٌ إِلِكْتُرُونِيٌّ,Tablet,Tablet,Hard,Noun,عِنْدِي لَوْحٌ إِلِكْتُرُونِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN043,Alat Tulis,لَوْحُ الْكِتَابَةِ,Papan tulis,Writing board,Hard,Noun,عِنْدِي لَوْحُ الْكِتَابَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN044,Alat Tulis,كُرَّاسَةُ الرَّسْمِ,Buku lukisan,Drawing book,Hard,Noun,عِنْدِي كُرَّاسَةُ الرَّسْمِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN045,Alat Tulis,أَلْوَانٌ,Warna,Colours,Hard,Noun,عِنْدِي أَلْوَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN046,Alat Tulis,أَلْوَانٌ مَائِيَّةٌ,Cat air,Watercolours,Hard,Noun,عِنْدِي أَلْوَانٌ مَائِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN047,Alat Tulis,فُرْشَاةُ رَسْمٍ,Berus lukisan,Paintbrush,Hard,Noun,عِنْدِي فُرْشَاةُ رَسْمٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN048,Alat Tulis,حِبْرٌ,Dakwat,Ink,Hard,Noun,عِنْدِي حِبْرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN049,Alat Tulis,دَفْتَرُ الرَّسْمِ,Buku lukisan,Sketchbook,Hard,Noun,عِنْدِي دَفْتَرُ الرَّسْمِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PEN050,Alat Tulis,قَلَمُ خَطٍّ,Pen kaligrafi,Calligraphy pen,Hard,Noun,عِنْدِي قَلَمُ خَطٍّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH001,Di Sekolah,مَدْرَسَةٌ,Sekolah,School,Easy,Noun,عِنْدِي مَدْرَسَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH002,Di Sekolah,فَصْلٌ,Kelas,Classroom,Easy,Noun,عِنْدِي فَصْلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH003,Di Sekolah,مُعَلِّمٌ,Guru lelaki,Teacher,Easy,Noun,عِنْدِي مُعَلِّمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH004,Di Sekolah,مُعَلِّمَةٌ,Guru wanita,Teacher,Easy,Noun,عِنْدِي مُعَلِّمَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH005,Di Sekolah,طَالِبٌ,Murid lelaki,Student,Easy,Noun,عِنْدِي طَالِبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH006,Di Sekolah,طَالِبَةٌ,Murid perempuan,Student,Easy,Noun,عِنْدِي طَالِبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH007,Di Sekolah,مَدِيرٌ,Guru besar/pengetua lelaki,Headmaster,Easy,Noun,عِنْدِي مَدِيرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH008,Di Sekolah,مُدِيرَةٌ,Guru besar/pengetua wanita,Headmistress,Easy,Noun,عِنْدِي مُدِيرَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH009,Di Sekolah,مَكْتَبُ الْمَدِيرِ,Pejabat pengetua,Principal's office,Easy,Noun,عِنْدِي مَكْتَبُ الْمَدِيرِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH010,Di Sekolah,مَكْتَبُ الْمُعَلِّمِ,Bilik guru,Teachers' room,Easy,Noun,عِنْدِي مَكْتَبُ الْمُعَلِّمِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH011,Di Sekolah,مَكْتَبَةٌ,Perpustakaan,Library,Easy,Noun,عِنْدِي مَكْتَبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH012,Di Sekolah,مَخْتَبَرٌ,Makmal,Laboratory,Easy,Noun,عِنْدِي مَخْتَبَرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH013,Di Sekolah,مُصَلًّى,Surau,Prayer room,Easy,Noun,عِنْدِي مُصَلًّى.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH014,Di Sekolah,مَقْصَفٌ,Kantin,Canteen,Easy,Noun,عِنْدِي مَقْصَفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH015,Di Sekolah,مَلْعَبٌ,Padang,Field,Easy,Noun,عِنْدِي مَلْعَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH016,Di Sekolah,صَالَةٌ,Dewan,Hall,Easy,Noun,عِنْدِي صَالَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH017,Di Sekolah,غُرْفَةٌ,Bilik,Room,Easy,Noun,عِنْدِي غُرْفَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH018,Di Sekolah,سَاحَةٌ,Laman,Yard,Easy,Noun,عِنْدِي سَاحَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH019,Di Sekolah,بَابٌ,Pintu,Door,Easy,Noun,عِنْدِي بَابٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH020,Di Sekolah,نَافِذَةٌ,Tingkap,Window,Easy,Noun,عِنْدِي نَافِذَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH021,Di Sekolah,كُرْسِيٌّ,Kerusi,Chair,Medium,Noun,عِنْدِي كُرْسِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH022,Di Sekolah,طَاوِلَةٌ,Meja,Table,Medium,Noun,عِنْدِي طَاوِلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH023,Di Sekolah,سَبُّورَةٌ,Papan hitam/putih,Board,Medium,Noun,عِنْدِي سَبُّورَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH024,Di Sekolah,خَزَانَةٌ,Kabinet,Cupboard,Medium,Noun,عِنْدِي خَزَانَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH025,Di Sekolah,رَفٌّ,Rak,Shelf,Medium,Noun,عِنْدِي رَفٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH026,Di Sekolah,مِرْوَحَةٌ,Kipas,Fan,Medium,Noun,عِنْدِي مِرْوَحَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH027,Di Sekolah,مُكَيِّفٌ,Penghawa dingin,Air conditioner,Medium,Noun,عِنْدِي مُكَيِّفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH028,Di Sekolah,حَقِيبَةٌ,Beg,Bag,Medium,Noun,عِنْدِي حَقِيبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH029,Di Sekolah,زِيٌّ مَدْرَسِيٌّ,Uniform sekolah,School uniform,Medium,Noun,عِنْدِي زِيٌّ مَدْرَسِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH030,Di Sekolah,وَاجِبٌ مَنْزِلِيٌّ,Kerja rumah,Homework,Medium,Noun,عِنْدِي وَاجِبٌ مَنْزِلِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH031,Di Sekolah,امْتِحَانٌ,Peperiksaan,Exam,Medium,Noun,عِنْدِي امْتِحَانٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH032,Di Sekolah,سُؤَالٌ,Soalan,Question,Medium,Noun,عِنْدِي سُؤَالٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH033,Di Sekolah,إِجَابَةٌ,Jawapan,Answer,Medium,Noun,عِنْدِي إِجَابَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH034,Di Sekolah,دَرْسٌ,Pelajaran,Lesson,Medium,Noun,عِنْدِي دَرْسٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH035,Di Sekolah,مَادَّةٌ,Mata pelajaran,Subject,Medium,Noun,عِنْدِي مَادَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH036,Di Sekolah,رِيَاضِيَّاتٌ,Matematik,Mathematics,Medium,Noun,عِنْدِي رِيَاضِيَّاتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH037,Di Sekolah,لُغَةٌ عَرَبِيَّةٌ,Bahasa Arab,Arabic language,Medium,Noun,عِنْدِي لُغَةٌ عَرَبِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH038,Di Sekolah,لُغَةٌ مَلَايُويَّةٌ,Bahasa Melayu,Malay language,Medium,Noun,عِنْدِي لُغَةٌ مَلَايُويَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH039,Di Sekolah,تَارِيخٌ,Sejarah,History,Medium,Noun,عِنْدِي تَارِيخٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH040,Di Sekolah,عُلُومٌ,Sains,Science,Medium,Noun,عِنْدِي عُلُومٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH041,Di Sekolah,رِيَاضَةٌ,Pendidikan jasmani/sukan,Physical education,Hard,Noun,عِنْدِي رِيَاضَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH042,Di Sekolah,فَنٌّ,Seni,Art,Hard,Noun,عِنْدِي فَنٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH043,Di Sekolah,مُوسِيقَى,Muzik,Music,Hard,Noun,عِنْدِي مُوسِيقَى.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH044,Di Sekolah,جَرَسٌ,Loceng,Bell,Hard,Noun,عِنْدِي جَرَسٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH045,Di Sekolah,عُطْلَةٌ,Cuti,Holiday,Hard,Noun,عِنْدِي عُطْلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH046,Di Sekolah,رِحْلَةٌ مَدْرَسِيَّةٌ,Lawatan sekolah,School trip,Hard,Noun,عِنْدِي رِحْلَةٌ مَدْرَسِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH047,Di Sekolah,نَشَاطٌ,Aktiviti,Activity,Hard,Noun,عِنْدِي نَشَاطٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH048,Di Sekolah,جَدْوَلٌ دِرَاسِيٌّ,Jadual waktu,Timetable,Hard,Noun,عِنْدِي جَدْوَلٌ دِرَاسِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH049,Di Sekolah,حِصَّةٌ,Waktu/pelajaran,Class period,Hard,Noun,عِنْدِي حِصَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SCH050,Di Sekolah,طَابُورٌ,Perhimpunan,Assembly,Hard,Noun,عِنْدِي طَابُورٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM001,Di Rumah,بَيْتٌ,Rumah,House,Easy,Noun,عِنْدِي بَيْتٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM002,Di Rumah,غُرْفَةٌ,Bilik,Room,Easy,Noun,عِنْدِي غُرْفَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM003,Di Rumah,غُرْفَةُ النَّوْمِ,Bilik tidur,Bedroom,Easy,Noun,عِنْدِي غُرْفَةُ النَّوْمِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM004,Di Rumah,غُرْفَةُ الْجُلُوسِ,Ruang tamu,Living room,Easy,Noun,عِنْدِي غُرْفَةُ الْجُلُوسِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM005,Di Rumah,مَطْبَخٌ,Dapur,Kitchen,Easy,Noun,عِنْدِي مَطْبَخٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM006,Di Rumah,حَمَّامٌ,Bilik air,Bathroom,Easy,Noun,عِنْدِي حَمَّامٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM007,Di Rumah,غُرْفَةُ الطَّعَامِ,Ruang makan,Dining room,Easy,Noun,عِنْدِي غُرْفَةُ الطَّعَامِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM008,Di Rumah,سَاحَةٌ,Halaman,Yard,Easy,Noun,عِنْدِي سَاحَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM009,Di Rumah,حَدِيقَةٌ,Taman,Garden,Easy,Noun,عِنْدِي حَدِيقَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM010,Di Rumah,شُرْفَةٌ,Balkoni,Balcony,Easy,Noun,عِنْدِي شُرْفَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM011,Di Rumah,سَطْحٌ,Bumbung/tingkat atas,Roof/Rooftop,Easy,Noun,عِنْدِي سَطْحٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM012,Di Rumah,بَابٌ,Pintu,Door,Easy,Noun,عِنْدِي بَابٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM013,Di Rumah,نَافِذَةٌ,Tingkap,Window,Easy,Noun,عِنْدِي نَافِذَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM014,Di Rumah,سُلَّمٌ,Tangga,Stairs,Easy,Noun,عِنْدِي سُلَّمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM015,Di Rumah,مِصْعَدٌ,Lif,Elevator,Easy,Noun,عِنْدِي مِصْعَدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM016,Di Rumah,سَرِيرٌ,Katil,Bed,Easy,Noun,عِنْدِي سَرِيرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM017,Di Rumah,وِسَادَةٌ,Bantal,Pillow,Easy,Noun,عِنْدِي وِسَادَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM018,Di Rumah,بَطَّانِيَّةٌ,Selimut,Blanket,Easy,Noun,عِنْدِي بَطَّانِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM019,Di Rumah,مَلْحَفَةٌ,Cadar,Sheet,Easy,Noun,عِنْدِي مَلْحَفَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM020,Di Rumah,خِزَانَةٌ,Almari,Wardrobe,Easy,Noun,عِنْدِي خِزَانَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM021,Di Rumah,مَرْآةٌ,Cermin,Mirror,Medium,Noun,عِنْدِي مَرْآةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM022,Di Rumah,أَرِيكَةٌ,Sofa,Sofa,Medium,Noun,عِنْدِي أَرِيكَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM023,Di Rumah,كُرْسِيٌّ,Kerusi,Chair,Medium,Noun,عِنْدِي كُرْسِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM024,Di Rumah,طَاوِلَةٌ,Meja,Table,Medium,Noun,عِنْدِي طَاوِلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM025,Di Rumah,سَجَّادَةٌ,Permaidani,Carpet,Medium,Noun,عِنْدِي سَجَّادَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM026,Di Rumah,سَاعَةٌ,Jam,Clock,Medium,Noun,عِنْدِي سَاعَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM027,Di Rumah,مِصْبَاحٌ,Lampu,Lamp,Medium,Noun,عِنْدِي مِصْبَاحٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM028,Di Rumah,تِلْفَازٌ,Televisyen,Television,Medium,Noun,عِنْدِي تِلْفَازٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM029,Di Rumah,ثَلَّاجَةٌ,Peti sejuk,Refrigerator,Medium,Noun,عِنْدِي ثَلَّاجَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM030,Di Rumah,فُرْنٌ,Ketuhar,Oven,Medium,Noun,عِنْدِي فُرْنٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM031,Di Rumah,مَوْقِدٌ,Dapur memasak,Stove,Medium,Noun,عِنْدِي مَوْقِدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM032,Di Rumah,غَسَّالَةٌ,Mesin basuh,Washing machine,Medium,Noun,عِنْدِي غَسَّالَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM033,Di Rumah,مِكْنَسَةٌ كَهْرَبَائِيَّةٌ,Penyedut hampagas,Vacuum cleaner,Medium,Noun,عِنْدِي مِكْنَسَةٌ كَهْرَبَائِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM034,Di Rumah,مِكْنَسَةٌ,Penyapu,Broom,Medium,Noun,عِنْدِي مِكْنَسَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM035,Di Rumah,مِمْسَحَةٌ,Mop,Mop,Medium,Noun,عِنْدِي مِمْسَحَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM036,Di Rumah,دَلْوٌ,Baldi,Bucket,Medium,Noun,عِنْدِي دَلْوٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM037,Di Rumah,سَلَّةُ الْمُهْمَلَاتِ,Tong sampah,Wastebasket,Medium,Noun,عِنْدِي سَلَّةُ الْمُهْمَلَاتِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM038,Di Rumah,صَابُونٌ,Sabun,Soap,Medium,Noun,عِنْدِي صَابُونٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM039,Di Rumah,مِنْشَفَةٌ,Tuala,Towel,Medium,Noun,عِنْدِي مِنْشَفَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM040,Di Rumah,فُرْشَاةُ أَسْنَانٍ,Berus gigi,Toothbrush,Medium,Noun,عِنْدِي فُرْشَاةُ أَسْنَانٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM041,Di Rumah,مَعْجُونُ أَسْنَانٍ,Ubat gigi,Toothpaste,Hard,Noun,عِنْدِي مَعْجُونُ أَسْنَانٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM042,Di Rumah,مِغْسَلَةٌ,Singki,Sink,Hard,Noun,عِنْدِي مِغْسَلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM043,Di Rumah,مِرْحَاضٌ,Tandas,Toilet,Hard,Noun,عِنْدِي مِرْحَاضٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM044,Di Rumah,مِنْشَفَةُ الْيَدِ,Tuala tangan,Hand towel,Hard,Noun,عِنْدِي مِنْشَفَةُ الْيَدِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM045,Di Rumah,مِكْوَاةٌ,Seterika,Iron,Hard,Noun,عِنْدِي مِكْوَاةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM046,Di Rumah,مُنَظِّفٌ,Pencuci,Cleaner,Hard,Noun,عِنْدِي مُنَظِّفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM047,Di Rumah,مِجْفَفُ الشَّعْرِ,Pengering rambut,Hair dryer,Hard,Noun,عِنْدِي مِجْفَفُ الشَّعْرِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM048,Di Rumah,مُكَيِّفٌ,Penghawa dingin,Air conditioner,Hard,Noun,عِنْدِي مُكَيِّفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM049,Di Rumah,مِدْفَأَةٌ,Pemanas,Heater,Hard,Noun,عِنْدِي مِدْفَأَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HOM050,Di Rumah,مَرْوَحَةٌ,Kipas,Fan,Hard,Noun,عِنْدِي مَرْوَحَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF001,Di Pejabat,مَكْتَبٌ,Pejabat,Office,Easy,Noun,عِنْدِي مَكْتَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF002,Di Pejabat,مَكْتَبَةٌ,Perpustakaan/ruang buku,Library/Bookcase,Easy,Noun,عِنْدِي مَكْتَبَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF003,Di Pejabat,مُوَظَّفٌ,Pekerja,Employee,Easy,Noun,عِنْدِي مُوَظَّفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF004,Di Pejabat,مُدِيرٌ,Pengurus,Manager,Easy,Noun,عِنْدِي مُدِيرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF005,Di Pejabat,سَكْرِتِيرٌ,Setiausaha,Secretary,Easy,Noun,عِنْدِي سَكْرِتِيرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF006,Di Pejabat,مُحَاسِبٌ,Akauntan,Accountant,Easy,Noun,عِنْدِي مُحَاسِبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF007,Di Pejabat,اجْتِمَاعٌ,Mesyuarat,Meeting,Easy,Noun,عِنْدِي اجْتِمَاعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF008,Di Pejabat,مَشْرُوعٌ,Projek,Project,Easy,Noun,عِنْدِي مَشْرُوعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF009,Di Pejabat,تَقْرِيرٌ,Laporan,Report,Easy,Noun,عِنْدِي تَقْرِيرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF010,Di Pejabat,مِلَفٌّ,Fail,File,Easy,Noun,عِنْدِي مِلَفٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF011,Di Pejabat,وَثِيقَةٌ,Dokumen,Document,Easy,Noun,عِنْدِي وَثِيقَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF012,Di Pejabat,طَابِعَةٌ,Pencetak,Printer,Easy,Noun,عِنْدِي طَابِعَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF013,Di Pejabat,حَاسُوبٌ,Komputer,Computer,Easy,Noun,عِنْدِي حَاسُوبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF014,Di Pejabat,شَاشَةٌ,Monitor/skrin,Screen,Easy,Noun,عِنْدِي شَاشَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF015,Di Pejabat,لَوْحَةُ مَفَاتِيحَ,Papan kekunci,Keyboard,Easy,Noun,عِنْدِي لَوْحَةُ مَفَاتِيحَ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF016,Di Pejabat,فَأْرَةٌ,Tetikus komputer,Mouse,Easy,Noun,عِنْدِي فَأْرَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF017,Di Pejabat,هَاتِفٌ,Telefon,Telephone,Easy,Noun,عِنْدِي هَاتِفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF018,Di Pejabat,هَاتِفٌ مَحْمُولٌ,Telefon bimbit,Mobile phone,Easy,Noun,عِنْدِي هَاتِفٌ مَحْمُولٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF019,Di Pejabat,بَرِيدٌ إِلِكْتُرُونِيٌّ,E-mel,Email,Easy,Noun,عِنْدِي بَرِيدٌ إِلِكْتُرُونِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF020,Di Pejabat,رِسَالَةٌ,Mesej/surat,Message/Letter,Easy,Noun,عِنْدِي رِسَالَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF021,Di Pejabat,طَابِعَةٌ لَيْزَرٌ,Pencetak laser,Laser printer,Medium,Noun,عِنْدِي طَابِعَةٌ لَيْزَرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF022,Di Pejabat,مَاسِحٌ ضَوْئِيٌّ,Pengimbas,Scanner,Medium,Noun,عِنْدِي مَاسِحٌ ضَوْئِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF023,Di Pejabat,مَكْتَبٌ مُشْتَرَكٌ,Pejabat bersama,Shared office,Medium,Noun,عِنْدِي مَكْتَبٌ مُشْتَرَكٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF024,Di Pejabat,غُرْفَةُ الِاجْتِمَاعِ,Bilik mesyuarat,Meeting room,Medium,Noun,عِنْدِي غُرْفَةُ الِاجْتِمَاعِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF025,Di Pejabat,قَاعَةُ الاِجْتِمَاعِ,Dewan mesyuarat,Conference hall,Medium,Noun,عِنْدِي قَاعَةُ الاِجْتِمَاعِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF026,Di Pejabat,كُرْسِيٌّ,Kerusi,Chair,Medium,Noun,عِنْدِي كُرْسِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF027,Di Pejabat,طَاوِلَةٌ,Meja,Desk/Table,Medium,Noun,عِنْدِي طَاوِلَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF028,Di Pejabat,دُرْجٌ,Laci,Drawer,Medium,Noun,عِنْدِي دُرْجٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF029,Di Pejabat,خَزَانَةٌ,Kabinet,Cabinet,Medium,Noun,عِنْدِي خَزَانَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF030,Di Pejabat,رَفٌّ,Rak,Shelf,Medium,Noun,عِنْدِي رَفٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF031,Di Pejabat,بَطَاقَةُ هَوِيَّةٍ,Kad pengenalan,ID card,Medium,Noun,عِنْدِي بَطَاقَةُ هَوِيَّةٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF032,Di Pejabat,بَطَاقَةُ عَمَلٍ,Kad nama,Business card,Medium,Noun,عِنْدِي بَطَاقَةُ عَمَلٍ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF033,Di Pejabat,مَوْعِدٌ,Temujanji,Appointment,Medium,Noun,عِنْدِي مَوْعِدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF034,Di Pejabat,جَدْوَلٌ,Jadual,Schedule,Medium,Noun,عِنْدِي جَدْوَلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF035,Di Pejabat,مُلَاحَظَةٌ,Nota,Note,Medium,Noun,عِنْدِي مُلَاحَظَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF036,Di Pejabat,مُهَمَّةٌ,Tugasan,Task,Medium,Noun,عِنْدِي مُهَمَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF037,Di Pejabat,مُسَاعِدٌ,Pembantu,Assistant,Medium,Noun,عِنْدِي مُسَاعِدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF038,Di Pejabat,مَدِيرُ الْمَوَارِدِ الْبَشَرِيَّةِ,Pengurus sumber manusia,HR manager,Medium,Noun,عِنْدِي مَدِيرُ الْمَوَارِدِ الْبَشَرِيَّةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF039,Di Pejabat,مُدِيرُ الْمَالِيَّةِ,Pengurus kewangan,Finance manager,Medium,Noun,عِنْدِي مُدِيرُ الْمَالِيَّةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF040,Di Pejabat,مُوَرِّدٌ,Pembekal,Supplier,Medium,Noun,عِنْدِي مُوَرِّدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF041,Di Pejabat,عَمِيلٌ,Pelanggan/klien,Client,Hard,Noun,عِنْدِي عَمِيلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF042,Di Pejabat,زَبُونٌ,Pelanggan,Customer,Hard,Noun,عِنْدِي زَبُونٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF043,Di Pejabat,عَقْدٌ,Kontrak,Contract,Hard,Noun,عِنْدِي عَقْدٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF044,Di Pejabat,فَاتُورَةٌ,Invois,Invoice,Hard,Noun,عِنْدِي فَاتُورَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF045,Di Pejabat,مِيزَانِيَّةٌ,Bajet,Budget,Hard,Noun,عِنْدِي مِيزَانِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF046,Di Pejabat,رَاتِبٌ,Gaji,Salary,Hard,Noun,عِنْدِي رَاتِبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF047,Di Pejabat,تَوْقِيعٌ,Tandatangan,Signature,Hard,Noun,عِنْدِي تَوْقِيعٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF048,Di Pejabat,خَتْمٌ,Cop/stamp,Stamp,Hard,Noun,عِنْدِي خَتْمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF049,Di Pejabat,خِدْمَةُ الْعُمَلَاءِ,Khidmat pelanggan,Customer service,Hard,Noun,عِنْدِي خِدْمَةُ الْعُمَلَاءِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+OFF050,Di Pejabat,مَوْقِعُ الْعَمَلِ,Tempat kerja,Workplace,Hard,Noun,عِنْدِي مَوْقِعُ الْعَمَلِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT001,Sukan & Permainan,كُرَةُ الْقَدَمِ,Bola sepak,Football,Easy,Noun,عِنْدِي كُرَةُ الْقَدَمِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT002,Sukan & Permainan,كُرَةُ السَّلَّةِ,Bola keranjang,Basketball,Easy,Noun,عِنْدِي كُرَةُ السَّلَّةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT003,Sukan & Permainan,كُرَةُ الطَّائِرَةِ,Bola tampar,Volleyball,Easy,Noun,عِنْدِي كُرَةُ الطَّائِرَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT004,Sukan & Permainan,كُرَةُ الشَّبَكَةِ,Netball,Netball,Easy,Noun,عِنْدِي كُرَةُ الشَّبَكَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT005,Sukan & Permainan,كُرَةُ الْمِضْرَبِ,Tenis,Tennis,Easy,Noun,عِنْدِي كُرَةُ الْمِضْرَبِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT006,Sukan & Permainan,كُرَةُ الرِّيشَةِ,Badminton,Badminton,Easy,Noun,عِنْدِي كُرَةُ الرِّيشَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT007,Sukan & Permainan,تَنِسُ الطَّاوِلَةِ,Tenis meja,Table tennis,Easy,Noun,عِنْدِي تَنِسُ الطَّاوِلَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT008,Sukan & Permainan,الطَّوْقُ,Bola jaring/gelung,Hoop,Easy,Noun,عِنْدِي الطَّوْقُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT009,Sukan & Permainan,رِيَاضَةُ السِّبَاحَةِ,Renang,Swimming,Easy,Noun,عِنْدِي رِيَاضَةُ السِّبَاحَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT010,Sukan & Permainan,رِيَاضَةُ الْجَرْيِ,Larian,Running,Easy,Noun,عِنْدِي رِيَاضَةُ الْجَرْيِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT011,Sukan & Permainan,رِيَاضَةُ الْقَفْزِ,Lompat,Jumping,Easy,Noun,عِنْدِي رِيَاضَةُ الْقَفْزِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT012,Sukan & Permainan,رِيَاضَةُ الرِّيحِ,Layar,Sailing,Easy,Noun,عِنْدِي رِيَاضَةُ الرِّيحِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT013,Sukan & Permainan,رُكُوبُ الدَّرَّاجَةِ,Berbasikal,Cycling,Easy,Noun,عِنْدِي رُكُوبُ الدَّرَّاجَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT014,Sukan & Permainan,رُكُوبُ الْخَيْلِ,Menunggang kuda,Horse riding,Easy,Noun,عِنْدِي رُكُوبُ الْخَيْلِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT015,Sukan & Permainan,كُرَةُ الرَّيْشَةِ,Badminton,Badminton,Easy,Noun,عِنْدِي كُرَةُ الرَّيْشَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT016,Sukan & Permainan,الْمُلَاكَمَةُ,Tinju,Boxing,Easy,Noun,عِنْدِي الْمُلَاكَمَةُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT017,Sukan & Permainan,الْكَرَاتِيهِ,Karate,Karate,Easy,Noun,عِنْدِي الْكَرَاتِيهِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT018,Sukan & Permainan,التَّايْكْوَانْدُو,Taekwondo,Taekwondo,Easy,Noun,عِنْدِي التَّايْكْوَانْدُو.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT019,Sukan & Permainan,الْجُودُو,Judo,Judo,Easy,Noun,عِنْدِي الْجُودُو.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT020,Sukan & Permainan,الْمُصَارَعَةُ,Gusti,Wrestling,Easy,Noun,عِنْدِي الْمُصَارَعَةُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT021,Sukan & Permainan,الرِّيَاضَةُ,Sukan,Sport,Medium,Noun,عِنْدِي الرِّيَاضَةُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT022,Sukan & Permainan,مُبَارَاةٌ,Perlawanan,Match,Medium,Noun,عِنْدِي مُبَارَاةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT023,Sukan & Permainan,فَرِيقٌ,Pasukan,Team,Medium,Noun,عِنْدِي فَرِيقٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT024,Sukan & Permainan,لَاعِبٌ,Pemain,Player,Medium,Noun,عِنْدِي لَاعِبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT025,Sukan & Permainan,مُدَرِّبٌ,Jurulatih,Coach,Medium,Noun,عِنْدِي مُدَرِّبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT026,Sukan & Permainan,حَكَمٌ,Pengadil,Referee,Medium,Noun,عِنْدِي حَكَمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT027,Sukan & Permainan,مَلْعَبٌ,Padang,Field,Medium,Noun,عِنْدِي مَلْعَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT028,Sukan & Permainan,مَلْعَبٌ دَاخِلِيٌّ,Gelanggang tertutup,Indoor court,Medium,Noun,عِنْدِي مَلْعَبٌ دَاخِلِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT029,Sukan & Permainan,مَضْمَارٌ,Trek,Track,Medium,Noun,عِنْدِي مَضْمَارٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT030,Sukan & Permainan,كُرَةٌ,Bola,Ball,Medium,Noun,عِنْدِي كُرَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT031,Sukan & Permainan,مِضْرَبٌ,Raket,Racket,Medium,Noun,عِنْدِي مِضْرَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT032,Sukan & Permainan,شَبَكَةٌ,Jaring,Net,Medium,Noun,عِنْدِي شَبَكَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT033,Sukan & Permainan,مَرْمًى,Gol,Goal,Medium,Noun,عِنْدِي مَرْمًى.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT034,Sukan & Permainan,مِرْمَاةٌ,Gawang,Goalpost,Medium,Noun,عِنْدِي مِرْمَاةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT035,Sukan & Permainan,مِرْمى السِّهَامِ,Papan sasaran,Target board,Medium,Noun,عِنْدِي مِرْمى السِّهَامِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT036,Sukan & Permainan,شَطْرَنْجٌ,Catur,Chess,Medium,Noun,عِنْدِي شَطْرَنْجٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT037,Sukan & Permainan,دَامَةٌ,Dam,Draughts,Medium,Noun,عِنْدِي دَامَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT038,Sukan & Permainan,لُعْبَةُ الْمَخْفِيِّ,Sorok-sorok,Hide and seek,Medium,Noun,عِنْدِي لُعْبَةُ الْمَخْفِيِّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT039,Sukan & Permainan,لُعْبَةُ الْكُرَةِ,Permainan bola,Ball game,Medium,Noun,عِنْدِي لُعْبَةُ الْكُرَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT040,Sukan & Permainan,لُعْبَةٌ إِلِكْتُرُونِيَّةٌ,Permainan video,Video game,Medium,Noun,عِنْدِي لُعْبَةٌ إِلِكْتُرُونِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT041,Sukan & Permainan,بَطُولَةٌ,Kejohanan,Tournament,Hard,Noun,عِنْدِي بَطُولَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT042,Sukan & Permainan,جَائِزَةٌ,Hadiah,Prize,Hard,Noun,عِنْدِي جَائِزَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT043,Sukan & Permainan,مِيدَالِيَّةٌ,Pingat,Medal,Hard,Noun,عِنْدِي مِيدَالِيَّةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT044,Sukan & Permainan,فَوْزٌ,Kemenangan,Victory,Hard,Noun,عِنْدِي فَوْزٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT045,Sukan & Permainan,خَسَارَةٌ,Kekalahan,Loss,Hard,Noun,عِنْدِي خَسَارَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT046,Sukan & Permainan,تَعَادُلٌ,Seri,Draw,Hard,Noun,عِنْدِي تَعَادُلٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT047,Sukan & Permainan,نُقْطَةٌ,Mata,Point,Hard,Noun,عِنْدِي نُقْطَةٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT048,Sukan & Permainan,هَدَفٌ,Jaringan,Goal,Hard,Noun,عِنْدِي هَدَفٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT049,Sukan & Permainan,تَدْرِيبٌ,Latihan,Training,Hard,Noun,عِنْدِي تَدْرِيبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN001,99 Asmaul Husna,الرَّحْمَٰنُ,Yang Maha Pemurah,The Most Merciful,Medium,Name,اللَّهُ الرَّحْمَٰنُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN002,99 Asmaul Husna,الرَّحِيمُ,Yang Maha Penyayang,The Most Compassionate,Medium,Name,اللَّهُ الرَّحِيمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN003,99 Asmaul Husna,الْمَلِكُ,Yang Maha Menguasai,The King,Medium,Name,اللَّهُ الْمَلِكُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN004,99 Asmaul Husna,الْقُدُّوسُ,Yang Maha Suci,The Most Holy,Medium,Name,اللَّهُ الْقُدُّوسُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN005,99 Asmaul Husna,السَّلَامُ,Yang Maha Sejahtera,The Source of Peace,Medium,Name,اللَّهُ السَّلَامُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN006,99 Asmaul Husna,الْمُؤْمِنُ,Yang Maha Memberi Keamanan,The Giver of Security,Medium,Name,اللَّهُ الْمُؤْمِنُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN007,99 Asmaul Husna,الْمُهَيْمِنُ,Yang Maha Memelihara,The Guardian,Medium,Name,اللَّهُ الْمُهَيْمِنُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN008,99 Asmaul Husna,الْعَزِيزُ,Yang Maha Perkasa,The Almighty,Medium,Name,اللَّهُ الْعَزِيزُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN009,99 Asmaul Husna,الْجَبَّارُ,Yang Maha Gagah,The Compeller,Medium,Name,اللَّهُ الْجَبَّارُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN010,99 Asmaul Husna,الْمُتَكَبِّرُ,Yang Maha Megah,The Majestic,Medium,Name,اللَّهُ الْمُتَكَبِّرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN011,99 Asmaul Husna,الْخَالِقُ,Yang Maha Mencipta,The Creator,Medium,Name,اللَّهُ الْخَالِقُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN012,99 Asmaul Husna,الْبَارِئُ,Yang Maha Mengadakan,The Originator,Medium,Name,اللَّهُ الْبَارِئُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN013,99 Asmaul Husna,الْمُصَوِّرُ,Yang Maha Membentuk Rupa,The Fashioner,Medium,Name,اللَّهُ الْمُصَوِّرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN014,99 Asmaul Husna,الْغَفَّارُ,Yang Maha Pengampun,The Repeatedly Forgiving,Medium,Name,اللَّهُ الْغَفَّارُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN015,99 Asmaul Husna,الْقَهَّارُ,Yang Maha Menundukkan,The Subduer,Medium,Name,اللَّهُ الْقَهَّارُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN016,99 Asmaul Husna,الْوَهَّابُ,Yang Maha Mengurniakan,The Bestower,Medium,Name,اللَّهُ الْوَهَّابُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN017,99 Asmaul Husna,الرَّزَّاقُ,Yang Maha Memberi Rezeki,The Provider,Medium,Name,اللَّهُ الرَّزَّاقُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN018,99 Asmaul Husna,الْفَتَّاحُ,Yang Maha Membuka,The Opener,Medium,Name,اللَّهُ الْفَتَّاحُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN019,99 Asmaul Husna,الْعَلِيمُ,Yang Maha Mengetahui,The All-Knowing,Medium,Name,اللَّهُ الْعَلِيمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN020,99 Asmaul Husna,الْقَابِضُ,Yang Maha Menyempitkan,The Withholder,Medium,Name,اللَّهُ الْقَابِضُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN021,99 Asmaul Husna,الْبَاسِطُ,Yang Maha Melapangkan,The Expander,Medium,Name,اللَّهُ الْبَاسِطُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN022,99 Asmaul Husna,الْخَافِضُ,Yang Maha Merendahkan,The Abaser,Medium,Name,اللَّهُ الْخَافِضُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN023,99 Asmaul Husna,الرَّافِعُ,Yang Maha Meninggikan,The Exalter,Medium,Name,اللَّهُ الرَّافِعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN024,99 Asmaul Husna,الْمُعِزُّ,Yang Maha Memuliakan,The Honourer,Medium,Name,اللَّهُ الْمُعِزُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN025,99 Asmaul Husna,الْمُذِلُّ,Yang Maha Menghinakan,The Humiliator,Medium,Name,اللَّهُ الْمُذِلُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN026,99 Asmaul Husna,السَّمِيعُ,Yang Maha Mendengar,The All-Hearing,Medium,Name,اللَّهُ السَّمِيعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN027,99 Asmaul Husna,الْبَصِيرُ,Yang Maha Melihat,The All-Seeing,Medium,Name,اللَّهُ الْبَصِيرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN028,99 Asmaul Husna,الْحَكَمُ,Yang Maha Menetapkan,The Judge,Medium,Name,اللَّهُ الْحَكَمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN029,99 Asmaul Husna,الْعَدْلُ,Yang Maha Adil,The Utterly Just,Medium,Name,اللَّهُ الْعَدْلُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN030,99 Asmaul Husna,اللَّطِيفُ,Yang Maha Lembut,The Gentle,Medium,Name,اللَّهُ اللَّطِيفُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN031,99 Asmaul Husna,الْخَبِيرُ,Yang Maha Mengetahui,The All-Aware,Medium,Name,اللَّهُ الْخَبِيرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN032,99 Asmaul Husna,الْحَلِيمُ,Yang Maha Penyantun,The Forbearing,Medium,Name,اللَّهُ الْحَلِيمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN033,99 Asmaul Husna,الْعَظِيمُ,Yang Maha Agung,The Magnificent,Medium,Name,اللَّهُ الْعَظِيمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN034,99 Asmaul Husna,الْغَفُورُ,Yang Maha Pengampun,The Forgiving,Medium,Name,اللَّهُ الْغَفُورُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN035,99 Asmaul Husna,الشَّكُورُ,Yang Maha Menghargai,The Appreciative,Medium,Name,اللَّهُ الشَّكُورُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN036,99 Asmaul Husna,الْعَلِيُّ,Yang Maha Tinggi,The Most High,Medium,Name,اللَّهُ الْعَلِيُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN037,99 Asmaul Husna,الْكَبِيرُ,Yang Maha Besar,The Most Great,Medium,Name,اللَّهُ الْكَبِيرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN038,99 Asmaul Husna,الْحَفِيظُ,Yang Maha Memelihara,The Preserver,Medium,Name,اللَّهُ الْحَفِيظُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN039,99 Asmaul Husna,الْمُقِيتُ,Yang Maha Memberi Kecukupan,The Sustainer,Medium,Name,اللَّهُ الْمُقِيتُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN040,99 Asmaul Husna,الْحسِيبُ,Yang Maha Menghitung,The Reckoner,Medium,Name,اللَّهُ الْحسِيبُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN041,99 Asmaul Husna,الْجَلِيلُ,Yang Maha Mulia,The Majestic,Medium,Name,اللَّهُ الْجَلِيلُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN042,99 Asmaul Husna,الْكَرِيمُ,Yang Maha Pemurah,The Generous,Medium,Name,اللَّهُ الْكَرِيمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN043,99 Asmaul Husna,الرَّقِيبُ,Yang Maha Mengawasi,The Watchful,Medium,Name,اللَّهُ الرَّقِيبُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN044,99 Asmaul Husna,الْمُجِيبُ,Yang Maha Memperkenankan,The Responsive,Medium,Name,اللَّهُ الْمُجِيبُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN045,99 Asmaul Husna,الْوَاسِعُ,Yang Maha Luas,The All-Encompassing,Medium,Name,اللَّهُ الْوَاسِعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN046,99 Asmaul Husna,الْحَكِيمُ,Yang Maha Bijaksana,The Wise,Medium,Name,اللَّهُ الْحَكِيمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN047,99 Asmaul Husna,الْوَدُودُ,Yang Maha Mengasihi,The Loving,Medium,Name,اللَّهُ الْوَدُودُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN048,99 Asmaul Husna,الْمَجِيدُ,Yang Maha Mulia,The Glorious,Medium,Name,اللَّهُ الْمَجِيدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN049,99 Asmaul Husna,الْبَاعِثُ,Yang Maha Membangkitkan,The Resurrector,Medium,Name,اللَّهُ الْبَاعِثُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN050,99 Asmaul Husna,الشَّهِيدُ,Yang Maha Menyaksikan,The Witness,Medium,Name,اللَّهُ الشَّهِيدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN051,99 Asmaul Husna,الْحَقُّ,Yang Maha Benar,The Truth,Medium,Name,اللَّهُ الْحَقُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN052,99 Asmaul Husna,الْوَكِيلُ,Yang Maha Pentadbir,The Trustee,Medium,Name,اللَّهُ الْوَكِيلُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN053,99 Asmaul Husna,الْقَوِيُّ,Yang Maha Kuat,The Strong,Medium,Name,اللَّهُ الْقَوِيُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN054,99 Asmaul Husna,الْمَتِينُ,Yang Maha Teguh,The Firm,Medium,Name,اللَّهُ الْمَتِينُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN055,99 Asmaul Husna,الْوَلِيُّ,Yang Maha Melindungi,The Protecting Friend,Medium,Name,اللَّهُ الْوَلِيُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN056,99 Asmaul Husna,الْحَمِيدُ,Yang Maha Terpuji,The Praiseworthy,Medium,Name,اللَّهُ الْحَمِيدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN057,99 Asmaul Husna,الْمُحْصِي,Yang Maha Menghitung,The Counter,Medium,Name,اللَّهُ الْمُحْصِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN058,99 Asmaul Husna,الْمُبْدِئُ,Yang Maha Memulakan,The Originator,Medium,Name,اللَّهُ الْمُبْدِئُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN059,99 Asmaul Husna,الْمُعِيدُ,Yang Maha Mengembalikan,The Restorer,Medium,Name,اللَّهُ الْمُعِيدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN060,99 Asmaul Husna,الْمُحْيِي,Yang Maha Menghidupkan,The Giver of Life,Medium,Name,اللَّهُ الْمُحْيِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN061,99 Asmaul Husna,الْمُمِيتُ,Yang Maha Mematikan,The Bringer of Death,Medium,Name,اللَّهُ الْمُمِيتُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN062,99 Asmaul Husna,الْحَيُّ,Yang Maha Hidup,The Ever-Living,Medium,Name,اللَّهُ الْحَيُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN063,99 Asmaul Husna,الْقَيُّومُ,Yang Maha Berdiri Sendiri,The Sustainer,Medium,Name,اللَّهُ الْقَيُّومُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN064,99 Asmaul Husna,الْوَاجِدُ,Yang Maha Menemukan,The Finder,Medium,Name,اللَّهُ الْوَاجِدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN065,99 Asmaul Husna,الْمَاجِدُ,Yang Maha Mulia,The Noble,Medium,Name,اللَّهُ الْمَاجِدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN066,99 Asmaul Husna,الْوَاحِدُ,Yang Maha Esa,The One,Medium,Name,اللَّهُ الْوَاحِدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN067,99 Asmaul Husna,الْأَحَدُ,Yang Maha Tunggal,The Unique One,Medium,Name,اللَّهُ الْأَحَدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN068,99 Asmaul Husna,الصَّمَدُ,Yang Maha Diperlukan,The Eternal Refuge,Medium,Name,اللَّهُ الصَّمَدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN069,99 Asmaul Husna,الْقَادِرُ,Yang Maha Berkuasa,The Capable,Medium,Name,اللَّهُ الْقَادِرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN070,99 Asmaul Husna,الْمُقْتَدِرُ,Yang Maha Menentukan,The Powerful,Medium,Name,اللَّهُ الْمُقْتَدِرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN071,99 Asmaul Husna,الْمُقَدِّمُ,Yang Maha Mendahulukan,The Expediter,Medium,Name,اللَّهُ الْمُقَدِّمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN072,99 Asmaul Husna,الْمُؤَخِّرُ,Yang Maha Mengakhirkan,The Delayer,Medium,Name,اللَّهُ الْمُؤَخِّرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN073,99 Asmaul Husna,الْأَوَّلُ,Yang Maha Awal,The First,Medium,Name,اللَّهُ الْأَوَّلُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN074,99 Asmaul Husna,الْآخِرُ,Yang Maha Akhir,The Last,Medium,Name,اللَّهُ الْآخِرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN075,99 Asmaul Husna,الظَّاهِرُ,Yang Maha Nyata,The Manifest,Medium,Name,اللَّهُ الظَّاهِرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN076,99 Asmaul Husna,الْبَاطِنُ,Yang Maha Tersembunyi,The Hidden,Medium,Name,اللَّهُ الْبَاطِنُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN077,99 Asmaul Husna,الْوَالِي,Yang Maha Memerintah,The Patron,Medium,Name,اللَّهُ الْوَالِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN078,99 Asmaul Husna,الْمُتَعَالِي,Yang Maha Tinggi,The Most Exalted,Medium,Name,اللَّهُ الْمُتَعَالِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN079,99 Asmaul Husna,الْبَرُّ,Yang Maha Baik,The Source of Goodness,Medium,Name,اللَّهُ الْبَرُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN080,99 Asmaul Husna,التَّوَّابُ,Yang Maha Penerima Taubat,The Ever-Returning,Medium,Name,اللَّهُ التَّوَّابُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN081,99 Asmaul Husna,الْمُنْتَقِمُ,Yang Maha Membalas,The Avenger,Medium,Name,اللَّهُ الْمُنْتَقِمُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN082,99 Asmaul Husna,الْعَفُوُّ,Yang Maha Pemaaf,The Pardoner,Medium,Name,اللَّهُ الْعَفُوُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN083,99 Asmaul Husna,الرَّؤُوفُ,Yang Maha Pengasih,The Kind,Medium,Name,اللَّهُ الرَّؤُوفُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN084,99 Asmaul Husna,مَالِكُ الْمُلْكِ,Yang Maha Menguasai Kerajaan,Master of the Kingdom,Medium,Name,اللَّهُ مَالِكُ الْمُلْكِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN085,99 Asmaul Husna,ذُو الْجَلَالِ وَالْإِكْرَامِ,Yang Mempunyai Kebesaran dan Kemuliaan,Lord of Majesty and Honour,Medium,Name,اللَّهُ ذُو الْجَلَالِ وَالْإِكْرَامِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN086,99 Asmaul Husna,الْمُقْسِطُ,Yang Maha Adil,The Equitable,Medium,Name,اللَّهُ الْمُقْسِطُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN087,99 Asmaul Husna,الْجَامِعُ,Yang Maha Mengumpulkan,The Gatherer,Medium,Name,اللَّهُ الْجَامِعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN088,99 Asmaul Husna,الْغَنِيُّ,Yang Maha Kaya,The Self-Sufficient,Medium,Name,اللَّهُ الْغَنِيُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN089,99 Asmaul Husna,الْمُغْنِي,Yang Maha Memberi Kekayaan,The Enricher,Medium,Name,اللَّهُ الْمُغْنِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN090,99 Asmaul Husna,الْمَانِعُ,Yang Maha Mencegah,The Preventer,Medium,Name,اللَّهُ الْمَانِعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN091,99 Asmaul Husna,الضَّارُّ,Yang Maha Memberi Kemudaratan,The Distresser,Medium,Name,اللَّهُ الضَّارُّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN092,99 Asmaul Husna,النَّافِعُ,Yang Maha Memberi Manfaat,The Benefactor,Medium,Name,اللَّهُ النَّافِعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN093,99 Asmaul Husna,النُّورُ,Yang Maha Bercahaya,The Light,Medium,Name,اللَّهُ النُّورُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN094,99 Asmaul Husna,الْهَادِي,Yang Maha Memberi Petunjuk,The Guide,Medium,Name,اللَّهُ الْهَادِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN095,99 Asmaul Husna,الْبَدِيعُ,Yang Maha Mencipta Tanpa Bandingan,The Incomparable Originator,Medium,Name,اللَّهُ الْبَدِيعُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN096,99 Asmaul Husna,الْبَاقِي,Yang Maha Kekal,The Everlasting,Medium,Name,اللَّهُ الْبَاقِي.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN097,99 Asmaul Husna,الْوَارِثُ,Yang Maha Mewarisi,The Inheritor,Medium,Name,اللَّهُ الْوَارِثُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN098,99 Asmaul Husna,الرَّشِيدُ,Yang Maha Membimbing,The Guide to the Right Path,Medium,Name,اللَّهُ الرَّشِيدُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ASN099,99 Asmaul Husna,الصَّبُورُ,Yang Maha Sabar,The Patient,Medium,Name,اللَّهُ الصَّبُورُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ001,Bulan Hijrah,مُحَرَّمٌ,Muharam,Muharram,Medium,Month,شَهْرُ مُحَرَّمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ002,Bulan Hijrah,صَفَرٌ,Safar,Safar,Medium,Month,شَهْرُ صَفَرٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ003,Bulan Hijrah,رَبِيعُ الْأَوَّلِ,Rabiulawal,Rabi al-Awwal,Medium,Month,شَهْرُ رَبِيعُ الْأَوَّلِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ004,Bulan Hijrah,رَبِيعُ الْآخِرِ,Rabiulakhir,Rabi al-Thani,Medium,Month,شَهْرُ رَبِيعُ الْآخِرِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ005,Bulan Hijrah,جُمَادَى الْأُولَى,Jamadilawal,Jumada al-Awwal,Medium,Month,شَهْرُ جُمَادَى الْأُولَى.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ006,Bulan Hijrah,جُمَادَى الْآخِرَةِ,Jamadilakhir,Jumada al-Thani,Medium,Month,شَهْرُ جُمَادَى الْآخِرَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ007,Bulan Hijrah,رَجَبٌ,Rejab,Rajab,Medium,Month,شَهْرُ رَجَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ008,Bulan Hijrah,شَعْبَانُ,Syaaban,Sha'ban,Medium,Month,شَهْرُ شَعْبَانُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ009,Bulan Hijrah,رَمَضَانُ,Ramadan,Ramadan,Medium,Month,شَهْرُ رَمَضَانُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ010,Bulan Hijrah,شَوَّالٌ,Syawal,Shawwal,Medium,Month,شَهْرُ شَوَّالٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ011,Bulan Hijrah,ذُو الْقِعْدَةِ,Zulkaedah,Dhu al-Qi'dah,Medium,Month,شَهْرُ ذُو الْقِعْدَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIJ012,Bulan Hijrah,ذُو الْحِجَّةِ,Zulhijah,Dhu al-Hijjah,Medium,Month,شَهْرُ ذُو الْحِجَّةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS001,Bulan Masihi,يَنَايِرُ,Januari,January,Easy,Month,شَهْرُ يَنَايِرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS002,Bulan Masihi,فِبْرَايِرُ,Februari,February,Easy,Month,شَهْرُ فِبْرَايِرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS003,Bulan Masihi,مَارِسُ,Mac,March,Easy,Month,شَهْرُ مَارِسُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS004,Bulan Masihi,أَبْرِيلُ,April,April,Easy,Month,شَهْرُ أَبْرِيلُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS005,Bulan Masihi,مَايُو,Mei,May,Easy,Month,شَهْرُ مَايُو.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS006,Bulan Masihi,يُونْيُو,Jun,June,Easy,Month,شَهْرُ يُونْيُو.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS007,Bulan Masihi,يُولْيُو,Julai,July,Easy,Month,شَهْرُ يُولْيُو.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS008,Bulan Masihi,أَغُسْطُسُ,Ogos,August,Easy,Month,شَهْرُ أَغُسْطُسُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS009,Bulan Masihi,سِبْتَمْبَرُ,September,September,Easy,Month,شَهْرُ سِبْتَمْبَرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS010,Bulan Masihi,أُكْتُوبَرُ,Oktober,October,Easy,Month,شَهْرُ أُكْتُوبَرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS011,Bulan Masihi,نُوفَمْبَرُ,November,November,Easy,Month,شَهْرُ نُوفَمْبَرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+MAS012,Bulan Masihi,دِيسَمْبَرُ,Disember,December,Easy,Month,شَهْرُ دِيسَمْبَرُ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PLN001,Planet,عُطَارِدُ,Utarid,Mercury,Medium,Noun,عُطَارِدُ كَوْكَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PLN002,Planet,الزُّهَرَةُ,Zuhrah,Venus,Medium,Noun,الزُّهَرَةُ كَوْكَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PLN003,Planet,الْأَرْضُ,Bumi,Earth,Medium,Noun,الْأَرْضُ كَوْكَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PLN004,Planet,الْمَرِّيخُ,Marikh,Mars,Medium,Noun,الْمَرِّيخُ كَوْكَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PLN005,Planet,الْمُشْتَرِي,Musytari,Jupiter,Medium,Noun,الْمُشْتَرِي كَوْكَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PLN006,Planet,زُحَلُ,Zuhal,Saturn,Medium,Noun,زُحَلُ كَوْكَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PLN007,Planet,أُورَانُوسُ,Uranus,Uranus,Medium,Noun,أُورَانُوسُ كَوْكَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+PLN008,Planet,نِبْتُونُ,Neptune,Neptune,Medium,Noun,نِبْتُونُ كَوْكَبٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+ANG001,Malaikat,جِبْرِيلُ,Jibril — menyampaikan wahyu,Jibril — conveys revelation,Hard,Name,جِبْرِيلُ مَلَكٌ.,"Pejabat Mufti Wilayah Persekutuan, Akidah Islamiyah: https://www.muftiwp.gov.my/images/pdf/penerbitan/ebook/akidahislamiyah/akidahIslammiyah.pdf"
+ANG002,Malaikat,مِيكَائِيلُ,Mikail — mengurus hujan,Mikail — associated with rain,Hard,Name,مِيكَائِيلُ مَلَكٌ.,"Pejabat Mufti Wilayah Persekutuan, Akidah Islamiyah: https://www.muftiwp.gov.my/images/pdf/penerbitan/ebook/akidahislamiyah/akidahIslammiyah.pdf"
+ANG003,Malaikat,إِسْرَافِيلُ,Israfil — meniup sangkakala,Israfil — blows the trumpet,Hard,Name,إِسْرَافِيلُ مَلَكٌ.,"Pejabat Mufti Wilayah Persekutuan, Akidah Islamiyah: https://www.muftiwp.gov.my/images/pdf/penerbitan/ebook/akidahislamiyah/akidahIslammiyah.pdf"
+ANG004,Malaikat,مَلَكُ الْمَوْتِ,Malaikat maut — mencabut nyawa,Angel of death — takes souls,Hard,Name,مَلَكُ الْمَوْتِ مَلَكٌ.,"Pejabat Mufti Wilayah Persekutuan, Akidah Islamiyah: https://www.muftiwp.gov.my/images/pdf/penerbitan/ebook/akidahislamiyah/akidahIslammiyah.pdf"
+ANG005,Malaikat,مُنْكَرٌ,Munkar — menyoal di alam kubur,Munkar — questions in the grave,Hard,Name,مُنْكَرٌ مَلَكٌ.,"Pejabat Mufti Wilayah Persekutuan, Akidah Islamiyah: https://www.muftiwp.gov.my/images/pdf/penerbitan/ebook/akidahislamiyah/akidahIslammiyah.pdf"
+ANG006,Malaikat,نَكِيرٌ,Nakir — menyoal di alam kubur,Nakir — questions in the grave,Hard,Name,نَكِيرٌ مَلَكٌ.,"Pejabat Mufti Wilayah Persekutuan, Akidah Islamiyah: https://www.muftiwp.gov.my/images/pdf/penerbitan/ebook/akidahislamiyah/akidahIslammiyah.pdf"
+ANG007,Malaikat,رَقِيبٌ,Raqib — mencatat amalan baik,Raqib — records good deeds,Hard,Name,رَقِيبٌ مَلَكٌ.,"Pejabat Mufti Wilayah Persekutuan, Akidah Islamiyah: https://www.muftiwp.gov.my/images/pdf/penerbitan/ebook/akidahislamiyah/akidahIslammiyah.pdf"
+ANG008,Malaikat,عَتِيدٌ,Atid — mencatat amalan buruk,Atid — records bad deeds,Hard,Name,عَتِيدٌ مَلَكٌ.,"Pejabat Mufti Wilayah Persekutuan, Akidah Islamiyah: https://www.muftiwp.gov.my/images/pdf/penerbitan/ebook/akidahislamiyah/akidahIslammiyah.pdf"
+ANG009,Malaikat,مَالِكٌ,Malik — penjaga neraka,Malik — guardian of Hell,Hard,Name,مَالِكٌ مَلَكٌ.,"Pejabat Mufti Wilayah Persekutuan, Akidah Islamiyah: https://www.muftiwp.gov.my/images/pdf/penerbitan/ebook/akidahislamiyah/akidahIslammiyah.pdf"
+ANG010,Malaikat,رِضْوَانُ,Ridwan — penjaga syurga,Ridwan — guardian of Paradise,Hard,Name,رِضْوَانُ مَلَكٌ.,"Pejabat Mufti Wilayah Persekutuan, Akidah Islamiyah: https://www.muftiwp.gov.my/images/pdf/penerbitan/ebook/akidahislamiyah/akidahIslammiyah.pdf"
+NBR001,Nabi & Rasul,آدَمُ,Nabi Adam,Prophet Adam,Medium,Name,آدَمُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR002,Nabi & Rasul,إِدْرِيسُ,Nabi Idris,Prophet Idris,Medium,Name,إِدْرِيسُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR003,Nabi & Rasul,نُوحٌ,Nabi Nuh,Prophet Noah,Medium,Name,نُوحٌ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR004,Nabi & Rasul,هُودٌ,Nabi Hud,Prophet Hud,Medium,Name,هُودٌ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR005,Nabi & Rasul,صَالِحٌ,Nabi Soleh,Prophet Salih,Medium,Name,صَالِحٌ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR006,Nabi & Rasul,إِبْرَاهِيمُ,Nabi Ibrahim,Prophet Abraham,Medium,Name,إِبْرَاهِيمُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR007,Nabi & Rasul,لُوطٌ,Nabi Lut,Prophet Lot,Medium,Name,لُوطٌ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR008,Nabi & Rasul,إِسْمَاعِيلُ,Nabi Ismail,Prophet Ishmael,Medium,Name,إِسْمَاعِيلُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR009,Nabi & Rasul,إِسْحَاقُ,Nabi Ishak,Prophet Isaac,Medium,Name,إِسْحَاقُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR010,Nabi & Rasul,يَعْقُوبُ,Nabi Yaakub,Prophet Jacob,Medium,Name,يَعْقُوبُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR011,Nabi & Rasul,يُوسُفُ,Nabi Yusuf,Prophet Joseph,Medium,Name,يُوسُفُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR012,Nabi & Rasul,أَيُّوبُ,Nabi Ayub,Prophet Job,Medium,Name,أَيُّوبُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR013,Nabi & Rasul,شُعَيْبٌ,Nabi Syuaib,Prophet Shu'ayb,Medium,Name,شُعَيْبٌ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR014,Nabi & Rasul,مُوسَى,Nabi Musa,Prophet Moses,Medium,Name,مُوسَى نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR015,Nabi & Rasul,هَارُونُ,Nabi Harun,Prophet Aaron,Medium,Name,هَارُونُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR016,Nabi & Rasul,ذُو الْكِفْلِ,Nabi Zulkifli,Prophet Dhul-Kifl,Medium,Name,ذُو الْكِفْلِ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR017,Nabi & Rasul,دَاوُودُ,Nabi Daud,Prophet David,Medium,Name,دَاوُودُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR018,Nabi & Rasul,سُلَيْمَانُ,Nabi Sulaiman,Prophet Solomon,Medium,Name,سُلَيْمَانُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR019,Nabi & Rasul,إِلْيَاسُ,Nabi Ilyas,Prophet Elijah,Medium,Name,إِلْيَاسُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR020,Nabi & Rasul,الْيَسَعُ,Nabi Ilyasa',Prophet Elisha,Medium,Name,الْيَسَعُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR021,Nabi & Rasul,يُونُسُ,Nabi Yunus,Prophet Jonah,Medium,Name,يُونُسُ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR022,Nabi & Rasul,زَكَرِيَّا,Nabi Zakaria,Prophet Zechariah,Medium,Name,زَكَرِيَّا نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR023,Nabi & Rasul,يَحْيَى,Nabi Yahya,Prophet John,Medium,Name,يَحْيَى نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR024,Nabi & Rasul,عِيسَى,Nabi Isa,Prophet Jesus,Medium,Name,عِيسَى نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+NBR025,Nabi & Rasul,مُحَمَّدٌ,Nabi Muhammad,Prophet Muhammad,Medium,Name,مُحَمَّدٌ نَبِيٌّ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+SPT050,Sukan & Permainan,رَفْعُ الْأَثْقَالِ,Angkat berat,Weightlifting,Hard,Noun,عِنْدِي رَفْعُ الْأَثْقَالِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW046,Dialog / Hiwar,هَلْ عِنْدَكَ قَلَمٌ؟,Adakah kamu ada pen?,Do you have a pen?,Hard,Phrase,هَلْ عِنْدَكَ قَلَمٌ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW047,Dialog / Hiwar,نَعَمْ، عِنْدِي قَلَمٌ,"Ya, saya ada pen.","Yes, I have a pen.",Hard,Phrase,نَعَمْ، عِنْدِي قَلَمٌ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW048,Dialog / Hiwar,أَيْنَ كِتَابِي؟,Di mana buku saya?,Where is my book?,Hard,Phrase,أَيْنَ كِتَابِي؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW049,Dialog / Hiwar,كِتَابُكَ عَلَى الطَّاوِلَةِ,Buku kamu di atas meja.,Your book is on the table.,Hard,Phrase,كِتَابُكَ عَلَى الطَّاوِلَةِ.,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.
+HIW050,Dialog / Hiwar,مَتَى تَبْدَأُ الدِّرَاسَةُ؟,Bilakah pembelajaran bermula?,When does study begin?,Hard,Phrase,مَتَى تَبْدَأُ الدِّرَاسَةُ؟,Curated vocabulary draft for Az-Zaki; verify against the intended Malaysian curriculum before publication.

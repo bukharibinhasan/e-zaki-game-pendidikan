@@ -1,0 +1,867 @@
+﻿ID,Kategori,Bahasa Melayu,Bahasa Arab,Nama Fail Img,Link Carian Google,Status
+ANM001,Haiwan,Singa,أَسَدٌ,ANM001.png,https://www.google.com/search?tbm=isch&q=Singa%20icon%20transparent%20png,PENDING
+ANM002,Haiwan,Gajah,فِيلٌ,ANM002.png,https://www.google.com/search?tbm=isch&q=Gajah%20icon%20transparent%20png,PENDING
+ANM003,Haiwan,Harimau,نَمِرٌ,ANM003.png,https://www.google.com/search?tbm=isch&q=Harimau%20icon%20transparent%20png,PENDING
+ANM004,Haiwan,Beruang,دُبٌّ,ANM004.png,https://www.google.com/search?tbm=isch&q=Beruang%20icon%20transparent%20png,PENDING
+ANM005,Haiwan,Serigala,ذِئْبٌ,ANM005.png,https://www.google.com/search?tbm=isch&q=Serigala%20icon%20transparent%20png,PENDING
+ANM006,Haiwan,Musang,ثَعْلَبٌ,ANM006.png,https://www.google.com/search?tbm=isch&q=Musang%20icon%20transparent%20png,PENDING
+ANM007,Haiwan,Monyet,قِرْدٌ,ANM007.png,https://www.google.com/search?tbm=isch&q=Monyet%20icon%20transparent%20png,PENDING
+ANM008,Haiwan,Rusa,غَزَالٌ,ANM008.png,https://www.google.com/search?tbm=isch&q=Rusa%20icon%20transparent%20png,PENDING
+ANM009,Haiwan,Zirafah,زَرَافَةٌ,ANM009.png,https://www.google.com/search?tbm=isch&q=Zirafah%20icon%20transparent%20png,PENDING
+ANM010,Haiwan,Kuda,حِصَانٌ,ANM010.png,https://www.google.com/search?tbm=isch&q=Kuda%20icon%20transparent%20png,PENDING
+ANM011,Haiwan,Keldai,حِمَارٌ,ANM011.png,https://www.google.com/search?tbm=isch&q=Keldai%20icon%20transparent%20png,PENDING
+ANM012,Haiwan,Lembu,بَقَرَةٌ,ANM012.png,https://www.google.com/search?tbm=isch&q=Lembu%20icon%20transparent%20png,PENDING
+ANM013,Haiwan,Biri-biri,خَرُوفٌ,ANM013.png,https://www.google.com/search?tbm=isch&q=Biri-biri%20icon%20transparent%20png,PENDING
+ANM014,Haiwan,Kambing,مَاعِزٌ,ANM014.png,https://www.google.com/search?tbm=isch&q=Kambing%20icon%20transparent%20png,PENDING
+ANM015,Haiwan,Unta,جَمَلٌ,ANM015.png,https://www.google.com/search?tbm=isch&q=Unta%20icon%20transparent%20png,PENDING
+ANM016,Haiwan,Biri-biri jantan,كَبْشٌ,ANM016.png,https://www.google.com/search?tbm=isch&q=Biri-biri%20jantan%20icon%20transparent%20png,PENDING
+ANM017,Haiwan,Arnab,أَرْنَبٌ,ANM017.png,https://www.google.com/search?tbm=isch&q=Arnab%20icon%20transparent%20png,PENDING
+ANM018,Haiwan,Tupai,سِنْجَابٌ,ANM018.png,https://www.google.com/search?tbm=isch&q=Tupai%20icon%20transparent%20png,PENDING
+ANM019,Haiwan,Tikus,فَأْرٌ,ANM019.png,https://www.google.com/search?tbm=isch&q=Tikus%20icon%20transparent%20png,PENDING
+ANM020,Haiwan,Kucing,قِطٌّ,ANM020.png,https://www.google.com/search?tbm=isch&q=Kucing%20icon%20transparent%20png,PENDING
+ANM021,Haiwan,Anjing,كَلْبٌ,ANM021.png,https://www.google.com/search?tbm=isch&q=Anjing%20icon%20transparent%20png,PENDING
+ANM022,Haiwan,Burung,طَائِرٌ,ANM022.png,https://www.google.com/search?tbm=isch&q=Burung%20icon%20transparent%20png,PENDING
+ANM023,Haiwan,Ayam,دَجَاجَةٌ,ANM023.png,https://www.google.com/search?tbm=isch&q=Ayam%20icon%20transparent%20png,PENDING
+ANM024,Haiwan,Ayam jantan,دِيكٌ,ANM024.png,https://www.google.com/search?tbm=isch&q=Ayam%20jantan%20icon%20transparent%20png,PENDING
+ANM025,Haiwan,Itik,بَطَّةٌ,ANM025.png,https://www.google.com/search?tbm=isch&q=Itik%20icon%20transparent%20png,PENDING
+ANM026,Haiwan,Angsa,إِوَزَّةٌ,ANM026.png,https://www.google.com/search?tbm=isch&q=Angsa%20icon%20transparent%20png,PENDING
+ANM027,Haiwan,Angsa putih,بَجَعٌ,ANM027.png,https://www.google.com/search?tbm=isch&q=Angsa%20putih%20icon%20transparent%20png,PENDING
+ANM028,Haiwan,Merpati,حَمَامَةٌ,ANM028.png,https://www.google.com/search?tbm=isch&q=Merpati%20icon%20transparent%20png,PENDING
+ANM029,Haiwan,Helang,نَسْرٌ,ANM029.png,https://www.google.com/search?tbm=isch&q=Helang%20icon%20transparent%20png,PENDING
+ANM030,Haiwan,Burung kakak tua,بَبَّغَاءٌ,ANM030.png,https://www.google.com/search?tbm=isch&q=Burung%20kakak%20tua%20icon%20transparent%20png,PENDING
+ANM031,Haiwan,Burung hantu,بُومَةٌ,ANM031.png,https://www.google.com/search?tbm=isch&q=Burung%20hantu%20icon%20transparent%20png,PENDING
+ANM032,Haiwan,Burung merak,طَاوُوسٌ,ANM032.png,https://www.google.com/search?tbm=isch&q=Burung%20merak%20icon%20transparent%20png,PENDING
+ANM033,Haiwan,Penguin,بِطْرِيقٌ,ANM033.png,https://www.google.com/search?tbm=isch&q=Penguin%20icon%20transparent%20png,PENDING
+ANM034,Haiwan,Lumba-lumba,دُلْفِينٌ,ANM034.png,https://www.google.com/search?tbm=isch&q=Lumba-lumba%20icon%20transparent%20png,PENDING
+ANM035,Haiwan,Paus,حُوتٌ,ANM035.png,https://www.google.com/search?tbm=isch&q=Paus%20icon%20transparent%20png,PENDING
+ANM036,Haiwan,Jerung,قِرْشٌ,ANM036.png,https://www.google.com/search?tbm=isch&q=Jerung%20icon%20transparent%20png,PENDING
+ANM037,Haiwan,Sotong kurita,أُخْطُبُوطٌ,ANM037.png,https://www.google.com/search?tbm=isch&q=Sotong%20kurita%20icon%20transparent%20png,PENDING
+ANM038,Haiwan,Kura-kura,سُلَحْفَاةٌ,ANM038.png,https://www.google.com/search?tbm=isch&q=Kura-kura%20icon%20transparent%20png,PENDING
+ANM039,Haiwan,Buaya,تِمْسَاحٌ,ANM039.png,https://www.google.com/search?tbm=isch&q=Buaya%20icon%20transparent%20png,PENDING
+ANM040,Haiwan,Katak,ضِفْدَعٌ,ANM040.png,https://www.google.com/search?tbm=isch&q=Katak%20icon%20transparent%20png,PENDING
+ANM041,Haiwan,Ular,ثُعْبَانٌ,ANM041.png,https://www.google.com/search?tbm=isch&q=Ular%20icon%20transparent%20png,PENDING
+ANM042,Haiwan,Biawak/cicak,سَحْلِيَّةٌ,ANM042.png,https://www.google.com/search?tbm=isch&q=Biawak/cicak%20icon%20transparent%20png,PENDING
+ANM043,Haiwan,Rama-rama,فَرَاشَةٌ,ANM043.png,https://www.google.com/search?tbm=isch&q=Rama-rama%20icon%20transparent%20png,PENDING
+ANM044,Haiwan,Lebah,نَحْلَةٌ,ANM044.png,https://www.google.com/search?tbm=isch&q=Lebah%20icon%20transparent%20png,PENDING
+ANM045,Haiwan,Semut,نَمْلَةٌ,ANM045.png,https://www.google.com/search?tbm=isch&q=Semut%20icon%20transparent%20png,PENDING
+ANM046,Haiwan,Belalang,جَرَادَةٌ,ANM046.png,https://www.google.com/search?tbm=isch&q=Belalang%20icon%20transparent%20png,PENDING
+ANM047,Haiwan,Labah-labah,عَنْكَبُوتٌ,ANM047.png,https://www.google.com/search?tbm=isch&q=Labah-labah%20icon%20transparent%20png,PENDING
+ANM048,Haiwan,Ketam,سَرَطَانٌ,ANM048.png,https://www.google.com/search?tbm=isch&q=Ketam%20icon%20transparent%20png,PENDING
+ANM049,Haiwan,Obor-obor,قِنْدِيلُ الْبَحْرِ,ANM049.png,https://www.google.com/search?tbm=isch&q=Obor-obor%20icon%20transparent%20png,PENDING
+ANM050,Haiwan,Cacing,دُودَةٌ,ANM050.png,https://www.google.com/search?tbm=isch&q=Cacing%20icon%20transparent%20png,PENDING
+BDY001,Anggota Badan,Kepala,رَأْسٌ,BDY001.png,https://www.google.com/search?tbm=isch&q=Kepala%20icon%20transparent%20png,PENDING
+BDY002,Anggota Badan,Rambut,شَعْرٌ,BDY002.png,https://www.google.com/search?tbm=isch&q=Rambut%20icon%20transparent%20png,PENDING
+BDY003,Anggota Badan,Muka,وَجْهٌ,BDY003.png,https://www.google.com/search?tbm=isch&q=Muka%20icon%20transparent%20png,PENDING
+BDY004,Anggota Badan,Dahi,جَبْهَةٌ,BDY004.png,https://www.google.com/search?tbm=isch&q=Dahi%20icon%20transparent%20png,PENDING
+BDY005,Anggota Badan,Mata,عَيْنٌ,BDY005.png,https://www.google.com/search?tbm=isch&q=Mata%20icon%20transparent%20png,PENDING
+BDY006,Anggota Badan,Telinga,أُذُنٌ,BDY006.png,https://www.google.com/search?tbm=isch&q=Telinga%20icon%20transparent%20png,PENDING
+BDY007,Anggota Badan,Hidung,أَنْفٌ,BDY007.png,https://www.google.com/search?tbm=isch&q=Hidung%20icon%20transparent%20png,PENDING
+BDY008,Anggota Badan,Mulut,فَمٌ,BDY008.png,https://www.google.com/search?tbm=isch&q=Mulut%20icon%20transparent%20png,PENDING
+BDY009,Anggota Badan,Bibir,شَفَةٌ,BDY009.png,https://www.google.com/search?tbm=isch&q=Bibir%20icon%20transparent%20png,PENDING
+BDY010,Anggota Badan,Gigi,سِنٌّ,BDY010.png,https://www.google.com/search?tbm=isch&q=Gigi%20icon%20transparent%20png,PENDING
+BDY011,Anggota Badan,Lidah,لِسَانٌ,BDY011.png,https://www.google.com/search?tbm=isch&q=Lidah%20icon%20transparent%20png,PENDING
+BDY012,Anggota Badan,Dagu,ذَقَنٌ,BDY012.png,https://www.google.com/search?tbm=isch&q=Dagu%20icon%20transparent%20png,PENDING
+BDY013,Anggota Badan,Leher,رَقَبَةٌ,BDY013.png,https://www.google.com/search?tbm=isch&q=Leher%20icon%20transparent%20png,PENDING
+BDY014,Anggota Badan,Bahu,كَتِفٌ,BDY014.png,https://www.google.com/search?tbm=isch&q=Bahu%20icon%20transparent%20png,PENDING
+BDY015,Anggota Badan,Lengan,ذِرَاعٌ,BDY015.png,https://www.google.com/search?tbm=isch&q=Lengan%20icon%20transparent%20png,PENDING
+BDY016,Anggota Badan,Siku,مِرْفَقٌ,BDY016.png,https://www.google.com/search?tbm=isch&q=Siku%20icon%20transparent%20png,PENDING
+BDY017,Anggota Badan,Tangan,يَدٌ,BDY017.png,https://www.google.com/search?tbm=isch&q=Tangan%20icon%20transparent%20png,PENDING
+BDY018,Anggota Badan,Jari,إِصْبَعٌ,BDY018.png,https://www.google.com/search?tbm=isch&q=Jari%20icon%20transparent%20png,PENDING
+BDY019,Anggota Badan,Kuku,ظُفْرٌ,BDY019.png,https://www.google.com/search?tbm=isch&q=Kuku%20icon%20transparent%20png,PENDING
+BDY020,Anggota Badan,Dada,صَدْرٌ,BDY020.png,https://www.google.com/search?tbm=isch&q=Dada%20icon%20transparent%20png,PENDING
+BDY021,Anggota Badan,Belakang badan,ظَهْرٌ,BDY021.png,https://www.google.com/search?tbm=isch&q=Belakang%20badan%20icon%20transparent%20png,PENDING
+BDY022,Anggota Badan,Perut,بَطْنٌ,BDY022.png,https://www.google.com/search?tbm=isch&q=Perut%20icon%20transparent%20png,PENDING
+BDY023,Anggota Badan,Pusat,سُرَّةٌ,BDY023.png,https://www.google.com/search?tbm=isch&q=Pusat%20icon%20transparent%20png,PENDING
+BDY024,Anggota Badan,Pinggang,خَصْرٌ,BDY024.png,https://www.google.com/search?tbm=isch&q=Pinggang%20icon%20transparent%20png,PENDING
+BDY025,Anggota Badan,Betis/kaki,سَاقٌ,BDY025.png,https://www.google.com/search?tbm=isch&q=Betis/kaki%20icon%20transparent%20png,PENDING
+BDY026,Anggota Badan,Lutut,رُكْبَةٌ,BDY026.png,https://www.google.com/search?tbm=isch&q=Lutut%20icon%20transparent%20png,PENDING
+BDY027,Anggota Badan,Kaki,رِجْلٌ,BDY027.png,https://www.google.com/search?tbm=isch&q=Kaki%20icon%20transparent%20png,PENDING
+BDY028,Anggota Badan,Tapak kaki,قَدَمٌ,BDY028.png,https://www.google.com/search?tbm=isch&q=Tapak%20kaki%20icon%20transparent%20png,PENDING
+BDY029,Anggota Badan,Tumit,كَعْبٌ,BDY029.png,https://www.google.com/search?tbm=isch&q=Tumit%20icon%20transparent%20png,PENDING
+BDY030,Anggota Badan,Jantung,قَلْبٌ,BDY030.png,https://www.google.com/search?tbm=isch&q=Jantung%20icon%20transparent%20png,PENDING
+BDY031,Anggota Badan,Paru-paru,رِئَةٌ,BDY031.png,https://www.google.com/search?tbm=isch&q=Paru-paru%20icon%20transparent%20png,PENDING
+BDY032,Anggota Badan,Otak,دِمَاغٌ,BDY032.png,https://www.google.com/search?tbm=isch&q=Otak%20icon%20transparent%20png,PENDING
+BDY033,Anggota Badan,Darah,دَمٌ,BDY033.png,https://www.google.com/search?tbm=isch&q=Darah%20icon%20transparent%20png,PENDING
+BDY034,Anggota Badan,Tulang,عَظْمٌ,BDY034.png,https://www.google.com/search?tbm=isch&q=Tulang%20icon%20transparent%20png,PENDING
+BDY035,Anggota Badan,Otot,عَضَلَةٌ,BDY035.png,https://www.google.com/search?tbm=isch&q=Otot%20icon%20transparent%20png,PENDING
+BDY036,Anggota Badan,Kulit,جِلْدٌ,BDY036.png,https://www.google.com/search?tbm=isch&q=Kulit%20icon%20transparent%20png,PENDING
+BDY037,Anggota Badan,Tekak,حَلْقٌ,BDY037.png,https://www.google.com/search?tbm=isch&q=Tekak%20icon%20transparent%20png,PENDING
+BDY038,Anggota Badan,Pipi,خَدٌّ,BDY038.png,https://www.google.com/search?tbm=isch&q=Pipi%20icon%20transparent%20png,PENDING
+BDY039,Anggota Badan,Bulu mata,رَمْشٌ,BDY039.png,https://www.google.com/search?tbm=isch&q=Bulu%20mata%20icon%20transparent%20png,PENDING
+BDY040,Anggota Badan,Kening,حَاجِبٌ,BDY040.png,https://www.google.com/search?tbm=isch&q=Kening%20icon%20transparent%20png,PENDING
+BDY041,Anggota Badan,Air liur,لُعَابٌ,BDY041.png,https://www.google.com/search?tbm=isch&q=Air%20liur%20icon%20transparent%20png,PENDING
+BDY042,Anggota Badan,Luka,جُرْحٌ,BDY042.png,https://www.google.com/search?tbm=isch&q=Luka%20icon%20transparent%20png,PENDING
+BDY043,Anggota Badan,Paha,فَخِذٌ,BDY043.png,https://www.google.com/search?tbm=isch&q=Paha%20icon%20transparent%20png,PENDING
+BDY044,Anggota Badan,Hati/liver,كِبْدٌ,BDY044.png,https://www.google.com/search?tbm=isch&q=Hati/liver%20icon%20transparent%20png,PENDING
+BDY045,Anggota Badan,Buah pinggang,كُلْيَةٌ,BDY045.png,https://www.google.com/search?tbm=isch&q=Buah%20pinggang%20icon%20transparent%20png,PENDING
+BDY046,Anggota Badan,Perut/stomach,مَعِدَةٌ,BDY046.png,https://www.google.com/search?tbm=isch&q=Perut/stomach%20icon%20transparent%20png,PENDING
+BDY047,Anggota Badan,Pergelangan tangan,مِعْصَمٌ,BDY047.png,https://www.google.com/search?tbm=isch&q=Pergelangan%20tangan%20icon%20transparent%20png,PENDING
+BDY048,Anggota Badan,Sendi,مَفْصِلٌ,BDY048.png,https://www.google.com/search?tbm=isch&q=Sendi%20icon%20transparent%20png,PENDING
+BDY049,Anggota Badan,Tumit kaki,عَقِبٌ,BDY049.png,https://www.google.com/search?tbm=isch&q=Tumit%20kaki%20icon%20transparent%20png,PENDING
+BDY050,Anggota Badan,Sisi/bahagian tepi,جَانِبٌ,BDY050.png,https://www.google.com/search?tbm=isch&q=Sisi/bahagian%20tepi%20icon%20transparent%20png,PENDING
+JOB001,Pekerjaan / Cita-Cita,Doktor,طَبِيبٌ,JOB001.png,https://www.google.com/search?tbm=isch&q=Doktor%20icon%20transparent%20png,PENDING
+JOB002,Pekerjaan / Cita-Cita,Doktor wanita,طَبِيبَةٌ,JOB002.png,https://www.google.com/search?tbm=isch&q=Doktor%20wanita%20icon%20transparent%20png,PENDING
+JOB003,Pekerjaan / Cita-Cita,Jururawat lelaki,مُمَرِّضٌ,JOB003.png,https://www.google.com/search?tbm=isch&q=Jururawat%20lelaki%20icon%20transparent%20png,PENDING
+JOB004,Pekerjaan / Cita-Cita,Jururawat wanita,مُمَرِّضَةٌ,JOB004.png,https://www.google.com/search?tbm=isch&q=Jururawat%20wanita%20icon%20transparent%20png,PENDING
+JOB005,Pekerjaan / Cita-Cita,Jurutera,مُهَنْدِسٌ,JOB005.png,https://www.google.com/search?tbm=isch&q=Jurutera%20icon%20transparent%20png,PENDING
+JOB006,Pekerjaan / Cita-Cita,Guru lelaki,مُعَلِّمٌ,JOB006.png,https://www.google.com/search?tbm=isch&q=Guru%20lelaki%20icon%20transparent%20png,PENDING
+JOB007,Pekerjaan / Cita-Cita,Guru wanita,مُعَلِّمَةٌ,JOB007.png,https://www.google.com/search?tbm=isch&q=Guru%20wanita%20icon%20transparent%20png,PENDING
+JOB008,Pekerjaan / Cita-Cita,Doktor gigi,طَبِيبُ أَسْنَانٍ,JOB008.png,https://www.google.com/search?tbm=isch&q=Doktor%20gigi%20icon%20transparent%20png,PENDING
+JOB009,Pekerjaan / Cita-Cita,Ahli farmasi,صَيْدَلَانِيٌّ,JOB009.png,https://www.google.com/search?tbm=isch&q=Ahli%20farmasi%20icon%20transparent%20png,PENDING
+JOB010,Pekerjaan / Cita-Cita,Peguam,مُحَامٍ,JOB010.png,https://www.google.com/search?tbm=isch&q=Peguam%20icon%20transparent%20png,PENDING
+JOB011,Pekerjaan / Cita-Cita,Hakim,قَاضٍ,JOB011.png,https://www.google.com/search?tbm=isch&q=Hakim%20icon%20transparent%20png,PENDING
+JOB012,Pekerjaan / Cita-Cita,Polis,شُرْطِيٌّ,JOB012.png,https://www.google.com/search?tbm=isch&q=Polis%20icon%20transparent%20png,PENDING
+JOB013,Pekerjaan / Cita-Cita,Askar,جُنْدِيٌّ,JOB013.png,https://www.google.com/search?tbm=isch&q=Askar%20icon%20transparent%20png,PENDING
+JOB014,Pekerjaan / Cita-Cita,Juruterbang,طَيَّارٌ,JOB014.png,https://www.google.com/search?tbm=isch&q=Juruterbang%20icon%20transparent%20png,PENDING
+JOB015,Pekerjaan / Cita-Cita,Pramugara,مُضِيفٌ,JOB015.png,https://www.google.com/search?tbm=isch&q=Pramugara%20icon%20transparent%20png,PENDING
+JOB016,Pekerjaan / Cita-Cita,Pramugari,مُضِيفَةٌ,JOB016.png,https://www.google.com/search?tbm=isch&q=Pramugari%20icon%20transparent%20png,PENDING
+JOB017,Pekerjaan / Cita-Cita,Pengatur cara,مُبَرْمِجٌ,JOB017.png,https://www.google.com/search?tbm=isch&q=Pengatur%20cara%20icon%20transparent%20png,PENDING
+JOB018,Pekerjaan / Cita-Cita,Pereka,مُصَمِّمٌ,JOB018.png,https://www.google.com/search?tbm=isch&q=Pereka%20icon%20transparent%20png,PENDING
+JOB019,Pekerjaan / Cita-Cita,Penulis,كَاتِبٌ,JOB019.png,https://www.google.com/search?tbm=isch&q=Penulis%20icon%20transparent%20png,PENDING
+JOB020,Pekerjaan / Cita-Cita,Wartawan,صَحَفِيٌّ,JOB020.png,https://www.google.com/search?tbm=isch&q=Wartawan%20icon%20transparent%20png,PENDING
+JOB021,Pekerjaan / Cita-Cita,Jurugambar,مُصَوِّرٌ,JOB021.png,https://www.google.com/search?tbm=isch&q=Jurugambar%20icon%20transparent%20png,PENDING
+JOB022,Pekerjaan / Cita-Cita,Pelukis,رَسَّامٌ,JOB022.png,https://www.google.com/search?tbm=isch&q=Pelukis%20icon%20transparent%20png,PENDING
+JOB023,Pekerjaan / Cita-Cita,Ahli muzik,مُوسِيقَارٌ,JOB023.png,https://www.google.com/search?tbm=isch&q=Ahli%20muzik%20icon%20transparent%20png,PENDING
+JOB024,Pekerjaan / Cita-Cita,Pelakon lelaki,مُمَثِّلٌ,JOB024.png,https://www.google.com/search?tbm=isch&q=Pelakon%20lelaki%20icon%20transparent%20png,PENDING
+JOB025,Pekerjaan / Cita-Cita,Pelakon wanita,مُمَثِّلَةٌ,JOB025.png,https://www.google.com/search?tbm=isch&q=Pelakon%20wanita%20icon%20transparent%20png,PENDING
+JOB026,Pekerjaan / Cita-Cita,Penyanyi,مُغَنٍّ,JOB026.png,https://www.google.com/search?tbm=isch&q=Penyanyi%20icon%20transparent%20png,PENDING
+JOB027,Pekerjaan / Cita-Cita,Tukang masak,طَبَّاخٌ,JOB027.png,https://www.google.com/search?tbm=isch&q=Tukang%20masak%20icon%20transparent%20png,PENDING
+JOB028,Pekerjaan / Cita-Cita,Pembuat roti,خَبَّازٌ,JOB028.png,https://www.google.com/search?tbm=isch&q=Pembuat%20roti%20icon%20transparent%20png,PENDING
+JOB029,Pekerjaan / Cita-Cita,Petani,فَلَّاحٌ,JOB029.png,https://www.google.com/search?tbm=isch&q=Petani%20icon%20transparent%20png,PENDING
+JOB030,Pekerjaan / Cita-Cita,Tukang kebun,بُسْتَانِيٌّ,JOB030.png,https://www.google.com/search?tbm=isch&q=Tukang%20kebun%20icon%20transparent%20png,PENDING
+JOB031,Pekerjaan / Cita-Cita,Tukang kayu,نَجَّارٌ,JOB031.png,https://www.google.com/search?tbm=isch&q=Tukang%20kayu%20icon%20transparent%20png,PENDING
+JOB032,Pekerjaan / Cita-Cita,Tukang besi,حَدَّادٌ,JOB032.png,https://www.google.com/search?tbm=isch&q=Tukang%20besi%20icon%20transparent%20png,PENDING
+JOB033,Pekerjaan / Cita-Cita,Juruteknik elektrik,كَهْرَبَائِيٌّ,JOB033.png,https://www.google.com/search?tbm=isch&q=Juruteknik%20elektrik%20icon%20transparent%20png,PENDING
+JOB034,Pekerjaan / Cita-Cita,Tukang paip,سَبَّاكٌ,JOB034.png,https://www.google.com/search?tbm=isch&q=Tukang%20paip%20icon%20transparent%20png,PENDING
+JOB035,Pekerjaan / Cita-Cita,Mekanik,مِيكَانِيكِيٌّ,JOB035.png,https://www.google.com/search?tbm=isch&q=Mekanik%20icon%20transparent%20png,PENDING
+JOB036,Pekerjaan / Cita-Cita,Pemandu,سَائِقٌ,JOB036.png,https://www.google.com/search?tbm=isch&q=Pemandu%20icon%20transparent%20png,PENDING
+JOB037,Pekerjaan / Cita-Cita,Penjual,بَائِعٌ,JOB037.png,https://www.google.com/search?tbm=isch&q=Penjual%20icon%20transparent%20png,PENDING
+JOB038,Pekerjaan / Cita-Cita,Nelayan/pemburu,صَيَّادٌ,JOB038.png,https://www.google.com/search?tbm=isch&q=Nelayan/pemburu%20icon%20transparent%20png,PENDING
+JOB039,Pekerjaan / Cita-Cita,Anggota bomba,رَجُلُ إِطْفَاءٍ,JOB039.png,https://www.google.com/search?tbm=isch&q=Anggota%20bomba%20icon%20transparent%20png,PENDING
+JOB040,Pekerjaan / Cita-Cita,Posmen,بَرِيدِيٌّ,JOB040.png,https://www.google.com/search?tbm=isch&q=Posmen%20icon%20transparent%20png,PENDING
+JOB041,Pekerjaan / Cita-Cita,Kerani,أَمِينُ مَكْتَبٍ,JOB041.png,https://www.google.com/search?tbm=isch&q=Kerani%20icon%20transparent%20png,PENDING
+JOB042,Pekerjaan / Cita-Cita,Pengurus,مُدِيرٌ,JOB042.png,https://www.google.com/search?tbm=isch&q=Pengurus%20icon%20transparent%20png,PENDING
+JOB043,Pekerjaan / Cita-Cita,Pekerja/pegawai,مُوَظَّفٌ,JOB043.png,https://www.google.com/search?tbm=isch&q=Pekerja/pegawai%20icon%20transparent%20png,PENDING
+JOB044,Pekerjaan / Cita-Cita,Saintis/sarjana,عَالِمٌ,JOB044.png,https://www.google.com/search?tbm=isch&q=Saintis/sarjana%20icon%20transparent%20png,PENDING
+JOB045,Pekerjaan / Cita-Cita,Pelajar lelaki,طَالِبٌ,JOB045.png,https://www.google.com/search?tbm=isch&q=Pelajar%20lelaki%20icon%20transparent%20png,PENDING
+JOB046,Pekerjaan / Cita-Cita,Pelajar perempuan,طَالِبَةٌ,JOB046.png,https://www.google.com/search?tbm=isch&q=Pelajar%20perempuan%20icon%20transparent%20png,PENDING
+JOB047,Pekerjaan / Cita-Cita,Pencipta,مُخْتَرِعٌ,JOB047.png,https://www.google.com/search?tbm=isch&q=Pencipta%20icon%20transparent%20png,PENDING
+JOB048,Pekerjaan / Cita-Cita,Pembimbing/kaunselor,مُرْشِدٌ,JOB048.png,https://www.google.com/search?tbm=isch&q=Pembimbing/kaunselor%20icon%20transparent%20png,PENDING
+JOB049,Pekerjaan / Cita-Cita,Usahawan,رَائِدُ أَعْمَالٍ,JOB049.png,https://www.google.com/search?tbm=isch&q=Usahawan%20icon%20transparent%20png,PENDING
+JOB050,Pekerjaan / Cita-Cita,Seniman,فَنَّانٌ,JOB050.png,https://www.google.com/search?tbm=isch&q=Seniman%20icon%20transparent%20png,PENDING
+VEG001,Sayur-Sayuran,Lobak merah,جَزَرٌ,VEG001.png,https://www.google.com/search?tbm=isch&q=Lobak%20merah%20icon%20transparent%20png,PENDING
+VEG002,Sayur-Sayuran,Timun,خِيَارٌ,VEG002.png,https://www.google.com/search?tbm=isch&q=Timun%20icon%20transparent%20png,PENDING
+VEG003,Sayur-Sayuran,Tomato,طَمَاطِمُ,VEG003.png,https://www.google.com/search?tbm=isch&q=Tomato%20icon%20transparent%20png,PENDING
+VEG004,Sayur-Sayuran,Kentang,بَطَاطِسُ,VEG004.png,https://www.google.com/search?tbm=isch&q=Kentang%20icon%20transparent%20png,PENDING
+VEG005,Sayur-Sayuran,Bawang,بَصَلٌ,VEG005.png,https://www.google.com/search?tbm=isch&q=Bawang%20icon%20transparent%20png,PENDING
+VEG006,Sayur-Sayuran,Bawang putih,ثَوْمٌ,VEG006.png,https://www.google.com/search?tbm=isch&q=Bawang%20putih%20icon%20transparent%20png,PENDING
+VEG007,Sayur-Sayuran,Kubis merah,مَلْفُوفٌ أَحْمَرُ,VEG007.png,https://www.google.com/search?tbm=isch&q=Kubis%20merah%20icon%20transparent%20png,PENDING
+VEG008,Sayur-Sayuran,Salad,خَسٌّ,VEG008.png,https://www.google.com/search?tbm=isch&q=Salad%20icon%20transparent%20png,PENDING
+VEG009,Sayur-Sayuran,Kubis,مَلْفُوفٌ,VEG009.png,https://www.google.com/search?tbm=isch&q=Kubis%20icon%20transparent%20png,PENDING
+VEG010,Sayur-Sayuran,Kubis bunga,قَرْنَبِيطٌ,VEG010.png,https://www.google.com/search?tbm=isch&q=Kubis%20bunga%20icon%20transparent%20png,PENDING
+VEG011,Sayur-Sayuran,Brokoli,بْرُوكُلِي,VEG011.png,https://www.google.com/search?tbm=isch&q=Brokoli%20icon%20transparent%20png,PENDING
+VEG012,Sayur-Sayuran,Terung,بَاذِنْجَانٌ,VEG012.png,https://www.google.com/search?tbm=isch&q=Terung%20icon%20transparent%20png,PENDING
+VEG013,Sayur-Sayuran,Lada benggala,فُلْفُلٌ,VEG013.png,https://www.google.com/search?tbm=isch&q=Lada%20benggala%20icon%20transparent%20png,PENDING
+VEG014,Sayur-Sayuran,Cili,فِلْفِلٌ حَارٌّ,VEG014.png,https://www.google.com/search?tbm=isch&q=Cili%20icon%20transparent%20png,PENDING
+VEG015,Sayur-Sayuran,Bendi,بَامِيَةٌ,VEG015.png,https://www.google.com/search?tbm=isch&q=Bendi%20icon%20transparent%20png,PENDING
+VEG016,Sayur-Sayuran,Kacang buncis,فَاصُولْيَا خَضْرَاءُ,VEG016.png,https://www.google.com/search?tbm=isch&q=Kacang%20buncis%20icon%20transparent%20png,PENDING
+VEG017,Sayur-Sayuran,Kacang pea,بَازِلَّاءُ,VEG017.png,https://www.google.com/search?tbm=isch&q=Kacang%20pea%20icon%20transparent%20png,PENDING
+VEG018,Sayur-Sayuran,Jagung,ذُرَةٌ,VEG018.png,https://www.google.com/search?tbm=isch&q=Jagung%20icon%20transparent%20png,PENDING
+VEG019,Sayur-Sayuran,Labu,يَقْطِينٌ,VEG019.png,https://www.google.com/search?tbm=isch&q=Labu%20icon%20transparent%20png,PENDING
+VEG020,Sayur-Sayuran,Zucchini,كُوسَا,VEG020.png,https://www.google.com/search?tbm=isch&q=Zucchini%20icon%20transparent%20png,PENDING
+VEG021,Sayur-Sayuran,Bayam,سَبَانِخُ,VEG021.png,https://www.google.com/search?tbm=isch&q=Bayam%20icon%20transparent%20png,PENDING
+VEG022,Sayur-Sayuran,Swiss chard,سِلْقٌ,VEG022.png,https://www.google.com/search?tbm=isch&q=Swiss%20chard%20icon%20transparent%20png,PENDING
+VEG023,Sayur-Sayuran,Rukola,جَرْجِيرٌ,VEG023.png,https://www.google.com/search?tbm=isch&q=Rukola%20icon%20transparent%20png,PENDING
+VEG024,Sayur-Sayuran,Saderi,كَرَفْسٌ,VEG024.png,https://www.google.com/search?tbm=isch&q=Saderi%20icon%20transparent%20png,PENDING
+VEG025,Sayur-Sayuran,Parsli,بَقْدُونِسٌ,VEG025.png,https://www.google.com/search?tbm=isch&q=Parsli%20icon%20transparent%20png,PENDING
+VEG026,Sayur-Sayuran,Daun bawang,كُرَّاثٌ,VEG026.png,https://www.google.com/search?tbm=isch&q=Daun%20bawang%20icon%20transparent%20png,PENDING
+VEG027,Sayur-Sayuran,Pudina,نَعْنَاعٌ,VEG027.png,https://www.google.com/search?tbm=isch&q=Pudina%20icon%20transparent%20png,PENDING
+VEG028,Sayur-Sayuran,Selasih,رَيْحَانٌ,VEG028.png,https://www.google.com/search?tbm=isch&q=Selasih%20icon%20transparent%20png,PENDING
+VEG029,Sayur-Sayuran,Halia,زَنْجَبِيلٌ,VEG029.png,https://www.google.com/search?tbm=isch&q=Halia%20icon%20transparent%20png,PENDING
+VEG030,Sayur-Sayuran,Kunyit,كُرْكُمٌ,VEG030.png,https://www.google.com/search?tbm=isch&q=Kunyit%20icon%20transparent%20png,PENDING
+VEG031,Sayur-Sayuran,Lobak putih,فِجْلٌ,VEG031.png,https://www.google.com/search?tbm=isch&q=Lobak%20putih%20icon%20transparent%20png,PENDING
+VEG032,Sayur-Sayuran,Turnip,لِفْتٌ,VEG032.png,https://www.google.com/search?tbm=isch&q=Turnip%20icon%20transparent%20png,PENDING
+VEG033,Sayur-Sayuran,Ubi keledek,بَطَاطَا حُلْوَةٌ,VEG033.png,https://www.google.com/search?tbm=isch&q=Ubi%20keledek%20icon%20transparent%20png,PENDING
+VEG034,Sayur-Sayuran,Keladi,قَلْقَاسٌ,VEG034.png,https://www.google.com/search?tbm=isch&q=Keladi%20icon%20transparent%20png,PENDING
+VEG035,Sayur-Sayuran,Ubi keladi,يَامٌ,VEG035.png,https://www.google.com/search?tbm=isch&q=Ubi%20keladi%20icon%20transparent%20png,PENDING
+VEG036,Sayur-Sayuran,Cendawan,فِطْرٌ,VEG036.png,https://www.google.com/search?tbm=isch&q=Cendawan%20icon%20transparent%20png,PENDING
+VEG037,Sayur-Sayuran,Rebung,بَامْبَازُو,VEG037.png,https://www.google.com/search?tbm=isch&q=Rebung%20icon%20transparent%20png,PENDING
+VEG038,Sayur-Sayuran,Labu,قَرْعٌ,VEG038.png,https://www.google.com/search?tbm=isch&q=Labu%20icon%20transparent%20png,PENDING
+VEG039,Sayur-Sayuran,Kohlrabi,كُرُنْبٌ,VEG039.png,https://www.google.com/search?tbm=isch&q=Kohlrabi%20icon%20transparent%20png,PENDING
+VEG040,Sayur-Sayuran,Avokado,أَفُوكَادُو,VEG040.png,https://www.google.com/search?tbm=isch&q=Avokado%20icon%20transparent%20png,PENDING
+VEG041,Sayur-Sayuran,Tembikai,بِطِّيخٌ أَخْضَرُ,VEG041.png,https://www.google.com/search?tbm=isch&q=Tembikai%20icon%20transparent%20png,PENDING
+VEG042,Sayur-Sayuran,Zaitun,زَيْتُونٌ,VEG042.png,https://www.google.com/search?tbm=isch&q=Zaitun%20icon%20transparent%20png,PENDING
+VEG043,Sayur-Sayuran,Putik jagung,ذُرْوَةُ الذُّرَةِ,VEG043.png,https://www.google.com/search?tbm=isch&q=Putik%20jagung%20icon%20transparent%20png,PENDING
+VEG044,Sayur-Sayuran,Kacang manis,بَازَلَاءٌ حَلْوَةٌ,VEG044.png,https://www.google.com/search?tbm=isch&q=Kacang%20manis%20icon%20transparent%20png,PENDING
+VEG045,Sayur-Sayuran,Ubi bit,شَمَنْدَرٌ,VEG045.png,https://www.google.com/search?tbm=isch&q=Ubi%20bit%20icon%20transparent%20png,PENDING
+VEG046,Sayur-Sayuran,Peria,يَقطِينُ مُرٌّ,VEG046.png,https://www.google.com/search?tbm=isch&q=Peria%20icon%20transparent%20png,PENDING
+VEG047,Sayur-Sayuran,Mulukhiya,مُولُوخِيَّةٌ,VEG047.png,https://www.google.com/search?tbm=isch&q=Mulukhiya%20icon%20transparent%20png,PENDING
+VEG048,Sayur-Sayuran,Labu botol,قَرْعَةٌ,VEG048.png,https://www.google.com/search?tbm=isch&q=Labu%20botol%20icon%20transparent%20png,PENDING
+VEG049,Sayur-Sayuran,Labu musim panas,قُرْعَةٌ صَيْفِيَّةٌ,VEG049.png,https://www.google.com/search?tbm=isch&q=Labu%20musim%20panas%20icon%20transparent%20png,PENDING
+VEG050,Sayur-Sayuran,Pucuk buluh,بَرَاقِمُ بَامْبُو,VEG050.png,https://www.google.com/search?tbm=isch&q=Pucuk%20buluh%20icon%20transparent%20png,PENDING
+FRT001,Buah-Buahan,Epal,تُفَّاحٌ,FRT001.png,https://www.google.com/search?tbm=isch&q=Epal%20icon%20transparent%20png,PENDING
+FRT002,Buah-Buahan,Pisang,مَوْزٌ,FRT002.png,https://www.google.com/search?tbm=isch&q=Pisang%20icon%20transparent%20png,PENDING
+FRT003,Buah-Buahan,Oren,بُرْتُقَالٌ,FRT003.png,https://www.google.com/search?tbm=isch&q=Oren%20icon%20transparent%20png,PENDING
+FRT004,Buah-Buahan,Limau mandarin,مَنْدَرِينٌ,FRT004.png,https://www.google.com/search?tbm=isch&q=Limau%20mandarin%20icon%20transparent%20png,PENDING
+FRT005,Buah-Buahan,Anggur,عِنَبٌ,FRT005.png,https://www.google.com/search?tbm=isch&q=Anggur%20icon%20transparent%20png,PENDING
+FRT006,Buah-Buahan,Strawberi,فَرَاوِلَةٌ,FRT006.png,https://www.google.com/search?tbm=isch&q=Strawberi%20icon%20transparent%20png,PENDING
+FRT007,Buah-Buahan,Tembikai,بِطِّيخٌ,FRT007.png,https://www.google.com/search?tbm=isch&q=Tembikai%20icon%20transparent%20png,PENDING
+FRT008,Buah-Buahan,Betik,بَابَايَا,FRT008.png,https://www.google.com/search?tbm=isch&q=Betik%20icon%20transparent%20png,PENDING
+FRT009,Buah-Buahan,Nanas,أَنَانَاسٌ,FRT009.png,https://www.google.com/search?tbm=isch&q=Nanas%20icon%20transparent%20png,PENDING
+FRT010,Buah-Buahan,Mangga,مَانْجَا,FRT010.png,https://www.google.com/search?tbm=isch&q=Mangga%20icon%20transparent%20png,PENDING
+FRT011,Buah-Buahan,Melon,بَطِّيخٌ أَصْفَرُ,FRT011.png,https://www.google.com/search?tbm=isch&q=Melon%20icon%20transparent%20png,PENDING
+FRT012,Buah-Buahan,Kiwi,كِيوِي,FRT012.png,https://www.google.com/search?tbm=isch&q=Kiwi%20icon%20transparent%20png,PENDING
+FRT013,Buah-Buahan,Pic,فَرْسَكٌ,FRT013.png,https://www.google.com/search?tbm=isch&q=Pic%20icon%20transparent%20png,PENDING
+FRT014,Buah-Buahan,Aprikot,مِشْمِشٌ,FRT014.png,https://www.google.com/search?tbm=isch&q=Aprikot%20icon%20transparent%20png,PENDING
+FRT015,Buah-Buahan,Pir,كُمَّثْرَى,FRT015.png,https://www.google.com/search?tbm=isch&q=Pir%20icon%20transparent%20png,PENDING
+FRT016,Buah-Buahan,Ceri,كَرَزٌ,FRT016.png,https://www.google.com/search?tbm=isch&q=Ceri%20icon%20transparent%20png,PENDING
+FRT017,Buah-Buahan,Delima,رُمَّانٌ,FRT017.png,https://www.google.com/search?tbm=isch&q=Delima%20icon%20transparent%20png,PENDING
+FRT018,Buah-Buahan,Buah tin,تِينٌ,FRT018.png,https://www.google.com/search?tbm=isch&q=Buah%20tin%20icon%20transparent%20png,PENDING
+FRT019,Buah-Buahan,Kurma,تَمْرٌ,FRT019.png,https://www.google.com/search?tbm=isch&q=Kurma%20icon%20transparent%20png,PENDING
+FRT020,Buah-Buahan,Kelapa,جَوْزُ الْهِنْدِ,FRT020.png,https://www.google.com/search?tbm=isch&q=Kelapa%20icon%20transparent%20png,PENDING
+FRT021,Buah-Buahan,Walnut,جَوْزٌ,FRT021.png,https://www.google.com/search?tbm=isch&q=Walnut%20icon%20transparent%20png,PENDING
+FRT022,Buah-Buahan,Badam,لَوْزٌ,FRT022.png,https://www.google.com/search?tbm=isch&q=Badam%20icon%20transparent%20png,PENDING
+FRT023,Buah-Buahan,Pistachio,فُسْتُقٌ,FRT023.png,https://www.google.com/search?tbm=isch&q=Pistachio%20icon%20transparent%20png,PENDING
+FRT024,Buah-Buahan,Limau kecil,مَانِدِينُ,FRT024.png,https://www.google.com/search?tbm=isch&q=Limau%20kecil%20icon%20transparent%20png,PENDING
+FRT025,Buah-Buahan,Limau gedang,جَرِيبْ فْرُوتٌ,FRT025.png,https://www.google.com/search?tbm=isch&q=Limau%20gedang%20icon%20transparent%20png,PENDING
+FRT026,Buah-Buahan,Lemon,لَيْمُونٌ,FRT026.png,https://www.google.com/search?tbm=isch&q=Lemon%20icon%20transparent%20png,PENDING
+FRT027,Buah-Buahan,Limau nipis,لَيْمٌ,FRT027.png,https://www.google.com/search?tbm=isch&q=Limau%20nipis%20icon%20transparent%20png,PENDING
+FRT028,Buah-Buahan,Beri,تُوتٌ,FRT028.png,https://www.google.com/search?tbm=isch&q=Beri%20icon%20transparent%20png,PENDING
+FRT029,Buah-Buahan,Blackberi,تُوتٌ أَسْوَدُ,FRT029.png,https://www.google.com/search?tbm=isch&q=Blackberi%20icon%20transparent%20png,PENDING
+FRT030,Buah-Buahan,Blueberi,تُوتٌ أَزْرَقُ,FRT030.png,https://www.google.com/search?tbm=isch&q=Blueberi%20icon%20transparent%20png,PENDING
+FRT031,Buah-Buahan,Raspberi,تُوتٌ أَحْمَرُ,FRT031.png,https://www.google.com/search?tbm=isch&q=Raspberi%20icon%20transparent%20png,PENDING
+FRT032,Buah-Buahan,Manggis,مَنْغُوسْتِينٌ,FRT032.png,https://www.google.com/search?tbm=isch&q=Manggis%20icon%20transparent%20png,PENDING
+FRT033,Buah-Buahan,Rambutan,رَمْبُوتَانٌ,FRT033.png,https://www.google.com/search?tbm=isch&q=Rambutan%20icon%20transparent%20png,PENDING
+FRT034,Buah-Buahan,Durian,دُورِيَانٌ,FRT034.png,https://www.google.com/search?tbm=isch&q=Durian%20icon%20transparent%20png,PENDING
+FRT035,Buah-Buahan,Belimbing,فَاكِهَةُ النَّجْمِ,FRT035.png,https://www.google.com/search?tbm=isch&q=Belimbing%20icon%20transparent%20png,PENDING
+FRT036,Buah-Buahan,Jambu batu,جَوَافَةٌ,FRT036.png,https://www.google.com/search?tbm=isch&q=Jambu%20batu%20icon%20transparent%20png,PENDING
+FRT037,Buah-Buahan,Quince,سُفَرْجَلٌ,FRT037.png,https://www.google.com/search?tbm=isch&q=Quince%20icon%20transparent%20png,PENDING
+FRT038,Buah-Buahan,Belimbing,كَرَمْبُولَةٌ,FRT038.png,https://www.google.com/search?tbm=isch&q=Belimbing%20icon%20transparent%20png,PENDING
+FRT039,Buah-Buahan,Naranjilla,نَارَنْجِيلَا,FRT039.png,https://www.google.com/search?tbm=isch&q=Naranjilla%20icon%20transparent%20png,PENDING
+FRT040,Buah-Buahan,Longan,لُوبِيَا,FRT040.png,https://www.google.com/search?tbm=isch&q=Longan%20icon%20transparent%20png,PENDING
+FRT041,Buah-Buahan,Laici,لِيتْشِي,FRT041.png,https://www.google.com/search?tbm=isch&q=Laici%20icon%20transparent%20png,PENDING
+FRT042,Buah-Buahan,Sapota,سَابُوتَا,FRT042.png,https://www.google.com/search?tbm=isch&q=Sapota%20icon%20transparent%20png,PENDING
+FRT043,Buah-Buahan,Buah naga,فَاكِهَةُ التَّنِّينِ,FRT043.png,https://www.google.com/search?tbm=isch&q=Buah%20naga%20icon%20transparent%20png,PENDING
+FRT044,Buah-Buahan,Cranberry,جِرِيمٌ,FRT044.png,https://www.google.com/search?tbm=isch&q=Cranberry%20icon%20transparent%20png,PENDING
+FRT045,Buah-Buahan,Kumkuat,كُمَكْوَاتٌ,FRT045.png,https://www.google.com/search?tbm=isch&q=Kumkuat%20icon%20transparent%20png,PENDING
+FRT046,Buah-Buahan,Nectarine,دُرَّاقٌ,FRT046.png,https://www.google.com/search?tbm=isch&q=Nectarine%20icon%20transparent%20png,PENDING
+FRT047,Buah-Buahan,Persimmon,قَرْصٌ,FRT047.png,https://www.google.com/search?tbm=isch&q=Persimmon%20icon%20transparent%20png,PENDING
+FRT048,Buah-Buahan,Mandarin Cina,مَانْدَارِينُ صِينِيٌّ,FRT048.png,https://www.google.com/search?tbm=isch&q=Mandarin%20Cina%20icon%20transparent%20png,PENDING
+FRT049,Buah-Buahan,Markisa,بَاشِنْ فُرُوت,FRT049.png,https://www.google.com/search?tbm=isch&q=Markisa%20icon%20transparent%20png,PENDING
+FRT050,Buah-Buahan,Buah sawo,سَافُو,FRT050.png,https://www.google.com/search?tbm=isch&q=Buah%20sawo%20icon%20transparent%20png,PENDING
+CLT001,Pakaian,Baju/kemeja,قَمِيصٌ,CLT001.png,https://www.google.com/search?tbm=isch&q=Baju/kemeja%20icon%20transparent%20png,PENDING
+CLT002,Pakaian,Seluar panjang,بِنْطَالٌ,CLT002.png,https://www.google.com/search?tbm=isch&q=Seluar%20panjang%20icon%20transparent%20png,PENDING
+CLT003,Pakaian,Seluar pendek,سِرْوَالٌ قَصِيرٌ,CLT003.png,https://www.google.com/search?tbm=isch&q=Seluar%20pendek%20icon%20transparent%20png,PENDING
+CLT004,Pakaian,Pakaian/baju,ثَوْبٌ,CLT004.png,https://www.google.com/search?tbm=isch&q=Pakaian/baju%20icon%20transparent%20png,PENDING
+CLT005,Pakaian,Gaun,فُسْتَانٌ,CLT005.png,https://www.google.com/search?tbm=isch&q=Gaun%20icon%20transparent%20png,PENDING
+CLT006,Pakaian,Skirt,تَنُّورَةٌ,CLT006.png,https://www.google.com/search?tbm=isch&q=Skirt%20icon%20transparent%20png,PENDING
+CLT007,Pakaian,Jubah/abaya,عَبَاءَةٌ,CLT007.png,https://www.google.com/search?tbm=isch&q=Jubah/abaya%20icon%20transparent%20png,PENDING
+CLT008,Pakaian,Jubah luar,جِلْبَابٌ,CLT008.png,https://www.google.com/search?tbm=isch&q=Jubah%20luar%20icon%20transparent%20png,PENDING
+CLT009,Pakaian,Tudung,حِجَابٌ,CLT009.png,https://www.google.com/search?tbm=isch&q=Tudung%20icon%20transparent%20png,PENDING
+CLT010,Pakaian,Tudung,خِمَارٌ,CLT010.png,https://www.google.com/search?tbm=isch&q=Tudung%20icon%20transparent%20png,PENDING
+CLT011,Pakaian,Pakaian,سِرْبَالٌ,CLT011.png,https://www.google.com/search?tbm=isch&q=Pakaian%20icon%20transparent%20png,PENDING
+CLT012,Pakaian,Seluar,سُرْوَالٌ,CLT012.png,https://www.google.com/search?tbm=isch&q=Seluar%20icon%20transparent%20png,PENDING
+CLT013,Pakaian,Kot,مِعْطَفٌ,CLT013.png,https://www.google.com/search?tbm=isch&q=Kot%20icon%20transparent%20png,PENDING
+CLT014,Pakaian,Jaket,سُتْرَةٌ,CLT014.png,https://www.google.com/search?tbm=isch&q=Jaket%20icon%20transparent%20png,PENDING
+CLT015,Pakaian,Apron,مِئْزَرٌ,CLT015.png,https://www.google.com/search?tbm=isch&q=Apron%20icon%20transparent%20png,PENDING
+CLT016,Pakaian,Topi,قُبَّعَةٌ,CLT016.png,https://www.google.com/search?tbm=isch&q=Topi%20icon%20transparent%20png,PENDING
+CLT017,Pakaian,Serban,عِمَامَةٌ,CLT017.png,https://www.google.com/search?tbm=isch&q=Serban%20icon%20transparent%20png,PENDING
+CLT018,Pakaian,Sarung tangan,كَفَّازٌ,CLT018.png,https://www.google.com/search?tbm=isch&q=Sarung%20tangan%20icon%20transparent%20png,PENDING
+CLT019,Pakaian,Stoking,جَوْرَبٌ,CLT019.png,https://www.google.com/search?tbm=isch&q=Stoking%20icon%20transparent%20png,PENDING
+CLT020,Pakaian,Kasut,حِذَاءٌ,CLT020.png,https://www.google.com/search?tbm=isch&q=Kasut%20icon%20transparent%20png,PENDING
+CLT021,Pakaian,Sandal,صَنْدَلٌ,CLT021.png,https://www.google.com/search?tbm=isch&q=Sandal%20icon%20transparent%20png,PENDING
+CLT022,Pakaian,Kasut sukan,حِذَاءٌ رِيَاضِيٌّ,CLT022.png,https://www.google.com/search?tbm=isch&q=Kasut%20sukan%20icon%20transparent%20png,PENDING
+CLT023,Pakaian,Kasut sekolah,حِذَاءٌ مَدْرَسِيٌّ,CLT023.png,https://www.google.com/search?tbm=isch&q=Kasut%20sekolah%20icon%20transparent%20png,PENDING
+CLT024,Pakaian,Tali leher,رَبْطَةُ عُنُقٍ,CLT024.png,https://www.google.com/search?tbm=isch&q=Tali%20leher%20icon%20transparent%20png,PENDING
+CLT025,Pakaian,Tali pinggang,حِزَامٌ,CLT025.png,https://www.google.com/search?tbm=isch&q=Tali%20pinggang%20icon%20transparent%20png,PENDING
+CLT026,Pakaian,Payung,مِظَلَّةٌ,CLT026.png,https://www.google.com/search?tbm=isch&q=Payung%20icon%20transparent%20png,PENDING
+CLT027,Pakaian,Pakaian tidur,مَلابِسُ نَوْمٍ,CLT027.png,https://www.google.com/search?tbm=isch&q=Pakaian%20tidur%20icon%20transparent%20png,PENDING
+CLT028,Pakaian,Pakaian dalam,مَلابِسُ دَاخِلِيَّةٌ,CLT028.png,https://www.google.com/search?tbm=isch&q=Pakaian%20dalam%20icon%20transparent%20png,PENDING
+CLT029,Pakaian,Skirt/apron,مِئْزَرَةٌ,CLT029.png,https://www.google.com/search?tbm=isch&q=Skirt/apron%20icon%20transparent%20png,PENDING
+CLT030,Pakaian,Pijama,بِزَامَةٌ,CLT030.png,https://www.google.com/search?tbm=isch&q=Pijama%20icon%20transparent%20png,PENDING
+CLT031,Pakaian,Jam tangan,سَاعَةٌ يَدَوِيَّةٌ,CLT031.png,https://www.google.com/search?tbm=isch&q=Jam%20tangan%20icon%20transparent%20png,PENDING
+CLT032,Pakaian,Cermin mata,نَظَّارَةٌ,CLT032.png,https://www.google.com/search?tbm=isch&q=Cermin%20mata%20icon%20transparent%20png,PENDING
+CLT033,Pakaian,Cermin mata hitam,نَظَّارَةٌ شَمْسِيَّةٌ,CLT033.png,https://www.google.com/search?tbm=isch&q=Cermin%20mata%20hitam%20icon%20transparent%20png,PENDING
+CLT034,Pakaian,Beg,حَقِيبَةٌ,CLT034.png,https://www.google.com/search?tbm=isch&q=Beg%20icon%20transparent%20png,PENDING
+CLT035,Pakaian,Beg tangan,حَقِيبَةُ يَدٍ,CLT035.png,https://www.google.com/search?tbm=isch&q=Beg%20tangan%20icon%20transparent%20png,PENDING
+CLT036,Pakaian,Beg galas,حَقِيبَةُ ظَهْرٍ,CLT036.png,https://www.google.com/search?tbm=isch&q=Beg%20galas%20icon%20transparent%20png,PENDING
+CLT037,Pakaian,Sapu tangan,مِنْدِيلٌ,CLT037.png,https://www.google.com/search?tbm=isch&q=Sapu%20tangan%20icon%20transparent%20png,PENDING
+CLT038,Pakaian,Selendang,شَالٌ,CLT038.png,https://www.google.com/search?tbm=isch&q=Selendang%20icon%20transparent%20png,PENDING
+CLT039,Pakaian,Skaf kepala,مِنْدِيلُ الرَّأْسِ,CLT039.png,https://www.google.com/search?tbm=isch&q=Skaf%20kepala%20icon%20transparent%20png,PENDING
+CLT040,Pakaian,Sarung tangan musim sejuk,قُفَّازَاتٌ شَتْوِيَّةٌ,CLT040.png,https://www.google.com/search?tbm=isch&q=Sarung%20tangan%20musim%20sejuk%20icon%20transparent%20png,PENDING
+CLT041,Pakaian,Pakaian sukan,مَلابِسُ الرِّيَاضَةِ,CLT041.png,https://www.google.com/search?tbm=isch&q=Pakaian%20sukan%20icon%20transparent%20png,PENDING
+CLT042,Pakaian,Seragam sekolah,زِيٌّ مَدْرَسِيٌّ,CLT042.png,https://www.google.com/search?tbm=isch&q=Seragam%20sekolah%20icon%20transparent%20png,PENDING
+CLT043,Pakaian,Pakaian rasmi,زِيٌّ رَسْمِيٌّ,CLT043.png,https://www.google.com/search?tbm=isch&q=Pakaian%20rasmi%20icon%20transparent%20png,PENDING
+CLT044,Pakaian,Pakaian renang,مَلابِسُ السِّبَاحَةِ,CLT044.png,https://www.google.com/search?tbm=isch&q=Pakaian%20renang%20icon%20transparent%20png,PENDING
+CLT045,Pakaian,Anting-anting,قِرْطٌ,CLT045.png,https://www.google.com/search?tbm=isch&q=Anting-anting%20icon%20transparent%20png,PENDING
+CLT046,Pakaian,Cincin,خَاتَمٌ,CLT046.png,https://www.google.com/search?tbm=isch&q=Cincin%20icon%20transparent%20png,PENDING
+CLT047,Pakaian,Gelang,سِوَارٌ,CLT047.png,https://www.google.com/search?tbm=isch&q=Gelang%20icon%20transparent%20png,PENDING
+CLT048,Pakaian,Rantai,قِلَادَةٌ,CLT048.png,https://www.google.com/search?tbm=isch&q=Rantai%20icon%20transparent%20png,PENDING
+CLT049,Pakaian,Kerongsang,دَبُّوسُ زِينَةٍ,CLT049.png,https://www.google.com/search?tbm=isch&q=Kerongsang%20icon%20transparent%20png,PENDING
+CLT050,Pakaian,Kasut tumit tinggi,حِذَاءٌ عَالِي الْكَعْبِ,CLT050.png,https://www.google.com/search?tbm=isch&q=Kasut%20tumit%20tinggi%20icon%20transparent%20png,PENDING
+FOD001,Makanan & Minuman,Nasi,أُرْزٌ,FOD001.png,https://www.google.com/search?tbm=isch&q=Nasi%20icon%20transparent%20png,PENDING
+FOD002,Makanan & Minuman,Roti,خُبْزٌ,FOD002.png,https://www.google.com/search?tbm=isch&q=Roti%20icon%20transparent%20png,PENDING
+FOD003,Makanan & Minuman,Air,مَاءٌ,FOD003.png,https://www.google.com/search?tbm=isch&q=Air%20icon%20transparent%20png,PENDING
+FOD004,Makanan & Minuman,Susu,حَلِيبٌ,FOD004.png,https://www.google.com/search?tbm=isch&q=Susu%20icon%20transparent%20png,PENDING
+FOD005,Makanan & Minuman,Teh,شَايٌ,FOD005.png,https://www.google.com/search?tbm=isch&q=Teh%20icon%20transparent%20png,PENDING
+FOD006,Makanan & Minuman,Kopi,قَهْوَةٌ,FOD006.png,https://www.google.com/search?tbm=isch&q=Kopi%20icon%20transparent%20png,PENDING
+FOD007,Makanan & Minuman,Jus,عَصِيرٌ,FOD007.png,https://www.google.com/search?tbm=isch&q=Jus%20icon%20transparent%20png,PENDING
+FOD008,Makanan & Minuman,Sup,حَسَاءٌ,FOD008.png,https://www.google.com/search?tbm=isch&q=Sup%20icon%20transparent%20png,PENDING
+FOD009,Makanan & Minuman,Ayam,دَجَاجٌ,FOD009.png,https://www.google.com/search?tbm=isch&q=Ayam%20icon%20transparent%20png,PENDING
+FOD010,Makanan & Minuman,Daging,لَحْمٌ,FOD010.png,https://www.google.com/search?tbm=isch&q=Daging%20icon%20transparent%20png,PENDING
+FOD011,Makanan & Minuman,Ikan,سَمَكٌ,FOD011.png,https://www.google.com/search?tbm=isch&q=Ikan%20icon%20transparent%20png,PENDING
+FOD012,Makanan & Minuman,Telur,بَيْضٌ,FOD012.png,https://www.google.com/search?tbm=isch&q=Telur%20icon%20transparent%20png,PENDING
+FOD013,Makanan & Minuman,Keju,جُبْنٌ,FOD013.png,https://www.google.com/search?tbm=isch&q=Keju%20icon%20transparent%20png,PENDING
+FOD014,Makanan & Minuman,Mentega,زُبْدَةٌ,FOD014.png,https://www.google.com/search?tbm=isch&q=Mentega%20icon%20transparent%20png,PENDING
+FOD015,Makanan & Minuman,Yogurt,يُوغُرْتٌ,FOD015.png,https://www.google.com/search?tbm=isch&q=Yogurt%20icon%20transparent%20png,PENDING
+FOD016,Makanan & Minuman,Madu,عَسَلٌ,FOD016.png,https://www.google.com/search?tbm=isch&q=Madu%20icon%20transparent%20png,PENDING
+FOD017,Makanan & Minuman,Gula,سُكَّرٌ,FOD017.png,https://www.google.com/search?tbm=isch&q=Gula%20icon%20transparent%20png,PENDING
+FOD018,Makanan & Minuman,Garam,مِلْحٌ,FOD018.png,https://www.google.com/search?tbm=isch&q=Garam%20icon%20transparent%20png,PENDING
+FOD019,Makanan & Minuman,Lada,فُلْفُلٌ,FOD019.png,https://www.google.com/search?tbm=isch&q=Lada%20icon%20transparent%20png,PENDING
+FOD020,Makanan & Minuman,Minyak,زَيْتٌ,FOD020.png,https://www.google.com/search?tbm=isch&q=Minyak%20icon%20transparent%20png,PENDING
+FOD021,Makanan & Minuman,Cuka,خَلٌّ,FOD021.png,https://www.google.com/search?tbm=isch&q=Cuka%20icon%20transparent%20png,PENDING
+FOD022,Makanan & Minuman,Sos,صَلْصَةٌ,FOD022.png,https://www.google.com/search?tbm=isch&q=Sos%20icon%20transparent%20png,PENDING
+FOD023,Makanan & Minuman,Pasta,مَعْكَرُونَةٌ,FOD023.png,https://www.google.com/search?tbm=isch&q=Pasta%20icon%20transparent%20png,PENDING
+FOD024,Makanan & Minuman,Pasta berinti,مَعْكَرُونَةٌ مُحَشَّاةٌ,FOD024.png,https://www.google.com/search?tbm=isch&q=Pasta%20berinti%20icon%20transparent%20png,PENDING
+FOD025,Makanan & Minuman,Bihun,شَعِيرِيَّةٌ,FOD025.png,https://www.google.com/search?tbm=isch&q=Bihun%20icon%20transparent%20png,PENDING
+FOD026,Makanan & Minuman,Mi,نُودِلْزٌ,FOD026.png,https://www.google.com/search?tbm=isch&q=Mi%20icon%20transparent%20png,PENDING
+FOD027,Makanan & Minuman,Syawarma,شَاوَارْمَا,FOD027.png,https://www.google.com/search?tbm=isch&q=Syawarma%20icon%20transparent%20png,PENDING
+FOD028,Makanan & Minuman,Sandwic,سَنْدُوِيتْشٌ,FOD028.png,https://www.google.com/search?tbm=isch&q=Sandwic%20icon%20transparent%20png,PENDING
+FOD029,Makanan & Minuman,Piza,بِيتْزَا,FOD029.png,https://www.google.com/search?tbm=isch&q=Piza%20icon%20transparent%20png,PENDING
+FOD030,Makanan & Minuman,Kek,كَعْكَةٌ,FOD030.png,https://www.google.com/search?tbm=isch&q=Kek%20icon%20transparent%20png,PENDING
+FOD031,Makanan & Minuman,Biskut,بِسْكُوِيتٌ,FOD031.png,https://www.google.com/search?tbm=isch&q=Biskut%20icon%20transparent%20png,PENDING
+FOD032,Makanan & Minuman,Biskut,بُسْكُوِيتٌ,FOD032.png,https://www.google.com/search?tbm=isch&q=Biskut%20icon%20transparent%20png,PENDING
+FOD033,Makanan & Minuman,Aiskrim,مُثَلَّجٌ,FOD033.png,https://www.google.com/search?tbm=isch&q=Aiskrim%20icon%20transparent%20png,PENDING
+FOD034,Makanan & Minuman,Gula-gula,حَلْوَى,FOD034.png,https://www.google.com/search?tbm=isch&q=Gula-gula%20icon%20transparent%20png,PENDING
+FOD035,Makanan & Minuman,Coklat,شُوكُولَاتَةٌ,FOD035.png,https://www.google.com/search?tbm=isch&q=Coklat%20icon%20transparent%20png,PENDING
+FOD036,Makanan & Minuman,Jem,مُرَبَّى,FOD036.png,https://www.google.com/search?tbm=isch&q=Jem%20icon%20transparent%20png,PENDING
+FOD037,Makanan & Minuman,Sarapan,فُطُورٌ,FOD037.png,https://www.google.com/search?tbm=isch&q=Sarapan%20icon%20transparent%20png,PENDING
+FOD038,Makanan & Minuman,Makan tengah hari,غَدَاءٌ,FOD038.png,https://www.google.com/search?tbm=isch&q=Makan%20tengah%20hari%20icon%20transparent%20png,PENDING
+FOD039,Makanan & Minuman,Makan malam,عَشَاءٌ,FOD039.png,https://www.google.com/search?tbm=isch&q=Makan%20malam%20icon%20transparent%20png,PENDING
+FOD040,Makanan & Minuman,Susu pekat,حَلِيبٌ مُرَكَّزٌ,FOD040.png,https://www.google.com/search?tbm=isch&q=Susu%20pekat%20icon%20transparent%20png,PENDING
+FOD041,Makanan & Minuman,Susu tepung,حَلِيبٌ جَافٌّ,FOD041.png,https://www.google.com/search?tbm=isch&q=Susu%20tepung%20icon%20transparent%20png,PENDING
+FOD042,Makanan & Minuman,Minuman berkarbonat,مَشْرُوبٌ غَازِيٌّ,FOD042.png,https://www.google.com/search?tbm=isch&q=Minuman%20berkarbonat%20icon%20transparent%20png,PENDING
+FOD043,Makanan & Minuman,Minuman sejuk,مَشْرُوبٌ بَارِدٌ,FOD043.png,https://www.google.com/search?tbm=isch&q=Minuman%20sejuk%20icon%20transparent%20png,PENDING
+FOD044,Makanan & Minuman,Kuah/sup,شُرْبَةٌ,FOD044.png,https://www.google.com/search?tbm=isch&q=Kuah/sup%20icon%20transparent%20png,PENDING
+FOD045,Makanan & Minuman,Kurma,تَمْرٌ,FOD045.png,https://www.google.com/search?tbm=isch&q=Kurma%20icon%20transparent%20png,PENDING
+FOD046,Makanan & Minuman,Salad,سَلَطَةٌ,FOD046.png,https://www.google.com/search?tbm=isch&q=Salad%20icon%20transparent%20png,PENDING
+FOD047,Makanan & Minuman,Sardin,سَرْدِينٌ,FOD047.png,https://www.google.com/search?tbm=isch&q=Sardin%20icon%20transparent%20png,PENDING
+FOD048,Makanan & Minuman,Nasi ayam,رُزٌّ بِالدَّجَاجِ,FOD048.png,https://www.google.com/search?tbm=isch&q=Nasi%20ayam%20icon%20transparent%20png,PENDING
+FOD049,Makanan & Minuman,Sate,سَاتَيْ,FOD049.png,https://www.google.com/search?tbm=isch&q=Sate%20icon%20transparent%20png,PENDING
+FOD050,Makanan & Minuman,Nasi lemak,نَاسِي لِمَكْ,FOD050.png,https://www.google.com/search?tbm=isch&q=Nasi%20lemak%20icon%20transparent%20png,PENDING
+ACT001,Perbuatan,Membaca,يَقْرَأُ,ACT001.png,https://www.google.com/search?tbm=isch&q=Membaca%20icon%20transparent%20png,PENDING
+ACT002,Perbuatan,Menulis,يَكْتُبُ,ACT002.png,https://www.google.com/search?tbm=isch&q=Menulis%20icon%20transparent%20png,PENDING
+ACT003,Perbuatan,Pergi,يَذْهَبُ,ACT003.png,https://www.google.com/search?tbm=isch&q=Pergi%20icon%20transparent%20png,PENDING
+ACT004,Perbuatan,Duduk,يَجْلِسُ,ACT004.png,https://www.google.com/search?tbm=isch&q=Duduk%20icon%20transparent%20png,PENDING
+ACT005,Perbuatan,Berdiri,يَقِفُ,ACT005.png,https://www.google.com/search?tbm=isch&q=Berdiri%20icon%20transparent%20png,PENDING
+ACT006,Perbuatan,Berjalan,يَمْشِي,ACT006.png,https://www.google.com/search?tbm=isch&q=Berjalan%20icon%20transparent%20png,PENDING
+ACT007,Perbuatan,Berlari,يَرْكُضُ,ACT007.png,https://www.google.com/search?tbm=isch&q=Berlari%20icon%20transparent%20png,PENDING
+ACT008,Perbuatan,Bermain,يَلْعَبُ,ACT008.png,https://www.google.com/search?tbm=isch&q=Bermain%20icon%20transparent%20png,PENDING
+ACT009,Perbuatan,Makan,يَأْكُلُ,ACT009.png,https://www.google.com/search?tbm=isch&q=Makan%20icon%20transparent%20png,PENDING
+ACT010,Perbuatan,Minum,يَشْرَبُ,ACT010.png,https://www.google.com/search?tbm=isch&q=Minum%20icon%20transparent%20png,PENDING
+ACT011,Perbuatan,Tidur,يَنَامُ,ACT011.png,https://www.google.com/search?tbm=isch&q=Tidur%20icon%20transparent%20png,PENDING
+ACT012,Perbuatan,Bangun,يَسْتَيْقِظُ,ACT012.png,https://www.google.com/search?tbm=isch&q=Bangun%20icon%20transparent%20png,PENDING
+ACT013,Perbuatan,Membasuh,يَغْسِلُ,ACT013.png,https://www.google.com/search?tbm=isch&q=Membasuh%20icon%20transparent%20png,PENDING
+ACT014,Perbuatan,Mandi,يَسْتَحِمُّ,ACT014.png,https://www.google.com/search?tbm=isch&q=Mandi%20icon%20transparent%20png,PENDING
+ACT015,Perbuatan,Memakai,يَلْبَسُ,ACT015.png,https://www.google.com/search?tbm=isch&q=Memakai%20icon%20transparent%20png,PENDING
+ACT016,Perbuatan,Menanggalkan,يَخْلَعُ,ACT016.png,https://www.google.com/search?tbm=isch&q=Menanggalkan%20icon%20transparent%20png,PENDING
+ACT017,Perbuatan,Membuka,يَفْتَحُ,ACT017.png,https://www.google.com/search?tbm=isch&q=Membuka%20icon%20transparent%20png,PENDING
+ACT018,Perbuatan,Menutup,يُغْلِقُ,ACT018.png,https://www.google.com/search?tbm=isch&q=Menutup%20icon%20transparent%20png,PENDING
+ACT019,Perbuatan,Mengambil,يَأْخُذُ,ACT019.png,https://www.google.com/search?tbm=isch&q=Mengambil%20icon%20transparent%20png,PENDING
+ACT020,Perbuatan,Memberi,يُعْطِي,ACT020.png,https://www.google.com/search?tbm=isch&q=Memberi%20icon%20transparent%20png,PENDING
+ACT021,Perbuatan,Melihat,يَرَى,ACT021.png,https://www.google.com/search?tbm=isch&q=Melihat%20icon%20transparent%20png,PENDING
+ACT022,Perbuatan,Mendengar,يَسْمَعُ,ACT022.png,https://www.google.com/search?tbm=isch&q=Mendengar%20icon%20transparent%20png,PENDING
+ACT023,Perbuatan,Bercakap,يَتَكَلَّمُ,ACT023.png,https://www.google.com/search?tbm=isch&q=Bercakap%20icon%20transparent%20png,PENDING
+ACT024,Perbuatan,Bertanya,يَسْأَلُ,ACT024.png,https://www.google.com/search?tbm=isch&q=Bertanya%20icon%20transparent%20png,PENDING
+ACT025,Perbuatan,Menjawab,يُجِيبُ,ACT025.png,https://www.google.com/search?tbm=isch&q=Menjawab%20icon%20transparent%20png,PENDING
+ACT026,Perbuatan,Menonton,يُشَاهِدُ,ACT026.png,https://www.google.com/search?tbm=isch&q=Menonton%20icon%20transparent%20png,PENDING
+ACT027,Perbuatan,Memahami,يَفْهَمُ,ACT027.png,https://www.google.com/search?tbm=isch&q=Memahami%20icon%20transparent%20png,PENDING
+ACT028,Perbuatan,Belajar,يَتَعَلَّمُ,ACT028.png,https://www.google.com/search?tbm=isch&q=Belajar%20icon%20transparent%20png,PENDING
+ACT029,Perbuatan,Mengajar,يُعَلِّمُ,ACT029.png,https://www.google.com/search?tbm=isch&q=Mengajar%20icon%20transparent%20png,PENDING
+ACT030,Perbuatan,Menghafal,يَحْفَظُ,ACT030.png,https://www.google.com/search?tbm=isch&q=Menghafal%20icon%20transparent%20png,PENDING
+ACT031,Perbuatan,Menjaga/menghafal,يَحْفِظُ,ACT031.png,https://www.google.com/search?tbm=isch&q=Menjaga/menghafal%20icon%20transparent%20png,PENDING
+ACT032,Perbuatan,Mencuci tangan,يَغْسِلُ الْيَدَيْنِ,ACT032.png,https://www.google.com/search?tbm=isch&q=Mencuci%20tangan%20icon%20transparent%20png,PENDING
+ACT033,Perbuatan,Membersihkan,يُنَظِّفُ,ACT033.png,https://www.google.com/search?tbm=isch&q=Membersihkan%20icon%20transparent%20png,PENDING
+ACT034,Perbuatan,Menyusun,يَرْتِّبُ,ACT034.png,https://www.google.com/search?tbm=isch&q=Menyusun%20icon%20transparent%20png,PENDING
+ACT035,Perbuatan,Memasak,يَطْبُخُ,ACT035.png,https://www.google.com/search?tbm=isch&q=Memasak%20icon%20transparent%20png,PENDING
+ACT036,Perbuatan,Menggoreng,يَقْلِي,ACT036.png,https://www.google.com/search?tbm=isch&q=Menggoreng%20icon%20transparent%20png,PENDING
+ACT037,Perbuatan,Membakar,يَشْوِي,ACT037.png,https://www.google.com/search?tbm=isch&q=Membakar%20icon%20transparent%20png,PENDING
+ACT038,Perbuatan,Menyiram,يَسْقِي,ACT038.png,https://www.google.com/search?tbm=isch&q=Menyiram%20icon%20transparent%20png,PENDING
+ACT039,Perbuatan,Menanam,يَزْرَعُ,ACT039.png,https://www.google.com/search?tbm=isch&q=Menanam%20icon%20transparent%20png,PENDING
+ACT040,Perbuatan,Menuai,يَحْصُدُ,ACT040.png,https://www.google.com/search?tbm=isch&q=Menuai%20icon%20transparent%20png,PENDING
+ACT041,Perbuatan,Melukis,يَرْسُمُ,ACT041.png,https://www.google.com/search?tbm=isch&q=Melukis%20icon%20transparent%20png,PENDING
+ACT042,Perbuatan,Mewarna,يُلَوِّنُ,ACT042.png,https://www.google.com/search?tbm=isch&q=Mewarna%20icon%20transparent%20png,PENDING
+ACT043,Perbuatan,Memotong,يَقْطَعُ,ACT043.png,https://www.google.com/search?tbm=isch&q=Memotong%20icon%20transparent%20png,PENDING
+ACT044,Perbuatan,Membawa,يَحْمِلُ,ACT044.png,https://www.google.com/search?tbm=isch&q=Membawa%20icon%20transparent%20png,PENDING
+ACT045,Perbuatan,Menolak,يَدْفَعُ,ACT045.png,https://www.google.com/search?tbm=isch&q=Menolak%20icon%20transparent%20png,PENDING
+ACT046,Perbuatan,Menarik,يَسْحَبُ,ACT046.png,https://www.google.com/search?tbm=isch&q=Menarik%20icon%20transparent%20png,PENDING
+ACT047,Perbuatan,Bercerita,يَسْرُدُ,ACT047.png,https://www.google.com/search?tbm=isch&q=Bercerita%20icon%20transparent%20png,PENDING
+ACT048,Perbuatan,Melawat,يَزُورُ,ACT048.png,https://www.google.com/search?tbm=isch&q=Melawat%20icon%20transparent%20png,PENDING
+ACT049,Perbuatan,Mengembara,يَسَافِرُ,ACT049.png,https://www.google.com/search?tbm=isch&q=Mengembara%20icon%20transparent%20png,PENDING
+ACT050,Perbuatan,Membantu,يُسَاعِدُ,ACT050.png,https://www.google.com/search?tbm=isch&q=Membantu%20icon%20transparent%20png,PENDING
+HIW001,Dialog / Hiwar,Assalamualaikum,السَّلَامُ عَلَيْكُمْ,HIW001.png,https://www.google.com/search?tbm=isch&q=Assalamualaikum%20icon%20transparent%20png,PENDING
+HIW002,Dialog / Hiwar,Waalaikumussalam,وَعَلَيْكُمُ السَّلَامُ,HIW002.png,https://www.google.com/search?tbm=isch&q=Waalaikumussalam%20icon%20transparent%20png,PENDING
+HIW003,Dialog / Hiwar,Apa khabar kamu?,كَيْفَ حَالُكَ؟,HIW003.png,https://www.google.com/search?tbm=isch&q=Apa%20khabar%20kamu%3F%20icon%20transparent%20png,PENDING
+HIW004,Dialog / Hiwar,Saya baik,أَنَا بِخَيْرٍ,HIW004.png,https://www.google.com/search?tbm=isch&q=Saya%20baik%20icon%20transparent%20png,PENDING
+HIW005,Dialog / Hiwar,Siapa nama kamu?,مَا اسْمُكَ؟,HIW005.png,https://www.google.com/search?tbm=isch&q=Siapa%20nama%20kamu%3F%20icon%20transparent%20png,PENDING
+HIW006,Dialog / Hiwar,Nama saya Ahmad,اسْمِي أَحْمَدُ,HIW006.png,https://www.google.com/search?tbm=isch&q=Nama%20saya%20Ahmad%20icon%20transparent%20png,PENDING
+HIW007,Dialog / Hiwar,Kamu dari mana?,مِنْ أَيْنَ أَنْتَ؟,HIW007.png,https://www.google.com/search?tbm=isch&q=Kamu%20dari%20mana%3F%20icon%20transparent%20png,PENDING
+HIW008,Dialog / Hiwar,Saya dari Malaysia,أَنَا مِنْ مَالَيْزِيَا,HIW008.png,https://www.google.com/search?tbm=isch&q=Saya%20dari%20Malaysia%20icon%20transparent%20png,PENDING
+HIW009,Dialog / Hiwar,Berapa umur kamu?,كَمْ عُمْرُكَ؟,HIW009.png,https://www.google.com/search?tbm=isch&q=Berapa%20umur%20kamu%3F%20icon%20transparent%20png,PENDING
+HIW010,Dialog / Hiwar,Umur saya sepuluh tahun,عُمْرِي عَشْرُ سَنَوَاتٍ,HIW010.png,https://www.google.com/search?tbm=isch&q=Umur%20saya%20sepuluh%20tahun%20icon%20transparent%20png,PENDING
+HIW011,Dialog / Hiwar,Di mana kamu tinggal?,أَيْنَ تَسْكُنُ؟,HIW011.png,https://www.google.com/search?tbm=isch&q=Di%20mana%20kamu%20tinggal%3F%20icon%20transparent%20png,PENDING
+HIW012,Dialog / Hiwar,Saya tinggal di Kuala Lumpur,أَسْكُنُ فِي كُوالَالَمْبُور,HIW012.png,https://www.google.com/search?tbm=isch&q=Saya%20tinggal%20di%20Kuala%20Lumpur%20icon%20transparent%20png,PENDING
+HIW013,Dialog / Hiwar,Apakah ini?,مَا هَذَا؟,HIW013.png,https://www.google.com/search?tbm=isch&q=Apakah%20ini%3F%20icon%20transparent%20png,PENDING
+HIW014,Dialog / Hiwar,Ini pen,هَذَا قَلَمٌ,HIW014.png,https://www.google.com/search?tbm=isch&q=Ini%20pen%20icon%20transparent%20png,PENDING
+HIW015,Dialog / Hiwar,Apakah ini?,مَا هَذِهِ؟,HIW015.png,https://www.google.com/search?tbm=isch&q=Apakah%20ini%3F%20icon%20transparent%20png,PENDING
+HIW016,Dialog / Hiwar,Ini beg,هَذِهِ حَقِيبَةٌ,HIW016.png,https://www.google.com/search?tbm=isch&q=Ini%20beg%20icon%20transparent%20png,PENDING
+HIW017,Dialog / Hiwar,Siapakah ini?,مَنْ هَذَا؟,HIW017.png,https://www.google.com/search?tbm=isch&q=Siapakah%20ini%3F%20icon%20transparent%20png,PENDING
+HIW018,Dialog / Hiwar,Ini ayah saya,هَذَا أَبِي,HIW018.png,https://www.google.com/search?tbm=isch&q=Ini%20ayah%20saya%20icon%20transparent%20png,PENDING
+HIW019,Dialog / Hiwar,Siapakah ini?,مَنْ هَذِهِ؟,HIW019.png,https://www.google.com/search?tbm=isch&q=Siapakah%20ini%3F%20icon%20transparent%20png,PENDING
+HIW020,Dialog / Hiwar,Ini ibu saya,هَذِهِ أُمِّي,HIW020.png,https://www.google.com/search?tbm=isch&q=Ini%20ibu%20saya%20icon%20transparent%20png,PENDING
+HIW021,Dialog / Hiwar,Di mana sekolah?,أَيْنَ الْمَدْرَسَةُ؟,HIW021.png,https://www.google.com/search?tbm=isch&q=Di%20mana%20sekolah%3F%20icon%20transparent%20png,PENDING
+HIW022,Dialog / Hiwar,Di sini,هُنَا,HIW022.png,https://www.google.com/search?tbm=isch&q=Di%20sini%20icon%20transparent%20png,PENDING
+HIW023,Dialog / Hiwar,Di mana tandas?,أَيْنَ الْحَمَّامُ؟,HIW023.png,https://www.google.com/search?tbm=isch&q=Di%20mana%20tandas%3F%20icon%20transparent%20png,PENDING
+HIW024,Dialog / Hiwar,Tandas di sini,الْحَمَّامُ هُنَا,HIW024.png,https://www.google.com/search?tbm=isch&q=Tandas%20di%20sini%20icon%20transparent%20png,PENDING
+HIW025,Dialog / Hiwar,Apa yang kamu mahu?,مَاذَا تُرِيدُ؟,HIW025.png,https://www.google.com/search?tbm=isch&q=Apa%20yang%20kamu%20mahu%3F%20icon%20transparent%20png,PENDING
+HIW026,Dialog / Hiwar,Saya mahu air,أُرِيدُ الْمَاءَ,HIW026.png,https://www.google.com/search?tbm=isch&q=Saya%20mahu%20air%20icon%20transparent%20png,PENDING
+HIW027,Dialog / Hiwar,Adakah kamu mahu makanan?,هَلْ تُرِيدُ الطَّعَامَ؟,HIW027.png,https://www.google.com/search?tbm=isch&q=Adakah%20kamu%20mahu%20makanan%3F%20icon%20transparent%20png,PENDING
+HIW028,Dialog / Hiwar,Ya,نَعَمْ,HIW028.png,https://www.google.com/search?tbm=isch&q=Ya%20icon%20transparent%20png,PENDING
+HIW029,Dialog / Hiwar,Tidak,لَا,HIW029.png,https://www.google.com/search?tbm=isch&q=Tidak%20icon%20transparent%20png,PENDING
+HIW030,Dialog / Hiwar,Terima kasih,شُكْرًا,HIW030.png,https://www.google.com/search?tbm=isch&q=Terima%20kasih%20icon%20transparent%20png,PENDING
+HIW031,Dialog / Hiwar,Sama-sama,عَفْوًا,HIW031.png,https://www.google.com/search?tbm=isch&q=Sama-sama%20icon%20transparent%20png,PENDING
+HIW032,Dialog / Hiwar,Tolong/sila,مِنْ فَضْلِكَ,HIW032.png,https://www.google.com/search?tbm=isch&q=Tolong/sila%20icon%20transparent%20png,PENDING
+HIW033,Dialog / Hiwar,Maaf,آسِفٌ,HIW033.png,https://www.google.com/search?tbm=isch&q=Maaf%20icon%20transparent%20png,PENDING
+HIW034,Dialog / Hiwar,Tidak mengapa,لَا بَأْسَ,HIW034.png,https://www.google.com/search?tbm=isch&q=Tidak%20mengapa%20icon%20transparent%20png,PENDING
+HIW035,Dialog / Hiwar,Jumpa lagi,إِلَى اللِّقَاءِ,HIW035.png,https://www.google.com/search?tbm=isch&q=Jumpa%20lagi%20icon%20transparent%20png,PENDING
+HIW036,Dialog / Hiwar,Selamat tinggal,مَعَ السَّلَامَةِ,HIW036.png,https://www.google.com/search?tbm=isch&q=Selamat%20tinggal%20icon%20transparent%20png,PENDING
+HIW037,Dialog / Hiwar,Selamat pagi,صَبَاحُ الْخَيْرِ,HIW037.png,https://www.google.com/search?tbm=isch&q=Selamat%20pagi%20icon%20transparent%20png,PENDING
+HIW038,Dialog / Hiwar,Selamat pagi juga,صَبَاحُ النُّورِ,HIW038.png,https://www.google.com/search?tbm=isch&q=Selamat%20pagi%20juga%20icon%20transparent%20png,PENDING
+HIW039,Dialog / Hiwar,Selamat petang/malam,مَسَاءُ الْخَيْرِ,HIW039.png,https://www.google.com/search?tbm=isch&q=Selamat%20petang/malam%20icon%20transparent%20png,PENDING
+HIW040,Dialog / Hiwar,Selamat malam,لَيْلَةٌ سَعِيدَةٌ,HIW040.png,https://www.google.com/search?tbm=isch&q=Selamat%20malam%20icon%20transparent%20png,PENDING
+HIW041,Dialog / Hiwar,Adakah kamu faham?,هَلْ فَهِمْتَ؟,HIW041.png,https://www.google.com/search?tbm=isch&q=Adakah%20kamu%20faham%3F%20icon%20transparent%20png,PENDING
+HIW042,Dialog / Hiwar,"Ya, saya faham",نَعَمْ، فَهِمْتُ,HIW042.png,https://www.google.com/search?tbm=isch&q=Ya%2C%20saya%20faham%20icon%20transparent%20png,PENDING
+HIW043,Dialog / Hiwar,Saya tidak faham,لَمْ أَفْهَمْ,HIW043.png,https://www.google.com/search?tbm=isch&q=Saya%20tidak%20faham%20icon%20transparent%20png,PENDING
+HIW044,Dialog / Hiwar,"Ulangi, sila",أَعِدْ مِنْ فَضْلِكَ,HIW044.png,https://www.google.com/search?tbm=isch&q=Ulangi%2C%20sila%20icon%20transparent%20png,PENDING
+HIW045,Dialog / Hiwar,Silakan,تَفَضَّلْ,HIW045.png,https://www.google.com/search?tbm=isch&q=Silakan%20icon%20transparent%20png,PENDING
+PEN001,Alat Tulis,Pen,قَلَمٌ,PEN001.png,https://www.google.com/search?tbm=isch&q=Pen%20icon%20transparent%20png,PENDING
+PEN002,Alat Tulis,Pensel,قَلَمُ رَصَاصٍ,PEN002.png,https://www.google.com/search?tbm=isch&q=Pensel%20icon%20transparent%20png,PENDING
+PEN003,Alat Tulis,Pemadam,مِمْحَاةٌ,PEN003.png,https://www.google.com/search?tbm=isch&q=Pemadam%20icon%20transparent%20png,PENDING
+PEN004,Alat Tulis,Pengasah,مِبْرَاةٌ,PEN004.png,https://www.google.com/search?tbm=isch&q=Pengasah%20icon%20transparent%20png,PENDING
+PEN005,Alat Tulis,Pembaris,مِسْطَرَةٌ,PEN005.png,https://www.google.com/search?tbm=isch&q=Pembaris%20icon%20transparent%20png,PENDING
+PEN006,Alat Tulis,Buku nota,دَفْتَرٌ,PEN006.png,https://www.google.com/search?tbm=isch&q=Buku%20nota%20icon%20transparent%20png,PENDING
+PEN007,Alat Tulis,Buku,كِتَابٌ,PEN007.png,https://www.google.com/search?tbm=isch&q=Buku%20icon%20transparent%20png,PENDING
+PEN008,Alat Tulis,Majalah,مَجَلَّةٌ,PEN008.png,https://www.google.com/search?tbm=isch&q=Majalah%20icon%20transparent%20png,PENDING
+PEN009,Alat Tulis,Kertas,وَرَقَةٌ,PEN009.png,https://www.google.com/search?tbm=isch&q=Kertas%20icon%20transparent%20png,PENDING
+PEN010,Alat Tulis,Gunting,مَقْصٌّ,PEN010.png,https://www.google.com/search?tbm=isch&q=Gunting%20icon%20transparent%20png,PENDING
+PEN011,Alat Tulis,Gam,غِرَاءٌ,PEN011.png,https://www.google.com/search?tbm=isch&q=Gam%20icon%20transparent%20png,PENDING
+PEN012,Alat Tulis,Bekas pensel,مِقْلَمَةٌ,PEN012.png,https://www.google.com/search?tbm=isch&q=Bekas%20pensel%20icon%20transparent%20png,PENDING
+PEN013,Alat Tulis,Beg sekolah,حَقِيبَةٌ مَدْرَسِيَّةٌ,PEN013.png,https://www.google.com/search?tbm=isch&q=Beg%20sekolah%20icon%20transparent%20png,PENDING
+PEN014,Alat Tulis,Fail,مَلَفٌّ,PEN014.png,https://www.google.com/search?tbm=isch&q=Fail%20icon%20transparent%20png,PENDING
+PEN015,Alat Tulis,Fail/Folder,مُجَلَّدٌ,PEN015.png,https://www.google.com/search?tbm=isch&q=Fail/Folder%20icon%20transparent%20png,PENDING
+PEN016,Alat Tulis,Pelekat,لَاصِقٌ,PEN016.png,https://www.google.com/search?tbm=isch&q=Pelekat%20icon%20transparent%20png,PENDING
+PEN017,Alat Tulis,Pita pelekat,شَرِيطٌ لَاصِقٌ,PEN017.png,https://www.google.com/search?tbm=isch&q=Pita%20pelekat%20icon%20transparent%20png,PENDING
+PEN018,Alat Tulis,Pen dakwat,قَلَمُ حِبْرٍ,PEN018.png,https://www.google.com/search?tbm=isch&q=Pen%20dakwat%20icon%20transparent%20png,PENDING
+PEN019,Alat Tulis,Pen hitam,قَلَمٌ أَسْوَدُ,PEN019.png,https://www.google.com/search?tbm=isch&q=Pen%20hitam%20icon%20transparent%20png,PENDING
+PEN020,Alat Tulis,Pen biru,قَلَمٌ أَزْرَقُ,PEN020.png,https://www.google.com/search?tbm=isch&q=Pen%20biru%20icon%20transparent%20png,PENDING
+PEN021,Alat Tulis,Pen merah,قَلَمٌ أَحْمَرُ,PEN021.png,https://www.google.com/search?tbm=isch&q=Pen%20merah%20icon%20transparent%20png,PENDING
+PEN022,Alat Tulis,Pen penanda,قَلَمُ تَمْيِيزٍ,PEN022.png,https://www.google.com/search?tbm=isch&q=Pen%20penanda%20icon%20transparent%20png,PENDING
+PEN023,Alat Tulis,Pen marker,مَارْكَرٌ,PEN023.png,https://www.google.com/search?tbm=isch&q=Pen%20marker%20icon%20transparent%20png,PENDING
+PEN024,Alat Tulis,Buku latihan,كُرَّاسَةٌ,PEN024.png,https://www.google.com/search?tbm=isch&q=Buku%20latihan%20icon%20transparent%20png,PENDING
+PEN025,Alat Tulis,Papan putih,بَوْرَةٌ,PEN025.png,https://www.google.com/search?tbm=isch&q=Papan%20putih%20icon%20transparent%20png,PENDING
+PEN026,Alat Tulis,Pemadam papan putih,مِسْحَاةٌ,PEN026.png,https://www.google.com/search?tbm=isch&q=Pemadam%20papan%20putih%20icon%20transparent%20png,PENDING
+PEN027,Alat Tulis,Kapur,طَبَاشِيرُ,PEN027.png,https://www.google.com/search?tbm=isch&q=Kapur%20icon%20transparent%20png,PENDING
+PEN028,Alat Tulis,Pengasah,مُبَرِّاةٌ,PEN028.png,https://www.google.com/search?tbm=isch&q=Pengasah%20icon%20transparent%20png,PENDING
+PEN029,Alat Tulis,Pembaris segi tiga,مُثَلَّثٌ,PEN029.png,https://www.google.com/search?tbm=isch&q=Pembaris%20segi%20tiga%20icon%20transparent%20png,PENDING
+PEN030,Alat Tulis,Jangka sudut,مِنْقَلَةٌ,PEN030.png,https://www.google.com/search?tbm=isch&q=Jangka%20sudut%20icon%20transparent%20png,PENDING
+PEN031,Alat Tulis,Jangka,فِرْجَارٌ,PEN031.png,https://www.google.com/search?tbm=isch&q=Jangka%20icon%20transparent%20png,PENDING
+PEN032,Alat Tulis,Kalkulator,آلَةٌ حَاسِبَةٌ,PEN032.png,https://www.google.com/search?tbm=isch&q=Kalkulator%20icon%20transparent%20png,PENDING
+PEN033,Alat Tulis,Kotak alat tulis,مَقْلَمَةٌ كَبِيرَةٌ,PEN033.png,https://www.google.com/search?tbm=isch&q=Kotak%20alat%20tulis%20icon%20transparent%20png,PENDING
+PEN034,Alat Tulis,Pengikat,رَابِطَةٌ,PEN034.png,https://www.google.com/search?tbm=isch&q=Pengikat%20icon%20transparent%20png,PENDING
+PEN035,Alat Tulis,Klip kertas,مِشْبَكٌ وَرَقِيٌّ,PEN035.png,https://www.google.com/search?tbm=isch&q=Klip%20kertas%20icon%20transparent%20png,PENDING
+PEN036,Alat Tulis,Stapler,دَبَّاسَةٌ,PEN036.png,https://www.google.com/search?tbm=isch&q=Stapler%20icon%20transparent%20png,PENDING
+PEN037,Alat Tulis,Klip stapler,دَبَابِيسُ,PEN037.png,https://www.google.com/search?tbm=isch&q=Klip%20stapler%20icon%20transparent%20png,PENDING
+PEN038,Alat Tulis,Penebuk kertas,ثَاقِبُ وَرَقٍ,PEN038.png,https://www.google.com/search?tbm=isch&q=Penebuk%20kertas%20icon%20transparent%20png,PENDING
+PEN039,Alat Tulis,Pencetak,طَابِعَةٌ,PEN039.png,https://www.google.com/search?tbm=isch&q=Pencetak%20icon%20transparent%20png,PENDING
+PEN040,Alat Tulis,Komputer,حَاسُوبٌ,PEN040.png,https://www.google.com/search?tbm=isch&q=Komputer%20icon%20transparent%20png,PENDING
+PEN041,Alat Tulis,Skrin,شَاشَةٌ,PEN041.png,https://www.google.com/search?tbm=isch&q=Skrin%20icon%20transparent%20png,PENDING
+PEN042,Alat Tulis,Tablet,لَوْحٌ إِلِكْتُرُونِيٌّ,PEN042.png,https://www.google.com/search?tbm=isch&q=Tablet%20icon%20transparent%20png,PENDING
+PEN043,Alat Tulis,Papan tulis,لَوْحُ الْكِتَابَةِ,PEN043.png,https://www.google.com/search?tbm=isch&q=Papan%20tulis%20icon%20transparent%20png,PENDING
+PEN044,Alat Tulis,Buku lukisan,كُرَّاسَةُ الرَّسْمِ,PEN044.png,https://www.google.com/search?tbm=isch&q=Buku%20lukisan%20icon%20transparent%20png,PENDING
+PEN045,Alat Tulis,Warna,أَلْوَانٌ,PEN045.png,https://www.google.com/search?tbm=isch&q=Warna%20icon%20transparent%20png,PENDING
+PEN046,Alat Tulis,Cat air,أَلْوَانٌ مَائِيَّةٌ,PEN046.png,https://www.google.com/search?tbm=isch&q=Cat%20air%20icon%20transparent%20png,PENDING
+PEN047,Alat Tulis,Berus lukisan,فُرْشَاةُ رَسْمٍ,PEN047.png,https://www.google.com/search?tbm=isch&q=Berus%20lukisan%20icon%20transparent%20png,PENDING
+PEN048,Alat Tulis,Dakwat,حِبْرٌ,PEN048.png,https://www.google.com/search?tbm=isch&q=Dakwat%20icon%20transparent%20png,PENDING
+PEN049,Alat Tulis,Buku lukisan,دَفْتَرُ الرَّسْمِ,PEN049.png,https://www.google.com/search?tbm=isch&q=Buku%20lukisan%20icon%20transparent%20png,PENDING
+PEN050,Alat Tulis,Pen kaligrafi,قَلَمُ خَطٍّ,PEN050.png,https://www.google.com/search?tbm=isch&q=Pen%20kaligrafi%20icon%20transparent%20png,PENDING
+SCH001,Di Sekolah,Sekolah,مَدْرَسَةٌ,SCH001.png,https://www.google.com/search?tbm=isch&q=Sekolah%20icon%20transparent%20png,PENDING
+SCH002,Di Sekolah,Kelas,فَصْلٌ,SCH002.png,https://www.google.com/search?tbm=isch&q=Kelas%20icon%20transparent%20png,PENDING
+SCH003,Di Sekolah,Guru lelaki,مُعَلِّمٌ,SCH003.png,https://www.google.com/search?tbm=isch&q=Guru%20lelaki%20icon%20transparent%20png,PENDING
+SCH004,Di Sekolah,Guru wanita,مُعَلِّمَةٌ,SCH004.png,https://www.google.com/search?tbm=isch&q=Guru%20wanita%20icon%20transparent%20png,PENDING
+SCH005,Di Sekolah,Murid lelaki,طَالِبٌ,SCH005.png,https://www.google.com/search?tbm=isch&q=Murid%20lelaki%20icon%20transparent%20png,PENDING
+SCH006,Di Sekolah,Murid perempuan,طَالِبَةٌ,SCH006.png,https://www.google.com/search?tbm=isch&q=Murid%20perempuan%20icon%20transparent%20png,PENDING
+SCH007,Di Sekolah,Guru besar/pengetua lelaki,مَدِيرٌ,SCH007.png,https://www.google.com/search?tbm=isch&q=Guru%20besar/pengetua%20lelaki%20icon%20transparent%20png,PENDING
+SCH008,Di Sekolah,Guru besar/pengetua wanita,مُدِيرَةٌ,SCH008.png,https://www.google.com/search?tbm=isch&q=Guru%20besar/pengetua%20wanita%20icon%20transparent%20png,PENDING
+SCH009,Di Sekolah,Pejabat pengetua,مَكْتَبُ الْمَدِيرِ,SCH009.png,https://www.google.com/search?tbm=isch&q=Pejabat%20pengetua%20icon%20transparent%20png,PENDING
+SCH010,Di Sekolah,Bilik guru,مَكْتَبُ الْمُعَلِّمِ,SCH010.png,https://www.google.com/search?tbm=isch&q=Bilik%20guru%20icon%20transparent%20png,PENDING
+SCH011,Di Sekolah,Perpustakaan,مَكْتَبَةٌ,SCH011.png,https://www.google.com/search?tbm=isch&q=Perpustakaan%20icon%20transparent%20png,PENDING
+SCH012,Di Sekolah,Makmal,مَخْتَبَرٌ,SCH012.png,https://www.google.com/search?tbm=isch&q=Makmal%20icon%20transparent%20png,PENDING
+SCH013,Di Sekolah,Surau,مُصَلًّى,SCH013.png,https://www.google.com/search?tbm=isch&q=Surau%20icon%20transparent%20png,PENDING
+SCH014,Di Sekolah,Kantin,مَقْصَفٌ,SCH014.png,https://www.google.com/search?tbm=isch&q=Kantin%20icon%20transparent%20png,PENDING
+SCH015,Di Sekolah,Padang,مَلْعَبٌ,SCH015.png,https://www.google.com/search?tbm=isch&q=Padang%20icon%20transparent%20png,PENDING
+SCH016,Di Sekolah,Dewan,صَالَةٌ,SCH016.png,https://www.google.com/search?tbm=isch&q=Dewan%20icon%20transparent%20png,PENDING
+SCH017,Di Sekolah,Bilik,غُرْفَةٌ,SCH017.png,https://www.google.com/search?tbm=isch&q=Bilik%20icon%20transparent%20png,PENDING
+SCH018,Di Sekolah,Laman,سَاحَةٌ,SCH018.png,https://www.google.com/search?tbm=isch&q=Laman%20icon%20transparent%20png,PENDING
+SCH019,Di Sekolah,Pintu,بَابٌ,SCH019.png,https://www.google.com/search?tbm=isch&q=Pintu%20icon%20transparent%20png,PENDING
+SCH020,Di Sekolah,Tingkap,نَافِذَةٌ,SCH020.png,https://www.google.com/search?tbm=isch&q=Tingkap%20icon%20transparent%20png,PENDING
+SCH021,Di Sekolah,Kerusi,كُرْسِيٌّ,SCH021.png,https://www.google.com/search?tbm=isch&q=Kerusi%20icon%20transparent%20png,PENDING
+SCH022,Di Sekolah,Meja,طَاوِلَةٌ,SCH022.png,https://www.google.com/search?tbm=isch&q=Meja%20icon%20transparent%20png,PENDING
+SCH023,Di Sekolah,Papan hitam/putih,سَبُّورَةٌ,SCH023.png,https://www.google.com/search?tbm=isch&q=Papan%20hitam/putih%20icon%20transparent%20png,PENDING
+SCH024,Di Sekolah,Kabinet,خَزَانَةٌ,SCH024.png,https://www.google.com/search?tbm=isch&q=Kabinet%20icon%20transparent%20png,PENDING
+SCH025,Di Sekolah,Rak,رَفٌّ,SCH025.png,https://www.google.com/search?tbm=isch&q=Rak%20icon%20transparent%20png,PENDING
+SCH026,Di Sekolah,Kipas,مِرْوَحَةٌ,SCH026.png,https://www.google.com/search?tbm=isch&q=Kipas%20icon%20transparent%20png,PENDING
+SCH027,Di Sekolah,Penghawa dingin,مُكَيِّفٌ,SCH027.png,https://www.google.com/search?tbm=isch&q=Penghawa%20dingin%20icon%20transparent%20png,PENDING
+SCH028,Di Sekolah,Beg,حَقِيبَةٌ,SCH028.png,https://www.google.com/search?tbm=isch&q=Beg%20icon%20transparent%20png,PENDING
+SCH029,Di Sekolah,Uniform sekolah,زِيٌّ مَدْرَسِيٌّ,SCH029.png,https://www.google.com/search?tbm=isch&q=Uniform%20sekolah%20icon%20transparent%20png,PENDING
+SCH030,Di Sekolah,Kerja rumah,وَاجِبٌ مَنْزِلِيٌّ,SCH030.png,https://www.google.com/search?tbm=isch&q=Kerja%20rumah%20icon%20transparent%20png,PENDING
+SCH031,Di Sekolah,Peperiksaan,امْتِحَانٌ,SCH031.png,https://www.google.com/search?tbm=isch&q=Peperiksaan%20icon%20transparent%20png,PENDING
+SCH032,Di Sekolah,Soalan,سُؤَالٌ,SCH032.png,https://www.google.com/search?tbm=isch&q=Soalan%20icon%20transparent%20png,PENDING
+SCH033,Di Sekolah,Jawapan,إِجَابَةٌ,SCH033.png,https://www.google.com/search?tbm=isch&q=Jawapan%20icon%20transparent%20png,PENDING
+SCH034,Di Sekolah,Pelajaran,دَرْسٌ,SCH034.png,https://www.google.com/search?tbm=isch&q=Pelajaran%20icon%20transparent%20png,PENDING
+SCH035,Di Sekolah,Mata pelajaran,مَادَّةٌ,SCH035.png,https://www.google.com/search?tbm=isch&q=Mata%20pelajaran%20icon%20transparent%20png,PENDING
+SCH036,Di Sekolah,Matematik,رِيَاضِيَّاتٌ,SCH036.png,https://www.google.com/search?tbm=isch&q=Matematik%20icon%20transparent%20png,PENDING
+SCH037,Di Sekolah,Bahasa Arab,لُغَةٌ عَرَبِيَّةٌ,SCH037.png,https://www.google.com/search?tbm=isch&q=Bahasa%20Arab%20icon%20transparent%20png,PENDING
+SCH038,Di Sekolah,Bahasa Melayu,لُغَةٌ مَلَايُويَّةٌ,SCH038.png,https://www.google.com/search?tbm=isch&q=Bahasa%20Melayu%20icon%20transparent%20png,PENDING
+SCH039,Di Sekolah,Sejarah,تَارِيخٌ,SCH039.png,https://www.google.com/search?tbm=isch&q=Sejarah%20icon%20transparent%20png,PENDING
+SCH040,Di Sekolah,Sains,عُلُومٌ,SCH040.png,https://www.google.com/search?tbm=isch&q=Sains%20icon%20transparent%20png,PENDING
+SCH041,Di Sekolah,Pendidikan jasmani/sukan,رِيَاضَةٌ,SCH041.png,https://www.google.com/search?tbm=isch&q=Pendidikan%20jasmani/sukan%20icon%20transparent%20png,PENDING
+SCH042,Di Sekolah,Seni,فَنٌّ,SCH042.png,https://www.google.com/search?tbm=isch&q=Seni%20icon%20transparent%20png,PENDING
+SCH043,Di Sekolah,Muzik,مُوسِيقَى,SCH043.png,https://www.google.com/search?tbm=isch&q=Muzik%20icon%20transparent%20png,PENDING
+SCH044,Di Sekolah,Loceng,جَرَسٌ,SCH044.png,https://www.google.com/search?tbm=isch&q=Loceng%20icon%20transparent%20png,PENDING
+SCH045,Di Sekolah,Cuti,عُطْلَةٌ,SCH045.png,https://www.google.com/search?tbm=isch&q=Cuti%20icon%20transparent%20png,PENDING
+SCH046,Di Sekolah,Lawatan sekolah,رِحْلَةٌ مَدْرَسِيَّةٌ,SCH046.png,https://www.google.com/search?tbm=isch&q=Lawatan%20sekolah%20icon%20transparent%20png,PENDING
+SCH047,Di Sekolah,Aktiviti,نَشَاطٌ,SCH047.png,https://www.google.com/search?tbm=isch&q=Aktiviti%20icon%20transparent%20png,PENDING
+SCH048,Di Sekolah,Jadual waktu,جَدْوَلٌ دِرَاسِيٌّ,SCH048.png,https://www.google.com/search?tbm=isch&q=Jadual%20waktu%20icon%20transparent%20png,PENDING
+SCH049,Di Sekolah,Waktu/pelajaran,حِصَّةٌ,SCH049.png,https://www.google.com/search?tbm=isch&q=Waktu/pelajaran%20icon%20transparent%20png,PENDING
+SCH050,Di Sekolah,Perhimpunan,طَابُورٌ,SCH050.png,https://www.google.com/search?tbm=isch&q=Perhimpunan%20icon%20transparent%20png,PENDING
+HOM001,Di Rumah,Rumah,بَيْتٌ,HOM001.png,https://www.google.com/search?tbm=isch&q=Rumah%20icon%20transparent%20png,PENDING
+HOM002,Di Rumah,Bilik,غُرْفَةٌ,HOM002.png,https://www.google.com/search?tbm=isch&q=Bilik%20icon%20transparent%20png,PENDING
+HOM003,Di Rumah,Bilik tidur,غُرْفَةُ النَّوْمِ,HOM003.png,https://www.google.com/search?tbm=isch&q=Bilik%20tidur%20icon%20transparent%20png,PENDING
+HOM004,Di Rumah,Ruang tamu,غُرْفَةُ الْجُلُوسِ,HOM004.png,https://www.google.com/search?tbm=isch&q=Ruang%20tamu%20icon%20transparent%20png,PENDING
+HOM005,Di Rumah,Dapur,مَطْبَخٌ,HOM005.png,https://www.google.com/search?tbm=isch&q=Dapur%20icon%20transparent%20png,PENDING
+HOM006,Di Rumah,Bilik air,حَمَّامٌ,HOM006.png,https://www.google.com/search?tbm=isch&q=Bilik%20air%20icon%20transparent%20png,PENDING
+HOM007,Di Rumah,Ruang makan,غُرْفَةُ الطَّعَامِ,HOM007.png,https://www.google.com/search?tbm=isch&q=Ruang%20makan%20icon%20transparent%20png,PENDING
+HOM008,Di Rumah,Halaman,سَاحَةٌ,HOM008.png,https://www.google.com/search?tbm=isch&q=Halaman%20icon%20transparent%20png,PENDING
+HOM009,Di Rumah,Taman,حَدِيقَةٌ,HOM009.png,https://www.google.com/search?tbm=isch&q=Taman%20icon%20transparent%20png,PENDING
+HOM010,Di Rumah,Balkoni,شُرْفَةٌ,HOM010.png,https://www.google.com/search?tbm=isch&q=Balkoni%20icon%20transparent%20png,PENDING
+HOM011,Di Rumah,Bumbung/tingkat atas,سَطْحٌ,HOM011.png,https://www.google.com/search?tbm=isch&q=Bumbung/tingkat%20atas%20icon%20transparent%20png,PENDING
+HOM012,Di Rumah,Pintu,بَابٌ,HOM012.png,https://www.google.com/search?tbm=isch&q=Pintu%20icon%20transparent%20png,PENDING
+HOM013,Di Rumah,Tingkap,نَافِذَةٌ,HOM013.png,https://www.google.com/search?tbm=isch&q=Tingkap%20icon%20transparent%20png,PENDING
+HOM014,Di Rumah,Tangga,سُلَّمٌ,HOM014.png,https://www.google.com/search?tbm=isch&q=Tangga%20icon%20transparent%20png,PENDING
+HOM015,Di Rumah,Lif,مِصْعَدٌ,HOM015.png,https://www.google.com/search?tbm=isch&q=Lif%20icon%20transparent%20png,PENDING
+HOM016,Di Rumah,Katil,سَرِيرٌ,HOM016.png,https://www.google.com/search?tbm=isch&q=Katil%20icon%20transparent%20png,PENDING
+HOM017,Di Rumah,Bantal,وِسَادَةٌ,HOM017.png,https://www.google.com/search?tbm=isch&q=Bantal%20icon%20transparent%20png,PENDING
+HOM018,Di Rumah,Selimut,بَطَّانِيَّةٌ,HOM018.png,https://www.google.com/search?tbm=isch&q=Selimut%20icon%20transparent%20png,PENDING
+HOM019,Di Rumah,Cadar,مَلْحَفَةٌ,HOM019.png,https://www.google.com/search?tbm=isch&q=Cadar%20icon%20transparent%20png,PENDING
+HOM020,Di Rumah,Almari,خِزَانَةٌ,HOM020.png,https://www.google.com/search?tbm=isch&q=Almari%20icon%20transparent%20png,PENDING
+HOM021,Di Rumah,Cermin,مَرْآةٌ,HOM021.png,https://www.google.com/search?tbm=isch&q=Cermin%20icon%20transparent%20png,PENDING
+HOM022,Di Rumah,Sofa,أَرِيكَةٌ,HOM022.png,https://www.google.com/search?tbm=isch&q=Sofa%20icon%20transparent%20png,PENDING
+HOM023,Di Rumah,Kerusi,كُرْسِيٌّ,HOM023.png,https://www.google.com/search?tbm=isch&q=Kerusi%20icon%20transparent%20png,PENDING
+HOM024,Di Rumah,Meja,طَاوِلَةٌ,HOM024.png,https://www.google.com/search?tbm=isch&q=Meja%20icon%20transparent%20png,PENDING
+HOM025,Di Rumah,Permaidani,سَجَّادَةٌ,HOM025.png,https://www.google.com/search?tbm=isch&q=Permaidani%20icon%20transparent%20png,PENDING
+HOM026,Di Rumah,Jam,سَاعَةٌ,HOM026.png,https://www.google.com/search?tbm=isch&q=Jam%20icon%20transparent%20png,PENDING
+HOM027,Di Rumah,Lampu,مِصْبَاحٌ,HOM027.png,https://www.google.com/search?tbm=isch&q=Lampu%20icon%20transparent%20png,PENDING
+HOM028,Di Rumah,Televisyen,تِلْفَازٌ,HOM028.png,https://www.google.com/search?tbm=isch&q=Televisyen%20icon%20transparent%20png,PENDING
+HOM029,Di Rumah,Peti sejuk,ثَلَّاجَةٌ,HOM029.png,https://www.google.com/search?tbm=isch&q=Peti%20sejuk%20icon%20transparent%20png,PENDING
+HOM030,Di Rumah,Ketuhar,فُرْنٌ,HOM030.png,https://www.google.com/search?tbm=isch&q=Ketuhar%20icon%20transparent%20png,PENDING
+HOM031,Di Rumah,Dapur memasak,مَوْقِدٌ,HOM031.png,https://www.google.com/search?tbm=isch&q=Dapur%20memasak%20icon%20transparent%20png,PENDING
+HOM032,Di Rumah,Mesin basuh,غَسَّالَةٌ,HOM032.png,https://www.google.com/search?tbm=isch&q=Mesin%20basuh%20icon%20transparent%20png,PENDING
+HOM033,Di Rumah,Penyedut hampagas,مِكْنَسَةٌ كَهْرَبَائِيَّةٌ,HOM033.png,https://www.google.com/search?tbm=isch&q=Penyedut%20hampagas%20icon%20transparent%20png,PENDING
+HOM034,Di Rumah,Penyapu,مِكْنَسَةٌ,HOM034.png,https://www.google.com/search?tbm=isch&q=Penyapu%20icon%20transparent%20png,PENDING
+HOM035,Di Rumah,Mop,مِمْسَحَةٌ,HOM035.png,https://www.google.com/search?tbm=isch&q=Mop%20icon%20transparent%20png,PENDING
+HOM036,Di Rumah,Baldi,دَلْوٌ,HOM036.png,https://www.google.com/search?tbm=isch&q=Baldi%20icon%20transparent%20png,PENDING
+HOM037,Di Rumah,Tong sampah,سَلَّةُ الْمُهْمَلَاتِ,HOM037.png,https://www.google.com/search?tbm=isch&q=Tong%20sampah%20icon%20transparent%20png,PENDING
+HOM038,Di Rumah,Sabun,صَابُونٌ,HOM038.png,https://www.google.com/search?tbm=isch&q=Sabun%20icon%20transparent%20png,PENDING
+HOM039,Di Rumah,Tuala,مِنْشَفَةٌ,HOM039.png,https://www.google.com/search?tbm=isch&q=Tuala%20icon%20transparent%20png,PENDING
+HOM040,Di Rumah,Berus gigi,فُرْشَاةُ أَسْنَانٍ,HOM040.png,https://www.google.com/search?tbm=isch&q=Berus%20gigi%20icon%20transparent%20png,PENDING
+HOM041,Di Rumah,Ubat gigi,مَعْجُونُ أَسْنَانٍ,HOM041.png,https://www.google.com/search?tbm=isch&q=Ubat%20gigi%20icon%20transparent%20png,PENDING
+HOM042,Di Rumah,Singki,مِغْسَلَةٌ,HOM042.png,https://www.google.com/search?tbm=isch&q=Singki%20icon%20transparent%20png,PENDING
+HOM043,Di Rumah,Tandas,مِرْحَاضٌ,HOM043.png,https://www.google.com/search?tbm=isch&q=Tandas%20icon%20transparent%20png,PENDING
+HOM044,Di Rumah,Tuala tangan,مِنْشَفَةُ الْيَدِ,HOM044.png,https://www.google.com/search?tbm=isch&q=Tuala%20tangan%20icon%20transparent%20png,PENDING
+HOM045,Di Rumah,Seterika,مِكْوَاةٌ,HOM045.png,https://www.google.com/search?tbm=isch&q=Seterika%20icon%20transparent%20png,PENDING
+HOM046,Di Rumah,Pencuci,مُنَظِّفٌ,HOM046.png,https://www.google.com/search?tbm=isch&q=Pencuci%20icon%20transparent%20png,PENDING
+HOM047,Di Rumah,Pengering rambut,مِجْفَفُ الشَّعْرِ,HOM047.png,https://www.google.com/search?tbm=isch&q=Pengering%20rambut%20icon%20transparent%20png,PENDING
+HOM048,Di Rumah,Penghawa dingin,مُكَيِّفٌ,HOM048.png,https://www.google.com/search?tbm=isch&q=Penghawa%20dingin%20icon%20transparent%20png,PENDING
+HOM049,Di Rumah,Pemanas,مِدْفَأَةٌ,HOM049.png,https://www.google.com/search?tbm=isch&q=Pemanas%20icon%20transparent%20png,PENDING
+HOM050,Di Rumah,Kipas,مَرْوَحَةٌ,HOM050.png,https://www.google.com/search?tbm=isch&q=Kipas%20icon%20transparent%20png,PENDING
+OFF001,Di Pejabat,Pejabat,مَكْتَبٌ,OFF001.png,https://www.google.com/search?tbm=isch&q=Pejabat%20icon%20transparent%20png,PENDING
+OFF002,Di Pejabat,Perpustakaan/ruang buku,مَكْتَبَةٌ,OFF002.png,https://www.google.com/search?tbm=isch&q=Perpustakaan/ruang%20buku%20icon%20transparent%20png,PENDING
+OFF003,Di Pejabat,Pekerja,مُوَظَّفٌ,OFF003.png,https://www.google.com/search?tbm=isch&q=Pekerja%20icon%20transparent%20png,PENDING
+OFF004,Di Pejabat,Pengurus,مُدِيرٌ,OFF004.png,https://www.google.com/search?tbm=isch&q=Pengurus%20icon%20transparent%20png,PENDING
+OFF005,Di Pejabat,Setiausaha,سَكْرِتِيرٌ,OFF005.png,https://www.google.com/search?tbm=isch&q=Setiausaha%20icon%20transparent%20png,PENDING
+OFF006,Di Pejabat,Akauntan,مُحَاسِبٌ,OFF006.png,https://www.google.com/search?tbm=isch&q=Akauntan%20icon%20transparent%20png,PENDING
+OFF007,Di Pejabat,Mesyuarat,اجْتِمَاعٌ,OFF007.png,https://www.google.com/search?tbm=isch&q=Mesyuarat%20icon%20transparent%20png,PENDING
+OFF008,Di Pejabat,Projek,مَشْرُوعٌ,OFF008.png,https://www.google.com/search?tbm=isch&q=Projek%20icon%20transparent%20png,PENDING
+OFF009,Di Pejabat,Laporan,تَقْرِيرٌ,OFF009.png,https://www.google.com/search?tbm=isch&q=Laporan%20icon%20transparent%20png,PENDING
+OFF010,Di Pejabat,Fail,مِلَفٌّ,OFF010.png,https://www.google.com/search?tbm=isch&q=Fail%20icon%20transparent%20png,PENDING
+OFF011,Di Pejabat,Dokumen,وَثِيقَةٌ,OFF011.png,https://www.google.com/search?tbm=isch&q=Dokumen%20icon%20transparent%20png,PENDING
+OFF012,Di Pejabat,Pencetak,طَابِعَةٌ,OFF012.png,https://www.google.com/search?tbm=isch&q=Pencetak%20icon%20transparent%20png,PENDING
+OFF013,Di Pejabat,Komputer,حَاسُوبٌ,OFF013.png,https://www.google.com/search?tbm=isch&q=Komputer%20icon%20transparent%20png,PENDING
+OFF014,Di Pejabat,Monitor/skrin,شَاشَةٌ,OFF014.png,https://www.google.com/search?tbm=isch&q=Monitor/skrin%20icon%20transparent%20png,PENDING
+OFF015,Di Pejabat,Papan kekunci,لَوْحَةُ مَفَاتِيحَ,OFF015.png,https://www.google.com/search?tbm=isch&q=Papan%20kekunci%20icon%20transparent%20png,PENDING
+OFF016,Di Pejabat,Tetikus komputer,فَأْرَةٌ,OFF016.png,https://www.google.com/search?tbm=isch&q=Tetikus%20komputer%20icon%20transparent%20png,PENDING
+OFF017,Di Pejabat,Telefon,هَاتِفٌ,OFF017.png,https://www.google.com/search?tbm=isch&q=Telefon%20icon%20transparent%20png,PENDING
+OFF018,Di Pejabat,Telefon bimbit,هَاتِفٌ مَحْمُولٌ,OFF018.png,https://www.google.com/search?tbm=isch&q=Telefon%20bimbit%20icon%20transparent%20png,PENDING
+OFF019,Di Pejabat,E-mel,بَرِيدٌ إِلِكْتُرُونِيٌّ,OFF019.png,https://www.google.com/search?tbm=isch&q=E-mel%20icon%20transparent%20png,PENDING
+OFF020,Di Pejabat,Mesej/surat,رِسَالَةٌ,OFF020.png,https://www.google.com/search?tbm=isch&q=Mesej/surat%20icon%20transparent%20png,PENDING
+OFF021,Di Pejabat,Pencetak laser,طَابِعَةٌ لَيْزَرٌ,OFF021.png,https://www.google.com/search?tbm=isch&q=Pencetak%20laser%20icon%20transparent%20png,PENDING
+OFF022,Di Pejabat,Pengimbas,مَاسِحٌ ضَوْئِيٌّ,OFF022.png,https://www.google.com/search?tbm=isch&q=Pengimbas%20icon%20transparent%20png,PENDING
+OFF023,Di Pejabat,Pejabat bersama,مَكْتَبٌ مُشْتَرَكٌ,OFF023.png,https://www.google.com/search?tbm=isch&q=Pejabat%20bersama%20icon%20transparent%20png,PENDING
+OFF024,Di Pejabat,Bilik mesyuarat,غُرْفَةُ الِاجْتِمَاعِ,OFF024.png,https://www.google.com/search?tbm=isch&q=Bilik%20mesyuarat%20icon%20transparent%20png,PENDING
+OFF025,Di Pejabat,Dewan mesyuarat,قَاعَةُ الاِجْتِمَاعِ,OFF025.png,https://www.google.com/search?tbm=isch&q=Dewan%20mesyuarat%20icon%20transparent%20png,PENDING
+OFF026,Di Pejabat,Kerusi,كُرْسِيٌّ,OFF026.png,https://www.google.com/search?tbm=isch&q=Kerusi%20icon%20transparent%20png,PENDING
+OFF027,Di Pejabat,Meja,طَاوِلَةٌ,OFF027.png,https://www.google.com/search?tbm=isch&q=Meja%20icon%20transparent%20png,PENDING
+OFF028,Di Pejabat,Laci,دُرْجٌ,OFF028.png,https://www.google.com/search?tbm=isch&q=Laci%20icon%20transparent%20png,PENDING
+OFF029,Di Pejabat,Kabinet,خَزَانَةٌ,OFF029.png,https://www.google.com/search?tbm=isch&q=Kabinet%20icon%20transparent%20png,PENDING
+OFF030,Di Pejabat,Rak,رَفٌّ,OFF030.png,https://www.google.com/search?tbm=isch&q=Rak%20icon%20transparent%20png,PENDING
+OFF031,Di Pejabat,Kad pengenalan,بَطَاقَةُ هَوِيَّةٍ,OFF031.png,https://www.google.com/search?tbm=isch&q=Kad%20pengenalan%20icon%20transparent%20png,PENDING
+OFF032,Di Pejabat,Kad nama,بَطَاقَةُ عَمَلٍ,OFF032.png,https://www.google.com/search?tbm=isch&q=Kad%20nama%20icon%20transparent%20png,PENDING
+OFF033,Di Pejabat,Temujanji,مَوْعِدٌ,OFF033.png,https://www.google.com/search?tbm=isch&q=Temujanji%20icon%20transparent%20png,PENDING
+OFF034,Di Pejabat,Jadual,جَدْوَلٌ,OFF034.png,https://www.google.com/search?tbm=isch&q=Jadual%20icon%20transparent%20png,PENDING
+OFF035,Di Pejabat,Nota,مُلَاحَظَةٌ,OFF035.png,https://www.google.com/search?tbm=isch&q=Nota%20icon%20transparent%20png,PENDING
+OFF036,Di Pejabat,Tugasan,مُهَمَّةٌ,OFF036.png,https://www.google.com/search?tbm=isch&q=Tugasan%20icon%20transparent%20png,PENDING
+OFF037,Di Pejabat,Pembantu,مُسَاعِدٌ,OFF037.png,https://www.google.com/search?tbm=isch&q=Pembantu%20icon%20transparent%20png,PENDING
+OFF038,Di Pejabat,Pengurus sumber manusia,مَدِيرُ الْمَوَارِدِ الْبَشَرِيَّةِ,OFF038.png,https://www.google.com/search?tbm=isch&q=Pengurus%20sumber%20manusia%20icon%20transparent%20png,PENDING
+OFF039,Di Pejabat,Pengurus kewangan,مُدِيرُ الْمَالِيَّةِ,OFF039.png,https://www.google.com/search?tbm=isch&q=Pengurus%20kewangan%20icon%20transparent%20png,PENDING
+OFF040,Di Pejabat,Pembekal,مُوَرِّدٌ,OFF040.png,https://www.google.com/search?tbm=isch&q=Pembekal%20icon%20transparent%20png,PENDING
+OFF041,Di Pejabat,Pelanggan/klien,عَمِيلٌ,OFF041.png,https://www.google.com/search?tbm=isch&q=Pelanggan/klien%20icon%20transparent%20png,PENDING
+OFF042,Di Pejabat,Pelanggan,زَبُونٌ,OFF042.png,https://www.google.com/search?tbm=isch&q=Pelanggan%20icon%20transparent%20png,PENDING
+OFF043,Di Pejabat,Kontrak,عَقْدٌ,OFF043.png,https://www.google.com/search?tbm=isch&q=Kontrak%20icon%20transparent%20png,PENDING
+OFF044,Di Pejabat,Invois,فَاتُورَةٌ,OFF044.png,https://www.google.com/search?tbm=isch&q=Invois%20icon%20transparent%20png,PENDING
+OFF045,Di Pejabat,Bajet,مِيزَانِيَّةٌ,OFF045.png,https://www.google.com/search?tbm=isch&q=Bajet%20icon%20transparent%20png,PENDING
+OFF046,Di Pejabat,Gaji,رَاتِبٌ,OFF046.png,https://www.google.com/search?tbm=isch&q=Gaji%20icon%20transparent%20png,PENDING
+OFF047,Di Pejabat,Tandatangan,تَوْقِيعٌ,OFF047.png,https://www.google.com/search?tbm=isch&q=Tandatangan%20icon%20transparent%20png,PENDING
+OFF048,Di Pejabat,Cop/stamp,خَتْمٌ,OFF048.png,https://www.google.com/search?tbm=isch&q=Cop/stamp%20icon%20transparent%20png,PENDING
+OFF049,Di Pejabat,Khidmat pelanggan,خِدْمَةُ الْعُمَلَاءِ,OFF049.png,https://www.google.com/search?tbm=isch&q=Khidmat%20pelanggan%20icon%20transparent%20png,PENDING
+OFF050,Di Pejabat,Tempat kerja,مَوْقِعُ الْعَمَلِ,OFF050.png,https://www.google.com/search?tbm=isch&q=Tempat%20kerja%20icon%20transparent%20png,PENDING
+SPT001,Sukan & Permainan,Bola sepak,كُرَةُ الْقَدَمِ,SPT001.png,https://www.google.com/search?tbm=isch&q=Bola%20sepak%20icon%20transparent%20png,PENDING
+SPT002,Sukan & Permainan,Bola keranjang,كُرَةُ السَّلَّةِ,SPT002.png,https://www.google.com/search?tbm=isch&q=Bola%20keranjang%20icon%20transparent%20png,PENDING
+SPT003,Sukan & Permainan,Bola tampar,كُرَةُ الطَّائِرَةِ,SPT003.png,https://www.google.com/search?tbm=isch&q=Bola%20tampar%20icon%20transparent%20png,PENDING
+SPT004,Sukan & Permainan,Netball,كُرَةُ الشَّبَكَةِ,SPT004.png,https://www.google.com/search?tbm=isch&q=Netball%20icon%20transparent%20png,PENDING
+SPT005,Sukan & Permainan,Tenis,كُرَةُ الْمِضْرَبِ,SPT005.png,https://www.google.com/search?tbm=isch&q=Tenis%20icon%20transparent%20png,PENDING
+SPT006,Sukan & Permainan,Badminton,كُرَةُ الرِّيشَةِ,SPT006.png,https://www.google.com/search?tbm=isch&q=Badminton%20icon%20transparent%20png,PENDING
+SPT007,Sukan & Permainan,Tenis meja,تَنِسُ الطَّاوِلَةِ,SPT007.png,https://www.google.com/search?tbm=isch&q=Tenis%20meja%20icon%20transparent%20png,PENDING
+SPT008,Sukan & Permainan,Bola jaring/gelung,الطَّوْقُ,SPT008.png,https://www.google.com/search?tbm=isch&q=Bola%20jaring/gelung%20icon%20transparent%20png,PENDING
+SPT009,Sukan & Permainan,Renang,رِيَاضَةُ السِّبَاحَةِ,SPT009.png,https://www.google.com/search?tbm=isch&q=Renang%20icon%20transparent%20png,PENDING
+SPT010,Sukan & Permainan,Larian,رِيَاضَةُ الْجَرْيِ,SPT010.png,https://www.google.com/search?tbm=isch&q=Larian%20icon%20transparent%20png,PENDING
+SPT011,Sukan & Permainan,Lompat,رِيَاضَةُ الْقَفْزِ,SPT011.png,https://www.google.com/search?tbm=isch&q=Lompat%20icon%20transparent%20png,PENDING
+SPT012,Sukan & Permainan,Layar,رِيَاضَةُ الرِّيحِ,SPT012.png,https://www.google.com/search?tbm=isch&q=Layar%20icon%20transparent%20png,PENDING
+SPT013,Sukan & Permainan,Berbasikal,رُكُوبُ الدَّرَّاجَةِ,SPT013.png,https://www.google.com/search?tbm=isch&q=Berbasikal%20icon%20transparent%20png,PENDING
+SPT014,Sukan & Permainan,Menunggang kuda,رُكُوبُ الْخَيْلِ,SPT014.png,https://www.google.com/search?tbm=isch&q=Menunggang%20kuda%20icon%20transparent%20png,PENDING
+SPT015,Sukan & Permainan,Badminton,كُرَةُ الرَّيْشَةِ,SPT015.png,https://www.google.com/search?tbm=isch&q=Badminton%20icon%20transparent%20png,PENDING
+SPT016,Sukan & Permainan,Tinju,الْمُلَاكَمَةُ,SPT016.png,https://www.google.com/search?tbm=isch&q=Tinju%20icon%20transparent%20png,PENDING
+SPT017,Sukan & Permainan,Karate,الْكَرَاتِيهِ,SPT017.png,https://www.google.com/search?tbm=isch&q=Karate%20icon%20transparent%20png,PENDING
+SPT018,Sukan & Permainan,Taekwondo,التَّايْكْوَانْدُو,SPT018.png,https://www.google.com/search?tbm=isch&q=Taekwondo%20icon%20transparent%20png,PENDING
+SPT019,Sukan & Permainan,Judo,الْجُودُو,SPT019.png,https://www.google.com/search?tbm=isch&q=Judo%20icon%20transparent%20png,PENDING
+SPT020,Sukan & Permainan,Gusti,الْمُصَارَعَةُ,SPT020.png,https://www.google.com/search?tbm=isch&q=Gusti%20icon%20transparent%20png,PENDING
+SPT021,Sukan & Permainan,Sukan,الرِّيَاضَةُ,SPT021.png,https://www.google.com/search?tbm=isch&q=Sukan%20icon%20transparent%20png,PENDING
+SPT022,Sukan & Permainan,Perlawanan,مُبَارَاةٌ,SPT022.png,https://www.google.com/search?tbm=isch&q=Perlawanan%20icon%20transparent%20png,PENDING
+SPT023,Sukan & Permainan,Pasukan,فَرِيقٌ,SPT023.png,https://www.google.com/search?tbm=isch&q=Pasukan%20icon%20transparent%20png,PENDING
+SPT024,Sukan & Permainan,Pemain,لَاعِبٌ,SPT024.png,https://www.google.com/search?tbm=isch&q=Pemain%20icon%20transparent%20png,PENDING
+SPT025,Sukan & Permainan,Jurulatih,مُدَرِّبٌ,SPT025.png,https://www.google.com/search?tbm=isch&q=Jurulatih%20icon%20transparent%20png,PENDING
+SPT026,Sukan & Permainan,Pengadil,حَكَمٌ,SPT026.png,https://www.google.com/search?tbm=isch&q=Pengadil%20icon%20transparent%20png,PENDING
+SPT027,Sukan & Permainan,Padang,مَلْعَبٌ,SPT027.png,https://www.google.com/search?tbm=isch&q=Padang%20icon%20transparent%20png,PENDING
+SPT028,Sukan & Permainan,Gelanggang tertutup,مَلْعَبٌ دَاخِلِيٌّ,SPT028.png,https://www.google.com/search?tbm=isch&q=Gelanggang%20tertutup%20icon%20transparent%20png,PENDING
+SPT029,Sukan & Permainan,Trek,مَضْمَارٌ,SPT029.png,https://www.google.com/search?tbm=isch&q=Trek%20icon%20transparent%20png,PENDING
+SPT030,Sukan & Permainan,Bola,كُرَةٌ,SPT030.png,https://www.google.com/search?tbm=isch&q=Bola%20icon%20transparent%20png,PENDING
+SPT031,Sukan & Permainan,Raket,مِضْرَبٌ,SPT031.png,https://www.google.com/search?tbm=isch&q=Raket%20icon%20transparent%20png,PENDING
+SPT032,Sukan & Permainan,Jaring,شَبَكَةٌ,SPT032.png,https://www.google.com/search?tbm=isch&q=Jaring%20icon%20transparent%20png,PENDING
+SPT033,Sukan & Permainan,Gol,مَرْمًى,SPT033.png,https://www.google.com/search?tbm=isch&q=Gol%20icon%20transparent%20png,PENDING
+SPT034,Sukan & Permainan,Gawang,مِرْمَاةٌ,SPT034.png,https://www.google.com/search?tbm=isch&q=Gawang%20icon%20transparent%20png,PENDING
+SPT035,Sukan & Permainan,Papan sasaran,مِرْمى السِّهَامِ,SPT035.png,https://www.google.com/search?tbm=isch&q=Papan%20sasaran%20icon%20transparent%20png,PENDING
+SPT036,Sukan & Permainan,Catur,شَطْرَنْجٌ,SPT036.png,https://www.google.com/search?tbm=isch&q=Catur%20icon%20transparent%20png,PENDING
+SPT037,Sukan & Permainan,Dam,دَامَةٌ,SPT037.png,https://www.google.com/search?tbm=isch&q=Dam%20icon%20transparent%20png,PENDING
+SPT038,Sukan & Permainan,Sorok-sorok,لُعْبَةُ الْمَخْفِيِّ,SPT038.png,https://www.google.com/search?tbm=isch&q=Sorok-sorok%20icon%20transparent%20png,PENDING
+SPT039,Sukan & Permainan,Permainan bola,لُعْبَةُ الْكُرَةِ,SPT039.png,https://www.google.com/search?tbm=isch&q=Permainan%20bola%20icon%20transparent%20png,PENDING
+SPT040,Sukan & Permainan,Permainan video,لُعْبَةٌ إِلِكْتُرُونِيَّةٌ,SPT040.png,https://www.google.com/search?tbm=isch&q=Permainan%20video%20icon%20transparent%20png,PENDING
+SPT041,Sukan & Permainan,Kejohanan,بَطُولَةٌ,SPT041.png,https://www.google.com/search?tbm=isch&q=Kejohanan%20icon%20transparent%20png,PENDING
+SPT042,Sukan & Permainan,Hadiah,جَائِزَةٌ,SPT042.png,https://www.google.com/search?tbm=isch&q=Hadiah%20icon%20transparent%20png,PENDING
+SPT043,Sukan & Permainan,Pingat,مِيدَالِيَّةٌ,SPT043.png,https://www.google.com/search?tbm=isch&q=Pingat%20icon%20transparent%20png,PENDING
+SPT044,Sukan & Permainan,Kemenangan,فَوْزٌ,SPT044.png,https://www.google.com/search?tbm=isch&q=Kemenangan%20icon%20transparent%20png,PENDING
+SPT045,Sukan & Permainan,Kekalahan,خَسَارَةٌ,SPT045.png,https://www.google.com/search?tbm=isch&q=Kekalahan%20icon%20transparent%20png,PENDING
+SPT046,Sukan & Permainan,Seri,تَعَادُلٌ,SPT046.png,https://www.google.com/search?tbm=isch&q=Seri%20icon%20transparent%20png,PENDING
+SPT047,Sukan & Permainan,Mata,نُقْطَةٌ,SPT047.png,https://www.google.com/search?tbm=isch&q=Mata%20icon%20transparent%20png,PENDING
+SPT048,Sukan & Permainan,Jaringan,هَدَفٌ,SPT048.png,https://www.google.com/search?tbm=isch&q=Jaringan%20icon%20transparent%20png,PENDING
+SPT049,Sukan & Permainan,Latihan,تَدْرِيبٌ,SPT049.png,https://www.google.com/search?tbm=isch&q=Latihan%20icon%20transparent%20png,PENDING
+ASN001,99 Asmaul Husna,Yang Maha Pemurah,الرَّحْمَٰنُ,ASN001.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Pemurah%20icon%20transparent%20png,PENDING
+ASN002,99 Asmaul Husna,Yang Maha Penyayang,الرَّحِيمُ,ASN002.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Penyayang%20icon%20transparent%20png,PENDING
+ASN003,99 Asmaul Husna,Yang Maha Menguasai,الْمَلِكُ,ASN003.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menguasai%20icon%20transparent%20png,PENDING
+ASN004,99 Asmaul Husna,Yang Maha Suci,الْقُدُّوسُ,ASN004.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Suci%20icon%20transparent%20png,PENDING
+ASN005,99 Asmaul Husna,Yang Maha Sejahtera,السَّلَامُ,ASN005.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Sejahtera%20icon%20transparent%20png,PENDING
+ASN006,99 Asmaul Husna,Yang Maha Memberi Keamanan,الْمُؤْمِنُ,ASN006.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memberi%20Keamanan%20icon%20transparent%20png,PENDING
+ASN007,99 Asmaul Husna,Yang Maha Memelihara,الْمُهَيْمِنُ,ASN007.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memelihara%20icon%20transparent%20png,PENDING
+ASN008,99 Asmaul Husna,Yang Maha Perkasa,الْعَزِيزُ,ASN008.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Perkasa%20icon%20transparent%20png,PENDING
+ASN009,99 Asmaul Husna,Yang Maha Gagah,الْجَبَّارُ,ASN009.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Gagah%20icon%20transparent%20png,PENDING
+ASN010,99 Asmaul Husna,Yang Maha Megah,الْمُتَكَبِّرُ,ASN010.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Megah%20icon%20transparent%20png,PENDING
+ASN011,99 Asmaul Husna,Yang Maha Mencipta,الْخَالِقُ,ASN011.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mencipta%20icon%20transparent%20png,PENDING
+ASN012,99 Asmaul Husna,Yang Maha Mengadakan,الْبَارِئُ,ASN012.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mengadakan%20icon%20transparent%20png,PENDING
+ASN013,99 Asmaul Husna,Yang Maha Membentuk Rupa,الْمُصَوِّرُ,ASN013.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Membentuk%20Rupa%20icon%20transparent%20png,PENDING
+ASN014,99 Asmaul Husna,Yang Maha Pengampun,الْغَفَّارُ,ASN014.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Pengampun%20icon%20transparent%20png,PENDING
+ASN015,99 Asmaul Husna,Yang Maha Menundukkan,الْقَهَّارُ,ASN015.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menundukkan%20icon%20transparent%20png,PENDING
+ASN016,99 Asmaul Husna,Yang Maha Mengurniakan,الْوَهَّابُ,ASN016.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mengurniakan%20icon%20transparent%20png,PENDING
+ASN017,99 Asmaul Husna,Yang Maha Memberi Rezeki,الرَّزَّاقُ,ASN017.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memberi%20Rezeki%20icon%20transparent%20png,PENDING
+ASN018,99 Asmaul Husna,Yang Maha Membuka,الْفَتَّاحُ,ASN018.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Membuka%20icon%20transparent%20png,PENDING
+ASN019,99 Asmaul Husna,Yang Maha Mengetahui,الْعَلِيمُ,ASN019.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mengetahui%20icon%20transparent%20png,PENDING
+ASN020,99 Asmaul Husna,Yang Maha Menyempitkan,الْقَابِضُ,ASN020.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menyempitkan%20icon%20transparent%20png,PENDING
+ASN021,99 Asmaul Husna,Yang Maha Melapangkan,الْبَاسِطُ,ASN021.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Melapangkan%20icon%20transparent%20png,PENDING
+ASN022,99 Asmaul Husna,Yang Maha Merendahkan,الْخَافِضُ,ASN022.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Merendahkan%20icon%20transparent%20png,PENDING
+ASN023,99 Asmaul Husna,Yang Maha Meninggikan,الرَّافِعُ,ASN023.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Meninggikan%20icon%20transparent%20png,PENDING
+ASN024,99 Asmaul Husna,Yang Maha Memuliakan,الْمُعِزُّ,ASN024.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memuliakan%20icon%20transparent%20png,PENDING
+ASN025,99 Asmaul Husna,Yang Maha Menghinakan,الْمُذِلُّ,ASN025.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menghinakan%20icon%20transparent%20png,PENDING
+ASN026,99 Asmaul Husna,Yang Maha Mendengar,السَّمِيعُ,ASN026.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mendengar%20icon%20transparent%20png,PENDING
+ASN027,99 Asmaul Husna,Yang Maha Melihat,الْبَصِيرُ,ASN027.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Melihat%20icon%20transparent%20png,PENDING
+ASN028,99 Asmaul Husna,Yang Maha Menetapkan,الْحَكَمُ,ASN028.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menetapkan%20icon%20transparent%20png,PENDING
+ASN029,99 Asmaul Husna,Yang Maha Adil,الْعَدْلُ,ASN029.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Adil%20icon%20transparent%20png,PENDING
+ASN030,99 Asmaul Husna,Yang Maha Lembut,اللَّطِيفُ,ASN030.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Lembut%20icon%20transparent%20png,PENDING
+ASN031,99 Asmaul Husna,Yang Maha Mengetahui,الْخَبِيرُ,ASN031.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mengetahui%20icon%20transparent%20png,PENDING
+ASN032,99 Asmaul Husna,Yang Maha Penyantun,الْحَلِيمُ,ASN032.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Penyantun%20icon%20transparent%20png,PENDING
+ASN033,99 Asmaul Husna,Yang Maha Agung,الْعَظِيمُ,ASN033.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Agung%20icon%20transparent%20png,PENDING
+ASN034,99 Asmaul Husna,Yang Maha Pengampun,الْغَفُورُ,ASN034.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Pengampun%20icon%20transparent%20png,PENDING
+ASN035,99 Asmaul Husna,Yang Maha Menghargai,الشَّكُورُ,ASN035.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menghargai%20icon%20transparent%20png,PENDING
+ASN036,99 Asmaul Husna,Yang Maha Tinggi,الْعَلِيُّ,ASN036.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Tinggi%20icon%20transparent%20png,PENDING
+ASN037,99 Asmaul Husna,Yang Maha Besar,الْكَبِيرُ,ASN037.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Besar%20icon%20transparent%20png,PENDING
+ASN038,99 Asmaul Husna,Yang Maha Memelihara,الْحَفِيظُ,ASN038.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memelihara%20icon%20transparent%20png,PENDING
+ASN039,99 Asmaul Husna,Yang Maha Memberi Kecukupan,الْمُقِيتُ,ASN039.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memberi%20Kecukupan%20icon%20transparent%20png,PENDING
+ASN040,99 Asmaul Husna,Yang Maha Menghitung,الْحسِيبُ,ASN040.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menghitung%20icon%20transparent%20png,PENDING
+ASN041,99 Asmaul Husna,Yang Maha Mulia,الْجَلِيلُ,ASN041.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mulia%20icon%20transparent%20png,PENDING
+ASN042,99 Asmaul Husna,Yang Maha Pemurah,الْكَرِيمُ,ASN042.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Pemurah%20icon%20transparent%20png,PENDING
+ASN043,99 Asmaul Husna,Yang Maha Mengawasi,الرَّقِيبُ,ASN043.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mengawasi%20icon%20transparent%20png,PENDING
+ASN044,99 Asmaul Husna,Yang Maha Memperkenankan,الْمُجِيبُ,ASN044.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memperkenankan%20icon%20transparent%20png,PENDING
+ASN045,99 Asmaul Husna,Yang Maha Luas,الْوَاسِعُ,ASN045.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Luas%20icon%20transparent%20png,PENDING
+ASN046,99 Asmaul Husna,Yang Maha Bijaksana,الْحَكِيمُ,ASN046.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Bijaksana%20icon%20transparent%20png,PENDING
+ASN047,99 Asmaul Husna,Yang Maha Mengasihi,الْوَدُودُ,ASN047.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mengasihi%20icon%20transparent%20png,PENDING
+ASN048,99 Asmaul Husna,Yang Maha Mulia,الْمَجِيدُ,ASN048.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mulia%20icon%20transparent%20png,PENDING
+ASN049,99 Asmaul Husna,Yang Maha Membangkitkan,الْبَاعِثُ,ASN049.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Membangkitkan%20icon%20transparent%20png,PENDING
+ASN050,99 Asmaul Husna,Yang Maha Menyaksikan,الشَّهِيدُ,ASN050.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menyaksikan%20icon%20transparent%20png,PENDING
+ASN051,99 Asmaul Husna,Yang Maha Benar,الْحَقُّ,ASN051.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Benar%20icon%20transparent%20png,PENDING
+ASN052,99 Asmaul Husna,Yang Maha Pentadbir,الْوَكِيلُ,ASN052.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Pentadbir%20icon%20transparent%20png,PENDING
+ASN053,99 Asmaul Husna,Yang Maha Kuat,الْقَوِيُّ,ASN053.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Kuat%20icon%20transparent%20png,PENDING
+ASN054,99 Asmaul Husna,Yang Maha Teguh,الْمَتِينُ,ASN054.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Teguh%20icon%20transparent%20png,PENDING
+ASN055,99 Asmaul Husna,Yang Maha Melindungi,الْوَلِيُّ,ASN055.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Melindungi%20icon%20transparent%20png,PENDING
+ASN056,99 Asmaul Husna,Yang Maha Terpuji,الْحَمِيدُ,ASN056.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Terpuji%20icon%20transparent%20png,PENDING
+ASN057,99 Asmaul Husna,Yang Maha Menghitung,الْمُحْصِي,ASN057.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menghitung%20icon%20transparent%20png,PENDING
+ASN058,99 Asmaul Husna,Yang Maha Memulakan,الْمُبْدِئُ,ASN058.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memulakan%20icon%20transparent%20png,PENDING
+ASN059,99 Asmaul Husna,Yang Maha Mengembalikan,الْمُعِيدُ,ASN059.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mengembalikan%20icon%20transparent%20png,PENDING
+ASN060,99 Asmaul Husna,Yang Maha Menghidupkan,الْمُحْيِي,ASN060.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menghidupkan%20icon%20transparent%20png,PENDING
+ASN061,99 Asmaul Husna,Yang Maha Mematikan,الْمُمِيتُ,ASN061.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mematikan%20icon%20transparent%20png,PENDING
+ASN062,99 Asmaul Husna,Yang Maha Hidup,الْحَيُّ,ASN062.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Hidup%20icon%20transparent%20png,PENDING
+ASN063,99 Asmaul Husna,Yang Maha Berdiri Sendiri,الْقَيُّومُ,ASN063.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Berdiri%20Sendiri%20icon%20transparent%20png,PENDING
+ASN064,99 Asmaul Husna,Yang Maha Menemukan,الْوَاجِدُ,ASN064.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menemukan%20icon%20transparent%20png,PENDING
+ASN065,99 Asmaul Husna,Yang Maha Mulia,الْمَاجِدُ,ASN065.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mulia%20icon%20transparent%20png,PENDING
+ASN066,99 Asmaul Husna,Yang Maha Esa,الْوَاحِدُ,ASN066.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Esa%20icon%20transparent%20png,PENDING
+ASN067,99 Asmaul Husna,Yang Maha Tunggal,الْأَحَدُ,ASN067.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Tunggal%20icon%20transparent%20png,PENDING
+ASN068,99 Asmaul Husna,Yang Maha Diperlukan,الصَّمَدُ,ASN068.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Diperlukan%20icon%20transparent%20png,PENDING
+ASN069,99 Asmaul Husna,Yang Maha Berkuasa,الْقَادِرُ,ASN069.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Berkuasa%20icon%20transparent%20png,PENDING
+ASN070,99 Asmaul Husna,Yang Maha Menentukan,الْمُقْتَدِرُ,ASN070.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menentukan%20icon%20transparent%20png,PENDING
+ASN071,99 Asmaul Husna,Yang Maha Mendahulukan,الْمُقَدِّمُ,ASN071.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mendahulukan%20icon%20transparent%20png,PENDING
+ASN072,99 Asmaul Husna,Yang Maha Mengakhirkan,الْمُؤَخِّرُ,ASN072.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mengakhirkan%20icon%20transparent%20png,PENDING
+ASN073,99 Asmaul Husna,Yang Maha Awal,الْأَوَّلُ,ASN073.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Awal%20icon%20transparent%20png,PENDING
+ASN074,99 Asmaul Husna,Yang Maha Akhir,الْآخِرُ,ASN074.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Akhir%20icon%20transparent%20png,PENDING
+ASN075,99 Asmaul Husna,Yang Maha Nyata,الظَّاهِرُ,ASN075.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Nyata%20icon%20transparent%20png,PENDING
+ASN076,99 Asmaul Husna,Yang Maha Tersembunyi,الْبَاطِنُ,ASN076.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Tersembunyi%20icon%20transparent%20png,PENDING
+ASN077,99 Asmaul Husna,Yang Maha Memerintah,الْوَالِي,ASN077.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memerintah%20icon%20transparent%20png,PENDING
+ASN078,99 Asmaul Husna,Yang Maha Tinggi,الْمُتَعَالِي,ASN078.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Tinggi%20icon%20transparent%20png,PENDING
+ASN079,99 Asmaul Husna,Yang Maha Baik,الْبَرُّ,ASN079.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Baik%20icon%20transparent%20png,PENDING
+ASN080,99 Asmaul Husna,Yang Maha Penerima Taubat,التَّوَّابُ,ASN080.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Penerima%20Taubat%20icon%20transparent%20png,PENDING
+ASN081,99 Asmaul Husna,Yang Maha Membalas,الْمُنْتَقِمُ,ASN081.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Membalas%20icon%20transparent%20png,PENDING
+ASN082,99 Asmaul Husna,Yang Maha Pemaaf,الْعَفُوُّ,ASN082.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Pemaaf%20icon%20transparent%20png,PENDING
+ASN083,99 Asmaul Husna,Yang Maha Pengasih,الرَّؤُوفُ,ASN083.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Pengasih%20icon%20transparent%20png,PENDING
+ASN084,99 Asmaul Husna,Yang Maha Menguasai Kerajaan,مَالِكُ الْمُلْكِ,ASN084.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Menguasai%20Kerajaan%20icon%20transparent%20png,PENDING
+ASN085,99 Asmaul Husna,Yang Mempunyai Kebesaran dan Kemuliaan,ذُو الْجَلَالِ وَالْإِكْرَامِ,ASN085.png,https://www.google.com/search?tbm=isch&q=Yang%20Mempunyai%20Kebesaran%20dan%20Kemuliaan%20icon%20transparent%20png,PENDING
+ASN086,99 Asmaul Husna,Yang Maha Adil,الْمُقْسِطُ,ASN086.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Adil%20icon%20transparent%20png,PENDING
+ASN087,99 Asmaul Husna,Yang Maha Mengumpulkan,الْجَامِعُ,ASN087.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mengumpulkan%20icon%20transparent%20png,PENDING
+ASN088,99 Asmaul Husna,Yang Maha Kaya,الْغَنِيُّ,ASN088.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Kaya%20icon%20transparent%20png,PENDING
+ASN089,99 Asmaul Husna,Yang Maha Memberi Kekayaan,الْمُغْنِي,ASN089.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memberi%20Kekayaan%20icon%20transparent%20png,PENDING
+ASN090,99 Asmaul Husna,Yang Maha Mencegah,الْمَانِعُ,ASN090.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mencegah%20icon%20transparent%20png,PENDING
+ASN091,99 Asmaul Husna,Yang Maha Memberi Kemudaratan,الضَّارُّ,ASN091.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memberi%20Kemudaratan%20icon%20transparent%20png,PENDING
+ASN092,99 Asmaul Husna,Yang Maha Memberi Manfaat,النَّافِعُ,ASN092.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memberi%20Manfaat%20icon%20transparent%20png,PENDING
+ASN093,99 Asmaul Husna,Yang Maha Bercahaya,النُّورُ,ASN093.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Bercahaya%20icon%20transparent%20png,PENDING
+ASN094,99 Asmaul Husna,Yang Maha Memberi Petunjuk,الْهَادِي,ASN094.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Memberi%20Petunjuk%20icon%20transparent%20png,PENDING
+ASN095,99 Asmaul Husna,Yang Maha Mencipta Tanpa Bandingan,الْبَدِيعُ,ASN095.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mencipta%20Tanpa%20Bandingan%20icon%20transparent%20png,PENDING
+ASN096,99 Asmaul Husna,Yang Maha Kekal,الْبَاقِي,ASN096.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Kekal%20icon%20transparent%20png,PENDING
+ASN097,99 Asmaul Husna,Yang Maha Mewarisi,الْوَارِثُ,ASN097.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Mewarisi%20icon%20transparent%20png,PENDING
+ASN098,99 Asmaul Husna,Yang Maha Membimbing,الرَّشِيدُ,ASN098.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Membimbing%20icon%20transparent%20png,PENDING
+ASN099,99 Asmaul Husna,Yang Maha Sabar,الصَّبُورُ,ASN099.png,https://www.google.com/search?tbm=isch&q=Yang%20Maha%20Sabar%20icon%20transparent%20png,PENDING
+HIJ001,Bulan Hijrah,Muharam,مُحَرَّمٌ,HIJ001.png,https://www.google.com/search?tbm=isch&q=Muharam%20icon%20transparent%20png,PENDING
+HIJ002,Bulan Hijrah,Safar,صَفَرٌ,HIJ002.png,https://www.google.com/search?tbm=isch&q=Safar%20icon%20transparent%20png,PENDING
+HIJ003,Bulan Hijrah,Rabiulawal,رَبِيعُ الْأَوَّلِ,HIJ003.png,https://www.google.com/search?tbm=isch&q=Rabiulawal%20icon%20transparent%20png,PENDING
+HIJ004,Bulan Hijrah,Rabiulakhir,رَبِيعُ الْآخِرِ,HIJ004.png,https://www.google.com/search?tbm=isch&q=Rabiulakhir%20icon%20transparent%20png,PENDING
+HIJ005,Bulan Hijrah,Jamadilawal,جُمَادَى الْأُولَى,HIJ005.png,https://www.google.com/search?tbm=isch&q=Jamadilawal%20icon%20transparent%20png,PENDING
+HIJ006,Bulan Hijrah,Jamadilakhir,جُمَادَى الْآخِرَةِ,HIJ006.png,https://www.google.com/search?tbm=isch&q=Jamadilakhir%20icon%20transparent%20png,PENDING
+HIJ007,Bulan Hijrah,Rejab,رَجَبٌ,HIJ007.png,https://www.google.com/search?tbm=isch&q=Rejab%20icon%20transparent%20png,PENDING
+HIJ008,Bulan Hijrah,Syaaban,شَعْبَانُ,HIJ008.png,https://www.google.com/search?tbm=isch&q=Syaaban%20icon%20transparent%20png,PENDING
+HIJ009,Bulan Hijrah,Ramadan,رَمَضَانُ,HIJ009.png,https://www.google.com/search?tbm=isch&q=Ramadan%20icon%20transparent%20png,PENDING
+HIJ010,Bulan Hijrah,Syawal,شَوَّالٌ,HIJ010.png,https://www.google.com/search?tbm=isch&q=Syawal%20icon%20transparent%20png,PENDING
+HIJ011,Bulan Hijrah,Zulkaedah,ذُو الْقِعْدَةِ,HIJ011.png,https://www.google.com/search?tbm=isch&q=Zulkaedah%20icon%20transparent%20png,PENDING
+HIJ012,Bulan Hijrah,Zulhijah,ذُو الْحِجَّةِ,HIJ012.png,https://www.google.com/search?tbm=isch&q=Zulhijah%20icon%20transparent%20png,PENDING
+MAS001,Bulan Masihi,Januari,يَنَايِرُ,MAS001.png,https://www.google.com/search?tbm=isch&q=Januari%20icon%20transparent%20png,PENDING
+MAS002,Bulan Masihi,Februari,فِبْرَايِرُ,MAS002.png,https://www.google.com/search?tbm=isch&q=Februari%20icon%20transparent%20png,PENDING
+MAS003,Bulan Masihi,Mac,مَارِسُ,MAS003.png,https://www.google.com/search?tbm=isch&q=Mac%20icon%20transparent%20png,PENDING
+MAS004,Bulan Masihi,April,أَبْرِيلُ,MAS004.png,https://www.google.com/search?tbm=isch&q=April%20icon%20transparent%20png,PENDING
+MAS005,Bulan Masihi,Mei,مَايُو,MAS005.png,https://www.google.com/search?tbm=isch&q=Mei%20icon%20transparent%20png,PENDING
+MAS006,Bulan Masihi,Jun,يُونْيُو,MAS006.png,https://www.google.com/search?tbm=isch&q=Jun%20icon%20transparent%20png,PENDING
+MAS007,Bulan Masihi,Julai,يُولْيُو,MAS007.png,https://www.google.com/search?tbm=isch&q=Julai%20icon%20transparent%20png,PENDING
+MAS008,Bulan Masihi,Ogos,أَغُسْطُسُ,MAS008.png,https://www.google.com/search?tbm=isch&q=Ogos%20icon%20transparent%20png,PENDING
+MAS009,Bulan Masihi,September,سِبْتَمْبَرُ,MAS009.png,https://www.google.com/search?tbm=isch&q=September%20icon%20transparent%20png,PENDING
+MAS010,Bulan Masihi,Oktober,أُكْتُوبَرُ,MAS010.png,https://www.google.com/search?tbm=isch&q=Oktober%20icon%20transparent%20png,PENDING
+MAS011,Bulan Masihi,November,نُوفَمْبَرُ,MAS011.png,https://www.google.com/search?tbm=isch&q=November%20icon%20transparent%20png,PENDING
+MAS012,Bulan Masihi,Disember,دِيسَمْبَرُ,MAS012.png,https://www.google.com/search?tbm=isch&q=Disember%20icon%20transparent%20png,PENDING
+PLN001,Planet,Utarid,عُطَارِدُ,PLN001.png,https://www.google.com/search?tbm=isch&q=Utarid%20icon%20transparent%20png,PENDING
+PLN002,Planet,Zuhrah,الزُّهَرَةُ,PLN002.png,https://www.google.com/search?tbm=isch&q=Zuhrah%20icon%20transparent%20png,PENDING
+PLN003,Planet,Bumi,الْأَرْضُ,PLN003.png,https://www.google.com/search?tbm=isch&q=Bumi%20icon%20transparent%20png,PENDING
+PLN004,Planet,Marikh,الْمَرِّيخُ,PLN004.png,https://www.google.com/search?tbm=isch&q=Marikh%20icon%20transparent%20png,PENDING
+PLN005,Planet,Musytari,الْمُشْتَرِي,PLN005.png,https://www.google.com/search?tbm=isch&q=Musytari%20icon%20transparent%20png,PENDING
+PLN006,Planet,Zuhal,زُحَلُ,PLN006.png,https://www.google.com/search?tbm=isch&q=Zuhal%20icon%20transparent%20png,PENDING
+PLN007,Planet,Uranus,أُورَانُوسُ,PLN007.png,https://www.google.com/search?tbm=isch&q=Uranus%20icon%20transparent%20png,PENDING
+PLN008,Planet,Neptune,نِبْتُونُ,PLN008.png,https://www.google.com/search?tbm=isch&q=Neptune%20icon%20transparent%20png,PENDING
+ANG001,Malaikat,Jibril — menyampaikan wahyu,جِبْرِيلُ,ANG001.png,https://www.google.com/search?tbm=isch&q=Jibril%20%E2%80%94%20menyampaikan%20wahyu%20icon%20transparent%20png,PENDING
+ANG002,Malaikat,Mikail — mengurus hujan,مِيكَائِيلُ,ANG002.png,https://www.google.com/search?tbm=isch&q=Mikail%20%E2%80%94%20mengurus%20hujan%20icon%20transparent%20png,PENDING
+ANG003,Malaikat,Israfil — meniup sangkakala,إِسْرَافِيلُ,ANG003.png,https://www.google.com/search?tbm=isch&q=Israfil%20%E2%80%94%20meniup%20sangkakala%20icon%20transparent%20png,PENDING
+ANG004,Malaikat,Malaikat maut — mencabut nyawa,مَلَكُ الْمَوْتِ,ANG004.png,https://www.google.com/search?tbm=isch&q=Malaikat%20maut%20%E2%80%94%20mencabut%20nyawa%20icon%20transparent%20png,PENDING
+ANG005,Malaikat,Munkar — menyoal di alam kubur,مُنْكَرٌ,ANG005.png,https://www.google.com/search?tbm=isch&q=Munkar%20%E2%80%94%20menyoal%20di%20alam%20kubur%20icon%20transparent%20png,PENDING
+ANG006,Malaikat,Nakir — menyoal di alam kubur,نَكِيرٌ,ANG006.png,https://www.google.com/search?tbm=isch&q=Nakir%20%E2%80%94%20menyoal%20di%20alam%20kubur%20icon%20transparent%20png,PENDING
+ANG007,Malaikat,Raqib — mencatat amalan baik,رَقِيبٌ,ANG007.png,https://www.google.com/search?tbm=isch&q=Raqib%20%E2%80%94%20mencatat%20amalan%20baik%20icon%20transparent%20png,PENDING
+ANG008,Malaikat,Atid — mencatat amalan buruk,عَتِيدٌ,ANG008.png,https://www.google.com/search?tbm=isch&q=Atid%20%E2%80%94%20mencatat%20amalan%20buruk%20icon%20transparent%20png,PENDING
+ANG009,Malaikat,Malik — penjaga neraka,مَالِكٌ,ANG009.png,https://www.google.com/search?tbm=isch&q=Malik%20%E2%80%94%20penjaga%20neraka%20icon%20transparent%20png,PENDING
+ANG010,Malaikat,Ridwan — penjaga syurga,رِضْوَانُ,ANG010.png,https://www.google.com/search?tbm=isch&q=Ridwan%20%E2%80%94%20penjaga%20syurga%20icon%20transparent%20png,PENDING
+NBR001,Nabi & Rasul,Nabi Adam,آدَمُ,NBR001.png,https://www.google.com/search?tbm=isch&q=Nabi%20Adam%20icon%20transparent%20png,PENDING
+NBR002,Nabi & Rasul,Nabi Idris,إِدْرِيسُ,NBR002.png,https://www.google.com/search?tbm=isch&q=Nabi%20Idris%20icon%20transparent%20png,PENDING
+NBR003,Nabi & Rasul,Nabi Nuh,نُوحٌ,NBR003.png,https://www.google.com/search?tbm=isch&q=Nabi%20Nuh%20icon%20transparent%20png,PENDING
+NBR004,Nabi & Rasul,Nabi Hud,هُودٌ,NBR004.png,https://www.google.com/search?tbm=isch&q=Nabi%20Hud%20icon%20transparent%20png,PENDING
+NBR005,Nabi & Rasul,Nabi Soleh,صَالِحٌ,NBR005.png,https://www.google.com/search?tbm=isch&q=Nabi%20Soleh%20icon%20transparent%20png,PENDING
+NBR006,Nabi & Rasul,Nabi Ibrahim,إِبْرَاهِيمُ,NBR006.png,https://www.google.com/search?tbm=isch&q=Nabi%20Ibrahim%20icon%20transparent%20png,PENDING
+NBR007,Nabi & Rasul,Nabi Lut,لُوطٌ,NBR007.png,https://www.google.com/search?tbm=isch&q=Nabi%20Lut%20icon%20transparent%20png,PENDING
+NBR008,Nabi & Rasul,Nabi Ismail,إِسْمَاعِيلُ,NBR008.png,https://www.google.com/search?tbm=isch&q=Nabi%20Ismail%20icon%20transparent%20png,PENDING
+NBR009,Nabi & Rasul,Nabi Ishak,إِسْحَاقُ,NBR009.png,https://www.google.com/search?tbm=isch&q=Nabi%20Ishak%20icon%20transparent%20png,PENDING
+NBR010,Nabi & Rasul,Nabi Yaakub,يَعْقُوبُ,NBR010.png,https://www.google.com/search?tbm=isch&q=Nabi%20Yaakub%20icon%20transparent%20png,PENDING
+NBR011,Nabi & Rasul,Nabi Yusuf,يُوسُفُ,NBR011.png,https://www.google.com/search?tbm=isch&q=Nabi%20Yusuf%20icon%20transparent%20png,PENDING
+NBR012,Nabi & Rasul,Nabi Ayub,أَيُّوبُ,NBR012.png,https://www.google.com/search?tbm=isch&q=Nabi%20Ayub%20icon%20transparent%20png,PENDING
+NBR013,Nabi & Rasul,Nabi Syuaib,شُعَيْبٌ,NBR013.png,https://www.google.com/search?tbm=isch&q=Nabi%20Syuaib%20icon%20transparent%20png,PENDING
+NBR014,Nabi & Rasul,Nabi Musa,مُوسَى,NBR014.png,https://www.google.com/search?tbm=isch&q=Nabi%20Musa%20icon%20transparent%20png,PENDING
+NBR015,Nabi & Rasul,Nabi Harun,هَارُونُ,NBR015.png,https://www.google.com/search?tbm=isch&q=Nabi%20Harun%20icon%20transparent%20png,PENDING
+NBR016,Nabi & Rasul,Nabi Zulkifli,ذُو الْكِفْلِ,NBR016.png,https://www.google.com/search?tbm=isch&q=Nabi%20Zulkifli%20icon%20transparent%20png,PENDING
+NBR017,Nabi & Rasul,Nabi Daud,دَاوُودُ,NBR017.png,https://www.google.com/search?tbm=isch&q=Nabi%20Daud%20icon%20transparent%20png,PENDING
+NBR018,Nabi & Rasul,Nabi Sulaiman,سُلَيْمَانُ,NBR018.png,https://www.google.com/search?tbm=isch&q=Nabi%20Sulaiman%20icon%20transparent%20png,PENDING
+NBR019,Nabi & Rasul,Nabi Ilyas,إِلْيَاسُ,NBR019.png,https://www.google.com/search?tbm=isch&q=Nabi%20Ilyas%20icon%20transparent%20png,PENDING
+NBR020,Nabi & Rasul,Nabi Ilyasa',الْيَسَعُ,NBR020.png,https://www.google.com/search?tbm=isch&q=Nabi%20Ilyasa%27%20icon%20transparent%20png,PENDING
+NBR021,Nabi & Rasul,Nabi Yunus,يُونُسُ,NBR021.png,https://www.google.com/search?tbm=isch&q=Nabi%20Yunus%20icon%20transparent%20png,PENDING
+NBR022,Nabi & Rasul,Nabi Zakaria,زَكَرِيَّا,NBR022.png,https://www.google.com/search?tbm=isch&q=Nabi%20Zakaria%20icon%20transparent%20png,PENDING
+NBR023,Nabi & Rasul,Nabi Yahya,يَحْيَى,NBR023.png,https://www.google.com/search?tbm=isch&q=Nabi%20Yahya%20icon%20transparent%20png,PENDING
+NBR024,Nabi & Rasul,Nabi Isa,عِيسَى,NBR024.png,https://www.google.com/search?tbm=isch&q=Nabi%20Isa%20icon%20transparent%20png,PENDING
+NBR025,Nabi & Rasul,Nabi Muhammad,مُحَمَّدٌ,NBR025.png,https://www.google.com/search?tbm=isch&q=Nabi%20Muhammad%20icon%20transparent%20png,PENDING
+SPT050,Sukan & Permainan,Angkat berat,رَفْعُ الْأَثْقَالِ,SPT050.png,https://www.google.com/search?tbm=isch&q=Angkat%20berat%20icon%20transparent%20png,PENDING
+HIW046,Dialog / Hiwar,Adakah kamu ada pen?,هَلْ عِنْدَكَ قَلَمٌ؟,HIW046.png,https://www.google.com/search?tbm=isch&q=Adakah%20kamu%20ada%20pen%3F%20icon%20transparent%20png,PENDING
+HIW047,Dialog / Hiwar,"Ya, saya ada pen.",نَعَمْ، عِنْدِي قَلَمٌ,HIW047.png,https://www.google.com/search?tbm=isch&q=Ya%2C%20saya%20ada%20pen.%20icon%20transparent%20png,PENDING
+HIW048,Dialog / Hiwar,Di mana buku saya?,أَيْنَ كِتَابِي؟,HIW048.png,https://www.google.com/search?tbm=isch&q=Di%20mana%20buku%20saya%3F%20icon%20transparent%20png,PENDING
+HIW049,Dialog / Hiwar,Buku kamu di atas meja.,كِتَابُكَ عَلَى الطَّاوِلَةِ,HIW049.png,https://www.google.com/search?tbm=isch&q=Buku%20kamu%20di%20atas%20meja.%20icon%20transparent%20png,PENDING
+HIW050,Dialog / Hiwar,Bilakah pembelajaran bermula?,مَتَى تَبْدَأُ الدِّرَاسَةُ؟,HIW050.png,https://www.google.com/search?tbm=isch&q=Bilakah%20pembelajaran%20bermula%3F%20icon%20transparent%20png,PENDING
