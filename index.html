@@ -2,8 +2,8 @@
 <html lang="ms">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Az-Zaki! Belajar Arab, Sambil Bermain!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Az-Zaki! Belajar Arab Sambil Bermain</title>
 
   <!-- FIREBASE SDK (COMPAT VERSION) -->
   <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
@@ -18,7 +18,7 @@
       --bg-card: rgba(12, 22, 48, 0.95);
       --gold: #ffcc00;
       --gold-dark: #b37b00;
-      --gold-glow: rgba(255, 204, 0, 0.7);
+      --gold-glow: rgba(255, 204, 0, 0.6);
       --cyan: #00f2fe;
       --green: #00e676;
       --red: #ff3366;
@@ -27,15 +27,22 @@
       --font-game: 'Fredoka One', 'Outfit', cursive, sans-serif;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: var(--font-game); user-select: none; }
+    * { 
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+      font-family: var(--font-game); 
+      user-select: none; 
+      -webkit-tap-highlight-color: transparent; 
+    }
 
     body { 
       color: var(--white); 
-      min-height: 100vh; 
+      min-height: 100dvh; 
       display: flex; 
       justify-content: center; 
       align-items: center; 
-      padding: 15px; 
+      padding: 8px; 
       overflow: hidden;
       position: relative;
       background-color: #070d1e;
@@ -52,406 +59,288 @@
       position: fixed; top: 0; left: 0; width: 100%; height: 100%;
       z-index: 0; pointer-events: none; overflow: hidden;
     }
-
     .sun {
-      position: absolute; top: 40px; right: 80px; width: 90px; height: 90px;
+      position: absolute; top: 20px; right: 40px; width: 75px; height: 75px;
       background: radial-gradient(circle, #fff700 0%, #ff9900 100%);
-      border-radius: 50%; box-shadow: 0 0 40px #ffcc00, 0 0 80px #ffaa00;
-      animation: pulseSun 3s ease-in-out infinite alternate;
+      border-radius: 50%; box-shadow: 0 0 30px #ffcc00, 0 0 60px #ffaa00;
     }
-    @keyframes pulseSun { 0% { transform: scale(0.95); } 100% { transform: scale(1.08); } }
-
-    .cloud {
-      position: absolute; background: rgba(255, 255, 255, 0.85); border-radius: 50px;
-      box-shadow: 0 8px 15px rgba(0,0,0,0.1); animation: moveCloud linear infinite;
-    }
-    .cloud::before, .cloud::after { content: ''; position: absolute; background: rgba(255, 255, 255, 0.85); border-radius: 50%; }
-    .cloud1 { width: 140px; height: 45px; top: 10%; left: -160px; animation-duration: 28s; }
-    .cloud1::before { width: 60px; height: 60px; top: -25px; left: 20px; }
-    .cloud1::after { width: 50px; height: 50px; top: -18px; right: 20px; }
-
     .hills {
-      position: absolute; bottom: 0; left: 0; width: 100%; height: 200px;
+      position: absolute; bottom: 0; left: 0; width: 100%; height: 160px;
       background: linear-gradient(180deg, #70e144 0%, #2e7d32 100%);
       border-radius: 100% 100% 0 0 / 40% 40% 0 0; transform: scaleX(1.4);
     }
 
-    .bg-particles {
-      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-      overflow: hidden; pointer-events: none; z-index: 2;
-    }
-    .particle {
-      position: absolute; color: rgba(255, 255, 255, 0.75);
-      font-size: 2.8rem; font-family: 'Amiri', serif;
-      text-shadow: 0 0 15px rgba(255, 204, 0, 0.9);
-      animation: floatUp 12s linear infinite;
-    }
-    @keyframes floatUp {
-      0% { transform: translateY(110vh) rotate(0deg) scale(0.8); opacity: 0; }
-      15% { opacity: 0.9; } 85% { opacity: 0.9; }
-      100% { transform: translateY(-15vh) rotate(360deg) scale(1.2); opacity: 0; }
-    }
-
+    /* KONTENA UTAMA RESPOMSIF SMARTPHONE */
     #game-container { 
-      width: 100%; max-width: 980px; height: 92vh; max-height: 840px;
-      background: var(--bg-card); backdrop-filter: blur(18px);
-      border: 5px solid var(--gold); border-radius: 36px; 
-      box-shadow: 0 0 60px rgba(255, 204, 0, 0.5), inset 0 0 25px rgba(255, 204, 0, 0.25); 
-      padding: 16px 24px; position: relative; z-index: 10;
-      display: flex; flex-direction: column; justify-content: space-between; 
+      width: 100%; 
+      max-width: 920px; 
+      height: 98dvh; 
+      max-height: 860px;
+      background: var(--bg-card); 
+      backdrop-filter: blur(16px);
+      border: 3.5px solid var(--gold); 
+      border-radius: 28px; 
+      box-shadow: 0 0 40px rgba(255, 204, 0, 0.4), inset 0 0 20px rgba(255, 204, 0, 0.2); 
+      padding: 10px 14px; 
+      position: relative; 
+      z-index: 10;
+      display: flex; 
+      flex-direction: column; 
+      justify-content: space-between; 
       overflow: hidden;
     }
 
-    .top-controls { position: absolute; top: 16px; right: 22px; z-index: 20; }
+    .top-controls { position: absolute; top: 10px; right: 14px; z-index: 25; }
     .btn-audio {
-      background: rgba(0, 242, 254, 0.25); border: 2px solid var(--cyan);
-      color: var(--cyan); padding: 8px 16px; border-radius: 14px;
-      font-size: 0.95rem; font-weight: bold; cursor: pointer; transition: 0.2s;
+      background: rgba(0, 242, 254, 0.2); border: 2px solid var(--cyan);
+      color: var(--cyan); padding: 5px 12px; border-radius: 12px;
+      font-size: 0.82rem; font-weight: bold; cursor: pointer; transition: 0.2s;
     }
-    .btn-audio:hover { background: rgba(0, 242, 254, 0.45); transform: scale(1.05); }
 
     .header { text-align: center; margin-bottom: 2px; position: relative; }
     .game-logo {
-      max-width: 170px; width: 100%; height: auto; display: block; margin: 0 auto;
-      filter: drop-shadow(0 0 25px var(--gold-glow)) drop-shadow(0 8px 20px rgba(0,0,0,0.7));
-      animation: logoFloat 3.5s ease-in-out infinite; cursor: pointer;
+      max-width: 130px; width: 100%; height: auto; display: block; margin: 0 auto;
+      filter: drop-shadow(0 0 18px var(--gold-glow)); cursor: pointer;
     }
-    @keyframes logoFloat { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
 
-    .screen { display: none; flex-direction: column; gap: 12px; width: 100%; height: 100%; overflow-y: auto; padding-right: 4px; }
-    .screen.active { display: flex; animation: fadeIn 0.35s ease-out; }
-    @keyframes fadeIn { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
+    .screen { display: none; flex-direction: column; gap: 8px; width: 100%; height: 100%; overflow-y: auto; padding: 2px 2px 8px 2px; }
+    .screen.active { display: flex; animation: fadeIn 0.25s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: scale(0.98); } to { opacity: 1; transform: scale(1); } }
 
     .btn { 
       background: linear-gradient(180deg, #ffe600 0%, #ff9900 100%); 
-      color: #3d1e00; border: 2px solid #fff; padding: 12px 24px; 
-      font-size: 1.2rem; font-weight: 800; border-radius: 20px; cursor: pointer; 
-      transition: all 0.15s ease; box-shadow: 0 6px 0 var(--gold-dark), 0 8px 18px rgba(0,0,0,0.4); 
-      text-align: center; text-transform: uppercase; letter-spacing: 0.5px;
+      color: #3d1e00; border: 2px solid #fff; padding: 11px 18px; 
+      font-size: 1.05rem; font-weight: 800; border-radius: 18px; cursor: pointer; 
+      transition: all 0.15s ease; box-shadow: 0 5px 0 var(--gold-dark); 
+      text-align: center; text-transform: uppercase;
     }
-    .btn:hover { transform: translateY(-3px); box-shadow: 0 9px 0 var(--gold-dark), 0 12px 22px rgba(0,0,0,0.5); }
-    .btn:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--gold-dark); }
-    .btn-secondary { background: linear-gradient(180deg, #00f2fe 0%, #0099ff 100%); color: #002b4d; box-shadow: 0 6px 0 #0066cc; }
-    .btn-purple { background: linear-gradient(180deg, #b388ff 0%, #7c4dff 100%); color: #fff; box-shadow: 0 6px 0 #512da8; }
-    .btn-danger { background: linear-gradient(180deg, #ff416c 0%, #ff4b2b 100%); color: #fff; box-shadow: 0 6px 0 #b30024; }
+    .btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--gold-dark); }
+    .btn-secondary { background: linear-gradient(180deg, #00f2fe 0%, #0099ff 100%); color: #002b4d; box-shadow: 0 5px 0 #0066cc; }
+    .btn-purple { background: linear-gradient(180deg, #b388ff 0%, #7c4dff 100%); color: #fff; box-shadow: 0 5px 0 #512da8; }
+    .btn-danger { background: linear-gradient(180deg, #ff416c 0%, #ff4b2b 100%); color: #fff; box-shadow: 0 5px 0 #b30024; }
 
+    /* SISTEM NOTIFIKASI TOAST MODEN */
+    #game-toast {
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%) translateY(-100px);
+      background: linear-gradient(135deg, rgba(16, 28, 62, 0.98), rgba(7, 13, 30, 0.98));
+      border: 2px solid var(--gold);
+      border-radius: 20px;
+      padding: 10px 22px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+      font-size: 0.95rem;
+      color: #ffffff;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.6), 0 0 15px var(--gold-glow);
+      z-index: 300;
+      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+      pointer-events: none;
+    }
+    #game-toast.show { transform: translateX(-50%) translateY(0); }
+    #game-toast.toast-success { border-color: var(--green); color: var(--green); }
+    #game-toast.toast-error { border-color: var(--red); color: var(--red); }
+
+    /* AVATAR SELECTION */
     .avatar-studio-container {
-      display: grid; grid-template-columns: 200px 1fr; gap: 16px;
-      background: rgba(0, 0, 0, 0.45); border: 2.5px solid var(--cyan);
-      border-radius: 24px; padding: 14px; align-items: center;
+      display: grid; grid-template-columns: 120px 1fr; gap: 10px;
+      background: rgba(0, 0, 0, 0.45); border: 2px solid var(--cyan);
+      border-radius: 20px; padding: 10px; align-items: center;
     }
     .avatar-2d-preview-box {
-      width: 200px; height: 200px; background: radial-gradient(circle, #1a2b56 0%, #070d1e 100%);
-      border: 3px solid var(--gold); border-radius: 24px; overflow: hidden;
-      box-shadow: 0 0 25px var(--gold-glow); display: flex; align-items: center; justify-content: center;
+      width: 120px; height: 120px; background: radial-gradient(circle, #1a2b56 0%, #070d1e 100%);
+      border: 2.5px solid var(--gold); border-radius: 18px; overflow: hidden;
+      display: flex; align-items: center; justify-content: center;
     }
-    .avatar-2d-preview-box img {
-      width: 100%; height: 100%; object-fit: cover; object-position: top center; transition: transform 0.3s ease; background: #fff;
-    }
+    .avatar-2d-preview-box img { width: 100%; height: 100%; object-fit: cover; object-position: top center; background: #fff; }
 
     .avatar-2d-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(85px, 1fr)); gap: 10px;
-      max-height: 210px; overflow-y: auto; padding-right: 4px;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(65px, 1fr)); gap: 8px;
+      max-height: 140px; overflow-y: auto; padding-right: 2px;
     }
     .avatar-card-item {
-      background: rgba(255,255,255,0.08); border: 2px solid rgba(0,242,254,0.4); border-radius: 16px;
-      padding: 6px; text-align: center; cursor: pointer; transition: 0.2s; display: flex;
-      flex-direction: column; align-items: center; justify-content: center; position: relative;
+      background: rgba(255,255,255,0.08); border: 1.5px solid rgba(0,242,254,0.4); border-radius: 12px;
+      padding: 4px; text-align: center; cursor: pointer; transition: 0.2s;
     }
-    .avatar-card-item img {
-      width: 70px; height: 70px; border-radius: 12px; object-fit: cover; object-position: top center; border: 1.5px solid var(--cyan); background: #fff;
-    }
-    .avatar-card-item:hover, .avatar-card-item.selected {
-      border-color: var(--gold); background: rgba(255, 204, 0, 0.25); transform: translateY(-3px);
-      box-shadow: 0 0 15px var(--gold-glow);
-    }
+    .avatar-card-item img { width: 55px; height: 55px; border-radius: 10px; object-fit: cover; object-position: top center; background: #fff; }
+    .avatar-card-item.selected { border-color: var(--gold); background: rgba(255, 204, 0, 0.25); }
 
-    .profiles-grid { display: flex; gap: 10px; overflow-x: auto; padding: 6px 2px; }
+    .profiles-grid { display: flex; gap: 8px; overflow-x: auto; padding: 4px 2px; }
     .profile-card {
-      background: rgba(255,255,255,0.08); border: 2px solid var(--cyan); border-radius: 16px;
-      padding: 8px 14px; min-width: 120px; text-align: center; cursor: pointer; transition: 0.2s;
-      display: flex; align-items: center; gap: 8px; position: relative;
+      background: rgba(255,255,255,0.08); border: 2px solid var(--cyan); border-radius: 14px;
+      padding: 6px 10px; min-width: 105px; text-align: center; cursor: pointer;
+      display: flex; align-items: center; gap: 6px; position: relative;
     }
-    .profile-card img { width: 35px; height: 35px; border-radius: 10px; object-fit: cover; object-position: top center; border: 1px solid var(--gold); background: #fff; }
-    .profile-card:hover, .profile-card.active-profile {
-      border-color: var(--gold); background: rgba(255, 204, 0, 0.25); transform: translateY(-3px);
-    }
+    .profile-card img { width: 32px; height: 32px; border-radius: 8px; object-fit: cover; object-position: top center; background: #fff; }
+    .profile-card.active-profile { border-color: var(--gold); background: rgba(255, 204, 0, 0.25); }
     .delete-profile-btn {
-      position: absolute; top: -6px; right: -6px; background: var(--red); color: white;
-      border: none; border-radius: 50%; width: 22px; height: 22px; font-size: 0.75rem;
+      position: absolute; top: -5px; right: -5px; background: var(--red); color: white;
+      border: none; border-radius: 50%; width: 18px; height: 18px; font-size: 0.7rem;
       font-weight: bold; cursor: pointer; display: flex; justify-content: center; align-items: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.5); z-index: 5;
     }
 
-    .form-group { display: flex; flex-direction: column; gap: 4px; }
-    label { color: var(--gold); font-weight: bold; font-size: 1.05rem; }
+    .form-group { display: flex; flex-direction: column; gap: 3px; }
+    label { color: var(--gold); font-weight: bold; font-size: 0.95rem; }
     input, select { 
-      padding: 10px 16px; border-radius: 14px; border: 2.5px solid var(--cyan); 
-      background: rgba(7, 13, 30, 0.95); color: #fff; font-size: 1.05rem; outline: none; 
+      padding: 9px 14px; border-radius: 12px; border: 2px solid var(--cyan); 
+      background: rgba(7, 13, 30, 0.95); color: #fff; font-size: 0.95rem; outline: none; 
     }
 
     .dashboard-bar { 
       display: flex; justify-content: space-between; align-items: center; 
-      background: linear-gradient(90deg, rgba(255,204,0,0.2) 0%, rgba(0,242,254,0.2) 100%); 
-      padding: 8px 16px; border-radius: 18px; border: 2px solid var(--gold); 
+      background: linear-gradient(90deg, rgba(255,204,0,0.18) 0%, rgba(0,242,254,0.18) 100%); 
+      padding: 6px 12px; border-radius: 14px; border: 1.5px solid var(--gold); 
     }
-    .stat-box { font-weight: 800; color: var(--gold); font-size: 1.1rem; display: flex; align-items: center; gap: 8px; }
+    .stat-box { font-weight: 800; color: var(--gold); font-size: 0.92rem; display: flex; align-items: center; gap: 6px; }
 
     .btn-game-nav {
-      background: rgba(255, 255, 255, 0.15); border: 2px solid var(--gold);
-      color: var(--gold); padding: 5px 10px; border-radius: 10px;
-      font-size: 0.85rem; font-weight: bold; cursor: pointer; transition: 0.2s;
+      background: rgba(255, 255, 255, 0.15); border: 1.5px solid var(--gold);
+      color: var(--gold); padding: 4px 8px; border-radius: 8px;
+      font-size: 0.8rem; font-weight: bold; cursor: pointer;
     }
-    .btn-game-nav:hover { background: var(--gold); color: #000; }
     .btn-game-nav-danger { border-color: var(--red); color: var(--red); }
-    .btn-game-nav-danger:hover { background: var(--red); color: #fff; }
 
     .quiz-card { 
-      background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%); 
-      padding: 12px 18px; border-radius: 24px; text-align: center; border: 3px solid var(--cyan); 
-      display: flex; flex-direction: column; align-items: center; gap: 6px; position: relative;
-      max-height: 76vh; overflow-y: auto;
+      background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.01) 100%); 
+      padding: 10px 12px; border-radius: 20px; text-align: center; border: 2px solid var(--cyan); 
+      display: flex; flex-direction: column; align-items: center; gap: 4px;
+      flex: 1; overflow-y: auto;
     }
 
-    /* KOTAK GAMBAR BESAR & JELAS */
+    /* KOTAK GAMBAR KUASAI TELEFON */
     .quiz-image-container {
       width: 100%; 
-      max-width: 520px; 
-      height: 270px; 
-      border-radius: 22px;
+      max-width: 360px; 
+      height: clamp(120px, 22dvh, 200px); 
+      border-radius: 16px;
       overflow: hidden; 
-      border: 3.5px solid var(--gold); 
-      box-shadow: 0 10px 30px rgba(0,0,0,0.5), inset 0 0 15px rgba(255,204,0,0.15);
+      border: 2.5px solid var(--gold); 
       background: #ffffff; 
       display: flex; 
       justify-content: center; 
       align-items: center; 
-      margin: 4px auto 8px auto; 
-      position: relative;
+      margin: 2px auto; 
     }
     .quiz-image { 
-      max-width: 100%; 
-      max-height: 100%; 
-      width: auto;
-      height: 96%;
+      max-width: 95%; 
+      max-height: 95%; 
       object-fit: contain; 
-      padding: 4px; 
-      filter: drop-shadow(0 4px 12px rgba(0,0,0,0.12));
-      image-rendering: -webkit-optimize-contrast;
-      transform: scale(1.08);
     }
 
     .hint-badge {
-      background: rgba(0, 242, 254, 0.2); border: 2px solid var(--cyan);
-      color: var(--cyan); padding: 8px 18px; border-radius: 14px;
-      font-size: 1.15rem; font-weight: bold; text-align: center; margin: 2px auto;
+      background: rgba(0, 242, 254, 0.2); border: 1.5px solid var(--cyan);
+      color: var(--cyan); padding: 4px 12px; border-radius: 10px;
+      font-size: 0.95rem; font-weight: bold; margin: 2px auto;
     }
 
     .question-prompt-text {
-      font-size: 2.3rem; color: var(--gold); font-weight: 800; 
-      text-shadow: 0 0 15px var(--gold-glow); margin: 4px 0; width: 100%; text-align: center;
+      font-size: clamp(1.4rem, 4.5vw, 2rem); color: var(--gold); font-weight: 800; 
+      margin: 2px 0; width: 100%; text-align: center;
     }
-    .prompt-arabic { font-family: 'Amiri', serif; direction: rtl; font-size: 2.5rem; }
-    .prompt-malay { font-family: var(--font-game); direction: ltr; font-size: 2.2rem; }
+    .prompt-arabic { font-family: 'Amiri', serif; direction: rtl; font-size: clamp(1.8rem, 6vw, 2.4rem); }
+    .prompt-malay { font-family: var(--font-game); direction: ltr; }
 
-    /* ANIMASI DAN KESAN MERAH SEMASA SALAH (SEMUA MOD) */
-    @keyframes shakeError {
-      0%, 100% { transform: translateX(0); }
-      20%, 60% { transform: translateX(-10px); }
-      40%, 80% { transform: translateX(10px); }
-    }
-    .shake-error {
-      animation: shakeError 0.45s ease-in-out !important;
-      border-color: var(--red) !important;
-      background: rgba(255, 51, 102, 0.35) !important;
-      box-shadow: 0 0 20px rgba(255, 51, 102, 0.7) !important;
-      color: #ffffff !important;
-    }
-    .matching-card.img-card.shake-error {
-      border-color: var(--red) !important;
-      background: #ffe6ec !important;
-      box-shadow: 0 0 22px rgba(255, 51, 102, 0.7) !important;
-    }
-    .drop-zone.shake-error {
-      border-color: var(--red) !important;
-      background: rgba(255, 51, 102, 0.3) !important;
-      box-shadow: 0 0 22px rgba(255, 51, 102, 0.7) !important;
-      color: var(--red) !important;
-    }
-    .option-btn.shake-error {
-      border-color: var(--red) !important;
-      background: rgba(255, 51, 102, 0.45) !important;
-      box-shadow: 0 0 22px rgba(255, 51, 102, 0.7) !important;
-      color: #ffffff !important;
-    }
-
-    .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; width: 100%; margin: 0 auto; }
+    .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; width: 100%; margin: 2px auto; }
     .option-btn { 
-      background: rgba(255,255,255,0.08); border: 3px solid var(--gold); color: var(--gold); 
-      padding: 12px; border-radius: 16px; font-size: 1.8rem; font-weight: 700; cursor: pointer; 
-      transition: all 0.2s ease; box-shadow: 0 4px 0 var(--gold-dark);
+      background: rgba(255,255,255,0.08); border: 2.5px solid var(--gold); color: var(--gold); 
+      padding: 8px; border-radius: 14px; font-size: clamp(1.3rem, 4.5vw, 1.7rem); font-weight: 700; cursor: pointer; 
       font-family: 'Amiri', serif; direction: rtl; text-align: center;
     }
-    .option-btn:hover { background: rgba(255, 204, 0, 0.3); transform: translateY(-2px); }
-    .option-btn.correct { background: var(--green) !important; color: #003311 !important; border-color: #fff !important; box-shadow: 0 0 25px var(--green) !important; }
+    .option-btn.correct { background: var(--green) !important; color: #003311 !important; border-color: #fff !important; }
 
-    .drop-zone-container { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; margin: 8px auto; }
+    /* DRAG & DROP MESRA TELEFON (TOUCH + TAP-TO-PLACE) */
+    .drop-zone-container { display: flex; flex-direction: column; align-items: center; width: 100%; margin: 4px auto; }
     .drop-zone { 
-      width: 100%; max-width: 480px; min-height: 80px; border: 3px dashed var(--gold); 
-      border-radius: 18px; display: flex; align-items: center; justify-content: center; 
-      background: rgba(0,0,0,0.4); font-size: 2.2rem; color: var(--cyan); 
-      font-weight: bold; transition: all 0.2s ease; margin: 0 auto; padding: 6px 14px;
-      font-family: 'Amiri', serif; direction: rtl;
+      width: 100%; max-width: 440px; min-height: 65px; border: 2.5px dashed var(--gold); 
+      border-radius: 16px; display: flex; align-items: center; justify-content: center; 
+      background: rgba(0,0,0,0.45); font-size: clamp(1.5rem, 5vw, 2.1rem); color: var(--cyan); 
+      font-weight: bold; margin: 0 auto; padding: 6px 10px;
+      font-family: 'Amiri', serif; direction: rtl; text-align: center;
+      transition: all 0.2s;
     }
-    .drop-zone.drag-over { border-color: var(--green); background: rgba(0, 230, 118, 0.25); transform: scale(1.04); }
+    .drop-zone.drag-over, .drop-zone.tap-highlight { border-color: var(--green); background: rgba(0, 230, 118, 0.25); transform: scale(1.02); }
     .drop-zone.correct { background: var(--green) !important; color: #003311 !important; border-color: #fff !important; }
 
-    .drag-items { display: flex; justify-content: center; align-items: center; gap: 14px; flex-wrap: wrap; width: 100%; margin: 10px auto 0 auto; }
+    .drag-items { display: flex; justify-content: center; align-items: center; gap: 8px; flex-wrap: wrap; width: 100%; margin-top: 6px; }
     .drag-item { 
-      background: var(--gold); color: #3d1e00; font-weight: 800; padding: 10px 24px; 
-      border-radius: 16px; cursor: grab; font-size: 1.7rem; box-shadow: 0 5px 0 var(--gold-dark);
-      transition: transform 0.15s ease; font-family: 'Amiri', serif; direction: rtl;
+      background: var(--gold); color: #3d1e00; font-weight: 800; padding: 7px 18px; 
+      border-radius: 14px; cursor: pointer; font-size: clamp(1.3rem, 4.2vw, 1.6rem); box-shadow: 0 4px 0 var(--gold-dark);
+      font-family: 'Amiri', serif; direction: rtl; touch-action: none;
+      transition: transform 0.15s, background-color 0.15s;
     }
-    .drag-item:active { cursor: grabbing; transform: scale(1.1); }
+    .drag-item.touching { transform: scale(1.1); box-shadow: 0 8px 20px rgba(0,0,0,0.5); opacity: 0.9; }
 
-    .matching-wrapper { position: relative; width: 100%; min-height: 380px; max-height: 500px; overflow-y: auto; margin-top: 5px; padding: 5px; }
+    /* PADANAN GARISAN (TOUCH-FRIENDLY) */
+    .matching-wrapper { position: relative; width: 100%; height: 320px; overflow: hidden; margin-top: 4px; touch-action: none; }
     #matching-canvas { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 10; }
-    
-    .matching-container { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; width: 100%; position: relative; z-index: 2; }
-    .matching-col { display: flex; flex-direction: column; gap: 14px; justify-content: center; }
-
+    .matching-container { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; width: 100%; height: 100%; position: relative; z-index: 2; }
+    .matching-col { display: flex; flex-direction: column; gap: 8px; justify-content: space-around; }
     .matching-card {
-      min-height: 105px; border: 3px solid var(--gold); border-radius: 18px;
+      height: 90px; border: 2.5px solid var(--gold); border-radius: 14px;
       background: rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: center;
-      cursor: pointer; transition: 0.2s; position: relative; padding: 8px; touch-action: none;
+      cursor: pointer; padding: 4px; touch-action: none;
     }
-    .matching-card.arabic-card { font-size: 2.2rem; color: var(--gold); font-family: 'Amiri', serif; direction: rtl; }
+    .matching-card.arabic-card { font-size: clamp(1.4rem, 4.5vw, 1.8rem); color: var(--gold); font-family: 'Amiri', serif; direction: rtl; }
     .matching-card.img-card { background: #ffffff; }
-    .matching-card.img-card img { height: 90px; max-height: 95px; width: auto; max-width: 90%; object-fit: contain; pointer-events: none; transform: scale(1.08); }
-    
-    .matching-card.selected { border-color: var(--cyan); box-shadow: 0 0 20px var(--cyan); transform: scale(1.02); }
-    .matching-card.matched { border-color: var(--green) !important; background: rgba(0, 230, 118, 0.25) !important; opacity: 0.85; pointer-events: none; }
+    .matching-card.img-card img { height: 75px; max-width: 90%; object-fit: contain; pointer-events: none; }
+    .matching-card.selected { border-color: var(--cyan); box-shadow: 0 0 15px var(--cyan); }
+    .matching-card.matched { border-color: var(--green) !important; background: rgba(0, 230, 118, 0.25) !important; opacity: 0.8; pointer-events: none; }
 
-    /* -------------------------------------
-       GAYA ANIMASI 3D FLASHCARD RINGKAS & TEPAT
-       ------------------------------------- */
+    /* KAD IMBASAN KOMPAK PADA TELEFON */
     .flashcard-wrapper {
-      perspective: 1200px;
+      perspective: 1000px;
       width: 100%;
-      max-width: 580px;
-      height: 410px;
-      margin: 4px auto 8px auto;
+      max-width: 480px;
+      height: clamp(230px, 42dvh, 320px);
+      margin: 2px auto 6px auto;
       cursor: pointer;
     }
     .flashcard-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      transition: transform 0.65s cubic-bezier(0.34, 1.56, 0.64, 1);
-      transform-style: preserve-3d;
-      border-radius: 28px;
+      position: relative; width: 100%; height: 100%; text-align: center;
+      transition: transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1);
+      transform-style: preserve-3d; border-radius: 20px;
     }
-    .flashcard-inner.flipped {
-      transform: rotateY(180deg);
-    }
+    .flashcard-inner.flipped { transform: rotateY(180deg); }
     .flashcard-front, .flashcard-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-      border-radius: 28px;
-      border: 4px solid var(--gold);
-      box-shadow: 0 12px 35px rgba(0,0,0,0.6), inset 0 0 20px rgba(255, 204, 0, 0.2);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px 24px;
+      position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
+      border-radius: 20px; border: 3px solid var(--gold);
+      display: flex; flex-direction: column; align-items: center; justify-content: space-between;
+      padding: 12px 14px;
       background: linear-gradient(145deg, rgba(16, 28, 62, 0.98) 0%, rgba(7, 13, 30, 0.98) 100%);
     }
-    .flashcard-back {
-      transform: rotateY(180deg);
-      border-color: var(--cyan);
-      box-shadow: 0 12px 35px rgba(0, 0, 254, 0.6), inset 0 0 20px rgba(0, 242, 254, 0.2);
-    }
-
+    .flashcard-back { transform: rotateY(180deg); border-color: var(--cyan); }
     .flashcard-img-box {
-      width: 100%;
-      max-width: 440px;
-      height: 220px;
-      background: #ffffff;
-      border-radius: 20px;
-      border: 3px solid var(--gold);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      width: 100%; max-width: 300px; height: clamp(100px, 18dvh, 150px);
+      background: #ffffff; border-radius: 14px; border: 2px solid var(--gold);
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
     }
-    .flashcard-img-box img {
-      max-width: 95%;
-      max-height: 95%;
-      object-fit: contain;
-    }
+    .flashcard-img-box img { max-width: 90%; max-height: 90%; object-fit: contain; }
+    .flashcard-arabic { font-family: 'Amiri', serif; direction: rtl; font-size: clamp(2.3rem, 7vw, 3.2rem); color: var(--gold); margin: auto 0; }
+    .flashcard-malay { font-size: clamp(1.8rem, 6vw, 2.5rem); color: var(--cyan); font-weight: 800; margin: auto 0; }
 
-    .flashcard-arabic {
-      font-family: 'Amiri', serif;
-      direction: rtl;
-      font-size: 3.5rem;
-      color: var(--gold);
-      text-shadow: 0 0 20px var(--gold-glow);
-      line-height: 1.2;
-      margin: auto 0;
-    }
-    .flashcard-malay {
-      font-size: 2.8rem;
-      color: var(--cyan);
-      font-weight: 800;
-      text-shadow: 0 0 15px rgba(0, 242, 254, 0.5);
-      margin: auto 0;
-    }
-
-    .flash-ctrls {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 14px;
-      width: 100%;
-      flex-wrap: wrap;
-    }
+    .flash-ctrls { display: flex; justify-content: center; align-items: center; gap: 8px; width: 100%; }
     .btn-flash {
-      background: rgba(255, 255, 255, 0.1);
-      border: 2px solid var(--gold);
-      color: var(--gold);
-      padding: 10px 24px;
-      border-radius: 14px;
-      font-size: 1.1rem;
-      font-weight: bold;
-      cursor: pointer;
-      transition: 0.2s;
-    }
-    .btn-flash:hover {
-      background: var(--gold);
-      color: #000;
-      transform: translateY(-2px);
+      background: rgba(255, 255, 255, 0.1); border: 2px solid var(--gold); color: var(--gold);
+      padding: 8px 16px; border-radius: 12px; font-size: 0.95rem; font-weight: bold; cursor: pointer;
     }
 
+    /* MODAL POPUP */
     .modal-overlay {
       position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-      background: rgba(4, 8, 20, 0.92); backdrop-filter: blur(14px);
-      display: none; justify-content: center; align-items: center; z-index: 200; border-radius: 32px;
+      background: rgba(4, 8, 20, 0.92); backdrop-filter: blur(10px);
+      display: none; justify-content: center; align-items: center; z-index: 200; border-radius: 24px;
     }
     .modal-card {
-      background: var(--bg-card); border: 4px solid var(--gold); border-radius: 28px;
-      padding: 24px 28px; text-align: center; width: 90%; max-width: 420px;
-      box-shadow: 0 0 50px var(--gold-glow); animation: popModal 0.25s ease-out;
+      background: var(--bg-card); border: 3px solid var(--gold); border-radius: 22px;
+      padding: 18px 20px; text-align: center; width: 90%; max-width: 380px;
     }
-    @keyframes popModal { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 
-    .table-container { max-height: 280px; overflow-y: auto; border: 2px solid var(--gold); border-radius: 16px; }
+    .table-container { max-height: 240px; overflow-y: auto; border: 2px solid var(--gold); border-radius: 14px; }
     table { width: 100%; border-collapse: collapse; text-align: left; }
-    th, td { padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 1rem; }
+    th, td { padding: 8px 12px; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 0.9rem; }
     th { background: var(--gold); color: #3d1e00; font-weight: 800; }
 
     canvas#fireworks { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 150; }
@@ -461,58 +350,57 @@
 
 <div class="cartoon-world">
   <div class="sun"></div>
-  <div class="cloud cloud1"></div>
   <div class="hills"></div>
 </div>
 
 <video autoplay muted loop playsinline id="bg-video">
   <source src="bg.mp4" type="video/mp4">
-  <source src="26796-359604154.mp4" type="video/mp4">
-  <source src="18522098-hd_1920_1080_30fps.mp4" type="video/mp4">
 </video>
 
-<div class="bg-particles">
-  <div class="particle" style="left: 10%; animation-delay: 0s;">أ</div>
-  <div class="particle" style="left: 30%; animation-delay: 3s;">ب</div>
-  <div class="particle" style="left: 60%; animation-delay: 1.5s;">ت</div>
-  <div class="particle" style="left: 85%; animation-delay: 4.5s;">ث</div>
-</div>
-
 <div id="game-container">
+  <!-- TOAST GAMIFIED MODEN -->
+  <div id="game-toast">
+    <span id="toast-icon">✨</span>
+    <span id="toast-text">Pemberitahuan</span>
+  </div>
+
   <div class="top-controls">
     <button class="btn-audio" id="bgm-toggle-btn" onclick="toggleBGM()">🔊 BGM: ON</button>
   </div>
 
   <canvas id="fireworks"></canvas>  
 
+  <!-- MODAL PENGESAHAN -->
   <div id="confirm-modal" class="modal-overlay">
     <div class="modal-card">
-      <h2 id="confirm-title" style="color: var(--gold); font-size: 1.8rem; margin-bottom: 12px;">Mula Semula?</h2>
-      <p id="confirm-desc" style="font-size: 1.15rem; color: #fff; margin-bottom: 20px;">Adakah anda pasti mahu mula semula sesi permainan ini?</p>
-      <div style="display: flex; justify-content: center; gap: 14px;">
-        <button class="btn" id="confirm-yes-btn">Ya, Teruskan</button>
+      <h2 id="confirm-title" style="color: var(--gold); font-size: 1.5rem; margin-bottom: 8px;">Mula Semula?</h2>
+      <p id="confirm-desc" style="font-size: 1rem; color: #fff; margin-bottom: 16px;">Adakah anda pasti?</p>
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <button class="btn" id="confirm-yes-btn">Ya</button>
         <button class="btn btn-danger" onclick="closeConfirmModal()">Batal</button>
       </div>
     </div>
   </div>
 
+  <!-- MODAL TAMAT SESI -->
   <div id="game-modal" class="modal-overlay">
     <div class="modal-card">
-      <div id="modal-stars" style="font-size: 2.8rem; margin-bottom: 8px;">⭐ ⭐ ⭐</div>
-      <h2 id="modal-title" style="color: var(--gold); font-size: 1.8rem; margin-bottom: 8px;">Masa Tamat!</h2>
-      <p id="modal-desc" style="font-size: 1.15rem; color: var(--cyan); margin-bottom: 18px;">Markah XP Sesi Ini: 0</p>
+      <div id="modal-stars" style="font-size: 2.4rem; margin-bottom: 6px;">⭐ ⭐ ⭐</div>
+      <h2 id="modal-title" style="color: var(--gold); font-size: 1.6rem; margin-bottom: 6px;">Masa Tamat!</h2>
+      <p id="modal-desc" style="font-size: 1.1rem; color: var(--cyan); margin-bottom: 16px;">Markah XP: 0</p>
       <button class="btn" onclick="closeModalAndReturn()">🎮 Teruskan ke Menu</button>
     </div>
   </div>
 
+  <!-- ADMIN PIN MODAL -->
   <div id="admin-pin-modal" class="modal-overlay">
     <div class="modal-card">
-      <h2 style="color: var(--gold); font-size: 1.8rem; margin-bottom: 8px;">🔐 Akses Pentadbir</h2>
-      <p style="color: #fff; font-size: 1rem; margin-bottom: 12px;">Masukkan PIN Keselamatan Admin:</p>
-      <input type="password" id="admin-pin-input" placeholder="****" maxlength="8" style="text-align: center; font-size: 1.6rem; letter-spacing: 5px; width: 170px; margin: 0 auto 12px auto;">
-      <div id="pin-error-msg" style="color: var(--red); font-weight: bold; font-size: 0.95rem; height: 20px;"></div>
-      <div style="display: flex; justify-content: center; gap: 10px; margin-top: 8px;">
-        <button class="btn" onclick="verifyAdminPin()">Masuk Admin</button>
+      <h2 style="color: var(--gold); font-size: 1.5rem; margin-bottom: 6px;">🔐 Akses Pentadbir</h2>
+      <p style="color: #fff; font-size: 0.9rem; margin-bottom: 10px;">Masukkan PIN Admin:</p>
+      <input type="password" id="admin-pin-input" placeholder="****" maxlength="8" style="text-align: center; font-size: 1.5rem; letter-spacing: 4px; width: 140px; margin: 0 auto 10px auto;">
+      <div id="pin-error-msg" style="color: var(--red); font-weight: bold; font-size: 0.85rem; height: 18px;"></div>
+      <div style="display: flex; justify-content: center; gap: 8px; margin-top: 6px;">
+        <button class="btn" onclick="verifyAdminPin()">Masuk</button>
         <button class="btn btn-danger" onclick="closeAdminPinModal()">Batal</button>
       </div>
     </div>
@@ -524,11 +412,11 @@
 
   <!-- SCREEN 1: LOGIN -->
   <div id="screen-login" class="screen active">
-    <h2 style="color: var(--gold); text-align: center; font-size: 1.35rem;">Pilih Karakter Anda</h2>
+    <h2 style="color: var(--gold); text-align: center; font-size: 1.15rem;">Pilih Karakter Anda</h2>
     
     <div class="avatar-studio-container">
       <div class="avatar-2d-preview-box">
-        <img id="avatar-2d-large-preview" src="images/default.png" alt="Avatar Preview" onerror="this.onerror=null; this.src='images/default.png';">
+        <img id="avatar-2d-large-preview" src="images/default.png" alt="Avatar" onerror="this.onerror=null; this.src='images/default.png';">
       </div>
       <div>
         <div class="avatar-2d-grid" id="avatar-2d-selection-grid"></div>
@@ -542,7 +430,7 @@
 
     <div class="form-group">
       <label for="username-input">Nama Pemain Baru:</label>
-      <input type="text" id="username-input" placeholder="Masukkan nama anda...">
+      <input type="text" id="username-input" placeholder="Masukkan nama...">
     </div>
     
     <button class="btn" onclick="loginUser()">🎮 Masuk Permainan</button>
@@ -552,7 +440,7 @@
   <div id="screen-menu" class="screen">
     <div class="dashboard-bar">
       <div class="stat-box">
-        <img id="display-avatar-2d-mini" src="images/default.png" style="width: 45px; height: 45px; border-radius: 12px; object-fit: cover; object-position: top center; border: 2px solid var(--gold);" onerror="this.onerror=null; this.src='images/default.png';">
+        <img id="display-avatar-2d-mini" src="images/default.png" style="width: 36px; height: 36px; border-radius: 10px; object-fit: cover; object-position: top center; border: 1.5px solid var(--gold);" onerror="this.onerror=null; this.src='images/default.png';">
         <span id="display-username">-</span>
       </div>
       <div class="stat-box">⭐ XP: <span id="display-total-score">0</span></div>
@@ -565,50 +453,50 @@
 
   <!-- SCREEN 3: KAD IMBASAN (FLASHCARDS) -->
   <div id="screen-flashcards" class="screen">
-    <div class="dashboard-bar">
-      <button class="btn-game-nav" onclick="showScreen('screen-menu')">⬅️ Kembali ke Menu</button>
-      <div class="stat-box" style="font-size: 1.05rem;">
-        <select id="flash-category-select" style="padding: 4px 10px; font-size: 0.95rem; border-radius: 10px;" onchange="onFlashCategoryChange()"></select>
+    <div class="dashboard-bar" style="gap: 6px;">
+      <button class="btn-game-nav" onclick="showScreen('screen-menu')">⬅️ Menu</button>
+      <div style="flex: 1; text-align: center;">
+        <select id="flash-category-select" style="padding: 4px 6px; font-size: 0.85rem; border-radius: 8px; width: 100%;" onchange="onFlashCategoryChange()"></select>
       </div>
-      <div class="stat-box" style="font-size: 1rem;">
-        🔢 <span id="flash-index-display">1 / 1</span>
+      <div class="stat-box" style="font-size: 0.85rem;">
+        🔢 <span id="flash-index-display">1/1</span>
       </div>
     </div>
 
-    <!-- 3D FLIP FLASHCARD (HANYA ARAB & BM) -->
+    <!-- 3D FLIP FLASHCARD -->
     <div class="flashcard-wrapper" onclick="toggleFlipFlashcard()">
       <div class="flashcard-inner" id="flashcard-card-inner">
-        <!-- MUKA DEPAN (BAHASA ARAB) -->
+        <!-- MUKA DEPAN (ARAB) -->
         <div class="flashcard-front">
-          <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
-            <span id="flash-front-cat" style="background: rgba(255,204,0,0.2); color: var(--gold); padding: 4px 14px; border-radius: 10px; font-size: 0.95rem; font-weight: bold;">Tajuk</span>
-            <span style="color: #a0aec0; font-size: 0.85rem;">Muka Depan</span>
+          <div style="display: flex; justify-content: space-between; width: 100%;">
+            <span id="flash-front-cat" style="background: rgba(255,204,0,0.2); color: var(--gold); padding: 3px 10px; border-radius: 8px; font-size: 0.8rem; font-weight: bold;">Tajuk</span>
+            <span style="color: #a0aec0; font-size: 0.75rem;">Muka Depan</span>
           </div>
 
           <div id="flash-media-box" style="width: 100%; display: flex; justify-content: center;"></div>
 
           <div class="flashcard-arabic" id="flash-arabic-text">أَسَدٌ</div>
-          <div style="font-size: 0.9rem; color: #a0aec0;">👉 Klik kad untuk lihat Bahasa Melayu (Flip)</div>
+          <div style="font-size: 0.8rem; color: #a0aec0;">👉 Sentuh kad untuk lihat Bahasa Melayu</div>
         </div>
 
-        <!-- MUKA BELAKANG (BAHASA MELAYU SAHAJA) -->
+        <!-- MUKA BELAKANG (MELAYU) -->
         <div class="flashcard-back">
-          <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
-            <span id="flash-back-cat" style="background: rgba(0,242,254,0.2); color: var(--cyan); padding: 4px 14px; border-radius: 10px; font-size: 0.95rem; font-weight: bold;">Tajuk</span>
-            <span id="flash-id-tag" style="color: #a0aec0; font-size: 0.85rem;">ID</span>
+          <div style="display: flex; justify-content: space-between; width: 100%;">
+            <span id="flash-back-cat" style="background: rgba(0,242,254,0.2); color: var(--cyan); padding: 3px 10px; border-radius: 8px; font-size: 0.8rem; font-weight: bold;">Tajuk</span>
+            <span id="flash-id-tag" style="color: #a0aec0; font-size: 0.75rem;">ID</span>
           </div>
 
-          <div style="display: flex; flex-direction: column; gap: 12px; align-items: center; justify-content: center; flex: 1;">
-            <div style="color: #a0aec0; font-size: 1.1rem; text-transform: uppercase; font-weight: bold; letter-spacing: 1px;">Maksud Bahasa Melayu:</div>
+          <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 1;">
+            <div style="color: #a0aec0; font-size: 0.9rem; text-transform: uppercase;">Maksud Melayu:</div>
             <div class="flashcard-malay" id="flash-malay-text">Singa</div>
           </div>
 
-          <div style="font-size: 0.9rem; color: #a0aec0;">👉 Klik untuk kembali ke Bahasa Arab</div>
+          <div style="font-size: 0.8rem; color: #a0aec0;">👉 Sentuh untuk kembali ke Bahasa Arab</div>
         </div>
       </div>
     </div>
 
-    <!-- KAWALAN FLASHCARD (TANPA BUTANG SEBUTAN) -->
+    <!-- KAWALAN FLASHCARD -->
     <div class="flash-ctrls">
       <button class="btn-flash" onclick="prevFlashcard()">⏮️ Sebelum</button>
       <button class="btn-flash" onclick="shuffleFlashcards()">🎲 Rawak</button>
@@ -618,7 +506,7 @@
 
   <!-- SCREEN 4: SETUP PERMAINAN -->
   <div id="screen-setup" class="screen">
-    <h2 style="color: var(--gold); text-align: center;">Pilih Mod & Kategori</h2>
+    <h2 style="color: var(--gold); text-align: center; font-size: 1.2rem;">Pilih Mod & Kategori</h2>
     
     <div class="form-group">
       <label>1. Kategori Mufradat:</label>
@@ -631,7 +519,7 @@
         <option value="mcq">Soalan objektif (pilihan jawapan)</option>
         <option value="matching">Padankan gambar dan perkataan</option>
         <option value="blank">Isi tempat kosong dengan jawapan</option>
-        <option value="dragdrop">Drag & Drop</option>
+        <option value="dragdrop">Drag & Drop (Tarik / Sentuh)</option>
       </select>
     </div>
 
@@ -652,15 +540,15 @@
   <div id="screen-gameplay" class="screen">
     <div class="dashboard-bar">
       <div class="stat-box">🎯 Markah: <span id="game-score">0</span></div>
-      <div class="stat-box">⏱️ Masa: <span id="game-timer">--</span></div>
-      <div style="display: flex; gap: 8px;">
+      <div class="stat-box">⏱️ <span id="game-timer">--</span></div>
+      <div style="display: flex; gap: 6px;">
         <button class="btn-game-nav" onclick="triggerReplayConfirm()" title="Mula Semula">🔁 Replay</button>
-        <button class="btn-game-nav btn-game-nav-danger" onclick="triggerQuitConfirm()" title="Kembali ke Menu">⬅️ Keluar</button>
+        <button class="btn-game-nav btn-game-nav-danger" onclick="triggerQuitConfirm()" title="Keluar">⬅️ Keluar</button>
       </div>
     </div>
 
     <div class="quiz-card">
-      <div id="quiz-instruction" style="font-weight: bold; color: var(--cyan); font-size: 1.15rem;">Pilih mufradat Bahasa Arab yang betul:</div>
+      <div id="quiz-instruction" style="font-weight: bold; color: var(--cyan); font-size: 0.95rem;">Pilih perkataan Bahasa Arab:</div>
       
       <div class="quiz-image-container" id="quiz-img-box">
         <img id="quiz-image" src="" alt="Soalan" class="quiz-image">
@@ -668,7 +556,7 @@
 
       <div id="quiz-hint-box" class="hint-badge" style="display:none;"></div>
       <div class="question-prompt-text prompt-malay" id="quiz-prompt-text">Singa</div>
-      <div id="feedback-msg" style="height: 22px; font-weight: bold; font-size: 1.1rem; margin-bottom: 4px;"></div>
+      <div id="feedback-msg" style="height: 18px; font-weight: bold; font-size: 0.95rem;"></div>
       
       <div id="gameplay-area" style="width: 100%;"></div>
     </div>
@@ -676,7 +564,7 @@
 
   <!-- SCREEN 6: LEADERBOARD -->
   <div id="screen-leaderboard" class="screen">
-    <h2 style="color: var(--gold); text-align: center;">🏆 Papan Pendahulu Az-Zaki</h2>
+    <h2 style="color: var(--gold); text-align: center; font-size: 1.2rem;">🏆 Papan Pendahulu Az-Zaki</h2>
     <div class="table-container">
       <table>
         <thead>
@@ -690,6 +578,27 @@
 </div>
 
 <script>
+  // SISTEM TOAST MESRA KANAK-KANAK (TIADA LAGI ALERT LAPUK)
+  let toastTimer = null;
+  function showModernToast(msg, type = 'info', icon = '✨') {
+    const toast = document.getElementById('game-toast');
+    const toastText = document.getElementById('toast-text');
+    const toastIcon = document.getElementById('toast-icon');
+
+    toast.className = '';
+    if (type === 'success') toast.classList.add('toast-success');
+    if (type === 'error') toast.classList.add('toast-error');
+
+    toastText.innerText = msg;
+    toastIcon.innerText = icon;
+    toast.classList.add('show');
+
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+      toast.classList.remove('show');
+    }, 2400);
+  }
+
   // FIREBASE INITIALIZATION
   const firebaseConfig = {
     apiKey: "AIzaSyAIdJbwY3zEy8GGwSaU2Gv30uskiH1koj4",
@@ -717,7 +626,7 @@
   ];
 
   let DATA = (typeof AZ_ZAKI_DATA !== 'undefined') ? AZ_ZAKI_DATA : [];
-  let GAME_SETTINGS = { mcqOptions: "4", mcqDisplay: "img_text", matchCards: "3", matchColor: "#00e676", blankFormat: "sentence_img", blankHint: "true", dragCount: "3", dragSens: "normal", scoreCorrect: 10, defaultTimer: 60 };
+  let GAME_SETTINGS = { mcqOptions: "4", mcqDisplay: "img_text", matchCards: "3", matchColor: "#00e676", blankFormat: "sentence_img", blankHint: "true", dragCount: "3", scoreCorrect: 10, defaultTimer: 60 };
   let AVATAR_2D_LIST = [...DEFAULT_AVATARS];
   let selectedAvatarPath = AVATAR_2D_LIST[0].file;
 
@@ -727,10 +636,7 @@
         let cloudVocab = [];
         snapshot.forEach(doc => cloudVocab.push(doc.data()));
         DATA = cloudVocab;
-        
         populateCategories();
-
-        // SEGERAKKAN KAD IMBASAN (FLASHCARDS)
         populateFlashCategories();
         if (flashcardsList.length > 0) {
           const currentCat = document.getElementById('flash-category-select').value;
@@ -739,20 +645,14 @@
           renderCurrentFlashcard();
         }
       }
-    }, err => console.warn("Using offline vocab:", err));
+    }, err => console.warn("Offline vocab:", err));
 
     db.collection('config').doc('avatars').onSnapshot(doc => {
       if (doc.exists && doc.data().list) {
         AVATAR_2D_LIST = doc.data().list;
         initAvatar2DStudio();
       }
-    }, err => console.warn("Using offline avatars:", err));
-
-    db.collection('config').doc('settings').onSnapshot(doc => {
-      if (doc.exists) {
-        GAME_SETTINGS = { ...GAME_SETTINGS, ...doc.data() };
-      }
-    }, err => console.warn("Using offline settings:", err));
+    }, err => console.warn("Offline avatars:", err));
   }
 
   function initAvatar2DStudio() {
@@ -764,7 +664,6 @@
     selectedAvatarPath = path;
     const imgPreview = document.getElementById('avatar-2d-large-preview');
     if (imgPreview) imgPreview.src = path;
-    
     const miniPreview = document.getElementById('display-avatar-2d-mini');
     if (miniPreview) miniPreview.src = path;
   }
@@ -778,14 +677,12 @@
       const card = document.createElement('div');
       card.className = `avatar-card-item ${selectedAvatarPath === item.file ? 'selected' : ''}`;
       card.innerHTML = `<img src="${item.file}" alt="Avatar" onerror="this.onerror=null; this.src='images/default.png';">`;
-
       card.onclick = () => {
         playSound('click');
         document.querySelectorAll('.avatar-card-item').forEach(c => c.classList.remove('selected'));
         card.classList.add('selected');
         updateAvatar2DPreview(item.file);
       };
-
       grid.appendChild(card);
     });
   }
@@ -797,11 +694,6 @@
            c.includes('malaikat') || c.includes('nabi') || c.includes('rasul');
   }
 
-  function isAsmaulHusna(item) {
-    return item && item.category && isSacredCategory(item.category) && 
-           (item.category.toLowerCase().includes('allah') || item.category.toLowerCase().includes('asma') || item.category.toLowerCase().includes('husna'));
-  }
-
   function onCategorySelectionChange() {
     const cat = document.getElementById('select-category').value;
     const modeSelect = document.getElementById('select-mode');
@@ -809,9 +701,7 @@
 
     if (isSacredCategory(cat)) {
       if (matchingOption) matchingOption.remove();
-      if (modeSelect.value === 'matching') {
-        modeSelect.value = 'mcq';
-      }
+      if (modeSelect.value === 'matching') modeSelect.value = 'mcq';
     } else {
       if (!modeSelect.querySelector('option[value="matching"]')) {
         const opt = document.createElement('option');
@@ -822,38 +712,15 @@
     }
   }
 
-  function isMuannas(arabicWord, malayWord) {
-    if (!arabicWord) return false;
-    const clean = arabicWord.trim().replace(/[ًٌٍَُِّْ]/g, '');
-    
-    if (clean.endsWith('ة') || clean.endsWith('ـة')) return true;
-    if (clean.endsWith('اء') || clean.endsWith('ى')) return true;
-    
-    const feminineBodyParts = ['عين', 'يد', 'رجل', 'قدم', 'اذن', 'ساق', 'كتف'];
-    if (feminineBodyParts.some(part => clean.includes(part))) return true;
-    
-    const femKeywords = ['ibu', 'emak', 'wanita', 'perempuan', 'kakak', 'adik perempuan', 'nenek', 'matahari', 'bumi'];
-    const m = (malayWord || '').toLowerCase();
-    if (femKeywords.some(f => m.includes(f))) return true;
-    
-    return false;
-  }
-
   function generateVariedBlankQuestion(item, poolSource) {
     const arabic = (item.arabic || '').trim();
-    const malay = (item.malay || '').trim();
-    const cat = (item.category || '').toLowerCase();
     const words = arabic.split(/\s+/).filter(w => w.length > 0);
 
-    if (cat.includes('hiwar') || cat.includes('sapaan') || cat.includes('ucapan') || words.length > 1) {
+    if (words.length > 1) {
       let targetIndex = words.length - 1;
-      let targetWord = words[targetIndex];
-      let pMatch = targetWord.match(/[؟!.,]/g);
-      let punctuation = pMatch ? pMatch.join('') : '';
-      let cleanTarget = targetWord.replace(/[؟!.,]/g, '');
-
+      let cleanTarget = words[targetIndex].replace(/[؟!.,]/g, '');
       let masked = [...words];
-      masked[targetIndex] = '____' + punctuation;
+      masked[targetIndex] = '____';
       let promptSentence = masked.join(' ');
 
       let options = [cleanTarget];
@@ -868,130 +735,19 @@
         options.push(wordPool.splice(Math.floor(Math.random() * wordPool.length), 1)[0]);
       }
       options.sort(() => Math.random() - 0.5);
-
-      return { promptText: promptSentence, correctAnswer: cleanTarget, options: options, isPhrase: true };
+      return { promptText: promptSentence, correctAnswer: cleanTarget, options: options };
     }
 
-    if (isAsmaulHusna(item)) {
-      const templates = [
-        `مِنْ أَسْمَاءِ اللَّهِ الْحُسْنَى ____`,
-        `إِنَّ اللَّهَ هُوَ ____`,
-        `اللَّهُ هُوَ ____`
-      ];
-      return makeSingleWordBlank(templates[Math.floor(Math.random() * templates.length)], item, poolSource);
-    }
-
-    if (cat.includes('malaikat')) {
-      const templates = [
-        `مِنَ الْمَلَائِكَةِ الْكِرَامِ ____`,
-        `الْمَلَكُ الْمُوَكَّلُ هُوَ ____`,
-        `مَلَكٌ اسْمُهُ ____`
-      ];
-      return makeSingleWordBlank(templates[Math.floor(Math.random() * templates.length)], item, poolSource);
-    }
-
-    if (cat.includes('nabi') || cat.includes('rasul')) {
-      const templates = [
-        `مِنْ أَنْبِيَاءِ اللَّهِ وَرُسُلِهِ ____`,
-        `نَبِيُّنَا الْكَرِيمُ هُوَ ____`,
-        `النَّبِيُّ ____ عَلَيْهِ السَّلَام`
-      ];
-      return makeSingleWordBlank(templates[Math.floor(Math.random() * templates.length)], item, poolSource);
-    }
-
-    if (cat.includes('kerja') || cat.includes('perbuatan') || cat.includes('fiil') || cat.includes('aktiviti')) {
-      const templates = [
-        `هُوَ ____ كُلَّ يَوْمٍ`,
-        `الْوَلَدُ يُحِبُّ أَنْ ____`,
-        `هُوَ ____ الْآنَ`
-      ];
-      return makeSingleWordBlank(templates[Math.floor(Math.random() * templates.length)], item, poolSource);
-    }
-
-    const fem = isMuannas(arabic, malay);
-    let templates = [];
-
-    if (cat.includes('haiwan') || cat.includes('binatang')) {
-      templates = fem ? [
-        `هَذِهِ ____ جَمِيلَةٌ`,
-        `أَرَى فِي الْمَزْرَعَةِ ____`,
-        `أَنَا أُحِبُّ هَذِهِ ____`,
-        `تِلْكَ ____ سَرِيعَةٌ`
-      ] : [
-        `هَذَا ____ قَوِيٌّ`,
-        `أَرَى فِي حَدِيقَةِ الْحَيَوَانِ ____`,
-        `أَنَا أُحِبُّ هَذَا ____`,
-        `ذَلِكَ ____ أَلِيفٌ`
-      ];
-    } else if (cat.includes('makan') || cat.includes('minum') || cat.includes('buah') || cat.includes('sayur')) {
-      templates = fem ? [
-        `هَذِهِ ____ لَذِيذَةٌ`,
-        `أَنَا أَتَنَاوَلُ ____ فِي الصَّبَاحِ`,
-        `أُرِيدُ ____ مِنْ فَضْلِكَ`,
-        `تِلْكَ ____ طَازَجَةٌ`
-      ] : [
-        `هَذَا ____ لَذِيذٌ`,
-        `أَنَا أَتَنَاوَلُ ____ فِي الصَّبَاحِ`,
-        `أُرِيدُ ____ مِنْ فَضْلِكَ`,
-        `ذَلِكَ ____ طَازَجٌ`
-      ];
-    } else if (cat.includes('badan') || cat.includes('tubuh') || cat.includes('anggota')) {
-      templates = fem ? [
-        `عِنْدِي ____ سَلِيمَةٌ`,
-        `هَذِهِ ____ نَظِيفَةٌ`,
-        `أَغْسِلُ هَذِهِ ____ بِالْمَاءِ`
-      ] : [
-        `عِنْدِي ____ سَلِيمٌ`,
-        `هَذَا ____ نَظِيفٌ`,
-        `أَغْسِلُ هَذَا ____ بِالْمَاءِ`
-      ];
-    } else if (cat.includes('sekolah') || cat.includes('kelas') || cat.includes('alat') || cat.includes('rumah')) {
-      templates = fem ? [
-        `أَضَعُ فِي الْحَقِيبَةِ ____`,
-        `هَذِهِ ____ جَدِيدَةٌ`,
-        `أَسْتَخْدِمُ هَذِهِ ____`,
-        `أَيْنَ تِلْكَ ____ ؟`
-      ] : [
-        `أَضَعُ فِي الْحَقِيبَةِ ____`,
-        `هَذَا ____ جَدِيدٌ`,
-        `أَسْتَخْدِمُ هَذَا ____`,
-        `أَيْنَ ذَلِكَ ____ ؟`
-      ];
-    } else {
-      templates = fem ? [
-        `هَذِهِ ____`,
-        `أَيْنَ هَذِهِ ____ ؟`,
-        `تِلْكَ ____ جَمِيلَةٌ`
-      ] : [
-        `هَذَا ____`,
-        `أَيْنَ هَذَا ____ ؟`,
-        `ذَلِكَ ____ جَمِيلٌ`
-      ];
-    }
-
-    const chosen = templates[Math.floor(Math.random() * templates.length)];
-    return makeSingleWordBlank(chosen, item, poolSource);
-  }
-
-  function makeSingleWordBlank(sentenceTemplate, item, poolSource) {
     let options = [item.arabic];
     let pool = poolSource.map(v => v.arabic).filter(a => a !== item.arabic && !a.includes(' '));
     while (options.length < 4 && pool.length > 0) {
       options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
     }
     options.sort(() => Math.random() - 0.5);
-
-    return {
-      promptText: sentenceTemplate,
-      correctAnswer: item.arabic,
-      options: options,
-      isPhrase: false
-    };
+    return { promptText: `[ ${item.arabic.replace(/[ًٌٍَُِّْ]/g, '').slice(0, 1)}... ] ____`, correctAnswer: item.arabic, options: options };
   }
 
-  // -------------------------------------------------------------
-  // LOGIK KAD IMBASAN (FLASHCARDS)
-  // -------------------------------------------------------------
+  // FLASHCARDS
   let flashcardsList = [];
   let currentFlashIdx = 0;
 
@@ -1019,27 +775,23 @@
 
   function toggleFlipFlashcard() {
     playSound('click');
-    const inner = document.getElementById('flashcard-card-inner');
-    inner.classList.toggle('flipped');
+    document.getElementById('flashcard-card-inner').classList.toggle('flipped');
   }
 
   function nextFlashcard() {
-    playSound('click');
-    resetFlashFlip();
+    playSound('click'); resetFlashFlip();
     currentFlashIdx = (currentFlashIdx + 1) % flashcardsList.length;
     renderCurrentFlashcard();
   }
 
   function prevFlashcard() {
-    playSound('click');
-    resetFlashFlip();
+    playSound('click'); resetFlashFlip();
     currentFlashIdx = (currentFlashIdx - 1 + flashcardsList.length) % flashcardsList.length;
     renderCurrentFlashcard();
   }
 
   function shuffleFlashcards() {
-    playSound('click');
-    resetFlashFlip();
+    playSound('click'); resetFlashFlip();
     flashcardsList.sort(() => Math.random() - 0.5);
     currentFlashIdx = 0;
     renderCurrentFlashcard();
@@ -1053,9 +805,9 @@
     if (flashcardsList.length === 0) return;
     const item = flashcardsList[currentFlashIdx];
 
-    document.getElementById('flash-index-display').innerText = `${currentFlashIdx + 1} / ${flashcardsList.length}`;
-    document.getElementById('flash-front-cat').innerText = item.category || 'Umum';
-    document.getElementById('flash-back-cat').innerText = item.category || 'Umum';
+    document.getElementById('flash-index-display').innerText = `${currentFlashIdx + 1}/${flashcardsList.length}`;
+    document.getElementById('flash-front-cat').innerText = item.category || 'Tajuk';
+    document.getElementById('flash-back-cat').innerText = item.category || 'Tajuk';
     document.getElementById('flash-id-tag').innerText = item.id || '';
     
     document.getElementById('flash-arabic-text').innerText = item.arabic || '';
@@ -1072,10 +824,14 @@
         </div>
       `;
     } else {
-      // TANPA ANIMASI EMOJI - KAD HANYA MEMAPARKAN TEKS BERSIH
       mediaBox.style.display = 'none';
       mediaBox.innerHTML = '';
     }
+  }
+
+  function getImageUrl(item) {
+    if (!item) return 'images/default.png';
+    return item.image || `images/${item.id}.png`;
   }
 
   let logoClickCount = 0;
@@ -1109,15 +865,10 @@
 
   function closeAdminPinModal() { document.getElementById('admin-pin-modal').style.display = 'none'; }
 
-  function getImageUrl(item) {
-    if (!item) return 'images/default.png';
-    return item.image || `images/${item.id}.png`;
-  }
-
+  // SOUND & BGM
   let audioCtx = null;
   let bgmEnabled = true;
   let bgmInterval = null;
-  let bgmMode = 'menu';
 
   function getAudioContext() {
     if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -1125,80 +876,62 @@
     return audioCtx;
   }
 
-  const NOTES = { C4: 261.63, E4: 329.63, G4: 392.00, A4: 440.00, C5: 523.25, E5: 659.25, G5: 783.99 };
-  const menuSeq = [NOTES.C4, NOTES.E4, NOTES.G4, NOTES.A4, NOTES.C5, NOTES.A4, NOTES.G4, NOTES.E4];
-  const gameSeq = [NOTES.C5, NOTES.C5, NOTES.E5, NOTES.C5, NOTES.G5, NOTES.E5, NOTES.C5, NOTES.G4];
+  const NOTES = { C4: 261.63, E4: 329.63, G4: 392.00, A4: 440.00, C5: 523.25 };
+  const menuSeq = [NOTES.C4, NOTES.E4, NOTES.G4, NOTES.A4, NOTES.C5];
   let seqIdx = 0;
 
-  function startBGM(mode = 'menu') {
-    bgmMode = mode;
-    if (!bgmEnabled) return;
-    if (bgmInterval) clearInterval(bgmInterval);
-
+  function startBGM() {
+    if (!bgmEnabled || bgmInterval) return;
     const ctx = getAudioContext();
-    const seq = (bgmMode === 'game') ? gameSeq : menuSeq;
-    const tempo = (bgmMode === 'game') ? 220 : 340;
-
     bgmInterval = setInterval(() => {
       if (!bgmEnabled) return;
       if (ctx.state === 'suspended') ctx.resume();
-      
-      const osc = ctx.createOscillator();
-      const gain = ctx.createGain();
-      osc.type = (bgmMode === 'game') ? 'triangle' : 'sine';
-      osc.frequency.setValueAtTime(seq[seqIdx], ctx.currentTime);
-      gain.gain.setValueAtTime(0.04, ctx.currentTime); 
-      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + (tempo / 1000) - 0.04);
-      
+      const osc = ctx.createOscillator(); const gain = ctx.createGain();
+      osc.type = 'sine'; osc.frequency.setValueAtTime(menuSeq[seqIdx], ctx.currentTime);
+      gain.gain.setValueAtTime(0.03, ctx.currentTime); 
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
       osc.connect(gain); gain.connect(ctx.destination);
-      osc.start(); osc.stop(ctx.currentTime + (tempo / 1000) - 0.04);
-
-      seqIdx = (seqIdx + 1) % seq.length;
-    }, tempo);
+      osc.start(); osc.stop(ctx.currentTime + 0.3);
+      seqIdx = (seqIdx + 1) % menuSeq.length;
+    }, 380);
   }
 
   function toggleBGM() {
     bgmEnabled = !bgmEnabled;
     const btn = document.getElementById('bgm-toggle-btn');
-    if (bgmEnabled) { btn.innerText = '🔊 BGM: ON'; startBGM(bgmMode); } 
-    else { btn.innerText = '🔇 BGM: OFF'; if (bgmInterval) clearInterval(bgmInterval); }
+    if (bgmEnabled) { btn.innerText = '🔊 BGM: ON'; startBGM(); showModernToast("BGM Dihidupkan", "info", "🔊"); } 
+    else { btn.innerText = '🔇 BGM: OFF'; if (bgmInterval) { clearInterval(bgmInterval); bgmInterval = null; } showModernToast("BGM Dimatikan", "info", "🔇"); }
   }
 
   function playSound(type) {
     const ctx = getAudioContext();
-
     if (type === 'click') {
       const osc = ctx.createOscillator(); const gain = ctx.createGain();
       osc.connect(gain); gain.connect(ctx.destination);
-      osc.type = 'sine'; osc.frequency.setValueAtTime(800, ctx.currentTime);
-      gain.gain.setValueAtTime(0.15, ctx.currentTime);
-      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.08);
-      osc.start(); osc.stop(ctx.currentTime + 0.08);
+      osc.frequency.setValueAtTime(750, ctx.currentTime);
+      gain.gain.setValueAtTime(0.12, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.07);
+      osc.start(); osc.stop(ctx.currentTime + 0.07);
     } else if (type === 'correct') {
-      const chord = [523.25, 659.25, 783.99, 1046.50];
-      chord.forEach((freq, idx) => {
+      [523.25, 659.25, 783.99].forEach((freq, idx) => {
         const osc = ctx.createOscillator(); const gain = ctx.createGain();
         osc.connect(gain); gain.connect(ctx.destination);
-        osc.type = 'triangle';
-        osc.frequency.setValueAtTime(freq, ctx.currentTime + (idx * 0.08));
-        gain.gain.setValueAtTime(0.2, ctx.currentTime + (idx * 0.08));
-        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + (idx * 0.08) + 0.3);
-        osc.start(ctx.currentTime + (idx * 0.08));
-        osc.stop(ctx.currentTime + (idx * 0.08) + 0.3);
+        osc.frequency.setValueAtTime(freq, ctx.currentTime + (idx * 0.07));
+        gain.gain.setValueAtTime(0.18, ctx.currentTime + (idx * 0.07));
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + (idx * 0.07) + 0.25);
+        osc.start(ctx.currentTime + (idx * 0.07)); osc.stop(ctx.currentTime + (idx * 0.07) + 0.25);
       });
     } else if (type === 'wrong') {
       const osc = ctx.createOscillator(); const gain = ctx.createGain();
       osc.connect(gain); gain.connect(ctx.destination);
-      osc.type = 'sawtooth';
-      osc.frequency.setValueAtTime(190, ctx.currentTime);
-      osc.frequency.setValueAtTime(115, ctx.currentTime + 0.12);
-      gain.gain.setValueAtTime(0.3, ctx.currentTime);
-      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.4);
-      osc.start(); osc.stop(ctx.currentTime + 0.4);
+      osc.type = 'sawtooth'; osc.frequency.setValueAtTime(170, ctx.currentTime);
+      gain.gain.setValueAtTime(0.2, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.3);
+      osc.start(); osc.stop(ctx.currentTime + 0.3);
     }
   }
 
-  document.addEventListener('click', () => { getAudioContext(); if (bgmEnabled && !bgmInterval) startBGM(bgmMode); });
+  document.addEventListener('pointerdown', () => { getAudioContext(); if (bgmEnabled && !bgmInterval) startBGM(); }, { once: true });
 
   let currentUser = null;
   let currentQuestions = [];
@@ -1217,7 +950,6 @@
   function showScreen(id) {
     document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
     document.getElementById(id).classList.add('active');
-    if (id !== 'screen-gameplay') startBGM('menu');
   }
 
   function populateCategories() {
@@ -1240,12 +972,12 @@
     
     container.innerHTML = userNames.map(name => `
       <div class="profile-card ${currentUser === name ? 'active-profile' : ''}">
-        <button class="delete-profile-btn" onclick="deleteProfile('${name}', event)" title="Padam Profil">X</button>
-        <div style="display:flex; align-items:center; gap:8px;" onclick="selectSavedProfile('${name}')">
+        <button class="delete-profile-btn" onclick="deleteProfile('${name}', event)">×</button>
+        <div style="display:flex; align-items:center; gap:6px;" onclick="selectSavedProfile('${name}')">
           <img src="${users[name].avatarPath || 'images/default.png'}" onerror="this.onerror=null; this.src='images/default.png';">
           <div>
-            <div style="font-weight: bold; color: var(--gold); text-align:left;">${name}</div>
-            <div style="font-size: 0.8rem; color: var(--cyan); text-align:left;">${users[name].score || 0} XP</div>
+            <div style="font-weight: bold; color: var(--gold); text-align:left; font-size:0.85rem;">${name}</div>
+            <div style="font-size: 0.72rem; color: var(--cyan); text-align:left;">${users[name].score || 0} XP</div>
           </div>
         </div>
       </div>
@@ -1254,40 +986,30 @@
 
   function deleteProfile(name, event) {
     event.stopPropagation();
-    showConfirmModal(
-      "Padam Profil?",
-      `Adakah anda pasti mahu memadam profil "${name}"? Kesemua markah XP profil ini akan hilang.`,
-      () => {
-        playSound('click');
-        let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
-        delete users[name];
-        localStorage.setItem('az_zaki_users', JSON.stringify(users));
-        
-        if (currentUser === name) {
-          logout();
-        } else {
-          renderSavedProfiles();
-        }
-      }
-    );
+    showConfirmModal("Padam Profil?", `Padam profil "${name}"?`, () => {
+      playSound('click');
+      let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
+      delete users[name];
+      localStorage.setItem('az_zaki_users', JSON.stringify(users));
+      if (currentUser === name) logout(); else renderSavedProfiles();
+      showModernToast(`Profil ${name} dipadam`, "info", "🗑️");
+    });
   }
 
   function selectSavedProfile(name) {
     playSound('click');
     let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
     currentUser = name;
-    if (users[name].avatarPath) {
-      updateAvatar2DPreview(users[name].avatarPath);
-      renderAvatar2DSelectionGrid();
-    }
+    if (users[name].avatarPath) updateAvatar2DPreview(users[name].avatarPath);
     localStorage.setItem('az_zaki_user', currentUser);
     updateDashboard(); showScreen('screen-menu');
+    showModernToast(`Selamat kembali, ${name}!`, "success", "👋");
   }
 
   function loginUser() {
     playSound('click');
     const input = document.getElementById('username-input').value.trim();
-    if (!input) return alert('Sila masukkan nama anda!');
+    if (!input) return showModernToast("Sila masukkan nama anda!", "error", "⚠️");
     currentUser = input;
     localStorage.setItem('az_zaki_user', currentUser);
     
@@ -1295,6 +1017,7 @@
     users[currentUser] = { score: users[currentUser]?.score || 0, avatarPath: selectedAvatarPath };
     localStorage.setItem('az_zaki_users', JSON.stringify(users));
     updateDashboard(); renderSavedProfiles(); showScreen('screen-menu');
+    showModernToast(`Selamat datang, ${currentUser}!`, "success", "🎮");
   }
 
   function checkSession() {
@@ -1303,13 +1026,8 @@
       let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
       if (users[saved]) {
         currentUser = saved;
-        if (users[currentUser]?.avatarPath) {
-          updateAvatar2DPreview(users[currentUser].avatarPath);
-          renderAvatar2DSelectionGrid();
-        }
+        if (users[currentUser]?.avatarPath) updateAvatar2DPreview(users[currentUser].avatarPath);
         updateDashboard(); showScreen('screen-menu');
-      } else {
-        localStorage.removeItem('az_zaki_user');
       }
     }
   }
@@ -1332,26 +1050,24 @@
     document.getElementById('confirm-title').innerText = title;
     document.getElementById('confirm-desc').innerText = desc;
     const yesBtn = document.getElementById('confirm-yes-btn');
-    
-    yesBtn.onclick = () => { playSound('click'); closeConfirmModal(); onYes(); };
+    yesBtn.onclick = () => { closeConfirmModal(); onYes(); };
     document.getElementById('confirm-modal').style.display = 'flex';
   }
 
   function closeConfirmModal() { document.getElementById('confirm-modal').style.display = 'none'; }
 
   function triggerReplayConfirm() {
-    showConfirmModal("Mula Semula?", "Adakah anda mahu mula semula sesi permainan ini?", () => { startQuiz(); });
+    showConfirmModal("Mula Semula?", "Adakah anda mahu memulakan semula sesi ini?", () => startQuiz());
   }
 
   function triggerQuitConfirm() {
-    showConfirmModal("Keluar Permainan?", "Adakah anda mahu keluar ke Menu Utama?", () => {
+    showConfirmModal("Keluar?", "Kembali ke Menu Utama?", () => {
       clearInterval(timerInterval); showScreen('screen-menu');
     });
   }
 
   function startQuiz() {
-    playSound('click'); startBGM('game');
-
+    playSound('click');
     const cat = document.getElementById('select-category').value;
     currentMode = document.getElementById('select-mode').value;
     timeLeft = parseInt(document.getElementById('select-timer').value);
@@ -1364,7 +1080,6 @@
     }
 
     currentQuestions.sort(() => Math.random() - 0.5);
-
     currentQIndex = 0; score = 0;
     document.getElementById('game-score').innerText = score;
 
@@ -1387,20 +1102,15 @@
   function setupQuestionMedia(current) {
     const imgBox = document.getElementById('quiz-img-box');
     const quizImg = document.getElementById('quiz-image');
-    const hintBox = document.getElementById('quiz-hint-box');
-
-    hintBox.style.display = 'none';
+    document.getElementById('quiz-hint-box').style.display = 'none';
 
     if (isSacredCategory(current.category)) {
       imgBox.style.display = 'none';
       return;
     }
-
     imgBox.style.display = 'flex';
     quizImg.src = getImageUrl(current);
-    quizImg.onerror = function() {
-      imgBox.style.display = 'none';
-    };
+    quizImg.onerror = () => { imgBox.style.display = 'none'; };
   }
 
   function loadQuestion() {
@@ -1413,24 +1123,19 @@
     document.getElementById('feedback-msg').innerText = '';
     const area = document.getElementById('gameplay-area');
     area.innerHTML = '';
-
     setupQuestionMedia(current);
 
     const promptEl = document.getElementById('quiz-prompt-text');
 
-    // 1. MOD SOALAN OBJEKTIF (PILIHAN JAWAPAN)
+    // MOD 1: MCQ
     if (currentMode === 'mcq') {
       document.getElementById('quiz-instruction').innerText = 'Pilih perkataan Bahasa Arab yang betul:';
-      
       promptEl.className = 'question-prompt-text prompt-malay';
       promptEl.innerText = `${current.malay}`;
 
-      document.getElementById('quiz-hint-box').style.display = 'none';
-
-      const optCount = parseInt(GAME_SETTINGS.mcqOptions) || 4;
       let options = [current.arabic];
       let pool = poolSource.map(v => v.arabic).filter(a => a !== current.arabic);
-      while (options.length < optCount && pool.length > 0) options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+      while (options.length < 4 && pool.length > 0) options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
       options.sort(() => Math.random() - 0.5);
 
       const grid = document.createElement('div');
@@ -1443,18 +1148,16 @@
       });
       area.appendChild(grid);
 
-    // 2. MOD ISI TEMPAT KOSONG DENGAN JAWAPAN
+    // MOD 2: BLANK
     } else if (currentMode === 'blank') {
-      document.getElementById('quiz-instruction').innerText = 'Isi tempat kosong dengan perkataan Arab yang betul:';
-      
+      document.getElementById('quiz-instruction').innerText = 'Isi tempat kosong dengan jawapan yang betul:';
       const qData = generateVariedBlankQuestion(current, poolSource);
-      
       promptEl.className = 'question-prompt-text prompt-arabic';
       promptEl.innerText = qData.promptText;
-      
+
       const hintBox = document.getElementById('quiz-hint-box');
       hintBox.style.display = 'block';
-      hintBox.innerText = `💡 Maksud: ${current.malay}`;
+      hintBox.innerText = `💡 ${current.malay}`;
 
       const grid = document.createElement('div');
       grid.className = 'options-grid';
@@ -1466,14 +1169,11 @@
       });
       area.appendChild(grid);
 
-    // 3. MOD DRAG & DROP
+    // MOD 3: DRAG & DROP (DENGAN TOUCH EVENTS + TAP-TO-PLACE)
     } else if (currentMode === 'dragdrop') {
-      document.getElementById('quiz-instruction').innerText = 'Tarik perkataan Arab & lepaskan ke dalam petak jawapan:';
-      
+      document.getElementById('quiz-instruction').innerText = 'Tarik atau Sentuh jawapan Arab ke dalam petak:';
       const qData = generateVariedBlankQuestion(current, poolSource);
       
-      document.getElementById('quiz-hint-box').style.display = 'none';
-
       promptEl.className = 'question-prompt-text prompt-malay';
       promptEl.innerText = `${current.malay}`;
 
@@ -1482,12 +1182,12 @@
 
       const zone = document.createElement('div');
       zone.className = 'drop-zone'; 
+      zone.id = 'active-drop-zone';
       zone.innerText = `[ ${qData.promptText} ]`;
 
-      const dragCount = parseInt(GAME_SETTINGS.dragCount) || 3;
       let dragOptions = [qData.correctAnswer];
       let otherOpts = qData.options.filter(o => o !== qData.correctAnswer);
-      while(dragOptions.length < dragCount && otherOpts.length > 0) {
+      while(dragOptions.length < 3 && otherOpts.length > 0) {
         dragOptions.push(otherOpts.splice(Math.floor(Math.random() * otherOpts.length), 1)[0]);
       }
       dragOptions.sort(() => Math.random() - 0.5);
@@ -1495,54 +1195,83 @@
       const dragContainer = document.createElement('div');
       dragContainer.className = 'drag-items';
 
-      dragOptions.forEach(opt => {
-        const item = document.createElement('div');
-        item.className = 'drag-item'; item.innerText = opt; item.draggable = true;
-        item.ondragstart = (e) => { e.dataTransfer.setData('text/plain', opt); playSound('click'); };
-        dragContainer.appendChild(item);
-      });
-
-      zone.ondragover = (e) => { e.preventDefault(); zone.classList.add('drag-over'); };
-      zone.ondragleave = () => zone.classList.remove('drag-over');
-      zone.ondrop = (e) => {
-        e.preventDefault(); zone.classList.remove('drag-over');
-        const droppedText = e.dataTransfer.getData('text/plain');
-        
-        const completedSentence = qData.promptText.replace('____', droppedText);
-        zone.innerText = completedSentence;
-
-        if (droppedText === qData.correctAnswer) {
+      function handleAnswerSubmission(selectedText, elementTriggered) {
+        zone.innerText = qData.promptText.replace('____', selectedText);
+        if (selectedText === qData.correctAnswer) {
           zone.classList.add('correct');
           playSound('correct'); triggerFireworks();
-          score += parseInt(GAME_SETTINGS.scoreCorrect) || 10; 
+          score += 10;
           document.getElementById('game-score').innerText = score;
-          setTimeout(() => { currentQIndex++; loadQuestion(); }, 1400);
+          showModernToast("Tahniah! Jawapan Betul 🎉", "success", "🌟");
+          setTimeout(() => { currentQIndex++; loadQuestion(); }, 1200);
         } else {
           zone.classList.add('shake-error');
+          if (elementTriggered) elementTriggered.classList.add('shake-error');
           playSound('wrong');
+          showModernToast("Cuba lagi!", "error", "❌");
           setTimeout(() => {
             zone.classList.remove('shake-error');
+            if (elementTriggered) elementTriggered.classList.remove('shake-error');
             zone.innerText = `[ ${qData.promptText} ]`;
           }, 600);
         }
-      };
+      }
+
+      dragOptions.forEach(opt => {
+        const item = document.createElement('div');
+        item.className = 'drag-item'; 
+        item.innerText = opt;
+        
+        // INTERAKSI SENTUHAN TELEFON & DRAG POINTER
+        let startX, startY, isDragging = false;
+        
+        item.onpointerdown = (e) => {
+          isDragging = false;
+          startX = e.clientX;
+          startY = e.clientY;
+          item.classList.add('touching');
+          item.setPointerCapture(e.pointerId);
+          zone.classList.add('tap-highlight');
+        };
+
+        item.onpointermove = (e) => {
+          if (Math.abs(e.clientX - startX) > 10 || Math.abs(e.clientY - startY) > 10) {
+            isDragging = true;
+          }
+        };
+
+        item.onpointerup = (e) => {
+          item.classList.remove('touching');
+          zone.classList.remove('tap-highlight');
+          try { item.releasePointerCapture(e.pointerId); } catch(err) {}
+
+          const dropTarget = document.elementFromPoint(e.clientX, e.clientY);
+          const isOverZone = dropTarget && (dropTarget === zone || dropTarget.closest('#active-drop-zone'));
+
+          // Jika ditarik ke dalam zon ATAU jika hanya disentuh (Tap-to-Place)
+          if (isOverZone || !isDragging) {
+            playSound('click');
+            handleAnswerSubmission(opt, item);
+          }
+        };
+
+        dragContainer.appendChild(item);
+      });
 
       dropZoneContainer.appendChild(zone);
       area.appendChild(dropZoneContainer);
       area.appendChild(dragContainer);
 
-    // 4. MOD PADANKAN GAMBAR DAN PERKATAAN
+    // MOD 4: PADANKAN GAMBAR DAN PERKATAAN (TOUCH CANVAS)
     } else if (currentMode === 'matching') {
       document.getElementById('quiz-img-box').style.display = 'none';
-      document.getElementById('quiz-hint-box').style.display = 'none';
-      document.getElementById('quiz-instruction').innerText = 'Tarik garisan dari Perkataan Arab ke Gambar yang betul:';
+      document.getElementById('quiz-instruction').innerText = 'Tarik garisan dari Arab ke Gambar yang betul:';
       
       promptEl.className = 'question-prompt-text prompt-malay';
       promptEl.innerText = '🧩 Padanan Garisan';
 
-      const cardLimit = parseInt(GAME_SETTINGS.matchCards) || 3;
-      let items = currentQuestions.slice(currentQIndex, currentQIndex + cardLimit);
-      if (items.length < cardLimit) items = currentQuestions.slice(0, cardLimit);
+      let items = currentQuestions.slice(currentQIndex, currentQIndex + 3);
+      if (items.length < 3) items = currentQuestions.slice(0, 3);
 
       const wrapper = document.createElement('div');
       wrapper.className = 'matching-wrapper';
@@ -1577,13 +1306,9 @@
           playSound('click');
           isDragging = true;
           startCard = { card, item };
-
           const rect = card.getBoundingClientRect();
           const pRect = wrapper.getBoundingClientRect();
-          startPos = {
-            x: rect.right - pRect.left,
-            y: rect.top + rect.height / 2 - pRect.top
-          };
+          startPos = { x: rect.right - pRect.left, y: rect.top + rect.height / 2 - pRect.top };
           card.classList.add('selected');
         };
 
@@ -1601,10 +1326,7 @@
       wrapper.onpointermove = (e) => {
         if (!isDragging || !startCard) return;
         const pRect = wrapper.getBoundingClientRect();
-        const currentX = e.clientX - pRect.left;
-        const currentY = e.clientY - pRect.top;
-
-        redrawCanvas(canvas, permanentLines, startPos, { x: currentX, y: currentY });
+        redrawCanvas(canvas, permanentLines, startPos, { x: e.clientX - pRect.left, y: e.clientY - pRect.top });
       };
 
       wrapper.onpointerup = (e) => {
@@ -1617,46 +1339,29 @@
         if (targetImgCard && !targetImgCard.classList.contains('matched')) {
           if (startCard.item.id === targetImgCard.dataset.id) {
             playSound('correct'); triggerFireworks();
-            score += parseInt(GAME_SETTINGS.scoreCorrect) || 10;
+            score += 10;
             document.getElementById('game-score').innerText = score;
-
             startCard.card.classList.add('matched');
             targetImgCard.classList.add('matched');
 
             const endRect = targetImgCard.getBoundingClientRect();
             const pRect = wrapper.getBoundingClientRect();
-            const endPos = {
-              x: endRect.left - pRect.left,
-              y: endRect.top + endRect.height / 2 - pRect.top
-            };
-
-            permanentLines.push({ start: startPos, end: endPos });
+            permanentLines.push({ start: startPos, end: { x: endRect.left - pRect.left, y: endRect.top + endRect.height / 2 - pRect.top } });
             matchedCount++;
+            showModernToast("Padanan Tepat!", "success", "✨");
 
             if (matchedCount >= items.length) {
-              currentQIndex += cardLimit;
-              setTimeout(loadQuestion, 1200);
+              currentQIndex += 3;
+              setTimeout(loadQuestion, 1100);
             }
           } else {
             playSound('wrong');
-            const cArab = startCard.card;
-            const cImg = targetImgCard;
-
-            cArab.classList.add('shake-error');
-            cImg.classList.add('shake-error');
-
-            const endRect = targetImgCard.getBoundingClientRect();
-            const pRect = wrapper.getBoundingClientRect();
-            const endPos = {
-              x: endRect.left - pRect.left,
-              y: endRect.top + endRect.height / 2 - pRect.top
-            };
-
-            drawWrongLine(canvas, permanentLines, startPos, endPos);
-
+            startCard.card.classList.add('shake-error');
+            targetImgCard.classList.add('shake-error');
+            showModernToast("Bukan pasangan ini", "error", "❌");
             setTimeout(() => {
-              cArab.classList.remove('shake-error');
-              cImg.classList.remove('shake-error');
+              startCard.card.classList.remove('shake-error');
+              targetImgCard.classList.remove('shake-error');
               redrawCanvas(canvas, permanentLines, null, null);
             }, 600);
           }
@@ -1672,51 +1377,21 @@
       area.appendChild(wrapper);
 
       setTimeout(() => {
-        canvas.width = wrapper.offsetWidth || 800;
-        canvas.height = wrapper.offsetHeight || 380;
-      }, 100);
+        canvas.width = wrapper.offsetWidth || 340;
+        canvas.height = wrapper.offsetHeight || 320;
+      }, 80);
     }
-  }
-
-  function drawWrongLine(canvas, permanentLines, start, end) {
-    const ctx = canvas.getContext('2d');
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    const lineColor = GAME_SETTINGS.matchColor || '#00e676';
-    permanentLines.forEach(line => {
-      ctx.beginPath();
-      ctx.moveTo(line.start.x, line.start.y);
-      ctx.lineTo(line.end.x, line.end.y);
-      ctx.strokeStyle = lineColor;
-      ctx.lineWidth = 5;
-      ctx.shadowColor = lineColor;
-      ctx.shadowBlur = 12;
-      ctx.stroke();
-    });
-
-    ctx.beginPath();
-    ctx.moveTo(start.x, start.y);
-    ctx.lineTo(end.x, end.y);
-    ctx.strokeStyle = '#ff3366';
-    ctx.lineWidth = 5;
-    ctx.shadowColor = '#ff3366';
-    ctx.shadowBlur = 15;
-    ctx.stroke();
   }
 
   function redrawCanvas(canvas, permanentLines, currentStart, currentEnd) {
     const ctx = canvas.getContext('2d');
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    const lineColor = GAME_SETTINGS.matchColor || '#00e676';
-
     permanentLines.forEach(line => {
       ctx.beginPath();
       ctx.moveTo(line.start.x, line.start.y);
       ctx.lineTo(line.end.x, line.end.y);
-      ctx.strokeStyle = lineColor;
-      ctx.lineWidth = 5;
-      ctx.shadowColor = lineColor;
-      ctx.shadowBlur = 12;
+      ctx.strokeStyle = '#00e676';
+      ctx.lineWidth = 4;
       ctx.stroke();
     });
 
@@ -1725,10 +1400,8 @@
       ctx.moveTo(currentStart.x, currentStart.y);
       ctx.lineTo(currentEnd.x, currentEnd.y);
       ctx.strokeStyle = '#00f2fe';
-      ctx.lineWidth = 4;
-      ctx.setLineDash([8, 8]);
+      ctx.lineWidth = 3;
       ctx.stroke();
-      ctx.setLineDash([]);
     }
   }
 
@@ -1739,25 +1412,23 @@
     if (selected === correct) {
       btn.classList.add('correct');
       playSound('correct'); triggerFireworks();
-      score += parseInt(GAME_SETTINGS.scoreCorrect) || 10;
+      score += 10;
       document.getElementById('game-score').innerText = score;
-      document.getElementById('feedback-msg').style.color = 'var(--green)';
-      document.getElementById('feedback-msg').innerText = 'Tahniah! Jawapan Betul 🎉';
-      setTimeout(() => { currentQIndex++; loadQuestion(); }, 1600);
+      showModernToast("Jawapan Betul! +10 XP", "success", "🎉");
+      setTimeout(() => { currentQIndex++; loadQuestion(); }, 1200);
     } else {
       btn.classList.add('shake-error');
       playSound('wrong');
-      document.getElementById('feedback-msg').innerText = '';
-
+      showModernToast("Kurang Tepat, Cuba Lagi!", "error", "❌");
       setTimeout(() => {
         btn.classList.remove('shake-error');
         buttons.forEach(b => b.disabled = false);
-      }, 600);
+      }, 500);
     }
   }
 
   function finishQuiz() {
-    clearInterval(timerInterval); startBGM('menu');
+    clearInterval(timerInterval);
     let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
     if (!users[currentUser]) users[currentUser] = { score: 0, avatarPath: selectedAvatarPath };
     users[currentUser].score += score;
@@ -1777,34 +1448,25 @@
   function showLeaderboard() {
     playSound('click');
     let users = JSON.parse(localStorage.getItem('az_zaki_users') || '{}');
-    let sorted = Object.keys(users)
-      .map(u => ({ name: u, score: users[u].score }))
-      .sort((a, b) => b.score - a.score);
-
+    let sorted = Object.keys(users).map(u => ({ name: u, score: users[u].score })).sort((a, b) => b.score - a.score);
     const tbody = document.getElementById('leaderboard-body');
-    tbody.innerHTML = sorted.map((u, i) => `
-      <tr>
-        <td>${i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : i + 1}</td>
-        <td>${u.name}</td>
-        <td>${u.score} XP</td>
-      </tr>
-    `).join('');
+    tbody.innerHTML = sorted.map((u, i) => `<tr><td>${i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : i + 1}</td><td>${u.name}</td><td>${u.score} XP</td></tr>`).join('');
     showScreen('screen-leaderboard');
   }
 
   let canvas, ctx, particles = [];
   function initCanvas() {
     canvas = document.getElementById('fireworks'); ctx = canvas.getContext('2d');
-    canvas.width = canvas.offsetWidth; canvas.height = canvas.offsetHeight;
+    canvas.width = window.innerWidth; canvas.height = window.innerHeight;
   }
 
   function triggerFireworks() {
     particles = [];
-    for (let i = 0; i < 40; i++) {
+    for (let i = 0; i < 30; i++) {
       particles.push({
         x: canvas.width / 2, y: canvas.height / 2,
-        dx: (Math.random() - 0.5) * 10, dy: (Math.random() - 0.5) * 10,
-        color: `hsl(${Math.random() * 360}, 100%, 50%)`, life: 30
+        dx: (Math.random() - 0.5) * 8, dy: (Math.random() - 0.5) * 8,
+        color: `hsl(${Math.random() * 360}, 100%, 50%)`, life: 25
       });
     }
     animateFireworks();
@@ -1814,7 +1476,7 @@
     if (particles.length === 0) { ctx.clearRect(0, 0, canvas.width, canvas.height); return; }
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     particles.forEach((p, index) => {
-      ctx.beginPath(); ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+      ctx.beginPath(); ctx.arc(p.x, p.y, 3.5, 0, Math.PI * 2);
       ctx.fillStyle = p.color; ctx.fill();
       p.x += p.dx; p.y += p.dy; p.life--;
       if (p.life <= 0) particles.splice(index, 1);
