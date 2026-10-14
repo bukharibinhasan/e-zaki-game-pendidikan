@@ -141,14 +141,9 @@
 
     /* STUDIO AVATAR */
     .avatar-studio-container {
-      display: flex;
-      gap: 18px;
-      background: rgba(0, 0, 0, 0.45);
-      border: 2.5px solid var(--cyan);
-      border-radius: 24px;
-      padding: 16px 20px;
-      align-items: center;
-      margin-bottom: 6px;
+      display: flex; gap: 18px; background: rgba(0, 0, 0, 0.45);
+      border: 2.5px solid var(--cyan); border-radius: 24px;
+      padding: 16px 20px; align-items: center; margin-bottom: 6px;
     }
     .avatar-2d-preview-box {
       width: 140px; height: 140px; min-width: 140px;
@@ -160,25 +155,14 @@
     .avatar-2d-preview-box img { width: 100%; height: 100%; object-fit: cover; object-position: top center; background: #fff; }
 
     .avatar-2d-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      align-items: center;
-      max-height: 160px;
-      overflow-y: auto;
-      padding: 8px 4px;
-      width: 100%;
+      display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+      max-height: 160px; overflow-y: auto; padding: 8px 4px; width: 100%;
     }
     
     .avatar-card-item {
-      background: rgba(255,255,255,0.08); 
-      border: 2px solid rgba(0,242,254,0.4); 
-      border-radius: 16px;
-      padding: 5px; 
-      text-align: center; 
-      cursor: pointer; 
-      transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      position: relative;
+      background: rgba(255,255,255,0.08); border: 2px solid rgba(0,242,254,0.4); 
+      border-radius: 16px; padding: 5px; text-align: center; cursor: pointer; 
+      transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative;
     }
     .avatar-card-item img { 
       width: 65px; height: 65px; border-radius: 12px; 
@@ -188,18 +172,13 @@
     
     @media (hover: hover) and (pointer: fine) {
       .avatar-card-item:hover {
-        transform: translateY(-8px) scale(1.12);
-        border-color: var(--gold);
-        background: rgba(255, 204, 0, 0.25);
-        box-shadow: 0 10px 22px var(--cyan-glow);
-        z-index: 10;
+        transform: translateY(-8px) scale(1.12); border-color: var(--gold);
+        background: rgba(255, 204, 0, 0.25); box-shadow: 0 10px 22px var(--cyan-glow); z-index: 10;
       }
     }
     .avatar-card-item.selected { 
-      border-color: var(--gold); 
-      background: rgba(255, 204, 0, 0.35); 
-      transform: scale(1.05); 
-      box-shadow: 0 0 15px var(--gold);
+      border-color: var(--gold); background: rgba(255, 204, 0, 0.35); 
+      transform: scale(1.05); box-shadow: 0 0 15px var(--gold);
     }
 
     .profiles-grid { display: flex; gap: 10px; overflow-x: auto; padding: 4px 2px; }
@@ -265,7 +244,7 @@
       font-size: clamp(1.5rem, 4vw, 2.2rem); color: var(--gold); font-weight: 800; 
       margin: 4px 0; width: 100%; text-align: center;
     }
-    .prompt-arabic { font-family: 'Amiri', serif; direction: rtl; font-size: clamp(2rem, 5vw, 2.6rem); }
+    .prompt-arabic { font-family: 'Amiri', serif; direction: rtl; font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.4; }
     .prompt-malay { font-family: var(--font-game); direction: ltr; }
 
     .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; margin: 4px auto; max-width: 600px; }
@@ -277,14 +256,14 @@
     .option-btn:hover { background: rgba(255,204,0,0.25); transform: translateY(-2px); }
     .option-btn.correct { background: var(--green) !important; color: #003311 !important; border-color: #fff !important; }
 
-    /* DRAG & DROP DWIFUNGSI (TOUCH + PC MOUSE) */
+    /* DRAG & DROP DWIFUNGSI */
     .drop-zone-container { display: flex; flex-direction: column; align-items: center; width: 100%; margin: 6px auto; }
     .drop-zone { 
       width: 100%; max-width: 500px; min-height: 70px; border: 3px dashed var(--gold); 
       border-radius: 18px; display: flex; align-items: center; justify-content: center; 
-      background: rgba(0,0,0,0.45); font-size: clamp(1.6rem, 4.5vw, 2.3rem); color: var(--cyan); 
+      background: rgba(0,0,0,0.45); font-size: clamp(1.8rem, 5vw, 2.6rem); color: var(--cyan); 
       font-weight: bold; margin: 0 auto; padding: 8px 12px;
-      font-family: 'Amiri', serif; direction: rtl; text-align: center;
+      font-family: 'Amiri', serif; direction: rtl; text-align: center; line-height: 1.4;
       transition: all 0.2s;
     }
     .drop-zone.drag-over, .drop-zone.tap-highlight { border-color: var(--green); background: rgba(0, 230, 118, 0.25); transform: scale(1.02); }
@@ -406,7 +385,6 @@
 </video>
 
 <div id="game-container">
-  <!-- TOAST GAMIFIED MODEN -->
   <div id="game-toast">
     <span id="toast-icon">✨</span>
     <span id="toast-text">Pemberitahuan</span>
@@ -418,7 +396,6 @@
 
   <canvas id="fireworks"></canvas>  
 
-  <!-- MODAL PENGESAHAN -->
   <div id="confirm-modal" class="modal-overlay">
     <div class="modal-card">
       <h2 id="confirm-title" style="color: var(--gold); font-size: 1.5rem; margin-bottom: 8px;">Mula Semula?</h2>
@@ -430,7 +407,6 @@
     </div>
   </div>
 
-  <!-- MODAL TAMAT SESI -->
   <div id="game-modal" class="modal-overlay">
     <div class="modal-card">
       <div id="modal-stars" style="font-size: 2.6rem; margin-bottom: 6px;">⭐ ⭐ ⭐</div>
@@ -440,7 +416,6 @@
     </div>
   </div>
 
-  <!-- ADMIN PIN MODAL -->
   <div id="admin-pin-modal" class="modal-overlay">
     <div class="modal-card">
       <h2 style="color: var(--gold); font-size: 1.5rem; margin-bottom: 6px;">🔐 Akses Pentadbir</h2>
@@ -499,7 +474,7 @@
     <button class="btn btn-danger" onclick="logout()">🚪 Tukar Profil / Log Keluar</button>
   </div>
 
-  <!-- SCREEN 3: KAD IMBASAN (FLASHCARDS) -->
+  <!-- SCREEN 3: KAD IMBASAN -->
   <div id="screen-flashcards" class="screen">
     <div class="dashboard-bar" style="gap: 8px;">
       <button class="btn-game-nav" onclick="showScreen('screen-menu')">⬅️ Menu</button>
@@ -511,34 +486,27 @@
       </div>
     </div>
 
-    <!-- 3D FLIP FLASHCARD -->
     <div class="flashcard-wrapper" onclick="toggleFlipFlashcard()">
       <div class="flashcard-inner" id="flashcard-card-inner">
-        <!-- MUKA DEPAN (ARAB) -->
         <div class="flashcard-front">
           <div style="display: flex; justify-content: space-between; width: 100%;">
             <span id="flash-front-cat" style="background: rgba(255,204,0,0.2); color: var(--gold); padding: 4px 12px; border-radius: 8px; font-size: 0.85rem; font-weight: bold;">Tajuk</span>
             <span style="color: #a0aec0; font-size: 0.8rem;">Muka Depan</span>
           </div>
-
           <div id="flash-media-box" style="width: 100%; display: flex; justify-content: center;"></div>
-
           <div class="flashcard-arabic" id="flash-arabic-text">أَسَدٌ</div>
           <div style="font-size: 0.85rem; color: #a0aec0;">👉 Sentuh kad untuk lihat Bahasa Melayu</div>
         </div>
 
-        <!-- MUKA BELAKANG (MELAYU) -->
         <div class="flashcard-back">
           <div style="display: flex; justify-content: space-between; width: 100%;">
             <span id="flash-back-cat" style="background: rgba(0,242,254,0.2); color: var(--cyan); padding: 4px 12px; border-radius: 8px; font-size: 0.85rem; font-weight: bold;">Tajuk</span>
             <span id="flash-id-tag" style="color: #a0aec0; font-size: 0.8rem;">ID</span>
           </div>
-
           <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 1;">
             <div style="color: #a0aec0; font-size: 0.95rem; text-transform: uppercase;">Maksud Melayu:</div>
             <div class="flashcard-malay" id="flash-malay-text">Singa</div>
           </div>
-
           <div style="font-size: 0.85rem; color: #a0aec0;">👉 Sentuh untuk kembali ke Bahasa Arab</div>
         </div>
       </div>
@@ -551,7 +519,7 @@
     </div>
   </div>
 
-  <!-- SCREEN 4: SETUP PERMAINAN -->
+  <!-- SCREEN 4: SETUP -->
   <div id="screen-setup" class="screen">
     <h2 style="color: var(--gold); text-align: center; font-size: 1.3rem;">Pilih Mod & Kategori</h2>
     
@@ -595,13 +563,12 @@
     </div>
 
     <div class="quiz-card">
-      <div id="quiz-instruction" style="font-weight: bold; color: var(--cyan); font-size: 1rem;">Pilih perkataan Bahasa Arab:</div>
+      <div id="quiz-instruction" style="font-weight: bold; color: var(--cyan); font-size: 1rem;">Isi tempat kosong:</div>
       
       <div class="quiz-image-container" id="quiz-img-box">
         <img id="quiz-image" src="" alt="Soalan" class="quiz-image">
       </div>
 
-      <div id="quiz-hint-box" class="hint-badge" style="display:none;"></div>
       <div class="question-prompt-text prompt-malay" id="quiz-prompt-text">Singa</div>
       <div id="feedback-msg" style="height: 18px; font-weight: bold; font-size: 1rem;"></div>
       
@@ -625,7 +592,7 @@
 </div>
 
 <script>
-  // SISTEM TOAST MESRA PENGGUNA
+  // SISTEM TOAST
   let toastTimer = null;
   function showModernToast(msg, type = 'info', icon = '✨') {
     const toast = document.getElementById('game-toast');
@@ -682,12 +649,6 @@
         DATA = cloudVocab;
         populateCategories();
         populateFlashCategories();
-        if (flashcardsList.length > 0) {
-          const currentCat = document.getElementById('flash-category-select').value;
-          flashcardsList = (currentCat === 'ALL') ? [...DATA] : DATA.filter(i => i.category === currentCat);
-          if (currentFlashIdx >= flashcardsList.length) currentFlashIdx = 0;
-          renderCurrentFlashcard();
-        }
       }
     }, err => console.warn("Offline vocab:", err));
 
@@ -722,10 +683,7 @@
       card.className = `avatar-card-item ${selectedAvatarPath === item.file ? 'selected' : ''}`;
       card.innerHTML = `<img src="${item.file}" alt="Avatar" onerror="this.onerror=null; this.src='images/default.png';">`;
 
-      // KESAN BUNYI BILA KURSOR LALU DI PC
-      card.onmouseenter = () => {
-        playHoverSound();
-      };
+      card.onmouseenter = () => playHoverSound();
 
       card.onclick = () => {
         playSound('click');
@@ -759,6 +717,77 @@
         opt.innerText = 'Padankan gambar dan perkataan';
         modeSelect.insertBefore(opt, modeSelect.children[1] || null);
       }
+    }
+  }
+
+  // =================================================================================
+  // ENJIN NAHU PINTAR (SISTEM TATABAHASA ISMIYAH / FI'LIYAH AUTOMATIK)
+  // =================================================================================
+  function generateVariedBlankQuestion(item, poolSource) {
+    const arabic = (item.arabic || '').trim();
+    const words = arabic.split(/\s+/).filter(w => w.length > 0);
+
+    if (words.length > 1) {
+      // 1. JIKA SOALAN SUDAH BERBENTUK AYAT: Kosongkan perkataan terakhir (seperti asal)
+      let targetIndex = words.length - 1;
+      let cleanTarget = words[targetIndex].replace(/[؟!.,]/g, '');
+      let masked = [...words];
+      masked[targetIndex] = '____';
+      let promptSentence = masked.join(' ');
+
+      let options = [cleanTarget];
+      let wordPool = [];
+      poolSource.forEach(v => {
+        (v.arabic || '').trim().split(/\s+/).forEach(w => {
+          let cW = w.replace(/[؟!.,]/g, '');
+          if (cW && cW !== cleanTarget && !wordPool.includes(cW)) wordPool.push(cW);
+        });
+      });
+      while (options.length < 4 && wordPool.length > 0) {
+        options.push(wordPool.splice(Math.floor(Math.random() * wordPool.length), 1)[0]);
+      }
+      options.sort(() => Math.random() - 0.5);
+      return { promptText: `[ ${promptSentence} ]`, correctAnswer: cleanTarget, options: options };
+      
+    } else {
+      // 2. JIKA SOALAN HANYA SATU PERKATAAN: Enjin Nahu Pintar akan membina ayat secara logik.
+      let word = arabic;
+      let isMuannas = false;
+      
+      // Semak tanda Muannas (Ta' Marbutah)
+      if (word.includes('ة') || word.includes('ةٌ') || word.includes('ةً') || word.includes('ةٍ')) {
+        isMuannas = true;
+      }
+
+      let promptSentence = '';
+      let cat = (item.category || '').toLowerCase();
+      
+      // Semak sekiranya ia tergolong dalam kategori Perbuatan (Fi'il)
+      if (cat.includes('perbuatan') || cat.includes('fiil') || cat.includes('verb') || cat.includes('hiwar')) {
+        if (word.startsWith('ي')) {
+          promptSentence = `هُوَ ____`; // Fi'il Muzakkar (Dia lelaki sedang...)
+        } else if (word.startsWith('ت')) {
+          promptSentence = `هِيَ ____`; // Fi'il Muannas (Dia perempuan sedang...)
+        } else {
+          promptSentence = `أَنَا ____`; // Kata ganti diri am
+        }
+      } else {
+        // Jika ia Kata Nama biasa (Haiwan, Benda), gunakan Isim Isyarah (Ini adalah...)
+        if (isMuannas) {
+          promptSentence = `هَذِهِ ____`;
+        } else {
+          promptSentence = `هَذَا ____`;
+        }
+      }
+
+      let options = [arabic];
+      let pool = poolSource.map(v => v.arabic).filter(a => a !== arabic && !a.includes(' '));
+      while (options.length < 4 && pool.length > 0) {
+        options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+      }
+      options.sort(() => Math.random() - 0.5);
+      
+      return { promptText: `[ ${promptSentence} ]`, correctAnswer: arabic, options: options };
     }
   }
 
@@ -849,7 +878,6 @@
     return item.image || `images/${item.id}.png`;
   }
 
-  // LOGO SECRET ADMIN ACCESS
   let logoClickCount = 0;
   let logoClickTimer = null;
   const ADMIN_PIN = "2026";
@@ -881,7 +909,7 @@
 
   function closeAdminPinModal() { document.getElementById('admin-pin-modal').style.display = 'none'; }
 
-  // AUDIO ENGINE (DIKUATKAN UNTUK TELEFON & PC)
+  // AUDIO ENGINE (DIKUATKAN)
   let audioCtx = null;
   let bgmEnabled = true;
   let bgmInterval = null;
@@ -892,7 +920,6 @@
     return audioCtx;
   }
 
-  // Melodi BGM Cergas & Mesra Kanak-kanak
   const NOTES = { C4: 261.63, D4: 293.66, E4: 329.63, G4: 392.00, A4: 440.00, C5: 523.25 };
   const menuSeq = [NOTES.C4, NOTES.E4, NOTES.G4, NOTES.A4, NOTES.G4, NOTES.E4, NOTES.C5, NOTES.G4];
   let seqIdx = 0;
@@ -935,7 +962,6 @@
     }
   }
 
-  // BUNYI HOVER CURSOR PC
   function playHoverSound() {
     try {
       const ctx = getAudioContext();
@@ -1153,7 +1179,6 @@
   function setupQuestionMedia(current) {
     const imgBox = document.getElementById('quiz-img-box');
     const quizImg = document.getElementById('quiz-image');
-    document.getElementById('quiz-hint-box').style.display = 'none';
 
     if (isSacredCategory(current.category)) {
       imgBox.style.display = 'none';
@@ -1199,38 +1224,31 @@
       });
       area.appendChild(grid);
 
-    // MOD 2: ISI TEMPAT KOSONG (REVERT KE BENTUK ASAL - KESELURUHAN PERKATAAN)
+    // MOD 2: ISI TEMPAT KOSONG (NAHU DINAMIK)
     } else if (currentMode === 'blank') {
       document.getElementById('quiz-instruction').innerText = 'Isi tempat kosong dengan jawapan yang betul:';
+      const qData = generateVariedBlankQuestion(current, poolSource);
       
       promptEl.className = 'question-prompt-text prompt-arabic';
-      promptEl.innerText = `____ [ ${current.arabic.replace(/[ًٌٍَُِّْ]/g, '').slice(0, 1)}... ]`;
-
-      const hintBox = document.getElementById('quiz-hint-box');
-      hintBox.style.display = 'block';
-      hintBox.innerText = `💡 ${current.malay}`;
-
-      let options = [current.arabic];
-      let pool = poolSource.map(v => v.arabic).filter(a => a !== current.arabic);
-      while (options.length < 4 && pool.length > 0) options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
-      options.sort(() => Math.random() - 0.5);
+      promptEl.innerText = qData.promptText;
 
       const grid = document.createElement('div');
       grid.className = 'options-grid';
-      options.forEach(opt => {
+      qData.options.forEach(opt => {
         const btn = document.createElement('button');
         btn.className = 'option-btn'; btn.innerText = opt;
-        btn.onclick = () => checkMcqAnswer(btn, opt, current.arabic);
+        btn.onclick = () => checkMcqAnswer(btn, opt, qData.correctAnswer);
         grid.appendChild(btn);
       });
       area.appendChild(grid);
 
-    // MOD 3: DRAG & DROP (REVERT KE BENTUK ASAL - KESELURUHAN PERKATAAN)
+    // MOD 3: DRAG & DROP (NAHU DINAMIK)
     } else if (currentMode === 'dragdrop') {
       document.getElementById('quiz-instruction').innerText = 'Tarik atau Sentuh jawapan Arab ke dalam petak:';
+      const qData = generateVariedBlankQuestion(current, poolSource);
       
-      promptEl.className = 'question-prompt-text prompt-malay';
-      promptEl.innerText = `${current.malay}`;
+      promptEl.className = 'question-prompt-text prompt-arabic';
+      promptEl.innerText = ''; // Dikosongkan kerana teks masuk ke dalam zon drop
 
       const dropZoneContainer = document.createElement('div');
       dropZoneContainer.className = 'drop-zone-container';
@@ -1238,12 +1256,12 @@
       const zone = document.createElement('div');
       zone.className = 'drop-zone'; 
       zone.id = 'active-drop-zone';
-      zone.innerText = `[ ____ ]`;
+      zone.innerText = qData.promptText;
 
-      let dragOptions = [current.arabic];
-      let pool = poolSource.map(v => v.arabic).filter(a => a !== current.arabic);
-      while(dragOptions.length < 3 && pool.length > 0) {
-        dragOptions.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+      let dragOptions = [qData.correctAnswer];
+      let otherOpts = qData.options.filter(o => o !== qData.correctAnswer);
+      while(dragOptions.length < 3 && otherOpts.length > 0) {
+        dragOptions.push(otherOpts.splice(Math.floor(Math.random() * otherOpts.length), 1)[0]);
       }
       dragOptions.sort(() => Math.random() - 0.5);
 
@@ -1251,8 +1269,8 @@
       dragContainer.className = 'drag-items';
 
       function handleAnswerSubmission(selectedText, elementTriggered) {
-        zone.innerText = `[ ${selectedText} ]`;
-        if (selectedText === current.arabic) {
+        zone.innerText = qData.promptText.replace('____', selectedText);
+        if (selectedText === qData.correctAnswer) {
           zone.classList.add('correct');
           playSound('correct'); triggerFireworks();
           score += 10;
@@ -1267,7 +1285,7 @@
           setTimeout(() => {
             zone.classList.remove('shake-error');
             if (elementTriggered) elementTriggered.classList.remove('shake-error');
-            zone.innerText = `[ ____ ]`;
+            zone.innerText = qData.promptText;
           }, 600);
         }
       }
