@@ -9,8 +9,9 @@
   <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
 
-  <!-- Fallback Mufradat Tempatan -->
+  <!-- Pangkalan Data Tempatan (Dimuatkan Serta-merta) -->
   <script src="vocab.js"></script>
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@500;700;800&family=Amiri:wght@700&display=swap');
 
@@ -72,7 +73,7 @@
       border-radius: 100% 100% 0 0 / 40% 40% 0 0; transform: scaleX(1.4);
     }
 
-    /* KONTENA UTAMA HYBRID (PC LEBAR, FON COMPACT) */
+    /* KONTENA UTAMA RESPOMSIF */
     #game-container { 
       width: 100%; 
       max-width: 940px; 
@@ -125,7 +126,7 @@
     .btn-purple { background: linear-gradient(180deg, #b388ff 0%, #7c4dff 100%); color: #fff; box-shadow: 0 6px 0 #512da8; }
     .btn-danger { background: linear-gradient(180deg, #ff416c 0%, #ff4b2b 100%); color: #fff; box-shadow: 0 6px 0 #b30024; }
 
-    /* NOTIFIKASI TOAST MODEN */
+    /* NOTIFIKASI TOAST */
     #game-toast {
       position: absolute; top: 15px; left: 50%;
       transform: translateX(-50%) translateY(-100px);
@@ -158,7 +159,6 @@
       display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
       max-height: 160px; overflow-y: auto; padding: 8px 4px; width: 100%;
     }
-    
     .avatar-card-item {
       background: rgba(255,255,255,0.08); border: 2px solid rgba(0,242,254,0.4); 
       border-radius: 16px; padding: 5px; text-align: center; cursor: pointer; 
@@ -169,7 +169,6 @@
       object-fit: cover; object-position: top center; background: #fff; 
       display: block; pointer-events: none;
     }
-    
     @media (hover: hover) and (pointer: fine) {
       .avatar-card-item:hover {
         transform: translateY(-8px) scale(1.12); border-color: var(--gold);
@@ -202,7 +201,6 @@
       padding: 12px 16px; border-radius: 14px; border: 2.5px solid var(--cyan); 
       background: rgba(7, 13, 30, 0.95); color: #fff; font-size: 1.05rem; outline: none; 
     }
-    input:focus, select:focus { border-color: var(--gold); }
 
     .dashboard-bar { 
       display: flex; justify-content: space-between; align-items: center; 
@@ -218,7 +216,6 @@
     }
     .btn-game-nav:hover { background: var(--gold); color: #3d1e00; }
     .btn-game-nav-danger { border-color: var(--red); color: var(--red); }
-    .btn-game-nav-danger:hover { background: var(--red); color: #fff; }
 
     .quiz-card { 
       background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.01) 100%); 
@@ -234,17 +231,11 @@
     }
     .quiz-image { max-width: 95%; max-height: 95%; object-fit: contain; }
 
-    .hint-badge {
-      background: rgba(0, 242, 254, 0.2); border: 1.5px solid var(--cyan);
-      color: var(--cyan); padding: 4px 14px; border-radius: 12px;
-      font-size: 1rem; font-weight: bold; margin: 2px auto;
-    }
-
     .question-prompt-text {
-      font-size: clamp(1.5rem, 4vw, 2.2rem); color: var(--gold); font-weight: 800; 
+      font-size: clamp(1.6rem, 4.5vw, 2.4rem); color: var(--gold); font-weight: 800; 
       margin: 4px 0; width: 100%; text-align: center;
     }
-    .prompt-arabic { font-family: 'Amiri', serif; direction: rtl; font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.4; }
+    .prompt-arabic { font-family: 'Amiri', serif; direction: rtl; font-size: clamp(2.3rem, 6vw, 3.2rem); }
     .prompt-malay { font-family: var(--font-game); direction: ltr; }
 
     .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; margin: 4px auto; max-width: 600px; }
@@ -256,45 +247,156 @@
     .option-btn:hover { background: rgba(255,204,0,0.25); transform: translateY(-2px); }
     .option-btn.correct { background: var(--green) !important; color: #003311 !important; border-color: #fff !important; }
 
-    /* DRAG & DROP DWIFUNGSI */
+    /* DROP ZONE & ELEMEN TARIK */
     .drop-zone-container { display: flex; flex-direction: column; align-items: center; width: 100%; margin: 6px auto; }
     .drop-zone { 
-      width: 100%; max-width: 500px; min-height: 70px; border: 3px dashed var(--gold); 
+      width: 100%; max-width: 480px; min-height: 75px; border: 3px dashed var(--gold); 
       border-radius: 18px; display: flex; align-items: center; justify-content: center; 
       background: rgba(0,0,0,0.45); font-size: clamp(1.8rem, 5vw, 2.6rem); color: var(--cyan); 
       font-weight: bold; margin: 0 auto; padding: 8px 12px;
-      font-family: 'Amiri', serif; direction: rtl; text-align: center; line-height: 1.4;
+      font-family: 'Amiri', serif; direction: rtl; text-align: center;
       transition: all 0.2s;
     }
-    .drop-zone.drag-over, .drop-zone.tap-highlight { border-color: var(--green); background: rgba(0, 230, 118, 0.25); transform: scale(1.02); }
+    .drop-zone.drag-active { border-color: var(--cyan); background: rgba(0, 242, 254, 0.15); transform: scale(1.02); }
     .drop-zone.correct { background: var(--green) !important; color: #003311 !important; border-color: #fff !important; }
 
     .drag-items { display: flex; justify-content: center; align-items: center; gap: 12px; flex-wrap: wrap; width: 100%; margin-top: 10px; }
     .drag-item { 
-      background: var(--gold); color: #3d1e00; font-weight: 800; padding: 9px 22px; 
-      border-radius: 16px; cursor: pointer; font-size: clamp(1.4rem, 4vw, 1.8rem); box-shadow: 0 5px 0 var(--gold-dark);
+      background: var(--gold); color: #3d1e00; font-weight: 800; padding: 10px 24px; 
+      border-radius: 16px; cursor: grab; font-size: clamp(1.4rem, 4vw, 1.8rem); box-shadow: 0 5px 0 var(--gold-dark);
       font-family: 'Amiri', serif; direction: rtl; touch-action: none;
       transition: transform 0.15s, background-color 0.15s;
     }
     .drag-item:hover { transform: translateY(-3px) scale(1.04); }
-    .drag-item.touching { transform: scale(1.1); box-shadow: 0 10px 25px rgba(0,0,0,0.6); opacity: 0.9; }
+    .drag-item.is-dragging { opacity: 0.35; }
+
+    .drag-clone {
+      position: fixed; pointer-events: none; z-index: 9999;
+      background: var(--gold); color: #3d1e00; font-weight: 800; padding: 10px 24px;
+      border-radius: 16px; font-size: 1.6rem; font-family: 'Amiri', serif; direction: rtl;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.6); transform: translate(-50%, -50%) scale(1.1);
+      border: 2px solid #fff;
+    }
 
     /* PADANAN GARISAN */
-    .matching-wrapper { position: relative; width: 100%; height: 330px; overflow: hidden; margin-top: 6px; touch-action: none; }
-    #matching-canvas { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 10; }
-    .matching-container { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; width: 100%; height: 100%; position: relative; z-index: 2; }
-    .matching-col { display: flex; flex-direction: column; gap: 10px; justify-content: space-around; }
-    .matching-card {
-      height: 95px; border: 2.5px solid var(--gold); border-radius: 16px;
-      background: rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: center;
-      cursor: pointer; padding: 6px; touch-action: none; transition: 0.2s;
+    .matching-wrapper { 
+      position: relative; 
+      width: 100%; 
+      max-width: 820px; 
+      height: clamp(230px, 32dvh, 275px); 
+      overflow: visible; 
+      margin: 6px auto 0 auto; 
+      touch-action: none; 
     }
-    .matching-card.arabic-card { font-size: clamp(1.5rem, 4vw, 2rem); color: var(--gold); font-family: 'Amiri', serif; direction: rtl; }
-    .matching-card.img-card { background: #ffffff; }
-    .matching-card.img-card img { height: 80px; max-width: 90%; object-fit: contain; pointer-events: none; }
-    .matching-card:hover { transform: scale(1.02); }
-    .matching-card.selected { border-color: var(--cyan); box-shadow: 0 0 18px var(--cyan); }
-    .matching-card.matched { border-color: var(--green) !important; background: rgba(0, 230, 118, 0.25) !important; opacity: 0.8; pointer-events: none; }
+    #matching-canvas { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 10; }
+    
+    .matching-container { 
+      display: grid; 
+      grid-template-columns: 1fr 1fr; 
+      gap: clamp(60px, 12vw, 120px); 
+      width: 100%; 
+      height: 100%; 
+      position: relative; 
+      z-index: 2; 
+      align-items: center; 
+    }
+    .matching-col { display: flex; flex-direction: column; gap: 10px; justify-content: space-around; height: 100%; }
+
+    .matching-card {
+      position: relative;
+      height: clamp(54px, 7.8dvh, 66px); 
+      border: 2px solid var(--gold); 
+      border-radius: 14px;
+      background: rgba(255,255,255,0.08); 
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+      cursor: pointer; 
+      padding: 2px 14px; 
+      touch-action: none; 
+      transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .matching-card.arabic-card { 
+      font-size: clamp(1.8rem, 4.4vw, 2.4rem); 
+      color: var(--gold); 
+      font-family: 'Amiri', serif; 
+      direction: rtl; 
+      font-weight: bold;
+    }
+
+    .matching-card.img-card { 
+      background: #ffffff; 
+      padding: 3px 6px;
+    }
+    .matching-card.img-card img { 
+      height: 94%; 
+      max-height: 96%; 
+      max-width: 96%; 
+      object-fit: contain; 
+      pointer-events: none; 
+    }
+
+    .connector-point {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #ffe600;
+      border: 2.5px solid #070d1e;
+      box-shadow: 0 0 10px var(--gold-glow);
+      z-index: 5;
+      pointer-events: none;
+      transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+    }
+    .arabic-card .connector-point { right: -8px; }
+    .img-card .connector-point { left: -8px; }
+
+    .matching-card:hover { 
+      transform: translateY(-2px) scale(1.02); 
+      border-color: var(--cyan);
+      box-shadow: 0 4px 14px rgba(0, 242, 254, 0.35);
+    }
+    .matching-card.selected { 
+      border-color: var(--cyan); 
+      box-shadow: 0 0 18px var(--cyan); 
+      transform: scale(1.03);
+    }
+    .matching-card.selected .connector-point {
+      background: var(--cyan);
+      box-shadow: 0 0 14px var(--cyan);
+      transform: translateY(-50%) scale(1.3);
+    }
+    .matching-card.matched { 
+      border-color: var(--green) !important; 
+      background: rgba(0, 230, 118, 0.25) !important; 
+      opacity: 0.85; 
+      pointer-events: none; 
+      transform: scale(0.98);
+    }
+    .matching-card.matched .connector-point {
+      background: var(--green);
+      box-shadow: 0 0 12px var(--green);
+    }
+
+    .shake-error {
+      animation: shakeAnim 0.4s ease-in-out !important;
+      border-color: var(--red) !important;
+      box-shadow: 0 0 16px rgba(255, 51, 102, 0.6) !important;
+    }
+    @keyframes shakeAnim {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-6px); }
+      40%, 80% { transform: translateX(6px); }
+    }
+    .correct-pop { animation: popAnim 0.35s ease-out; }
+    @keyframes popAnim {
+      0% { transform: scale(0.96); }
+      50% { transform: scale(1.06); }
+      100% { transform: scale(1); }
+    }
 
     /* FLASHCARD 3D */
     .flashcard-wrapper {
@@ -329,9 +431,8 @@
       background: rgba(255, 255, 255, 0.1); border: 2px solid var(--gold); color: var(--gold);
       padding: 10px 20px; border-radius: 14px; font-size: 1rem; font-weight: bold; cursor: pointer; transition: 0.2s;
     }
-    .btn-flash:hover { background: var(--gold); color: #3d1e00; }
 
-    /* MODAL POPUP */
+    /* MODAL */
     .modal-overlay {
       position: absolute; top: 0; left: 0; width: 100%; height: 100%;
       background: rgba(4, 8, 20, 0.92); backdrop-filter: blur(10px);
@@ -349,7 +450,6 @@
 
     canvas#fireworks { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 150; }
 
-    /* PENYESUAIAN KHAS TELEFON (MOBILE VIEWPORT) */
     @media (max-width: 768px) {
       body { padding: 6px; }
       #game-container { 
@@ -369,6 +469,16 @@
       .quiz-image-container { height: clamp(120px, 20dvh, 170px); }
       .flashcard-wrapper { height: clamp(230px, 40dvh, 300px); }
       .flashcard-img-box { height: clamp(90px, 16dvh, 130px); }
+      
+      .matching-wrapper { height: clamp(210px, 32dvh, 250px); }
+      .matching-container { gap: clamp(40px, 9vw, 65px); }
+      .matching-card { height: clamp(52px, 7.8dvh, 62px); padding: 2px 8px; }
+      .matching-card.arabic-card { font-size: clamp(1.4rem, 4vw, 1.8rem); }
+      .matching-card.img-card img { height: 90%; }
+      .connector-point { width: 12px; height: 12px; }
+      .arabic-card .connector-point { right: -6px; }
+      .img-card .connector-point { left: -6px; }
+      
       .btn { padding: 11px 16px; font-size: 1rem; border-radius: 16px; }
     }
   </style>
@@ -433,13 +543,13 @@
     <img src="logo.png" alt="Az-Zaki Logo" class="game-logo" onclick="handleSecretAdminClick()">
   </div>
 
-  <!-- SCREEN 1: LOGIN & PILIH AVATAR -->
+  <!-- SCREEN 1: LOGIN -->
   <div id="screen-login" class="screen active">
     <h2 style="color: var(--gold); text-align: center; font-size: 1.25rem;">Pilih Karakter Anda</h2>
     
     <div class="avatar-studio-container">
       <div class="avatar-2d-preview-box">
-        <img id="avatar-2d-large-preview" src="images/default.png" alt="Avatar" onerror="this.onerror=null; this.src='images/default.png';">
+        <img id="avatar-2d-large-preview" src="avatars/muslim boy.png" alt="Avatar" onerror="this.onerror=null; this.src='images/default.png';">
       </div>
       <div style="flex: 1;">
         <div class="avatar-2d-grid" id="avatar-2d-selection-grid"></div>
@@ -459,11 +569,11 @@
     <button class="btn" onclick="loginUser()">🎮 Masuk Permainan</button>
   </div>
 
-  <!-- SCREEN 2: MENU UTAMA -->
+  <!-- SCREEN 2: MENU -->
   <div id="screen-menu" class="screen">
     <div class="dashboard-bar">
       <div class="stat-box">
-        <img id="display-avatar-2d-mini" src="images/default.png" style="width: 40px; height: 40px; border-radius: 12px; object-fit: cover; object-position: top center; border: 2px solid var(--gold);" onerror="this.onerror=null; this.src='images/default.png';">
+        <img id="display-avatar-2d-mini" src="avatars/muslim boy.png" style="width: 40px; height: 40px; border-radius: 12px; object-fit: cover; object-position: top center; border: 2px solid var(--gold);" onerror="this.onerror=null; this.src='images/default.png';">
         <span id="display-username">-</span>
       </div>
       <div class="stat-box">⭐ XP: <span id="display-total-score">0</span></div>
@@ -474,7 +584,7 @@
     <button class="btn btn-danger" onclick="logout()">🚪 Tukar Profil / Log Keluar</button>
   </div>
 
-  <!-- SCREEN 3: KAD IMBASAN -->
+  <!-- SCREEN 3: FLASHCARDS -->
   <div id="screen-flashcards" class="screen">
     <div class="dashboard-bar" style="gap: 8px;">
       <button class="btn-game-nav" onclick="showScreen('screen-menu')">⬅️ Menu</button>
@@ -542,7 +652,8 @@
       <label>3. Pemasa Minda:</label>
       <select id="select-timer">
         <option value="30">30 Saat (Pantas)</option>
-        <option value="60">1 Minit (Biasa)</option>
+        <option value="60" selected>1 Minit (Biasa)</option>
+        <option value="90">90 Saat</option>
         <option value="0">Tiada Had Masa (Santai)</option>
       </select>
     </div>
@@ -563,10 +674,10 @@
     </div>
 
     <div class="quiz-card">
-      <div id="quiz-instruction" style="font-weight: bold; color: var(--cyan); font-size: 1rem;">Isi tempat kosong:</div>
+      <div id="quiz-instruction" style="font-weight: bold; color: var(--cyan); font-size: 1rem;">Pilih perkataan Bahasa Arab:</div>
       
       <div class="quiz-image-container" id="quiz-img-box">
-        <img id="quiz-image" src="" alt="Soalan" class="quiz-image">
+        <img id="quiz-image" src="" alt="Soalan" class="quiz-image" loading="eager">
       </div>
 
       <div class="question-prompt-text prompt-malay" id="quiz-prompt-text">Singa</div>
@@ -592,7 +703,6 @@
 </div>
 
 <script>
-  // SISTEM TOAST
   let toastTimer = null;
   function showModernToast(msg, type = 'info', icon = '✨') {
     const toast = document.getElementById('game-toast');
@@ -608,7 +718,17 @@
     toast.classList.add('show');
 
     clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => { toast.classList.remove('show'); }, 2400);
+    toastTimer = setTimeout(() => { toast.classList.remove('show'); }, 2200);
+  }
+
+  // ALGORITMA RAWAK SEBENAR (FISHER-YATES SHUFFLE)
+  function shuffleArray(array) {
+    let arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
   }
 
   // FIREBASE INITIALIZATION
@@ -637,11 +757,40 @@
     { file: "avatars/girl athlete.png" }
   ];
 
-  let DATA = (typeof AZ_ZAKI_DATA !== 'undefined') ? AZ_ZAKI_DATA : [];
+  DEFAULT_AVATARS.forEach(av => {
+    const pre = new Image();
+    pre.src = av.file;
+  });
+
+  // TETAPAN MASTERKEY YANG SENTIASA DISINKRONISASI DARI AWAN
+  let GAME_SETTINGS = {
+    mcqOptions: "4",
+    matchCards: "3",
+    dragCount: "3",
+    scoreCorrect: 10,
+    defaultTimer: 60
+  };
+
+  let DATA = (typeof AZ_ZAKI_DATA !== 'undefined' && AZ_ZAKI_DATA.length > 0) ? AZ_ZAKI_DATA : [];
   let AVATAR_2D_LIST = [...DEFAULT_AVATARS];
   let selectedAvatarPath = AVATAR_2D_LIST[0].file;
 
   function setupFirebaseListeners() {
+    // 1. Dengar Perubahan Tetapan Masterkey Admin Secara Langsung
+    db.collection('config').doc('settings').onSnapshot(doc => {
+      if (doc.exists) {
+        const s = doc.data();
+        GAME_SETTINGS = { ...GAME_SETTINGS, ...s };
+        
+        // Kemas kini pemasa jika berada di skrin setup
+        const timerSelect = document.getElementById('select-timer');
+        if (timerSelect && s.defaultTimer !== undefined) {
+          timerSelect.value = s.defaultTimer.toString();
+        }
+      }
+    }, err => console.warn("Luar Talian Settings:", err));
+
+    // 2. Dengar Perubahan Mufradat dari Admin
     db.collection('vocab').onSnapshot(snapshot => {
       if (!snapshot.empty) {
         let cloudVocab = [];
@@ -650,14 +799,15 @@
         populateCategories();
         populateFlashCategories();
       }
-    }, err => console.warn("Offline vocab:", err));
+    }, err => console.warn("Luar Talian Vocab:", err));
 
+    // 3. Dengar Perubahan Avatar dari Admin
     db.collection('config').doc('avatars').onSnapshot(doc => {
       if (doc.exists && doc.data().list) {
         AVATAR_2D_LIST = doc.data().list;
         initAvatar2DStudio();
       }
-    }, err => console.warn("Offline avatars:", err));
+    }, err => console.warn("Luar Talian Avatar:", err));
   }
 
   function initAvatar2DStudio() {
@@ -684,7 +834,6 @@
       card.innerHTML = `<img src="${item.file}" alt="Avatar" onerror="this.onerror=null; this.src='images/default.png';">`;
 
       card.onmouseenter = () => playHoverSound();
-
       card.onclick = () => {
         playSound('click');
         document.querySelectorAll('.avatar-card-item').forEach(c => c.classList.remove('selected'));
@@ -717,77 +866,6 @@
         opt.innerText = 'Padankan gambar dan perkataan';
         modeSelect.insertBefore(opt, modeSelect.children[1] || null);
       }
-    }
-  }
-
-  // =================================================================================
-  // ENJIN NAHU PINTAR (SISTEM TATABAHASA ISMIYAH / FI'LIYAH AUTOMATIK)
-  // =================================================================================
-  function generateVariedBlankQuestion(item, poolSource) {
-    const arabic = (item.arabic || '').trim();
-    const words = arabic.split(/\s+/).filter(w => w.length > 0);
-
-    if (words.length > 1) {
-      // 1. JIKA SOALAN SUDAH BERBENTUK AYAT: Kosongkan perkataan terakhir (seperti asal)
-      let targetIndex = words.length - 1;
-      let cleanTarget = words[targetIndex].replace(/[؟!.,]/g, '');
-      let masked = [...words];
-      masked[targetIndex] = '____';
-      let promptSentence = masked.join(' ');
-
-      let options = [cleanTarget];
-      let wordPool = [];
-      poolSource.forEach(v => {
-        (v.arabic || '').trim().split(/\s+/).forEach(w => {
-          let cW = w.replace(/[؟!.,]/g, '');
-          if (cW && cW !== cleanTarget && !wordPool.includes(cW)) wordPool.push(cW);
-        });
-      });
-      while (options.length < 4 && wordPool.length > 0) {
-        options.push(wordPool.splice(Math.floor(Math.random() * wordPool.length), 1)[0]);
-      }
-      options.sort(() => Math.random() - 0.5);
-      return { promptText: `[ ${promptSentence} ]`, correctAnswer: cleanTarget, options: options };
-      
-    } else {
-      // 2. JIKA SOALAN HANYA SATU PERKATAAN: Enjin Nahu Pintar akan membina ayat secara logik.
-      let word = arabic;
-      let isMuannas = false;
-      
-      // Semak tanda Muannas (Ta' Marbutah)
-      if (word.includes('ة') || word.includes('ةٌ') || word.includes('ةً') || word.includes('ةٍ')) {
-        isMuannas = true;
-      }
-
-      let promptSentence = '';
-      let cat = (item.category || '').toLowerCase();
-      
-      // Semak sekiranya ia tergolong dalam kategori Perbuatan (Fi'il)
-      if (cat.includes('perbuatan') || cat.includes('fiil') || cat.includes('verb') || cat.includes('hiwar')) {
-        if (word.startsWith('ي')) {
-          promptSentence = `هُوَ ____`; // Fi'il Muzakkar (Dia lelaki sedang...)
-        } else if (word.startsWith('ت')) {
-          promptSentence = `هِيَ ____`; // Fi'il Muannas (Dia perempuan sedang...)
-        } else {
-          promptSentence = `أَنَا ____`; // Kata ganti diri am
-        }
-      } else {
-        // Jika ia Kata Nama biasa (Haiwan, Benda), gunakan Isim Isyarah (Ini adalah...)
-        if (isMuannas) {
-          promptSentence = `هَذِهِ ____`;
-        } else {
-          promptSentence = `هَذَا ____`;
-        }
-      }
-
-      let options = [arabic];
-      let pool = poolSource.map(v => v.arabic).filter(a => a !== arabic && !a.includes(' '));
-      while (options.length < 4 && pool.length > 0) {
-        options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
-      }
-      options.sort(() => Math.random() - 0.5);
-      
-      return { promptText: `[ ${promptSentence} ]`, correctAnswer: arabic, options: options };
     }
   }
 
@@ -836,7 +914,7 @@
 
   function shuffleFlashcards() {
     playSound('click'); resetFlashFlip();
-    flashcardsList.sort(() => Math.random() - 0.5);
+    flashcardsList = shuffleArray(flashcardsList);
     currentFlashIdx = 0;
     renderCurrentFlashcard();
   }
@@ -909,7 +987,7 @@
 
   function closeAdminPinModal() { document.getElementById('admin-pin-modal').style.display = 'none'; }
 
-  // AUDIO ENGINE (DIKUATKAN)
+  // ENJIN AUDIO (KELANTANGAN JELAS DI TELEFON PINTAR)
   let audioCtx = null;
   let bgmEnabled = true;
   let bgmInterval = null;
@@ -936,7 +1014,7 @@
       
       osc.type = 'triangle'; 
       osc.frequency.setValueAtTime(menuSeq[seqIdx], ctx.currentTime);
-      gain.gain.setValueAtTime(0.16, ctx.currentTime); 
+      gain.gain.setValueAtTime(0.18, ctx.currentTime); 
       gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.32);
       
       osc.connect(gain); 
@@ -969,9 +1047,9 @@
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
       osc.type = 'sine';
-      osc.frequency.setValueAtTime(520, ctx.currentTime);
-      osc.frequency.exponentialRampToValueAtTime(880, ctx.currentTime + 0.05);
-      gain.gain.setValueAtTime(0.08, ctx.currentTime);
+      osc.frequency.setValueAtTime(560, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(950, ctx.currentTime + 0.05);
+      gain.gain.setValueAtTime(0.1, ctx.currentTime);
       gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.05);
       osc.connect(gain);
       gain.connect(ctx.destination);
@@ -1018,11 +1096,14 @@
   let timeLeft = 0;
   let currentMode = 'mcq';
 
-  window.onload = () => { 
-    setupFirebaseListeners();
+  window.addEventListener('DOMContentLoaded', () => {
     initAvatar2DStudio();
-    populateCategories(); renderSavedProfiles(); checkSession(); initCanvas(); 
-  };
+    populateCategories();
+    renderSavedProfiles();
+    checkSession();
+    initCanvas();
+    setupFirebaseListeners();
+  });
 
   function showScreen(id) {
     document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
@@ -1051,7 +1132,7 @@
       <div class="profile-card ${currentUser === name ? 'active-profile' : ''}">
         <button class="delete-profile-btn" onclick="deleteProfile('${name}', event)">×</button>
         <div style="display:flex; align-items:center; gap:8px;" onclick="selectSavedProfile('${name}')">
-          <img src="${users[name].avatarPath || 'images/default.png'}" onerror="this.onerror=null; this.src='images/default.png';">
+          <img src="${users[name].avatarPath || 'avatars/muslim boy.png'}" onerror="this.onerror=null; this.src='images/default.png';">
           <div>
             <div style="font-weight: bold; color: var(--gold); text-align:left; font-size:0.9rem;">${name}</div>
             <div style="font-size: 0.78rem; color: var(--cyan); text-align:left;">${users[name].score || 0} XP</div>
@@ -1156,7 +1237,7 @@
       currentQuestions = currentQuestions.filter(item => !isSacredCategory(item.category));
     }
 
-    currentQuestions.sort(() => Math.random() - 0.5);
+    currentQuestions = shuffleArray(currentQuestions);
     currentQIndex = 0; score = 0;
     document.getElementById('game-score').innerText = score;
 
@@ -1180,13 +1261,18 @@
     const imgBox = document.getElementById('quiz-img-box');
     const quizImg = document.getElementById('quiz-image');
 
-    if (isSacredCategory(current.category)) {
+    if (isSacredCategory(current.category) || !current.image || current.image === 'images/default.png') {
       imgBox.style.display = 'none';
       return;
     }
     imgBox.style.display = 'flex';
     quizImg.src = getImageUrl(current);
     quizImg.onerror = () => { imgBox.style.display = 'none'; };
+
+    if (currentQuestions[currentQIndex + 1]) {
+      const nextImg = new Image();
+      nextImg.src = getImageUrl(currentQuestions[currentQIndex + 1]);
+    }
   }
 
   function loadQuestion() {
@@ -1202,53 +1288,83 @@
     setupQuestionMedia(current);
 
     const promptEl = document.getElementById('quiz-prompt-text');
+    promptEl.className = 'question-prompt-text prompt-malay';
+    promptEl.innerText = `${current.malay}`;
 
-    // MOD 1: MCQ
+    // ==========================================
+    // MOD 1: MCQ (BILANGAN PILIHAN DINAMIK DARI ADMIN)
+    // ==========================================
     if (currentMode === 'mcq') {
       document.getElementById('quiz-instruction').innerText = 'Pilih perkataan Bahasa Arab yang betul:';
-      promptEl.className = 'question-prompt-text prompt-malay';
-      promptEl.innerText = `${current.malay}`;
 
+      const maxMcq = parseInt(GAME_SETTINGS.mcqOptions) || 4;
       let options = [current.arabic];
       let pool = poolSource.map(v => v.arabic).filter(a => a !== current.arabic);
-      while (options.length < 4 && pool.length > 0) options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
-      options.sort(() => Math.random() - 0.5);
+      while (options.length < maxMcq && pool.length > 0) {
+        options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+      }
+      options = shuffleArray(options);
 
       const grid = document.createElement('div');
       grid.className = 'options-grid';
       options.forEach(opt => {
         const btn = document.createElement('button');
-        btn.className = 'option-btn'; btn.innerText = opt;
-        btn.onclick = () => checkMcqAnswer(btn, opt, current.arabic);
+        btn.className = 'option-btn'; 
+        btn.innerText = opt;
+        btn.onmouseenter = () => playHoverSound();
+        btn.onclick = () => {
+          playSound('click');
+          checkAnswer(btn, opt, current.arabic);
+        };
         grid.appendChild(btn);
       });
       area.appendChild(grid);
 
-    // MOD 2: ISI TEMPAT KOSONG (NAHU DINAMIK)
+    // ==========================================
+    // MOD 2: ISI TEMPAT KOSONG (DINAMIK)
+    // ==========================================
     } else if (currentMode === 'blank') {
-      document.getElementById('quiz-instruction').innerText = 'Isi tempat kosong dengan jawapan yang betul:';
-      const qData = generateVariedBlankQuestion(current, poolSource);
-      
-      promptEl.className = 'question-prompt-text prompt-arabic';
-      promptEl.innerText = qData.promptText;
+      document.getElementById('quiz-instruction').innerText = 'Isi tempat kosong dengan perkataan Arab yang betul:';
+
+      const dropZoneContainer = document.createElement('div');
+      dropZoneContainer.className = 'drop-zone-container';
+
+      const zone = document.createElement('div');
+      zone.className = 'drop-zone'; 
+      zone.id = 'blank-answer-slot';
+      zone.innerText = `[  ____  ]`;
+      dropZoneContainer.appendChild(zone);
+      area.appendChild(dropZoneContainer);
+
+      const maxMcq = parseInt(GAME_SETTINGS.mcqOptions) || 4;
+      let options = [current.arabic];
+      let pool = poolSource.map(v => v.arabic).filter(a => a !== current.arabic);
+      while (options.length < maxMcq && pool.length > 0) {
+        options.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+      }
+      options = shuffleArray(options);
 
       const grid = document.createElement('div');
       grid.className = 'options-grid';
-      qData.options.forEach(opt => {
+      options.forEach(opt => {
         const btn = document.createElement('button');
-        btn.className = 'option-btn'; btn.innerText = opt;
-        btn.onclick = () => checkMcqAnswer(btn, opt, qData.correctAnswer);
+        btn.className = 'option-btn'; 
+        btn.innerText = opt;
+        btn.onmouseenter = () => playHoverSound();
+        btn.onclick = () => {
+          playSound('click');
+          zone.innerText = `[ ${opt} ]`;
+          checkAnswer(btn, opt, current.arabic, zone);
+        };
         grid.appendChild(btn);
       });
       area.appendChild(grid);
 
-    // MOD 3: DRAG & DROP (NAHU DINAMIK)
+    // ==========================================
+    // MOD 3: DRAG & DROP (BILANGAN BLOK DINAMIK DARI ADMIN)
+    // ==========================================
     } else if (currentMode === 'dragdrop') {
       document.getElementById('quiz-instruction').innerText = 'Tarik atau Sentuh jawapan Arab ke dalam petak:';
-      const qData = generateVariedBlankQuestion(current, poolSource);
-      
-      promptEl.className = 'question-prompt-text prompt-arabic';
-      promptEl.innerText = ''; // Dikosongkan kerana teks masuk ke dalam zon drop
 
       const dropZoneContainer = document.createElement('div');
       dropZoneContainer.className = 'drop-zone-container';
@@ -1256,36 +1372,41 @@
       const zone = document.createElement('div');
       zone.className = 'drop-zone'; 
       zone.id = 'active-drop-zone';
-      zone.innerText = qData.promptText;
+      zone.innerText = `[  ____  ]`;
+      dropZoneContainer.appendChild(zone);
+      area.appendChild(dropZoneContainer);
 
-      let dragOptions = [qData.correctAnswer];
-      let otherOpts = qData.options.filter(o => o !== qData.correctAnswer);
-      while(dragOptions.length < 3 && otherOpts.length > 0) {
-        dragOptions.push(otherOpts.splice(Math.floor(Math.random() * otherOpts.length), 1)[0]);
+      const maxDrag = parseInt(GAME_SETTINGS.dragCount) || 3;
+      let dragOptions = [current.arabic];
+      let pool = poolSource.map(v => v.arabic).filter(a => a !== current.arabic);
+      while(dragOptions.length < maxDrag && pool.length > 0) {
+        dragOptions.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
       }
-      dragOptions.sort(() => Math.random() - 0.5);
+      dragOptions = shuffleArray(dragOptions);
 
       const dragContainer = document.createElement('div');
       dragContainer.className = 'drag-items';
 
-      function handleAnswerSubmission(selectedText, elementTriggered) {
-        zone.innerText = qData.promptText.replace('____', selectedText);
-        if (selectedText === qData.correctAnswer) {
+      function handleDropSubmission(selectedText) {
+        zone.innerText = `[ ${selectedText} ]`;
+        if (selectedText === current.arabic) {
           zone.classList.add('correct');
-          playSound('correct'); triggerFireworks();
-          score += 10;
+          zone.classList.add('correct-pop');
+          playSound('correct'); 
+          triggerFireworks();
+          
+          const pts = parseInt(GAME_SETTINGS.scoreCorrect) || 10;
+          score += pts;
           document.getElementById('game-score').innerText = score;
-          showModernToast("Tahniah! Jawapan Betul 🎉", "success", "🌟");
+          showModernToast(`Tahniah! Jawapan Tepat (+${pts} XP) 🎉`, "success", "🌟");
           setTimeout(() => { currentQIndex++; loadQuestion(); }, 1200);
         } else {
           zone.classList.add('shake-error');
-          if (elementTriggered) elementTriggered.classList.add('shake-error');
           playSound('wrong');
-          showModernToast("Cuba lagi!", "error", "❌");
+          showModernToast("Salah, cuba lagi!", "error", "❌");
           setTimeout(() => {
             zone.classList.remove('shake-error');
-            if (elementTriggered) elementTriggered.classList.remove('shake-error');
-            zone.innerText = qData.promptText;
+            zone.innerText = `[  ____  ]`;
           }, 600);
         }
       }
@@ -1294,55 +1415,84 @@
         const item = document.createElement('div');
         item.className = 'drag-item'; 
         item.innerText = opt;
-        
-        let startX, startY, isDragging = false;
-        
-        item.onpointerdown = (e) => {
-          isDragging = false;
+
+        let activeClone = null;
+        let startX = 0, startY = 0;
+        let hasMoved = false;
+
+        item.onmouseenter = () => playHoverSound();
+
+        item.addEventListener('pointerdown', (e) => {
+          e.preventDefault();
+          playHoverSound();
           startX = e.clientX;
           startY = e.clientY;
-          item.classList.add('touching');
-          item.setPointerCapture(e.pointerId);
-          zone.classList.add('tap-highlight');
-        };
+          hasMoved = false;
 
-        item.onpointermove = (e) => {
-          if (Math.abs(e.clientX - startX) > 10 || Math.abs(e.clientY - startY) > 10) {
-            isDragging = true;
-          }
-        };
+          activeClone = item.cloneNode(true);
+          activeClone.className = 'drag-clone';
+          activeClone.style.left = `${e.clientX}px`;
+          activeClone.style.top = `${e.clientY}px`;
+          document.body.appendChild(activeClone);
 
-        item.onpointerup = (e) => {
-          item.classList.remove('touching');
-          zone.classList.remove('tap-highlight');
-          try { item.releasePointerCapture(e.pointerId); } catch(err) {}
+          item.classList.add('is-dragging');
+          zone.classList.add('drag-active');
 
-          const dropTarget = document.elementFromPoint(e.clientX, e.clientY);
-          const isOverZone = dropTarget && (dropTarget === zone || dropTarget.closest('#active-drop-zone'));
+          const onPointerMove = (ev) => {
+            if (!activeClone) return;
+            if (Math.abs(ev.clientX - startX) > 8 || Math.abs(ev.clientY - startY) > 8) {
+              hasMoved = true;
+            }
+            activeClone.style.left = `${ev.clientX}px`;
+            activeClone.style.top = `${ev.clientY}px`;
+          };
 
-          if (isOverZone || !isDragging) {
-            playSound('click');
-            handleAnswerSubmission(opt, item);
-          }
-        };
+          const onPointerUp = (ev) => {
+            window.removeEventListener('pointermove', onPointerMove);
+            window.removeEventListener('pointerup', onPointerUp);
+
+            if (activeClone) {
+              activeClone.remove();
+              activeClone = null;
+            }
+
+            item.classList.remove('is-dragging');
+            zone.classList.remove('drag-active');
+
+            const zRect = zone.getBoundingClientRect();
+            const isInZone = (
+              ev.clientX >= zRect.left &&
+              ev.clientX <= zRect.right &&
+              ev.clientY >= zRect.top &&
+              ev.clientY <= zRect.bottom
+            );
+
+            if (isInZone || !hasMoved) {
+              playSound('click');
+              handleDropSubmission(opt);
+            }
+          };
+
+          window.addEventListener('pointermove', onPointerMove);
+          window.addEventListener('pointerup', onPointerUp);
+        });
 
         dragContainer.appendChild(item);
       });
 
-      dropZoneContainer.appendChild(zone);
-      area.appendChild(dropZoneContainer);
       area.appendChild(dragContainer);
 
-    // MOD 4: PADANKAN GARISAN
+    // ==========================================
+    // MOD 4: PADANKAN GARISAN (KAD DINAMIK DARI ADMIN)
+    // ==========================================
     } else if (currentMode === 'matching') {
       document.getElementById('quiz-img-box').style.display = 'none';
-      document.getElementById('quiz-instruction').innerText = 'Tarik garisan dari Arab ke Gambar yang betul:';
-      
-      promptEl.className = 'question-prompt-text prompt-malay';
+      document.getElementById('quiz-instruction').innerText = 'Tarik garisan dari titik Arab ke titik Gambar yang betul:';
       promptEl.innerText = '🧩 Padanan Garisan';
 
-      let items = currentQuestions.slice(currentQIndex, currentQIndex + 3);
-      if (items.length < 3) items = currentQuestions.slice(0, 3);
+      const numCards = parseInt(GAME_SETTINGS.matchCards) || 3;
+      let items = currentQuestions.slice(currentQIndex, currentQIndex + numCards);
+      if (items.length < numCards) items = currentQuestions.slice(0, numCards);
 
       const wrapper = document.createElement('div');
       wrapper.className = 'matching-wrapper';
@@ -1357,8 +1507,16 @@
       const colArab = document.createElement('div'); colArab.className = 'matching-col';
       const colImg = document.createElement('div'); colImg.className = 'matching-col';
 
-      let arabList = [...items].sort(() => Math.random() - 0.5);
-      let imgList = [...items].sort(() => Math.random() - 0.5);
+      let arabList = shuffleArray(items);
+      let imgList = shuffleArray(items);
+
+      if (items.length > 1) {
+        let attempts = 0;
+        while (attempts < 10 && arabList.some((it, idx) => imgList[idx].id === it.id)) {
+          imgList = shuffleArray(items);
+          attempts++;
+        }
+      }
 
       let matchedCount = 0;
       let isDragging = false;
@@ -1369,14 +1527,22 @@
       arabList.forEach(item => {
         const card = document.createElement('div');
         card.className = 'matching-card arabic-card';
-        card.innerText = item.arabic;
         card.dataset.id = item.id;
+        
+        card.innerHTML = `
+          <span>${item.arabic}</span>
+          <div class="connector-point"></div>
+        `;
+
+        card.onmouseenter = () => playHoverSound();
 
         card.onpointerdown = (e) => {
           if (card.classList.contains('matched')) return;
+          playHoverSound();
           playSound('click');
           isDragging = true;
           startCard = { card, item };
+          
           const rect = card.getBoundingClientRect();
           const pRect = wrapper.getBoundingClientRect();
           startPos = { x: rect.right - pRect.left, y: rect.top + rect.height / 2 - pRect.top };
@@ -1390,7 +1556,14 @@
         const card = document.createElement('div');
         card.className = 'matching-card img-card';
         card.dataset.id = item.id;
-        card.innerHTML = `<img src="${getImageUrl(item)}" alt="Vocab" onerror="this.onerror=null; this.src='images/default.png';">`;
+
+        card.innerHTML = `
+          <div class="connector-point"></div>
+          <img src="${getImageUrl(item)}" alt="Vocab" onerror="this.onerror=null; this.src='images/default.png';">
+        `;
+
+        card.onmouseenter = () => playHoverSound();
+
         colImg.appendChild(card);
       });
 
@@ -1409,20 +1582,25 @@
 
         if (targetImgCard && !targetImgCard.classList.contains('matched')) {
           if (startCard.item.id === targetImgCard.dataset.id) {
-            playSound('correct'); triggerFireworks();
-            score += 10;
+            playSound('correct'); 
+            triggerFireworks();
+
+            const pts = parseInt(GAME_SETTINGS.scoreCorrect) || 10;
+            score += pts;
             document.getElementById('game-score').innerText = score;
             startCard.card.classList.add('matched');
+            startCard.card.classList.add('correct-pop');
             targetImgCard.classList.add('matched');
+            targetImgCard.classList.add('correct-pop');
 
             const endRect = targetImgCard.getBoundingClientRect();
             const pRect = wrapper.getBoundingClientRect();
             permanentLines.push({ start: startPos, end: { x: endRect.left - pRect.left, y: endRect.top + endRect.height / 2 - pRect.top } });
             matchedCount++;
-            showModernToast("Padanan Tepat!", "success", "✨");
+            showModernToast(`Padanan Tepat! (+${pts} XP)`, "success", "✨");
 
             if (matchedCount >= items.length) {
-              currentQIndex += 3;
+              currentQIndex += numCards;
               setTimeout(loadQuestion, 1100);
             }
           } else {
@@ -1443,14 +1621,15 @@
         redrawCanvas(canvas, permanentLines, null, null);
       };
 
-      container.appendChild(colArab); container.appendChild(colImg);
+      container.appendChild(colArab); 
+      container.appendChild(colImg);
       wrapper.appendChild(container);
       area.appendChild(wrapper);
 
       setTimeout(() => {
         canvas.width = wrapper.offsetWidth || 340;
-        canvas.height = wrapper.offsetHeight || 320;
-      }, 80);
+        canvas.height = wrapper.offsetHeight || 270;
+      }, 60);
     }
   }
 
@@ -1476,25 +1655,34 @@
     }
   }
 
-  function checkMcqAnswer(btn, selected, correct) {
+  function checkAnswer(btn, selected, correct, slotElement = null) {
     const buttons = document.querySelectorAll('.option-btn');
     buttons.forEach(b => b.disabled = true);
 
     if (selected === correct) {
-      btn.classList.add('correct');
-      playSound('correct'); triggerFireworks();
-      score += 10;
+      if (btn) { btn.classList.add('correct'); btn.classList.add('correct-pop'); }
+      if (slotElement) { slotElement.classList.add('correct'); slotElement.classList.add('correct-pop'); }
+      playSound('correct'); 
+      triggerFireworks();
+
+      const pts = parseInt(GAME_SETTINGS.scoreCorrect) || 10;
+      score += pts;
       document.getElementById('game-score').innerText = score;
-      showModernToast("Jawapan Betul! +10 XP", "success", "🎉");
+      showModernToast(`Jawapan Betul! +${pts} XP`, "success", "🎉");
       setTimeout(() => { currentQIndex++; loadQuestion(); }, 1200);
     } else {
-      btn.classList.add('shake-error');
+      if (btn) btn.classList.add('shake-error');
+      if (slotElement) slotElement.classList.add('shake-error');
       playSound('wrong');
       showModernToast("Kurang Tepat, Cuba Lagi!", "error", "❌");
       setTimeout(() => {
-        btn.classList.remove('shake-error');
+        if (btn) btn.classList.remove('shake-error');
+        if (slotElement) {
+          slotElement.classList.remove('shake-error');
+          slotElement.innerText = `[  ____  ]`;
+        }
         buttons.forEach(b => b.disabled = false);
-      }, 500);
+      }, 600);
     }
   }
 
